@@ -1,28 +1,42 @@
-# Site settings
-title: vsoch
-email: vsochat@stanford.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Vanessa Villamia Sochat
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "vsoch.github.io" # the base hostname & protocol for your site
-twitter_username: vsoch
-github_username:  vsoch
+name: vsoch
+description: vanessa villamia sochat
+meta_description: "vanessa villamia sochat"
 
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+aboutPage: true
 
-more_vert:
-  option1:
-    name: poldracklab
-    link: http://poldracklab.stanford.edu
-  option2:
-    name: reproducibility
-    link: http://reproducibility.stanford.edu
-  option3:
-    name: bmi
-    link: http://bmi.stanford.edu
+markdown: redcarpet
+highlighter: pygments
 
-# Build settings
-markdown: kramdown
+paginate: 20
+baseurl: /
+domain_name: 'vsoch.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://vsoch.github.io'
+author:         'vsoch'
+authorTwitter:  'vsoch'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
