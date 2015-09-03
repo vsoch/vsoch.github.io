@@ -1,0 +1,28 @@
+# Site settings
+title: vsoch
+email: vsochat@stanford.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Vanessa Villamia Sochat
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "vsoch.github.io" # the base hostname & protocol for your site
+twitter_username: vsoch
+github_username:  vsoch
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
+
+more_vert:
+  option1:
+    name: poldracklab
+    link: http://poldracklab.stanford.edu
+  option2:
+    name: reproducibility
+    link: http://reproducibility.stanford.edu
+  option3:
+    name: bmi
+    link: http://bmi.stanford.edu
+
+# Build settings
+markdown: kramdown
