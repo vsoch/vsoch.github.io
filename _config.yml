@@ -10,9 +10,9 @@ highlighter: pygments
 paginate: 20
 baseurl: /
 domain_name: 'vsoch.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+google_analytics: 'UA-67197905-1'
+disqus: true
+disqus_shortname: 'vsoch'
 
 # Details for the RSS feed generator
 url:            'http://vsoch.github.io'

@@ -2,7 +2,8 @@
     {% for post in paginator.posts %}
         <li>
             <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }} <h2>{{ post.description }}</h2></a>
+            <h2 style="padding-top:40px;font-weight:600"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }} </h2></a>
+            <p>{{ post.content }} &middot;</p>
         </li>
     {% endfor %}
 </ul>

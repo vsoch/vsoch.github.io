@@ -1,0 +1,15 @@
+---
+title: "Crust-less PB&J Should Not Be Patented"
+date: 2007-5-11 15:18:55
+tags:
+  patents
+---
+
+
+I think that the patent system is “broken” in the sense it no longer provides incentive for innovation in science and the arts. The peer review process that Beth Noveck proposes based on the large scale collaboration of experts is intriguing, but I wonder about incentives behind this system. What would give a large number of experts in the public incentive to contribute to this review process in a short period of three months, especially when the ultimate power of decision lies in the hands of the middleman at the patent office? Online, open source systems are very powerful, but I question how much a system controlled by a central power can flourish and grow. It is apparent from the falling salaries that Noveck mentions that patent office employees are not valued. Based on this fact, I do not think that it is probable that this job will exist in the future.
+
+To successfully implement this “collective intelligence,” we must get rid of the middlemen, give public experts complete power to dictate patents, and then deal with the court system electronically. This would call for a complete revamping of the entire patent system, which is why it is so unlikely to happen. The barrier to a better system is the fact that humans are very resistant to change, which Noveck alludes to when she says, “I don’t want to do anything too revolutionary. I want this thing to happen.” Complacency as is seen in this situation is very dangerous because it prevents the change of a corrupt system. I think it is ridiculous that money-hungry oil companies have the power to hold patents for solar technology so it cannot benefit society. I am also very skeptical about pharmaceutical companies’ incentives for creating drugs, and do not agree with Noveck that the patent process provides incentive for national competition.
+
+Noveck refers to companies with high startup and research costs as the biggest participants in national competition. These criteria bring pharmaceutical companies to mind, which I consider to be the most money hungry, monopolistic monsters in the corporate world. United States’ drug companies dominate the global drug industry, as the best selling drugs in the world are primarily created by U.S. companies. These companies take more money from sales as profit than they spend on research and development. Drug companies are not aiming for innovation. They are creating slightly modified versions of drugs already on the market to make a quick profit or to extend patents, which is an abuse of the system. I don’t think that a large, collective intelligence would allow pharmaceutical companies to do this, so they would have to engage in more innovative research to come out with better drugs to get a patent and make their profits.Change is needed, and it will come slowly. I am hopeful that advocates like Beth Noveck will influence small changes that will accumulate over time, and eventually lead to a large transformation of the patent system.
+
+

@@ -53,6 +53,7 @@ html, body { height: 100%; }
 body {
 	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
+        background-color: #F7F7F7;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -71,8 +72,9 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
+        background-color: white;
 }
 
 .profile #header {
@@ -86,9 +88,7 @@ h2 {
 .profile #avatar {
 	display: inline-block;
 	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .profile h1 {
@@ -99,22 +99,22 @@ h2 {
 }
 
 .profile h2 {
-	font-size: 20px;
+  	  font-size: 20px;
 	  font-weight: 300;
 	  color: #aaa;
 	  margin-top: 10px;
 	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	  font-style: normal;
-
 }
 
 nav.main-nav {
 	padding: 20px 20px 0;
 
 	/*max-width: 600px;*/
-	/*width:100%;*/
+	/*width:100%;
 	background: #fff;
-	background: rgba(255,255,255,.90);
+	background: rgba(255,255,255,.90);*/
+        background-color: #F7F7F7;
 	margin: 0 auto;
 	text-align: right;
 	/*position: fixed;*/
@@ -125,7 +125,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #fd1268;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
@@ -133,19 +133,20 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
-	background: #5badf0;
+	background: #fd1268;
 	color: #fff;
 	margin-left: 12px;
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
+  background-color:white;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -165,16 +166,16 @@ a,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: #5badf0;
-	color: #5694f1;
+	color: #fd1268;
 }
 
-p a { color: #5694f1; }
+p a { color: #fd1268;; }
 
 /*Transitions*/
 a,
 #post-nav a,
 #post-list a	{
+        padding-top:10px;
 	-webkit-transition: all 0.15s ease;
 	-moz-transition: all 0.15s ease;
 	-ms-transition: all 0.15s ease;
@@ -182,11 +183,13 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
+ul 	{ margin:0; padding-bottom:20px; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+#post-body, p { 
+   line-height:1.7; 
+}
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -388,15 +391,15 @@ Post List
 }
 
 #post-list a {
-	color: #333;
-	display: block;
-	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	color: #fd1268;
+        text-decoration: none;
 }
 
 #post-list .dates {
 	float: right;
 	position: relative;
 	top: 1px;
+        padding-top:30px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }
@@ -579,7 +582,7 @@ h2.month {
 
 #post-meta img.avatar {
   height: 36px;
-  width: 36px;
+  width: 40px;
   float: left;
   border-radius: 50%;
   margin-top: 3px;

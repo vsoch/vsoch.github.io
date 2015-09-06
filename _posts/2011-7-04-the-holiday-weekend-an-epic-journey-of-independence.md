@@ -1,0 +1,78 @@
+---
+title: "The Holiday Weekend: An Epic Journey of Independence"
+date: 2011-7-04 01:09:44
+tags:
+  adventure-2
+  holiday
+  stanford
+  story
+  walk
+---
+
+
+This is the story of an unfortunate adventure, for which one day of bad luck slowly transitioned into another day of incredible bad luck. In retrospect, misleading geography could be blamed for what happened, however I probably should have undone the wrongness sooner than I actually did. It’s amazing how I can keep track of so many useless details, but when it comes to connecting big concepts (like locations) I incorrectly connect A and B in the map in my head. Here is the story!
+
+On Friday, July 2nd, I biked into the heart of Palo Alto to pay a visit to a sweet older woman that I had almost rented a room from. She told me her stories of traveling to Iraq, Europe, and South Africa, encouraged me to use the basement of the town hall as a resource for bike maps, and gave me hazelnut coffee brewed by her daughter somewhere in the hills of California. It was a different, and enjoyable experience, even though by the end my mind was drifting back to work. Mid afternoon I head out, and since I was already far from home, this somehow made it logical to go even farther to hit up the Safeway and obtain the rare, precious, jalapeno corn bread derivative that is the closest thing I can find to what used to be my life-staple back in North Carolina.
+
+So I bike, I shop, and I leave the store. I am just starting on my way home, crossing a massive intersection, and all of a sudden I feel like I am biking on a deflated beach ball. I am forced to stop right in the line of fire of the row of hungry-to-zoom-zoom cars, get off my bike, feel the tire, and to my horror, it’s completely flat. Crap. First I had to get out of the intersection, especially since I still had the oncoming traffic side to cross, and the little orange hand was already waving at me. I then realized that I was between 4 and 5 miles from home in high 80 degree weather with a poozied-out bike, a heavy bag of groceries, and a fully loaded backpack. So I walked it most of the way, and once I hit the far side of the Medical Campus was able to ride the Margaritte shuttle for the small distance home. It somehow made me very happy to see my little bike perched on the front of that massive bus – like an injured soldier loaded into the helicopter on his way to safety. I was also very grateful to the bus driver that helped me load and unload the bike from the bus. The entire trip on bike and foot calculated out to 18 miles, with 4 miles of walking with the bike. It was, simply put, a tiring day.
+
+[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/mapofstupidity-300x193.png "Map of Stupidity")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/mapofstupidity.png)
+
+On Saturday I had a standard wake-up-early, do laundry and cleaning, get onto main campus, work until early afternoon, and then a nothing-out-of-the-ordinary walk to get dinner, and walk home. The entire process of starting off campus and finally arriving home is about two hours without a bike, but the time goes by quickly, and I don’t mind the distance. But let’s talk about Sunday.
+
+In retrospect, I should have tried stopping at the bike shop on Saturday. It might have been open. By the time I thought about checking, it was Sunday, and assuredly closed until after the holiday on Tuesday. So I “slept in” again until 6:00am, and by 7:00am was working away in the LKSC, my favorite place in the world. I should also note that campus was completely deserted. It was lovely!
+
+My work this weekend, however, has not been lovely. I’ve been frustrated trying to figure out an inconsistency with an algorithm that has been used for meta analysis of fMRI/sMRI data, as I want to use this same method in a project that I am working on. I won’t get into the details, but basically I want to use this technique with data points from white matter in the brain, however the permutations that are done to create the null distribution for the probabilistic map are created with a gray matter mask. That means that any white matter coordinate would not be included, and consequently a white matter point in your data would be significantly different, by default. That is… a problem! But no one else seems to think so. This tool has been used in a handful of studies, specifically WITH white matter coordinates, so I am convinced that I must be missing something. Unfortunately, multiple readings of the methods papers and the studies that used the tool give me no insight. I then tried to figure out recreating the entire method from scratch in matlab, but I’m a noob with statistics, and don’t have extensive experience with different methods, and I couldn’t figure it out. So I am frustrated. I am upset. I took a break from research and wrote a fun little matlab script to populate a mySQL database from an excel sheet (I’m sure which I’ll share at some future point) and then around noon I decided to call it a day, work wise. I typically go for about six hours on a weekend day before becomng aware of the time, but since I was troubled today, I cut it short a bit.
+
+I was hungry, and a little tired, so I decided that today might be the day to look into that one free delivery I could get from Safeway. I should note that I try to get ingredients and meals from the grocery store because it’s much more affordable than anything you can get prepackaged on campus. As soon as I carefully put together my order and looked into the delivery options, I disappointingly saw that they closed for deliver for the holiday. However, by this point I had completely forgotten about the point of Safeway to begin with (convenience of delivery) and forged a plan to walk there. I got excited upon discovering a second store only 2.2 miles from the medical campus (South) and then another 2 or so to walk home, to the East. I left the frigidly air-conditioned LKSC, and stepped out into the dry heat. It was definitely in the 90’s, and it felt completely wonderful. The campus was empty, so I stood in the middle of the Medical School stone plaza and spread out my arms to take in some sun for a good ten seconds. I then turned to the right, and started my walking.
+
+The trip to the store was incredibly fast. I was very pleased. It was direct, and had I been on a bike, it would have been super easy. This could potentially be converted into a daily routine, which made me very happy, because I’m always on the lookout for improvements in convenience, and more financially affordable options.
+
+As I walked through the aisles I made decisions that I would later be very grateful for, namely decisions to not buy heavier items that were running low like cream rinse and a bottled drink. On the walk home the map in my head was very simple. I would retrace my steps down Sand Hill Road until I hit the first major intersection with a right turn, and that road would hit Junipero as a left turn, and that road would take me right home. I even had seen it once in a car, so I was convinced it would be easy. Oh, if I only knew what I was about to get into!
+
+To get to the crux of the story, I found the right turn, and walked along a bike path directly off of the road toward my left turn onto Junipero. What I didn’t see, what I couldn’t see, was that when it snaked a little bit away from the road and sloped down into a valley, it actually crossed UNDERNEATH Junipero, and then came right back up on the other side. As a traveler on foot I was aware of crossing under what looked like a crossing for a train or small highway, but since it seemed disconnected from the road I was paralleling, it didn’t even cross my mind that I was crossing under the road I needed to be on. It then promptly takes you right back up the road it was paralleling, and unless you are someone who frequently looks behind you, you mind not even have awareness that you crossed a left turn, period.
+
+Now you must be thinking – but wasn’t I expecting a left turn with the name of Junipero? And here is the second fault of the geography. Right after you unknowingly cross under this road, you DO in fact hit an intersection with a left turn… AND there is a big sign that faces the left turn with the Junipero label on it. It isn’t in the correct orientation for the road, which caught me off guard, and I actually stopped, started at it for a while, checked the GPS on my phone (which wasn’t updated and showed me at the wrong location) and then I justified that it MUST be a variant street sign, and everything else fit right with my expectations for the turn, so it must be Junipero! So I happily turned left. This is when I proceeded to call my Dad and was completely taken up with something silly, explaining the xlsread function and datatypes in matlab. My phone proceeded to die, and I just kept walking. It’s always been easy for me to walk, and I’m not afraid of distance, but after an hour or so I started to wonder… how long does it take to walk two miles again? I saw… a brown fence, and rolling hills with grass, and it didn’t look completely wrong, so I stubbornly continued. I finally started to have doubts, saw a lone runner along the roadside, and asked the dreaded question.
+
+> “Where does this road go?”
+> 
+> “Oh, somewhere up into the foothills.”
+> 
+> (crap!) “Which way is Stanford?”
+> 
+> “Oh, back the direction you are coming from. You want either Sand Hills, or I think there is another road called Junipero that will get you there as well.”
+
+He drew a map in the sand for me, and I realized that I was very much not where I expected to be.
+
+[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/furrow.jpg "furrowed look of frustration, and exhaustion.")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/furrow.jpg)
+
+I have just realized I’m 2+ hours in the wrong direction, in close to 100 degree weather, and it’s a long way home.
+
+This is the moment in my journey when I realized that all of the distance I had just traveled would need to be retraced, and then the journey re-started. I thanked the runner, who walked with me about half a mile before I assured him I would be ok, and he could return to running. I kept bringing up the mental picture of the map in my head, over and over again. It WAS right. There were only these two main roads, and one left turn, and it was the first I would see, and I took it! Where did I go wrong? I felt silly and stupid for most of that walk back, and ruminated about how things might have been different had I not been so distracted, or just completely unaware of what the heck was going on. It wasn’t until I returned to that intersection and saw it from the OTHER side that it occurred to me why I had so easily missed the turn.
+
+<div class="wp-caption alignnone" id="attachment_1262" style="width: 160px">[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10-150x150.jpg "you can see the path turning off to the left, and how it snakes right under the left turn")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10.jpeg)you can see the path turning off to the left, and how it snakes right under the left turn.
+
+</div><div class="wp-caption alignnone" id="attachment_1263" style="width: 160px">[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11-150x150.jpg "in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11.jpeg)in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway
+
+</div>I then proceeded to turn down the REAL Junipero, which ironically was only accessible by walking all the way back to the original intersection, and walking right on the busy road (instead of the bike path) to get to the left turn. As I was walking those last few miles, I thought about how this fits into the big picture of my daily life. It SHOULD serve as a lesson, or rationale, for me to either involve other people more in my life, so I would have more resources during times of trouble, or just have more social things planned, period, so the idea of walking for a big chunk of the afternoon wouldn’t even be feasible. It SHOULD be a lesson for this, and I TRIED to really believe this, but in my mind, the entire situation served as a reinforcement of my ability to be independent and survive in the face of challenge. It also was a good indicator of my own stubbornness and incentive structure. I don’t like spending money, and will go to great aims to minimize doing so. I probably could easily have found a local business off of the road somewhere, asked to use the phone, and called a cab. This, in my mind, wasn’t an option. It also felt like a lazy person’s solution. I was resolved to get myself out of this snaggle through the same means I had gotten into it – on my own two feet.
+
+Walking that last mile to home, I thought of the things I was grateful for.
+
+1. the lone man on road
+2. overcoming my stubbornness to talk to the lone man on the road
+3. going to the bathroom in the store
+4. deciding to not buy heavy items in the store
+5. that my feet didn’t break on the walk (I thought about this possibility quite a bit… if there was any time that feet bones might spontaneously break, it would be during a trek like this)
+6. that my mind has a sense of humor. As I crossed the road to my driveway, I thought about what would happen to me in a slapstick movie. I’d cross the street after eight years lost in the desert, mere steps from my door, and get plowed down by something moving fast. Haha. Ok, a little morbid, but it was a very funny thought, at the time!
+
+When I finally mapped it out, the entire journey was about 10.5 miles. In total, I went 6 miles in the wrong direction, and the extra distance translated into about 3-4 hours of extra walking in 100 degree weather. Yes, I can’t believe it either, it’s embarrassing. It’s a good story and I wanted to share it, but I almost didn’t want to admit that I was really this foolish.
+
+[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/epicallystupid-copy-300x172.png "Epic-ally stupid!")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/epicallystupid-copy.png)
+
+I don’t sweat so much, but just LOOK at this. Unbelievable! My shirt arms and back were completely soaked, and I felt it trickling down my back.
+
+[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/14-150x150.jpg "Sweat from the front...")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/14.jpeg) [![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/15-150x150.jpg "Sweat from the back.")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/15.jpeg)
+
+I had a yogurt in my bag, it smelled funny, and the dinner I had bought was squished and wilted. The good news, however, is that I feel fulfilled by this epic tiredness, and I’m not so upset anymore about that silly algorithm. I’ll fess up, my pre-frontal cortex was so tired of keeping a harness on all the frustration from earlier in the day, and I was so physically beat, that I did cry, just a little bit. But then I stepped into the wonderfulness of the shower, actually a COLD shower. It was as if my brain was clenched in a tight fist and when the water hit me, it shocked and quiverered a little, and then finally relaxed. I felt all the tension and stress metaphorically wash away.
+
+

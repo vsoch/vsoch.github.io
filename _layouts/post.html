@@ -40,7 +40,7 @@ archive: true
         <h3>Read more</h3>
         {% for post in site.posts %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates" style="padding-top:0px">{{ post.date | date:"%b %d" }}</aside></a>
             </li>
         {% endfor %}
     </ul>
