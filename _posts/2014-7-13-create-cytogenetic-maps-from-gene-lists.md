@@ -27,7 +27,49 @@ A cytogenetic map [historically means chromosomes stained under a microscope](ht
 
 R can do my laundry for me, so it sure as heck can do this simple task:
 
-code
+<pre>
+<code>
+ library('biomaRt') 
+
+# Set our output and present working directory setwd('/home/vanessa/Documents/Work/GENE_EXPRESSION/neurosynth/results/sigresults/') 
+
+# Prepare biomart to look up chromosome information from gene # What marts are available? 
+listMarts() 
+# Get ensemble object 
+ens = useMart('ensembl') 
+# What databases are there? 
+listDatasets(ens) 
+# Get the human database
+human = useMart('ensembl', dataset = 'hsapiens_gene_ensembl')
+# What attributes can I get?
+listAttributes(human)
+
+# Each file has a single line of genes, separated by tab
+genelists = list.files('visualization/genelis',pattern='*txt')
+
+for (g in genelists){
+  # The name of the file will be our phenotype label
+  geneset = gsub('.txt','',g)
+  genes = strsplit(readLines(paste("visualization/genelist/",g,sep='')),sep='\t')
+
+  # This is the command to look up the chromosome name and position
+  chr = getBM(attributes= c('hgnc_symbol','chromosome_name', 'start_position'), filters='hgnc_symbol',values=genes,mart=human)
+  
+  # Get rid of the weird ones
+  idx = grep('PATCH|LRG|HSCHR|HG&',chr$chr)
+  if (length(idx) != 0){
+    chr = chr[-idx,]
+  }
+  
+  # Add label column
+  chr = cbind(chr,rep(geneset,nrow(chr)))
+  colnames(chr) = c('annotation','chr','pos','phenotype')
+
+  # Write single disorder to output file
+  write.table(chr,file=paste('visualization/geneChromosomeTable',geneset,'.txt',sep=''),row.names=FALSE,sep='\t',quote=FALSE)  
+}
+</pre>
+</code>
 
 
 ## Creating the Map
@@ -48,6 +90,6 @@ I’m not great at visualization, but I want to be.  The first question I’ve 
 
 ## How can I do better?
 
-This is a good start, but I’d really like this interactive.  I’ll start by incorporating these static plots into a d3 visualization, and ultimately (hopefully) have these maps be integrated into the d3 as well.  As always, start simple, and grow from that! ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+This is a good start, but I’d really like this interactive.  I’ll start by incorporating these static plots into a d3 visualization, and ultimately (hopefully) have these maps be integrated into the d3 as well.  As always, start simple, and grow from that! :)
 
 

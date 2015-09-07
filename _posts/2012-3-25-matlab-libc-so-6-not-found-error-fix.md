@@ -10,15 +10,28 @@ tags:
 
 For as long as I’ve had linux, my MATLAB spits out the following “not found” error on startup:
 
-code
+<pre>
+<code>
+.../MATLAB/bin/util/oscheck.sh: 605: /lib/libc.so.6: not found
+</pre>
+</code>
 
 However it is clear that I have the library:
 
-code
+<pre>
+<code>
+locate libc.so.6
+/lib/i386-linux-gnu/libc.so.6
+</pre>
+</code>
 
 The answer is to create a symbolic link from this library to your machine’s standard lib folder, as follows:
 
-code
+<pre>
+<code>
+ln -s /lib/i386-linux-gnu/libc.so.6 /lib/libc.so.6
+</pre>
+</code>
 
 …and you will never see the not found error again!
 

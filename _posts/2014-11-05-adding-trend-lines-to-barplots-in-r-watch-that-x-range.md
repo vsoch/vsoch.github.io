@@ -16,16 +16,28 @@ The red lines on the top and bottom are the three standard deviation thresholds 
 
 This is just NOT complicated. I was tearing out my hair (not really, don’t worry) and SO carefully going through my methods, but I couldn’t find anything wrong. Why was this so strange looking? Then it occurred to me, could it be that plotting a barplot of some size N bars does NOT correspond to x coordinates 1 through N? The answer is YES. When you add additional lines / stuffs to a barplot, you need to give it the x range of the original barplot. Here is how I was doing it before:
 
- mean","3 standard deviations code
+<pre>
+<code>
+barplot(df$differences,ylim=c(min(df$differences),max(3*df$sd)),main=paste("Interesting probes for region",all_regions[r]),col=df$colors,las=2,xlab="gene probes",ylab="normalized expression")
+lines(x=seq(1,nrow(df)),y=3*df$sd,col="red")
+lines(x=seq(1,nrow(df)),y=-3*df$sd,col="red")
+legend(50,3, c("3 standard deviations > mean","3 standard deviations < mean","random sample N=100","three standard deviations"),lty=c(1,1),lwd=c(2.5,2.5),col=c("green","blue","orange","red")) 
+</pre>
+</code>
 
 “lines” is how you add a trendline to some plot. NOTICE that I was setting the x values to be a sequence from 1 to the number of data points (the rows of my data frame). That’s totally logical, right? Why would the x range be anything else? Nope! Bad idea! Not the right way to do it! Here is how it should be done:
 
- mean","3 standard deviations code
+<pre>
+<code>
+bp = barplot(df$differences,ylim=c(min(df$differences),max(3*df$sd)),main=paste("Interesting probes for region",all_regions[r]),col=df$colors,las=2,xlab="gene probes",ylab="normalized expression") 
+lines(x=bp,y=3*df$sd,col="red") 
+lines(x=bp,y=-3*df$sd,col="red") 
+legend(50,3, c("3 standard deviations > mean","3 standard deviations < mean","random sample N=100","three standard deviations"),lty=c(1,1),lwd=c(2.5,2.5),col=c("green","blue","orange","red"))
+</pre>
+</code>
 
 NOW notice that I am saving my barplot into a variable “bp,” and setting the x range of the lines to be… that variable. R is smart enough to know I want the sane x axis as was created in my barplo! Here is the fixed plot:
 
 [![fixied](http://vsoch.com/blog/wp-content/uploads/2014/11/fixied.png)](http://vsoch.com/blog/wp-content/uploads/2014/11/fixied.png)
 
 And now I can sleep at night knowing that I didn’t have trouble calculating means and standard deviations. :)​
-
-

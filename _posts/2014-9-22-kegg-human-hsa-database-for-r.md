@@ -25,12 +25,18 @@ It made it 200 something the first time. Then R froze. Then it only made it to 3
 
 Here are details:
 
-code
+<pre>
+<code>
+KEGG database with 30739 entries, downloaded 9/22/2014/n gene2hsa: maps gene names to hsa identifiers
+gene2path: maps gene symbols to pathway descriptions
+hsa2gene: maps hsa pathway identifiers to gene symbols
+hsa2path: maps hsa identifiers to pathways.
+questions: email vsochat [at] stanford [.] edu
+</code>
+</pre>
 
 My diabolical lab mate also just pointed me to a much better resource:
 
 [http://www.pathwaycommons.org/about/](http://www.pathwaycommons.org/about/)
 
 Awesome!
-
-

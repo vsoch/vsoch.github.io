@@ -11,7 +11,11 @@ tags:
 
 I’ve had this need multiple times, so I’ve written a quick matlab script that will allow you to to dump the contents of an excel file into a MySQL database. The call on command line should be as follows:
 
-code
+<pre>
+<code>
+xls_to_sql(input,sheet,outfile,database,table)
+</code>
+</pre>
 
 With the following variables defined as:
 

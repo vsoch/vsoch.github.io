@@ -13,22 +13,48 @@ This summer I started to use github as a repository for my code, and I wanted to
 
 **Get the status of your local repository**
 
-code
+<pre>
+<code>
+# Shows files that you have in folder, which ones are added (A) or modified (M)
+git status -s
+</code>
+</pre>
 
 **Set up your credentials**
 
-code
+<pre>
+<code>
+# credentials
+git config --global user.name 'My Name'
+git config --global user.email 'myemail.address'
+</code>
+</pre>
 
 **Adding new files to your local repository:**
 
-code
+<pre>
+<code>
+git add file1 file2
+</code>
+</pre>
 
 **Commit files to the local repository**
 
-code
+<pre>
+<code>
+# commits the files to your local repository -
+# this will bring up a text document and you can
+# uncomment the files that you want to commit, save, and exit.
+git commit -a
+</code>
+</pre>
 
 **Send to github repository**
 
-code
+<pre>
+<code>
+git push origin master
+</code>
+</pre>
 
 

@@ -17,11 +17,23 @@ I’m pretty new to using anything other than windows, and I’m using CentOS 5 
 
 ****1) downloading .tar.gz files, unzipping them with:
 
-code
+<pre>
+<code>
+rpm xvzf name.tar.gz
+</code>
+</pre>
 
 2) look for README and INSTALL files, which will provide further details about specifics of the installation. Generally, the following works:
 
-code
+<pre>
+<code>
+ ./configure  # seems to look for all the prereqs for the installation, and tell you if it can't find something
+# I think this command compiles
+make          
+# then you install!
+make install 
+</code>
+</pre>
 
 3) The other option is to find a nice .rpm file, and have your system install it for you.
 
@@ -31,7 +43,11 @@ If you install something and then another something cannot find it, it’s likel
 
 Of course, what if you are like me, and you install something, and then have no idea where it is? I was missing a required library for a package, so my run of ./configure wasn’t working. I read in the INSTALL file that I could specify a path to look for libraries, so to get this to work, I needed to find that path. So first I used yum to check if it was installed.
 
-code
+<pre>
+<code>
+yum list packagename
+</code>
+</pre>
 
 And sure enough, I did indeed have it, but I had no idea where it was! Silly yum just told me that it was installed, and the version number, and not much else. So I blindly looked in the folders where the internet told me it was “supposed” to be, but found nothing. I then needed another strategy, and started to look at the rpm command.
 
@@ -39,25 +55,47 @@ And sure enough, I did indeed have it, but I had no idea where it was! Silly yum
 
 You can use the following to list all of your installed packages:
 
-code
+<pre>
+<code>
+rpm -qa | less
+</code>
+</pre>
 
 The command above tells the package manager to query all installed packages, and the addition of less just makes it more manageable in the terminal. The following gives you information about a specific package:
 
-code
+<pre>
+<code>
+rpm -qi packagename # query for information (i)
+</code>
+</pre>
 
 and then to find where the little bugger is hiding, you can do:
 
-code
+<pre>
+<code>
+rpm -ql packagename  # query for the location (l)
+</code>
+</pre>
 
 From this basic troubleshooting, I was able to find the location of my package, and then add it to the path variable. To edit your path, you want to change either ./bash_profile or ./bashrc – which I think are hidden files when you cd to ~.
 
 **Add package to path**
 
-code
+<pre>
+<code>
+cd ~   # go to the root of everything
+gedit .bash_profile   # open up the bash profile with your text editor
+</code>
+</pre>
 
 If you do “ls” you won’t see it, I think because it starts with a “.”. The basics of adding a folder to your path is appending it, and then exporting, like so:
 
-code
+<pre>
+<code>
+PATH=$PATH:/path/to/add
+export PATH
+</code>
+</pre>
 
 and then save the .bash_profile, and you will have to log out and in again for the changes to happen. If you don’t want to do that, you can also type those commands into the terminal window.
 
@@ -66,5 +104,3 @@ And to provide closure to my particular problem, after eight hours of compiling 
 **If an OS is like a religion, am I converted?**
 
 Am I converted? Well, I don’t like the idea of joining an OS bootcamp and bashing the other side, because I don’t see why I can’t enjoy them all. However, my love for the command line combined with my recent escapade of installing Ubuntu 11.04 on my Dad’s old laptop and seeing huge improvements in performance has me excited. On some future date I would like to configure a system with something other than Windows, and not just do a dual boot or virtual machine. I’m pretty excited about Chrome OS too, but I don’t think the browser alone is ready for the type of applications that I use on a daily basis. Until then, it’s back to regedit, blue screens of death, using SSH to satisfy command line urges, constant searching for the right .dll, Windows Update, and Dell Diagnostics. Oh Windows, you are so special! :O)
-
-

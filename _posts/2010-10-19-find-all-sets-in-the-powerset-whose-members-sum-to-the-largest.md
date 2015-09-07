@@ -26,19 +26,57 @@ For this question I couldn’t immediately sit down and start working. I knew th
 
 1. I first check for a set that is empty or only has one member. There are no solutions in these cases. If we have more than 1 member, then I cycle through a loop for the number of iterations equal to the number of possible sets in the powerset (2 to the n, where n is the number of possible subsets). We subtract one because the loop starts at 0.
 
-code
+<pre>
+<code>
+for i = ( 0:(2^numel(theSet))-1 )
+</code>
+</pre>
 
 3) We then want to find the indicies for each possible set. This means that, for each value of i, we will generate an array of 0’s and 1’s, with a one at each spot where a member is located.
 
-code
+<pre>
+<code>
+indicies = logical(bitget( i,(1:numel(theSet)) ));
+</code>
+</pre>
 
 4) We can then use these indicies to get the actual numbers from the set, and put the set into a variable.
 
-code
+<pre>
+<code>
+set_holder = {theSet(indicies)};
+</code>
+</pre>
 
 5) We then look at only the subsets that have greater than one member, find the largest value, and compare this value to the sum of the remaining elements. This is where the script would break if the input set wasn’t ordered from least to greatest, because it assumes that the last element in the set is the largest. If the sum matches the largest member, we add it to our candidates variable (p is returned, which feeds into “candidates”), and add one to the count!
 
-code
+
+<pre>
+<code>
+% If the set is greater than one element
+if length(set_holder{1}) > 1
+% Find the index of the largest number, get the number
+% (Assuming set organized least --> greatest)
+largest_member = find(indicies,1,'last');
+largest_member = theSet{largest_member};
+
+total_sum=0;
+% Get the sum of the remaining numbers
+set_sum = find(indicies(1:length(indicies)),'1');
+for z = 1:length(set_sum)-1
+total_sum = total_sum + theSet{set_sum(z)};
+end
+
+% If the sum of the elements matches the largest number,
+% add it to our output set:
+
+if (total_sum == largest_member)
+p{candidate_count+1} = {theSet{indicies}};
+candidate_count = candidate_count +1;
+end
+end
+</code>
+</pre>
 
 6) Lastly, if at the end of this process we haven’t found any answers, we return p as an empty set, so the script notifies the user that there are no sets that fit the criteria.
 
@@ -53,7 +91,130 @@ I will post the script that I used to find the answer below, but I also want to 
 
 Here is the full script, a la Matlab. How I love Matlab! Keep in mind that this display mucks up greater than and less than symbols.
 
-code
+<pre>
+<code>
+function powerset(Set)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This script takes in a set of numbers, and finds the largest subset
+% for which the largest number is the sum of the remaining numbers, and
+% returns a count of and list of all the subsets that this criteria applies
+% to, as well as the largest subset.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% First we want to cycle through all the subsets of the input set, and save the
+% ones that have the largest number be the sum of all other numbers.  Since,
+% according to wikipedia, the largest number of subsets for any set is 2 to
+% the n, we can go through a loop of that size and create indicies for every
+% combination of subsets, and then add subsets to an array that are
+% candidates.  We will use the function powerset_review to do this!
+
+candidates = powerset_review(Set);
+
+% Once we have our candidates, we want to find the largest of the set, and
+% return this as the answer.
+
+% If we have zero candidates:
+if size(candidates) == 0;
+fprintf('%s\n','No subsets found for which the largest number is equal to the sum of the remaining numbers')
+return
+end
+
+% If we have one candidate, return as the answer.
+if size(candidates) == 1
+fprintf('%s\n','The following subset is the only set in the powerset for which the largest number is equal to the sum of the remaining numbers:')
+candidates{1}
+return
+end
+
+% For all others, when we have more than one candidate, we keep track of the
+% largest subset that the pattern applies to, and in the case of finding an
+% equivalent length, we keep the first one found:
+
+if length(candidates)&amp;amp;amp;amp;amp;amp;gt;1
+fprintf('\n%s\n','All sets for which the largest number is equal to the sum of the remaining numbers include: ')
+candidates{1,:}
+current_largest = candidates{1};
+
+for k=2:length(candidates)
+compare_set=candidates{k};
+if (length(compare_set) && length(current_largest))
+current_largest = compare_set;
+end
+end
+fprintf('%s%d\n','The number of total candidate subsets is ',length(candidates));
+fprintf('%s\n','The following subset is the first largest set found in the powerset for which the largest number is equal to the sum of the remaining numbers:')
+current_largest
+return
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This function returns subsets from the powerset that have the largest
+% number = the sum of the rest of the numbers!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function p = powerset_review(theSet)
+candidate_count=0;
+
+% Deal with empty and one member sets
+if isempty(theSet)
+fprintf('%s\n','You have provided an empty set.  There is no solution!');
+p={};
+return
+end
+
+if length(theSet)==1
+fprintf('%s\n','You have provided a set with only one member.  There is no solution!');
+p={};
+return
+end
+
+% Generate all numbers from 0 to 2^(num elements of the set)-1
+for i = ( 0:(2^numel(theSet))-1 )
+
+% Convert i into binary, convert each digit in binary to a boolean
+% and store that array of booleans
+indicies = logical(bitget( i,(1:numel(theSet)) ));
+
+% Use the array of booleans to extract the members of the original
+% set, and check the set to see if the largest number is equal to
+% the sum of the additional numbers.  If yes, store the set
+% containing these members in the powerset.  This algorithm
+% assumes that the set is sorted from least --&amp;amp;amp;amp;amp;amp;gt; greatest.
+set_holder = {theSet(indicies)};
+
+% If the set is greater than one element
+if length(set_holder{1}) > 1
+% Find the index of the largest number, get the number
+% (Assuming set organized least --> greatest)
+largest_member = find(indicies,1,'last');
+largest_member = theSet{largest_member};
+
+total_sum=0;
+% Get the sum of the remaining numbers
+set_sum = find(indicies(1:length(indicies)),'1');
+for z = 1:length(set_sum)-1
+total_sum = total_sum + theSet{set_sum(z)};
+end
+
+% If the sum of the elements matches the largest number,
+% add it to our output set:
+
+if (total_sum == largest_member)
+p{candidate_count+1} = {theSet{indicies}};
+candidate_count = candidate_count +1;
+end
+end
+end
+% If we go through the set and find nothing, be sure to return an
+% empty variable
+if candidate_count == 0;
+p={};
+return
+end
+end
+end
+</code>
+</pre>
 
 and here is a snapshot of finding the answer!
 

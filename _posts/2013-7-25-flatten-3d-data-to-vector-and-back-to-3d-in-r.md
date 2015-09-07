@@ -12,6 +12,37 @@ There is surprisingly little help online about how to flatten some 3D data, and 
 
 This is by no means a clever way of doing this, however it works and so I’ll share it. For my specific implementation I am reading in structural brain imaging data (called nifti files), however the 3D data could be of any type. This simply demonstrates the basic functionality – it’s more likely you would read in many files and stack the vectors into a 2D matrix before whatever manipulation you want to do, in which case you can just add some loops ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
 
-code
+<pre>
+<code>
+# Load nifti library
+library('Rniftilib')
+
+# Try loading in a nifti file
+nii = nifti.image.read("NDARZW794FK8_anat.nii";,read_data=1)
+
+# For each file, flatten into a vector
+niivector = as.vector(nii[,,])
+
+# Create empty array of same size to fill up
+niinew = array(0, dim=dim(nii))
+
+# Do some manipulation to vector(s)
+# Option 1: Reconstruct 3D image manually
+mrcounty = 1
+for (i in 1:dim(nii)[3]) {
+  niinew[,,i] = niivector[mrcounty:(mrcounty+dim(nii)[1]*dim(nii)[2]-1)]
+  mrcounty = mrcounty + dim(nii)[1]*dim(nii)[2]
+}
+
+# Option 2: The one line answer
+niinew = array(niivector, dim=dim(nii))
+
+# Rewrite the image to file
+template = nii
+template[,,] = niinew
+nifti.set.filenames(template,"C:/Users/Vanessa/Documents/test.nii")
+nifti.image.write(niicopy)
+</code>
+</pre>
 
 

@@ -21,29 +21,46 @@ I didn’t know what to do, my screen-ounette!
 I am detached, but you tell me that is not the case?  
  “screen -ls”
 
-code
+<pre>
+<code>
+There is a screen on:
+29568.pts-5.screen-ounette (Attached)
+1 Socket in /var/run/screen/S-vsochat.
+</pre>
+</code>
 
 WHY is the word “Attached” filling your status space?!
 
 “screen -r” …  
  Lord, mercy, please! respond to my copy paste!
 
-code
+<pre>
+<code>
+screen -r 29568.pts-5.screen-ounette
+There is no screen to be resumed matching 29568.pts-5.screen-ounette
+</pre>
+</code>
 
 !!!
 
 But then I found you again, my screen-ounette!  
  It was an extra letter that I did not set:
 
-code
+<pre>
+<code>
+screen -D -r 29568.pts-5.screen-ounette
+</pre>
+</code>
 
 And we are together again, screen-ounette!!!  
- And my happiness quota is again well set ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+And my happiness quota is again well set :)
 
 [![screenounette](http://vsoch.com/blog/wp-content/uploads/2014/10/screenounette.png)](http://vsoch.com/blog/wp-content/uploads/2014/10/screenounette.png)
 
 If you didn’t catch it, in the case that you lose connection while in a screen, and when you restore the connection the screen is listed as “Attached” (and it isn’t) the fix is this command:
 
-code
-
-
+<pre>
+<code>
+screen -D -r 29568.pts-5.screen-ounette
+</pre>
+</code>

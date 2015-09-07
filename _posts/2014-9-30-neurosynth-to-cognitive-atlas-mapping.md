@@ -3,11 +3,11 @@ title: "NeuroSynth to Cognitive Atlas Mapping"
 date: 2014-9-30 23:56:00
 tags:
   behavioral-terms
-  code-2
+  code
   cognitive-atlas
   neurosynth
   r
-  research-2
+  research
 ---
 
 
