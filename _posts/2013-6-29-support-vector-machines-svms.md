@@ -51,29 +51,27 @@ the solution being... the **optimal margin classifier!  **This means that, for*
 
 Remember that our separating hyperplane is going to be defined by the closest points on either side to it.  This is where the name "support vector machine" comes from - these points are called the **support vectors**, because their functional margin is exactly equal to 1, or for the equation above, g(w) = 0.  These "support vectors" are illustrated in the image below.  Can you see that they are the only points to actually define the separating hyperplane?  Technically, we don't care so much about the rest of the points.
 
-<div class="wp-caption alignnone" id="attachment_320" style="width: 372px">[![The "support vectors" are where the functional margin is equal to 1, or g(w) = 0.  These are the points that ultimately determine our optimal separating hyperplane.](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq112.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq112.png)The "support vectors" are where the functional margin is equal to 1, or g(w) = 0. These are the points that ultimately determine our optimal separating hyperplane.
+![The "support vectors" are where the functional margin is equal to 1, or g(w) = 0.  These are the points that ultimately determine our optimal separating hyperplane.](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq112.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq112.png)The "support vectors" are where the functional margin is equal to 1, or g(w) = 0. These are the points that ultimately determine our optimal separating hyperplane.
 
-</div>In our optimization problem, we are only going to care about these three points.  Here is where it gets a little tricky, and I'll do my best to explain.  Honestly, I never understood this very well, and so I'll state it point blank, and if you want proofs, you can find them on your own.  When we have some optimization problem subject to constraints (as we do here), the [Lagrange Dual Function](http://en.wikipedia.org/wiki/Duality_%28optimization%29) gives lower bounds on the optimal value of the original function (insert hand waving here).  So to solve for our SVM, we construct a Lagrangian as follows:
+In our optimization problem, we are only going to care about these three points.  Here is where it gets a little tricky, and I'll do my best to explain.  Honestly, I never understood this very well, and so I'll state it point blank, and if you want proofs, you can find them on your own.  When we have some optimization problem subject to constraints (as we do here), the [Lagrange Dual Function](http://en.wikipedia.org/wiki/Duality_%28optimization%29) gives lower bounds on the optimal value of the original function (insert hand waving here).  So to solve for our SVM, we construct a Lagrangian as follows:
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq113.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq113.png)
 
-and then we find the dual form of the problem by minimizing the above with respect to w and b, and remembering that ![\alpha \ge 0](http://l.wordpress.com/latex.php?latex=%5Calpha%20%5Cge%200&bg=FFFFFF&fg=470229&s=1 "\alpha \ge 0").  (Insert a ridiculous amount of hand waving here). We now have the dual optimization problem:
+and then we find the dual form of the problem by minimizing the above with respect to w and b, and remembering that alpha > 0  (Insert a ridiculous amount of hand waving here). We now have the dual optimization problem:
 
  
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq114.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq114.png)
 
-and the goal is to find the alphas (![\alpha](http://l.wordpress.com/latex.php?latex=%5Calpha&bg=FFFFFF&fg=470229&s=1 "\alpha") that maximize the equation.  The x's in the bent parentheses represent a [**kernel**](http://en.wikipedia.org/wiki/Kernel_methods), which is ****a function that maps your data to a higher dimensional space, the idea being if the data aren't linearly separable, when we map them to an infinite dimensional space, they can be.
+and the goal is to find the alphas that maximize the equation.  The x's in the bent parentheses represent a [**kernel**](http://en.wikipedia.org/wiki/Kernel_methods), which is ****a function that maps your data to a higher dimensional space, the idea being if the data aren't linearly separable, when we map them to an infinite dimensional space, they can be.
 
-An example algorithm to solve the dual problem is called **Sequential Minimal Optimization (SMO).  **Broadly, this algorithm iterates through each training example (1 through m), and holds all parameters alpha except for the current training example constant, and the equation W(![\alpha](http://l.wordpress.com/latex.php?latex=%5Calpha&bg=FFFFFF&fg=470229&s=1 "\alpha")) is optimized with respect to that training example parameter.  We keep going until convergence.  This method is called **coordinate ascent.**  For the SVM, we would do the following:
+An example algorithm to solve the dual problem is called **Sequential Minimal Optimization (SMO).  **Broadly, this algorithm iterates through each training example (1 through m), and holds all parameters alpha except for the current training example constant, and the equation W alpha is optimized with respect to that training example parameter.  We keep going until convergence.  This method is called **coordinate ascent.**  For the SVM, we would do the following:
 
 Going until Convergence {
 
-1. Pick an ![\alpha_x](http://l.wordpress.com/latex.php?latex=%5Calpha_x&bg=FFFFFF&fg=470229&s=1 "\alpha_x") and ![\alpha_y](http://l.wordpress.com/latex.php?latex=%5Calpha_y&bg=FFFFFF&fg=470229&s=1 "\alpha_y") with some heuristic
-2. Reoptimize ![W (\alpha)](http://l.wordpress.com/latex.php?latex=W%20%28%5Calpha%29&bg=FFFFFF&fg=470229&s=1 "W (\alpha)") with respect to those two, and all other parameters are held constant.
+1. Pick an alpha_x and alpha_y with some heuristic
+2. Reoptimize W alpha with respect to those two, and all other parameters are held constant.
 
 }
 
 That is probably the limit of my understanding of SVMs.  I recommend reading [Matlab documentation](http://www.mathworks.com/help/stats/support-vector-machines-svm.html) if you want a more satisfactory explanation.  If you are using SVMs, it's pretty trivial to train and test with [Matlab](http://www.mathworks.com/help/stats/svmtrain.html) or [R](http://rss.acs.unt.edu/Rdoc/library/kernlab/html/ksvm.html) functions, and you would want to try different kernels to get a sense for which works best with your data.
-
-

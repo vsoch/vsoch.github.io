@@ -7,8 +7,8 @@ tags:
   expectation-maximization
   latent-variable
   m-step
-  machine-learning-2
-  unsupervised-2
+  machine-learning
+  unsupervised
 ---
 
 
@@ -28,9 +28,7 @@ Repeat until convergence {
 2. We use the probabilities above to create a weighted training set consisting of all possible completions of the data.
 3. We then use maximum likelihood estimation to get new parameter estimates.  This is the **M-step**.
 
-}
-
-If you think about it, this is like [maximum likelihood](http://www.vbmis.com/learn/?p=194 "Maximum Likelihood Estimation (MLE)") or [MAP estimation](http://www.vbmis.com/learn/?p=339 "Bayesian MAP Estimate") in the case of missing information.
+If you think about it, this is like maximum likelihood] or MAP estimation in the case of missing information.
 
 ### How does it work?
 
@@ -63,14 +61,5 @@ Note that the main difference between these parameters and what we had before (w
 ### Isn't this like K-Means Clustering?
 
 A little bit, because the weights represent "soft" cluster assignments as opposed to hard assignments found with k-means.  And similarly to k-means, we are subject to local optima, so it's best to run it a few times.
-
- 
-
- 
-
- 
-
-}  
-  
 
 

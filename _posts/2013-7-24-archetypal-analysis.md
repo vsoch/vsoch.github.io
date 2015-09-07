@@ -4,9 +4,9 @@ date: 2013-7-24 19:59:28
 tags:
   archetypal
   dimensionality-reduction
-  machine-learning-2
+  machine-learning
   prototype
-  unsupervised-2
+  unsupervised
 ---
 
 
@@ -40,6 +40,4 @@ With this understanding, how would you hypothesize archetypal analysis would per
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq137.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq137.png)
 
-If you guessed that the resulting archetypes are "extreme" threes, you are correct.  The picture above doesn't show any "average" looking 3's: they are all super long, super thin, super fat, etc.  Those are some **extreme 3's! **![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)  As is the case for all these methods, I have not discussed how to decide on the number of prototypes, or the number of components.  There are methods to come up with a good number, to be discussed in a different post.
-
-
+If you guessed that the resulting archetypes are "extreme" threes, you are correct.  The picture above doesn't show any "average" looking 3's: they are all super long, super thin, super fat, etc.  Those are some **extreme 3's! :)  As is the case for all these methods, I have not discussed how to decide on the number of prototypes, or the number of components.  There are methods to come up with a good number, to be discussed in a different post.

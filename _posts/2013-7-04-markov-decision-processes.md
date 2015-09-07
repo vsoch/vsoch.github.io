@@ -21,7 +21,7 @@ Given that there is some reward (good or bad) associated with each of our decisi
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq111.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq111.png)
 
-The extra parameter is intended to apply a "discount factor" to time, in the case that we need to discount rewards that are farther in the future.  Because we are stubborn and impatient and want things... now! ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)  So, the goal of our learning algorithm is to maximize the expected value of the equation above.  Let's call the value that we get starting at some state, s, a function ![V(s)](http://l.wordpress.com/latex.php?latex=V%28s%29&bg=FFFFFF&fg=470229&s=1 "V(s)").  It makes sense, then, that the expected reward starting at this state s is:
+The extra parameter is intended to apply a "discount factor" to time, in the case that we need to discount rewards that are farther in the future.  Because we are stubborn and impatient and want things... now! :)  So, the goal of our learning algorithm is to maximize the expected value of the equation above.  Let's call the value that we get starting at some state, s, a function V(s).  It makes sense, then, that the expected reward starting at this state s is:
 
 1. the reward that we get in the current state PLUS
 2. the sum of the (discounted) rewards of all future states
@@ -56,7 +56,7 @@ In the case above, we knew the transition probabilities in advance, however keep
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq116.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq116.png)
 
-and in the case that we get an undefined / NaN ![0/0](http://l.wordpress.com/latex.php?latex=0%2F0&bg=FFFFFF&fg=470229&s=1 "0/0") it's best to have the probability equal to ![1/number-of-states](http://l.wordpress.com/latex.php?latex=1%2Fnumber-of-states&bg=FFFFFF&fg=470229&s=1 "1/number-of-states").
+and in the case that we get an undefined / NaN 0/0 it's best to have the probability equal to ![1/number-of-states](http://l.wordpress.com/latex.php?latex=1%2Fnumber-of-states&bg=FFFFFF&fg=470229&s=1 "1/number-of-states").
 
 This isn't a completely satisfactory explanation of the algorithm, and that is because I haven't used Markov Decision Processes in my own research (it's more suited to robots and that sort of thing).  However, when I do I will update this post!
 

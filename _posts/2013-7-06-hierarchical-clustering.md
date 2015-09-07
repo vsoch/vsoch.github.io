@@ -6,13 +6,11 @@ tags:
   clustering
   hac
   hierarchical-clustering
-  machine-learning-2
+  machine-learning
 ---
 
 
-**Hierarchical clustering** is a clustering algorithm that aims to create groups of observations or classes based on similar features, x.  It is commonly used for microarray or genetic analysis to find similar patterns of expression, and I'm sure that you've seen its "tree" output in some paper (this tree is called a **dendrogram**), which looks like this:
-
-![](http://cit.nih.gov/NR/rdonlyres/61D929D8-5E2F-437A-BF73-1A21040FC903/0/mds3Dscaled.jpg)
+**Hierarchical clustering** is a clustering algorithm that aims to create groups of observations or classes based on similar features, x.  It is commonly used for microarray or genetic analysis to find similar patterns of expression, and I'm sure that you've seen its "tree" output in some paper (this tree is called a **dendrogram**).
 
 Here we see experiments across the top, and genes down the side.  By doing these two separate clusterings and then sorting in both dimensions, we can see patterns emerge in the data.  This is a nice way to visualize patterns in data with many features.
 

@@ -58,11 +58,11 @@ The function, f, is the between cluster sum of squares, j is still an index for 
 
 For the above, the "subject to" parameters are equivalent, and since our parameters are fixed, we are just multiplying the weights by a, where a is a function of X and the fixed parameter.  The paper notes that this can be solved with soft-threholding, something that I need to read up on.  It is [detailed in the paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2930825/#!po=3.19149) if you are interested.  Now let's talk about this approach specifically applied to K-Means.
 
-### **Sparse K-Means Clustering (Sparckl?) ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)**
+### Sparse K-Means Clustering (Sparckl?) :)
 
 This is going to be a good method for three reason:
 
-1. <span style="line-height: 13px;">the criteria takes on a simple form</span>
+1. the criteria takes on a simple form
 2. easily optimized
 3. the tuning parameter controls the number of features in the clustering.
 

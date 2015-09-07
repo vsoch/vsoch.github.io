@@ -12,7 +12,7 @@ tags:
 
 Logistic Regression is a supervised learning method for predicting a discrete outcome (y) based on one or more features (x).  If you remember in linear regression we were trying to predict a **continuous** variable, and in logistic regression we are trying to predict a  **discrete** variable.  The problem moves from one of **prediction** to one of **classification**.
 
-Let's start with a simple case where our y can only be 0 or 1, i.e., ![y = {0,1}](http://l.wordpress.com/latex.php?latex=y%20%3D%20%7B0%2C1%7D&bg=FFFFFF&fg=470229&s=1 "y = {0,1}").  If I had a dataset with labels of 0 and 1 and I was looking to build a classifier, I would want my classifier to output a value between 0 and 1 that I could then threshold.  A value of .5, for example, would be an obvious cutoff to indicate indifference between the two classes, however if I were building an ROC curve, I would vary my threshold between 0 and 1 to produce a nice curve that spans the tradeoff between calling everything 0, and calling everything 1.  With this goal, logistic regression chooses to model the hypothesis with a distribution that is nicely, monotonically increasing between 0 and 1.  This distribution is the sigmoid function!
+Let's start with a simple case where our y can only be 0 or 1, i.e., y = {0,1}.  If I had a dataset with labels of 0 and 1 and I was looking to build a classifier, I would want my classifier to output a value between 0 and 1 that I could then threshold.  A value of .5, for example, would be an obvious cutoff to indicate indifference between the two classes, however if I were building an ROC curve, I would vary my threshold between 0 and 1 to produce a nice curve that spans the tradeoff between calling everything 0, and calling everything 1.  With this goal, logistic regression chooses to model the hypothesis with a distribution that is nicely, monotonically increasing between 0 and 1.  This distribution is the sigmoid function!
 
 ![](http://upload.wikimedia.org/wikipedia/commons/b/b5/SigmoidFunction.png)
 
@@ -72,10 +72,8 @@ If you want a closed form you will need the **Hessian, **or a matrix of second
 
 ## The Perceptron Learning Algorithm
 
-I should probably write a new post on this, but I want to note that if we change our ![g(z)](http://l.wordpress.com/latex.php?latex=g%28z%29&bg=FFFFFF&fg=470229&s=1 "g(z)") definition from the sigmoid function to:
+I should probably write a new post on this, but I want to note that if we change our g(z) definition from the sigmoid function to:
 
 [![eq2](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq26.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/06/eq26.png)
 
 and use the same update rule, we get the Perceptron Learning Algorithm.  I think that people used to think that this algorithm modeled how the brain works.  We obviously know that it's not quite that simple.
-
-
