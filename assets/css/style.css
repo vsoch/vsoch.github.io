@@ -120,9 +120,10 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #fd1268;
-	font-size: 13px;
+	font-size: 17px;
 	line-height: 1.35;
 	border-radius: 3px;
+        font-variant: small-caps;
 
 }
 nav.main-nav a.cta {
@@ -135,6 +136,7 @@ nav.main-nav a.cta {
 #notebook {
     background-color:white;
     margin-top:20px;
+    margin-bottom:20px;
 }
 
 #wrapper {
@@ -155,6 +157,10 @@ nav.main-nav a.cta {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
+}
+
+#avatar::hover {
+    color: orange;
 }
 
 /* Typography */
@@ -441,7 +447,7 @@ Post List
 }
 
 .post {
-	margin: 80px 0 0 0;
+	margin: 80px 40px 40px 40px;
 }
 
 #post-meta {
@@ -449,9 +455,8 @@ Post List
 	font-weight: bold;
 	line-height: 1.4;
 	border-top: 1px solid #eee;
-	padding-top: 40px;
+	padding: 40px;
 	margin-bottom: 40px;
-	padding-bottom: 40px;
 	margin-top: 40px;
 	color:#444;
 	border-bottom: 1px solid #eee;
@@ -554,6 +559,12 @@ h2.month {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #eee;
+}
+
+.disqus {
+      padding-left: 40px
+      padding-right: 40px
+
 }
 
 #archive-list li:last-child {
