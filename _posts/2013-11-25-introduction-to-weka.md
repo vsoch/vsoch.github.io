@@ -4,18 +4,18 @@ date: 2013-11-25 16:35:47
 tags:
   classifier
   introduction
-  machine-learning-2
+  machine-learning
   weka
 ---
 
 
 I'm new to using Weka, so I thought that it would be useful to log my steps.
 
-### **Data Import**
+### Data Import
 
 It's likely that you will need to export your from your statistical software of choice by formatting it in the [.arff file](http://www.cs.waikato.ac.nz/ml/weka/arff.html) standard.  I wrote a script that [exports from R](https://gist.github.com/vsoch/7633498), and could be easily tweaked.  When you start Weka, click on "Explorer" and "Open File" to import the .arff file.  If there is something wrong with your formatting, it will tell you.  Keep in mind that your data types (string, numeric, or nominal) will determine which kinds of analyses that you can do.  Missing values should be exported as question marks, ?.  When you import your data, Weka assumes that the last variable is your label of interest, so in my case this was a nominal variable with two classes, in the file, specified as:
 
-` @attribute RXStr {0,1}<br></br>`
+`@attribute RXStr {0,1}`
 
 You can also change this selection using the drop down menu above the graph visualization.  If you have a nominal variable selected, all of your features will be colored by these groups (eg, red and blue in the picture below).  Obviously, the list on the left are the attributes that you've loaded, and you can select each one by clicking on it, or using any of the buttons on top of the box.  Details for each feature are displayed on the right side of the GUI.
 
@@ -45,6 +45,5 @@ Once you get the hang of Weka, it is rather empowering to have so many powerful 
 
 ### A Strategy?
 
-One possible strategy (that seems glaringly obvious now that I've given Weka a go) is to use a GUI package like this to very quickly try out a bunch of methods on your data.  Then, once you get a sense of what your data looks like, and which classifiers might be a good fit,<span style="font-size: 13px;"> then you can go back to statistical powerhouse packages like R where you can really fine tune your analyses.  Also remember that Weka has [command line interface](http://weka.wikispaces.com/Primer) for more power in customization.  If you are a fan of python, also give [Orange a try](http://orange.biolab.si/).</span>
-
+One possible strategy (that seems glaringly obvious now that I've given Weka a go) is to use a GUI package like this to very quickly try out a bunch of methods on your data.  Then, once you get a sense of what your data looks like, and which classifiers might be a good fit, then you can go back to statistical powerhouse packages like R where you can really fine tune your analyses.  Also remember that Weka has [command line interface](http://weka.wikispaces.com/Primer) for more power in customization.  If you are a fan of python, also give [Orange a try](http://orange.biolab.si/).
 

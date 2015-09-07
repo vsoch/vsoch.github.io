@@ -38,7 +38,7 @@ You first need a MySQL Connector/ODBC.  I'm not a Windows database expert, but 
 
 ### 4. Adding your data source
 
-This was a little confusing at first, because I'm used to specifying credentials from within R or python, as opposed to having them stored in my computer.  You actually need to add your different connections to the "ODBC Data Source Administrator," which I found under Control Panel --> Administrative Tools --> Data sources (ODBC).   The first tab that you see is "User DSN."  A DSN in a Data Source Name, or one of your connections.  Thank you, Microsoft, for the excess of random acronyms that make things seem much more complicated than they actually are ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
+This was a little confusing at first, because I'm used to specifying credentials from within R or python, as opposed to having them stored in my computer.  You actually need to add your different connections to the "ODBC Data Source Administrator," which I found under Control Panel --> Administrative Tools --> Data sources (ODBC).   The first tab that you see is "User DSN."  A DSN in a Data Source Name, or one of your connections.  Thank you, Microsoft, for the excess of random acronyms that make things seem much more complicated than they actually are :)
 
 1. First hit "Add," and select "MySQL ODBC 5.2a Driver."
 2. When you hit finish, it will open up a "MySQL Connector/ODBC Data Source Configuration" dialog.

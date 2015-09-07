@@ -24,16 +24,17 @@ Now that I'm post Quals, I can happily delve into work that is a little more app
 Internal validation is the introverted validation method.  We figure out how good the clustering is based on intrinsic properties that don't go outside of our particular dataset, like compactness, distance between clusters, and how well connected they are.  For example:
 
 - **Stability validation**:  is like a game of Jenga.  We remove features one at a time from our clustering, and see how it holds up.  For each time that we remove a feature, we look at the average distance between means, the average proportion of non overlap, the Figure of Merit, and the average distance.  For all four of these metrics, we iteratively remove features, and dock points when there is huge change.  A value of 0 would be ideal, meaning that our clustering was stable.  For details, see the link to the clValid documentation above.
+
 - **Connectivity:** A good cluster should be close to its other cluster members.  That makes sense, right? If there is someone closed to me placed in another cluster, that's probably not a good clustering.  If there is someone very far from me placed in the same cluster, that doesn't sound great either.  So, intutively think of connectivity as a number between 0 and infinity that "gets at" how well connected a cluster is.  Specifically, if we have N mysterious lemurs, and are assessing L neighbors, the connectivity is:
 
 [![conn](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn.png)
 
 meaning that, for each lemur, we look at its distance to each of it's L neighbors.  For one lemur, i, and his jth nearest neighbor, the stuff in the parentheses is 0 if i and j are in the same cluster, and 1/j otherwise.  In the case that we have a perfect clustering, all nearest neighbors are in the same cluster, and we add up a bunch of zeros.  In the case that nearest neighbors are in different clusters, we add subsequent 1/j, and get some non zero value.  So if you were implementing this, you would basically calculate pairwise distances for all lemurs, N, then iterate through each point, find the closest L lemurs, and come up with a sum that depends on how many of those neighbors are in the same cluster.  Then you add up these sums for all N lemurs, and get the total connectivity value.  0 means awesome, larger numbers mean *sadface*.
 
-- **Compactness:  **Within my cluster family, I should be pretty similar to my siblings.  This means that the variance of whatever features define me shouldn't be very large.  On the other hand, it should be much different from an invidual in a different cluster family.
-- **Separation: **There should be lots of distance between clusters, whether you look at the distance between centroids, or the distance from the most outside points.
-- **The Dunn Index: **Since separation decreases as we add more clusters and compactness increases, we have the Dunn Index to nicely combine these two.  The Dunn Index holds to the idea that "a team is only as strong as its weakest member," and for each cluster, finds the smallest distance to a neighbor cluster, and divides by the greatest distance between any two points in the same cluster.   This value is different from compactness and silhouette because we want to maximize it.  We would want to see a huge distance from other clusters (the numerator) and a tiny tiny distance between the maximum points in the same cluster (the denominator).
-- **Silhouette Width: **is another nice metric that combines compactness and separation.   Each of our N lemur's can get a number between 1 (good) and -1 (bad) that represents how well clustered it is.  Specifically, for a point i, we can calculate the average distance it is from its same cluster siblings (ai), and its average distance from all points in the nearest (but different) cluster (bi):
+- **Compactness:  ** Within my cluster family, I should be pretty similar to my siblings.  This means that the variance of whatever features define me shouldn't be very large.  On the other hand, it should be much different from an invidual in a different cluster family.
+- **Separation: ** There should be lots of distance between clusters, whether you look at the distance between centroids, or the distance from the most outside points.
+- **The Dunn Index: ** Since separation decreases as we add more clusters and compactness increases, we have the Dunn Index to nicely combine these two.  The Dunn Index holds to the idea that "a team is only as strong as its weakest member," and for each cluster, finds the smallest distance to a neighbor cluster, and divides by the greatest distance between any two points in the same cluster.   This value is different from compactness and silhouette because we want to maximize it.  We would want to see a huge distance from other clusters (the numerator) and a tiny tiny distance between the maximum points in the same cluster (the denominator).
+- **Silhouette Width: ** is another nice metric that combines compactness and separation.   Each of our N lemur's can get a number between 1 (good) and -1 (bad) that represents how well clustered it is.  Specifically, for a point i, we can calculate the average distance it is from its same cluster siblings (ai), and its average distance from all points in the nearest (but different) cluster (bi):
 
 [![conn](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn1.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn1.png)
 
@@ -77,11 +78,27 @@ I've gone over unsupervised algorithms in other posts, so here I will just list 
 
 Now it's time to have fun and use this package!  I won't give you the specifics of my data other than I'm looking at structural metrics to describe brains, and I want to use unsupervised clustering to group similar brains.  If you want to use any of my simple scripts, you can source my R Cloud gist as follows:
 
-code
+<pre>
+<code>
+source('http://tinyurl.com/vanessaR')
+</code>
+</pre>
 
 First let's normalize our data, then look at k-means and hierarchical clustering for a good range of cluster values:
 
-code
+<pre>
+<code>
+# Normalize data
+x = as.matrix(normalize(area.lh))
+</code>
+</pre>
+
+library('clValid')
+clusty &amp;amp;amp;amp;amp;amp;amp;amp;lt;- clValid(x, 2:20, clMethods=c("hierarchical","kmeans","pam"),validation="internal",neighbSize=50)
+summary(clusty)
+plot(clusty)
+</code>
+</pre>
 
 clValid gives us each metric for each clustering, and then reports the optimal values.  I ran this for different numbers of clusters, and consistently saw 2 as being the most prevalent, except for when using k-means:
 
@@ -107,21 +124,24 @@ Maximized! (up to 1)
 
 [![silhouette](http://www.vbmis.com/learn/wp-content/uploads/2013/10/silhouette.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/silhouette.png)
 
-So what are some issues here?  It looks like the data is somewhat "clustery" when we define two groups.  However, a main is feature selection.  I haven't done any at all ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)  Just for curiosities sake, let's look at the dendrogram before moving on to testing stability metrics:
+So what are some issues here?  It looks like the data is somewhat "clustery" when we define two groups.  However, a main is feature selection.  I haven't done any at all :).  Just for curiosities sake, let's look at the dendrogram before moving on to testing stability metrics:
 
 [![morph](http://www.vbmis.com/learn/wp-content/uploads/2013/10/morph.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/morph.png)
 
 It certainly makes sense that we see the best metrics for two clusters.  The numbers correspond to a biological label, and now we would want to see if there is a clustering that better separates these labels.  It's hard to tell from the picture - my best guess is that it looks kind of random.  Let's first look briefly at stability metrics.
 
 
-## 
-
- 
-
-
 ## clValid Application - Stability Metrics
 
-code
+
+<pre>
+<code>
+# Now validate stability
+clusty &amp;amp;amp;amp;amp;amp;amp;amp;lt;- clValid(x, 2:6, clMethods=c("hierarchical","kmeans","pam"),validation="stability")
+optimalScores(clusty)
+</code>
+</pre>
+
 
 [![conn](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn4.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn4.png)
 
@@ -134,7 +154,20 @@ Remember, we are validating a clustering based on how much it changes when we re
 
 What I really want is actually to evaluate clustering based on biology.  I have separate labels that describe these brains, and I would want to see that it's more likely to find similar labels in a cluster than not.  I really should do feature selection first, but I'll give this a go now just to figure out how to do it.  Note that, to simplify things, I just used two annotations to distinguish two different classes, and the annotation variable (rx.bin) is a list, which the function converts into a matrix format.
 
-code
+<pre>
+<code>
+# Validate biologically - first create two labels based on Rx
+
+rx.bin = rx.filt
+rx.bin[which(rx.bin %in% c(0,1))] = 1
+rx.bin[which(rx.bin %in% c(2,3,4,5))] = 0
+
+# Now stick the binary labels onto our data
+annot &amp;amp;amp;amp;lt;- tapply(rownames(x.filt),rx.bin, c)
+bio &amp;amp;amp;amp;lt;- clValid(x.filt, 2:20, clMethods=c("hierarchical","kmeans","pam"),validation="biological", annotation=annot)
+optimalScores(bio)
+</code>
+</pre>
 
 And as you see above, we can use the optimalScores() method instead of summary() to see the best of the bunch:
 
@@ -147,6 +180,4 @@ Remember that, for each of these, the result is a value between 0 and 1, with 1 
 
 ## Summary
 
-Firstly, learning this stuff is awesome.  I have a gut feeling that there is signal in this data, and it's on me to refine that signal.  What I haven't revealed is that this data is only a small sample of the number of morphometry metrics that I have derived, and the labels are sort of bad as well (I could go on a rant about this particular set of labels, but I won't ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png) ).  Further, we have done absolutely no feature selection!  However, armed with the knowledge of how to evaluate these kinds of clustering, I can now dig deeper into my data - first doing feature selection across a much larger set of metrics, and then trying biological validation using many different sets of labels.  Most of my labels are more akin to expression values than binary objects, so I'll need to think about how to best represent them for this goal.  I have some other work to do today, so I'll leave this for next time.  Until then, stick a fork in me, I'm Dunn! ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
-
-
+Firstly, learning this stuff is awesome.  I have a gut feeling that there is signal in this data, and it's on me to refine that signal.  What I haven't revealed is that this data is only a small sample of the number of morphometry metrics that I have derived, and the labels are sort of bad as well (I could go on a rant about this particular set of labels, but I won't :)).  Further, we have done absolutely no feature selection!  However, armed with the knowledge of how to evaluate these kinds of clustering, I can now dig deeper into my data - first doing feature selection across a much larger set of metrics, and then trying biological validation using many different sets of labels.  Most of my labels are more akin to expression values than binary objects, so I'll need to think about how to best represent them for this goal.  I have some other work to do today, so I'll leave this for next time.  Until then, stick a fork in me, I'm Dunn! :)
