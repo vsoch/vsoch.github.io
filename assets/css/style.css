@@ -72,7 +72,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 700px;
+	max-width: 1400px;
 	margin: 0 auto;
         background-color: white;
 }
@@ -108,16 +108,9 @@ h2 {
 }
 
 nav.main-nav {
-	padding: 20px 20px 0;
-
-	/*max-width: 600px;*/
-	/*width:100%;
-	background: #fff;
-	background: rgba(255,255,255,.90);*/
-        background-color: #F7F7F7;
+	padding: 20px 0px 0;
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
 	z-index: 100;
 }
 
@@ -127,7 +120,6 @@ nav.main-nav a {
 	padding: 8px 12px;
 	color: #fd1268;
 	font-size: 13px;
-	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
 
@@ -136,17 +128,23 @@ nav.main-nav a.cta {
 	background: #fd1268;
 	color: #fff;
 	margin-left: 12px;
+        background-color:#fd1268;
+}
+
+#notebook {
+    background-color:white;
+    margin-top:20px;
 }
 
 #wrapper {
-  max-width: 700px;
+  max-width: 14000px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
   background-color:white;
 }
 
 #wrapper.home {
-	max-width: 700px;
+	max-width: 1400px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -175,7 +173,6 @@ p a { color: #fd1268;; }
 a,
 #post-nav a,
 #post-list a	{
-        padding-top:10px;
 	-webkit-transition: all 0.15s ease;
 	-moz-transition: all 0.15s ease;
 	-ms-transition: all 0.15s ease;
@@ -361,20 +358,21 @@ img {
 	border-radius: 3px;
 }
 
-/* Made with Cactus Badge */
-#badge {
-	position: absolute;
-	bottom: 8px;
-	right: 8px;
-	height: 48px;
-	width: 48px;
+.btn-xs {
+    padding: .2rem .25rem;
+    font-size: .85rem;
+    line-height: 1;
+    border-radius: .2rem;
+    background-color:#fd1268; 
+    color:white
 }
+
 
 /*=========================================
 Post List
 =========================================== */
 #post-list,#archive-list {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #post-list li,#archive-list li {
@@ -386,7 +384,6 @@ Post List
 }
 
 #post-list li+li {
-	padding-top: 20px;
 	border-top: 1px solid #eee;
 }
 
@@ -587,6 +584,7 @@ h2.month {
   border-radius: 50%;
   margin-top: 3px;
   margin-right: 20px;
+  padding: 0px;
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
 }
 
@@ -623,6 +621,11 @@ h2.month {
   padding: 6px 10px;
   border-radius: 4px;
   margin-left: 2px;
+}
+
+.post_title {
+  padding-bottom:10px;
+
 }
 
 /* Media Queries */
