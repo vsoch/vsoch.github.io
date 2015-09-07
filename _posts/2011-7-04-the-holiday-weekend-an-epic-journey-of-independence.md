@@ -2,7 +2,7 @@
 title: "The Holiday Weekend: An Epic Journey of Independence"
 date: 2011-7-04 01:09:44
 tags:
-  adventure-2
+  adventure
   holiday
   stanford
   story
@@ -34,13 +34,13 @@ To get to the crux of the story, I found the right turn, and walked along a bike
 
 Now you must be thinking – but wasn’t I expecting a left turn with the name of Junipero? And here is the second fault of the geography. Right after you unknowingly cross under this road, you DO in fact hit an intersection with a left turn… AND there is a big sign that faces the left turn with the Junipero label on it. It isn’t in the correct orientation for the road, which caught me off guard, and I actually stopped, started at it for a while, checked the GPS on my phone (which wasn’t updated and showed me at the wrong location) and then I justified that it MUST be a variant street sign, and everything else fit right with my expectations for the turn, so it must be Junipero! So I happily turned left. This is when I proceeded to call my Dad and was completely taken up with something silly, explaining the xlsread function and datatypes in matlab. My phone proceeded to die, and I just kept walking. It’s always been easy for me to walk, and I’m not afraid of distance, but after an hour or so I started to wonder… how long does it take to walk two miles again? I saw… a brown fence, and rolling hills with grass, and it didn’t look completely wrong, so I stubbornly continued. I finally started to have doubts, saw a lone runner along the roadside, and asked the dreaded question.
 
-> “Where does this road go?”
-> 
-> “Oh, somewhere up into the foothills.”
-> 
-> (crap!) “Which way is Stanford?”
-> 
-> “Oh, back the direction you are coming from. You want either Sand Hills, or I think there is another road called Junipero that will get you there as well.”
+>> “Where does this road go?”
+
+>> “Oh, somewhere up into the foothills.”
+ 
+>> (crap!) “Which way is Stanford?”
+ 
+>> “Oh, back the direction you are coming from. You want either Sand Hills, or I think there is another road called Junipero that will get you there as well.”
 
 He drew a map in the sand for me, and I realized that I was very much not where I expected to be.
 
@@ -50,11 +50,11 @@ I have just realized I’m 2+ hours in the wrong direction, in close to 100 degr
 
 This is the moment in my journey when I realized that all of the distance I had just traveled would need to be retraced, and then the journey re-started. I thanked the runner, who walked with me about half a mile before I assured him I would be ok, and he could return to running. I kept bringing up the mental picture of the map in my head, over and over again. It WAS right. There were only these two main roads, and one left turn, and it was the first I would see, and I took it! Where did I go wrong? I felt silly and stupid for most of that walk back, and ruminated about how things might have been different had I not been so distracted, or just completely unaware of what the heck was going on. It wasn’t until I returned to that intersection and saw it from the OTHER side that it occurred to me why I had so easily missed the turn.
 
-<div class="wp-caption alignnone" id="attachment_1262" style="width: 160px">[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10-150x150.jpg "you can see the path turning off to the left, and how it snakes right under the left turn")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10.jpeg)you can see the path turning off to the left, and how it snakes right under the left turn.
+![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10-150x150.jpg "you can see the path turning off to the left, and how it snakes right under the left turn")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/10.jpeg)you can see the path turning off to the left, and how it snakes right under the left turn.
 
-</div><div class="wp-caption alignnone" id="attachment_1263" style="width: 160px">[![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11-150x150.jpg "in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11.jpeg)in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway
+![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11-150x150.jpg "in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/11.jpeg)in order to actually turn left on this road, you can't get there via the small path, you have to walk on the highway
 
-</div>I then proceeded to turn down the REAL Junipero, which ironically was only accessible by walking all the way back to the original intersection, and walking right on the busy road (instead of the bike path) to get to the left turn. As I was walking those last few miles, I thought about how this fits into the big picture of my daily life. It SHOULD serve as a lesson, or rationale, for me to either involve other people more in my life, so I would have more resources during times of trouble, or just have more social things planned, period, so the idea of walking for a big chunk of the afternoon wouldn’t even be feasible. It SHOULD be a lesson for this, and I TRIED to really believe this, but in my mind, the entire situation served as a reinforcement of my ability to be independent and survive in the face of challenge. It also was a good indicator of my own stubbornness and incentive structure. I don’t like spending money, and will go to great aims to minimize doing so. I probably could easily have found a local business off of the road somewhere, asked to use the phone, and called a cab. This, in my mind, wasn’t an option. It also felt like a lazy person’s solution. I was resolved to get myself out of this snaggle through the same means I had gotten into it – on my own two feet.
+I then proceeded to turn down the REAL Junipero, which ironically was only accessible by walking all the way back to the original intersection, and walking right on the busy road (instead of the bike path) to get to the left turn. As I was walking those last few miles, I thought about how this fits into the big picture of my daily life. It SHOULD serve as a lesson, or rationale, for me to either involve other people more in my life, so I would have more resources during times of trouble, or just have more social things planned, period, so the idea of walking for a big chunk of the afternoon wouldn’t even be feasible. It SHOULD be a lesson for this, and I TRIED to really believe this, but in my mind, the entire situation served as a reinforcement of my ability to be independent and survive in the face of challenge. It also was a good indicator of my own stubbornness and incentive structure. I don’t like spending money, and will go to great aims to minimize doing so. I probably could easily have found a local business off of the road somewhere, asked to use the phone, and called a cab. This, in my mind, wasn’t an option. It also felt like a lazy person’s solution. I was resolved to get myself out of this snaggle through the same means I had gotten into it – on my own two feet.
 
 Walking that last mile to home, I thought of the things I was grateful for.
 
@@ -74,5 +74,3 @@ I don’t sweat so much, but just LOOK at this. Unbelievable! My shirt arms and 
 [![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/14-150x150.jpg "Sweat from the front...")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/14.jpeg) [![](http://www.vsoch.com/blog/wp-content/uploads/2011/07/15-150x150.jpg "Sweat from the back.")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/15.jpeg)
 
 I had a yogurt in my bag, it smelled funny, and the dinner I had bought was squished and wilted. The good news, however, is that I feel fulfilled by this epic tiredness, and I’m not so upset anymore about that silly algorithm. I’ll fess up, my pre-frontal cortex was so tired of keeping a harness on all the frustration from earlier in the day, and I was so physically beat, that I did cry, just a little bit. But then I stepped into the wonderfulness of the shower, actually a COLD shower. It was as if my brain was clenched in a tight fist and when the water hit me, it shocked and quiverered a little, and then finally relaxed. I felt all the tension and stress metaphorically wash away.
-
-

@@ -12,15 +12,15 @@ tags:
 I gave my first presentation in about three years to present a paper for Journal Club. It by no means was perfect (and I apologize to Dr. Cohen for calling him “Sasha” instead of “Simon”), but it was a lot of fun! What I learned is that there is a lot of value in just presenting or talking about a paper with a group of people, as each person brings an individual knowledge set, questions, and opinions. It can lead to ideas for new research, and a better understanding of the discussed paper than is obtained from reading the paper in isolation.
 
 **Part I**  
- [su_youtube url=”httpv://www.youtube.com/watch?v=ny6HJSTNZOI”]
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ny6HJSTNZOI" frameborder="0" allowfullscreen></iframe>
 
 **Part II**  
- [su_youtube url=”httpv://www.youtube.com/watch?v=uV8kFwxjxl8″]
+<iframe width="420" height="315" src="https://www.youtube.com/embed/uV8kFwxjxl8" frameborder="0" allowfullscreen></iframe>
 
 **Part III**  
- [su_youtube url=”httpv://www.youtube.com/watch?v=ssVYCyXoATs”]
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ssVYCyXoATs" frameborder="0" allowfullscreen></iframe>
 
 **End**  
- [su_youtube url=”httpv://www.youtube.com/watch?v=hiw_2XeCOXw”]
+<iframe width="420" height="315" src="https://www.youtube.com/embed/hiw_2XeCOXw" frameborder="0" allowfullscreen></iframe>
 
 

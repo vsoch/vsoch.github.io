@@ -26,6 +26,4 @@ With access to such cool data, I knew that I wanted to create something. I was s
 
 this has only been tested in firefox and chrome – no promises about functionality elsewhere!
 
-<div class="wp-caption alignnone" id="attachment_1234" style="width: 160px">![Hmm robust amygdala activation and a little OFC, what could that be?](http://www.vsoch.com/blog/wp-content/uploads/2011/05/brainmap-150x150.png "Hmm robust amygdala activation and a little OFC, what could that be?")Hmm robust amygdala activation and a little OFC, what could that be?
-
-</div>
+![Hmm robust amygdala activation and a little OFC, what could that be?](http://www.vsoch.com/blog/wp-content/uploads/2011/05/brainmap-150x150.png "Hmm robust amygdala activation and a little OFC, what could that be?")Hmm robust amygdala activation and a little OFC, what could that be?
