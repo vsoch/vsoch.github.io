@@ -3,9 +3,9 @@ title: "I Can Change"
 date: 2015-3-10 06:47:29
 tags:
   change
-  poetry-2
+  poetry
   routine
-  thinking-2
+  thinking
 ---
 
 

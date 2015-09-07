@@ -21,4 +21,16 @@ This is exactly the conundrum that went through my mind late one evening last we
 
 ## [PubmedLib](http://www.vbmis.com/bmi/project/PUBMEDLib/)
 
-<div></div><div>This little page queries Pubmed for an abstract based on a search term,</div><div>![search1](http://www.vbmis.com/learn/wp-content/uploads/2013/11/search1.png)</div><div> It then parses the abstract to determine parts of speech, and randomly selects words for you to fill in:</div><div>![terms](http://www.vbmis.com/learn/wp-content/uploads/2013/11/terms.png)</div><div>Then, you get to see your silly creation, with words in red.  That’s pretty much it :o)</div><div>[![result](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result-785x442.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result.png)</div><div></div><div>As you can see, completely useless, other than maybe some practice for me using Pubmed’s API.  I should probably do some *real *work now, hehe ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)</div>
+This little page queries Pubmed for an abstract based on a search term,
+
+![search1](http://www.vbmis.com/learn/wp-content/uploads/2013/11/search1.png)
+
+It then parses the abstract to determine parts of speech, and randomly selects words for you to fill in:
+
+![terms](http://www.vbmis.com/learn/wp-content/uploads/2013/11/terms.png)
+
+Then, you get to see your silly creation, with words in red.  That’s pretty much it :o)
+
+[![result](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result-785x442.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result.png)
+
+As you can see, completely useless, other than maybe some practice for me using Pubmed’s API.  I should probably do some *real *work now, hehe :)

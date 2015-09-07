@@ -4,7 +4,7 @@ date: 2015-3-28 11:29:23
 tags:
   future
   story
-  thinking-2
+  thinking
 ---
 
 

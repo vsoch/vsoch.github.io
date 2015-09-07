@@ -13,10 +13,13 @@ Two interesting circumstances combined today, and the result was a fun project�
 
 I found myself needing to make a banner graphic. It was a simple style – a text string of my choice hidden inside randomly generated letters. I then realized, to my despair, that this would require at least 10 minutes of using Inkscape. Nothing could be so painful. My creative brain then started up its usual humming. If I could make this svg dynamically, I could add beautiful animations, or minimally, some kind of interactivity to it. I could even make a tool so that, the next time I needed one, I wouldn’t have to start from nothing. This resulted in the “banner-maker.” A few points:
 
-  - **Fonts**: come by way of [Google Fonts](https://www.google.com/fonts). There are over 600 in the database, and I randomly selected just under 200. All of these fonts are added with a [single css link](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L17).
-  - **Input Data:** includes hidden letters inside of a randomly generated list, x and y coordinates, as well as two colors. I wrote a [standalone function](https://github.com/vsoch/banner-maker/blob/master/make_logo.py#L13) to generate such data.
-  - **Application:** is of course flask! We parse the user input from the page, and [update the url](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L86), which re-renders the page with a new graphic.
-  - **SVG:** is of course produced with simple [text nodes](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L135) a la D3.
+  >> **Fonts**: come by way of [Google Fonts](https://www.google.com/fonts). There are over 600 in the database, and I randomly selected just under 200. All of these fonts are added with a [single css link](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L17).
+
+  >> **Input Data:** includes hidden letters inside of a randomly generated list, x and y coordinates, as well as two colors. I wrote a [standalone function](https://github.com/vsoch/banner-maker/blob/master/make_logo.py#L13) to generate such data.
+
+  >> **Application:** is of course flask! We parse the user input from the page, and [update the url](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L86), which re-renders the page with a new graphic.
+
+  >> **SVG:** is of course produced with simple [text nodes](https://github.com/vsoch/banner-maker/blob/master/templates/generate.html#L135) a la D3.
 
 
 

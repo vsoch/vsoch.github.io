@@ -6,7 +6,7 @@ tags:
   dimensionality-reduction
   kullback-leibler
   tsne
-  unsupervised-2
+  unsupervised
 ---
 
 

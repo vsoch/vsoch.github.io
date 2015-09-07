@@ -4,7 +4,7 @@ date: 2014-12-31 19:55:26
 tags:
   art
   imaging
-  thinking-2
+  thinking
   tools
   visualization
 ---

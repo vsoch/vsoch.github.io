@@ -14,7 +14,7 @@ I want to draw attention to a video that most of us have seen at one time or an
 
 > When there’s an elephant in the room, introduce him.  
 >  We can not change the cards we are dealt, just play the hand.  
->  The brick walls are there to give us a chance to show how badly we want something. The brick walls are there to stop the people that don’t want it badly enough. They’re there to stop the other people ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)  
+>  The brick walls are there to give us a chance to show how badly we want something. The brick walls are there to stop the people that don’t want it badly enough. They’re there to stop the other people :) 
 >  When you’re screwing up and nobody is saying anything to you anymore, that means they gave up.  
 >  Experience is what you get when you get what you don’t wanted.  
 >  Wait long enough and people will surprise and impress you.  
@@ -37,10 +37,9 @@ And this seems comically relevant for all of us graduate students pursuing a PhD
 I made a conscious decision to leave the following items of wisdom out of my list:
 
 > You can’t get there alone.  
->  Have something to bring to the table, because that will make you more welcomed.
+> Have something to bring to the table, because that will make you more welcomed.
 
-These statements obviously are getting at collaboration, something that is both necessary and frustrating for someone who sets incredibly high ular standards for her work.  For the first, getting “there” also means that I must have some vision or goal to define “there.”  I don’t spend a lot of time writing out careful goals or plans because I’m more proactive to just jump into what needs to be done.  This makes me more concerned with enjoying “here.”  While I agree that collaboration is essential for many larger things, I’ve had enough life experience of having completely relied on myself for things large and small, and I’m convinced that when I need to, I can do things (mostly) on my own.  “Mostly” means that I am the catalyst, and look to internet or peer resources if I have a particular question.  For the second statement, I need to address this table.  I don’t know if dinner tastes better on it, but I’m much happier sitting in the quiet side room with my Thanksgiving plate, and enjoying listening in on the noise from the other room. Once you’re welcomed to the table, there is an expectation that you sit there, and I’d rather not. ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+These statements obviously are getting at collaboration, something that is both necessary and frustrating for someone who sets incredibly high ular standards for her work.  For the first, getting “there” also means that I must have some vision or goal to define “there.”  I don’t spend a lot of time writing out careful goals or plans because I’m more proactive to just jump into what needs to be done.  This makes me more concerned with enjoying “here.”  While I agree that collaboration is essential for many larger things, I’ve had enough life experience of having completely relied on myself for things large and small, and I’m convinced that when I need to, I can do things (mostly) on my own.  “Mostly” means that I am the catalyst, and look to internet or peer resources if I have a particular question.  For the second statement, I need to address this table.  I don’t know if dinner tastes better on it, but I’m much happier sitting in the quiet side room with my Thanksgiving plate, and enjoying listening in on the noise from the other room. Once you’re welcomed to the table, there is an expectation that you sit there, and I’d rather not. :)
 
-[su_youtube url=”https://www.youtube.com/watch?v=ji5_MqicxSo”]
-
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ji5_MqicxSo" frameborder="0" allowfullscreen></iframe>
 
