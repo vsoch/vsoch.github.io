@@ -9,7 +9,7 @@ archive: true
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
 
         {% for tag in post.tags %}
-    <a href="#"><button class="btn btn-default btn-xs" style="background-color:#fd1268; color:white">{{ tag }}</button></a>
+    <a href="{{ site.baseurl }}tag/{{ tag }}"><button class="btn btn-default btn-xs" style="background-color:#fd1268; color:white">{{ tag }}</button></a>
         {% endfor %}
     </header>
     <section id="post-body">
