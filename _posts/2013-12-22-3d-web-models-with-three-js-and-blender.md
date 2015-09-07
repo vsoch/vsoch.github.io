@@ -75,15 +75,21 @@ For now, we won't give him a texture, because I haven't yet figured out the UV m
 
 We need to enable an extra module in Blender to export to [three.js](https://github.com/mrdoob/three.js/), which is basically a JavaScript WebGL library for dummies.
 
-1. Download three.js somewhere on your computer.  Find the folder **utils/exporters/blender/2.65/scripts/addons/io_mesh_threejs** and move the entire folder into the directory **/blender*/2.69/scripts/addons**
-2. <span style="line-height: 1.5em;">Then in Blender go to **File --> User Preferences**, search for "three" (you may need to click the refresh button in the bottom right), and then click the check box to the right of the plugin to enable it. Close user preferences.</span>
-3. Then to export, in blender go to **File --> Export --> Three.js (.js)** Done! Now we have our model!  Open the file in a text editor to make sure that it isn't an empty object.  If it is, make sure that you converted to a mesh, and possibly try selecting the entire thing before exporting.  I didn't need to restart my blender, but if you are having trouble, a restart is a good idea.
+1. Download three.js somewhere on your computer.  Find the folder `utils/exporters/blender/2.65/scripts/addons/io_mesh_threejs` and move the entire folder into the directory `/blender*/2.69/scripts/addons`
+2. Then in Blender go to `File --> User Preferences`, search for "three" (you may need to click the refresh button in the bottom right), and then click the check box to the right of the plugin to enable it. Close user preferences.</span>
+3. Then to export, in blender go to `File --> Export --> Three.js (.js)` Done! Now we have our model!  Open the file in a text editor to make sure that it isn't an empty object.  If it is, make sure that you converted to a mesh, and possibly try selecting the entire thing before exporting.  I didn't need to restart my blender, but if you are having trouble, a restart is a good idea.
+
 
 ### Step 4: Use three.js to Animate the Model
 
 First, create a directory for your site, copy your ketchup.js (the exported model) into a "models" folder, and create another directory called "js."  In the JS folder, copy the following files from three.js into your js folder:
 
-code
+<pre>
+<code>
+threejs/examples/js/controls/OrbitControls.js
+threejs/build/three.min.js
+</code>
+</pre>
 
 The secret to learning anything that you haven't a clue about is starting a template, and then tweaking.  For this aim, I found a nice example from the guys at [Treehouse](http://blog.teamtreehouse.com/), and I didn't do very much in the way of editing, because I was too eager to get it in the browser.  As long as your directory structure is ok for the js and models folder, and you change the name of the model, it should be good to go!  Also keep in mind that WebGL doesn't work in all browsers - on my linux it didn't work in Chrome, but it worked in firefox. To see the code, just go to either of my final pages below, right click --> View Source.
 
@@ -92,6 +98,6 @@ The secret to learning anything that you haven't a clue about is starting a temp
 
 ### What Next?
 
-When I want to learn something, it's good to start with basic goals, and then slowly add complexity.  A good "next" step would be to figure out texture mapping, and use three.js to do simple user controlled movements. Then, toward my car racing goal, I'd want to animate a background and road. That will be for a later time, however, because I want to work a little bit on something else now ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
+When I want to learn something, it's good to start with basic goals, and then slowly add complexity.  A good "next" step would be to figure out texture mapping, and use three.js to do simple user controlled movements. Then, toward my car racing goal, I'd want to animate a background and road. That will be for a later time, however, because I want to work a little bit on something else now :)
 
 

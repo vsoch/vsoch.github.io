@@ -13,7 +13,7 @@ I want to connect to MySQL databases from R.  It's easy to do in Python, but no
 
  
 
-### <span style="line-height: 1.5em;">1. Install R</span>
+### 1. Install R
 
 Obviously, first you need [R installed for Windows](http://cran.r-project.org/bin/windows/base/).  I have version 3.0.1, run via RStudio.  If you want/need to install multiple versions, you can still use the Windows executable, and check "Full Installation," and then "customized startup."  One of the boxes asks if you want to save the version into a Windows registry - I'm guessing that you wouldn't want to check that.  To switch between versions in R-Studio, just hold down the Control key when it's booting up, or once in RStudio, go to Tools --> Options --> General, and the "R Version" selection box is right at the top.
 
@@ -23,17 +23,20 @@ Obviously, first you need [R installed for Windows](http://cran.r-project.org/bi
 
 Either launch Rgui.exe (in your start menu or under "C:\Program Files\R\R-2.15.2\bin\i386\Rgui.exe," or launch R-Studio.  If you've used R before, this is probably all set up.  Now type
 
-code
-
+<pre>
+<code>
+install.packages('RODBC')
+</code>
+</pre>
  
 
 ### 3. Configure MySQL
 
-<span style="line-height: 1.5em;">You first need a MySQL Connector/ODBC.  I'm not a Windows database expert, but I have MySQL Workbench installed, and know that the guts to connect to a MySQL server with ODBC is slightly different.  You can download [MySQL Connector/ODBC from here](http://dev.mysql.com/downloads/connector/odbc/), or if you already have MySQL Workbench, there is a "MySQL Installer" in the start menu under "MySQL" that will allow you to select "MySQL Connector/ODBC."  I chose the MSI-installer, the ansi version.  Install away, Merrill!</span>
+You first need a MySQL Connector/ODBC.  I'm not a Windows database expert, but I have MySQL Workbench installed, and know that the guts to connect to a MySQL server with ODBC is slightly different.  You can download [MySQL Connector/ODBC from here](http://dev.mysql.com/downloads/connector/odbc/), or if you already have MySQL Workbench, there is a "MySQL Installer" in the start menu under "MySQL" that will allow you to select "MySQL Connector/ODBC."  I chose the MSI-installer, the ansi version.  Install away, Merrill!</span>
 
  
 
-### <span style="line-height: 1.5em;">4. Adding your data source</span>
+### 4. Adding your data source
 
 This was a little confusing at first, because I'm used to specifying credentials from within R or python, as opposed to having them stored in my computer.  You actually need to add your different connections to the "ODBC Data Source Administrator," which I found under Control Panel --> Administrative Tools --> Data sources (ODBC).   The first tab that you see is "User DSN."  A DSN in a Data Source Name, or one of your connections.  Thank you, Microsoft, for the excess of random acronyms that make things seem much more complicated than they actually are ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
 
@@ -47,20 +50,33 @@ This was a little confusing at first, because I'm used to specifying credentials
 
  
 
-### <span style="line-height: 1.5em;">5. Connecting from R</span>
+### 5. Connecting from R
 
 First, load the package, and use the odbcConnect function (with the first argument being the dsn) to connect to your database:
 
-code
+<pre>
+<code>
+library(RODBC)
+dsn = 'candyDatabase'
+conn = odbcConnect(dsn)
+query = sqlFetch('candyDatabase.TABLE')
+</code>
+</pre>
 
 If you have trouble with the case (eg, the sqlFetch tells you it cannot find "candyDatabase.table," then in your initial connection you need to specify the case varible:
 
-code
+<pre>
+<code>
+ch = odbcConnect('candyDatabase',case="nochange") # other options include toupper and tolower
+</code>
+</pre>
 
 There are beautiful examples of how to work with your database in the documentation for ODBC.  To see, type the following in R:
 
-code
+<pre>
+<code>
+RShowDoc("RODBC", package="RODBC")
+</code>
+</pre>
 
-Happy databasing! ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
-
-
+Happy databasing! :)

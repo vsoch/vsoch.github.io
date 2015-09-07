@@ -18,7 +18,11 @@ You definitely want to do this on a linux machine. You could use a virtual machi
 
 <pre>
 <code>
-code
+# Check your version of java
+java -version
+
+# You should see something like this
+java version "1.7.0_25" Java(TM) SE Runtime Environment (build 1.7.0_25-b15) Java HotSpot(TM) 64-Bit Server VM (build 23.25-b01, mixed mode)
 </code>
 </pre>
 
@@ -26,7 +30,10 @@ If you don't, then first download JDK version 1.7 from oracle, and follow the in
 
 <pre>
 <code>
-code
+# From the downloads directory
+mkdir /usr/local/java
+tar -zxvf jdk-7u-linux-x64.tar.gz
+/usr/local/java
 </code>
 </pre>
 
@@ -34,7 +41,8 @@ If you want to permanently add this version of java to your path (to overwrite y
 
 <pre>
 <code>
-code
+PATH=/usr/local/java/bin:$PATH
+export $PATH
 </code>
 </pre>
 
@@ -43,7 +51,11 @@ I didn't do either of the above, actually, I decided to make an alias (also in m
 
 <pre>
 <code>
-code
+# In your bash profile
+alias java7='/usr/lib/jvm/java-7-openjdk/bin/java'
+
+# Back on the command line, resource your environment
+. .profile
 </code>
 </pre>
 
@@ -66,7 +78,7 @@ If you see help text, you are golden! If you see this as the first line of an er
 
 <pre>
 <code>
-code
+Exception in thread "main" java.lang.UnsupportedClassVersionError: org/broadinstitute/sting/gatk/CommandLineGATK : Unsupported major.minor version 51.0
 </code>
 </pre>
 
@@ -109,7 +121,14 @@ You basically connect to their FTP server, and have lots of files to choose from
 
 <pre>
 <code>
-code
+dbsnp_b37_20.vcf
+dbsnp_b37_20.vcf.idx
+dedupped_20.bam
+Homo_sapiens_assembly19.1kg_pilot_indels.vcf
+human_b37_20.fasta
+indels_b37_20.vcf
+indels_b37_20.vcf.idx
+tutorial_files.zip
 </code>
 </pre>
 
@@ -120,7 +139,26 @@ Now, let's [install BWA](http://bio-bwa.sourceforge.net/). Let's also grab the "
 
 <pre>
 <code>
-code
+# Install BWA
+git clone https://github.com/lh3/bwa.git
+cd bwa
+make
+
+# Get SAM Tools
+git clone git://github.com/samtools/samtools.git
+
+# Get htslib (put in same directory as samtools top folder)
+git clone git://github.com/samtools/htslib.git
+cd htslib
+make
+
+# Go back into samtools, then compile
+cd ../samtools
+make
+
+# If you get this error, it can't find your htslib installation:
+Makefile:53: ../htslib/htslib.mk: No such file or directory
+make: *** No rule to make target `../htslib/htslib.mk'. Stop.
 </code>
 </pre>
 
@@ -133,7 +171,10 @@ Now let's start using these tools! First, here is how you can add the directory 
 
 <pre>
 <code>
-code
+# I usually just cd to the directory
+cd /path/to/bwa
+PATH=$PATH:$PWD
+export PATH
 </code>
 </pre>
 
@@ -147,7 +188,7 @@ Have you heard of a hash table in computer science? You can think of it like a d
 
 <pre>
 <code>
-code
+IS linear-time algorithm for constructing suffix array. It requires 5.37N memory where N is the size of the database. IS is moderately fast, but does not work with database larger than 2GB. IS is the default algorithm due to its simplicity. The current codes for IS algorithm are reimplemented by Yuta Mori.
 </code>
 </pre>
 
@@ -156,7 +197,7 @@ what we would want for whole genome (the hg19.fa file) is BWT-SW:
 
 <pre>
 <code>
-code
+bwtsw Algorithm implemented in BWT-SW. This method works with the whole human genome.
 </code>
 </pre>
 
@@ -165,7 +206,13 @@ This is local sequence alignment! We learned about this in Russ' BMI 214 class! 
 
 <pre>
 <code>
-code
+# Index your reference genome
+bwa index -a bwtsw human_b37_20.fasta
+
+# If you do it like this, you will use the default IS algorithm:
+bwa index bwtsw human_b37_20.fasta
+
+[bwa_index] Pack FASTA...
 </code>
 </pre>
 
@@ -174,7 +221,7 @@ This creates a truck ton of files (.amb,.bwt,.ann,.pac,.sa) that I'm thinking ar
 
 <pre>
 <code>
-code
+samtools faidx human_b37_20.fasta
 </code>
 </pre>
 
@@ -191,7 +238,9 @@ Now let's jump back to the Picard tools and create a sequence dictionary, "human
 
 <pre>
 <code>
-code
+java -jar CreateSequenceDictionary.jar \
+REFERENCE=human_b37_20.fasta \
+OUTPUT=human_b37_20.dict
 </code>
 </pre>
 
@@ -200,7 +249,8 @@ This produces some job output to the screen as well. I can imagine if I were set
 
 <pre>
 <code>
-code
+@HD VN:1.4 SO:unsorted
+@SQ SN:20 LN:20000000 UR:file:/home/vanessa/Packages/bwa/data/test/human_b37_20.fasta M5:26585f45bc49d1acf5efd030c442ef0f
 </code>
 </pre>
 
@@ -218,18 +268,23 @@ Now let's use BWA to create our SAM, or Sequence Alignment/Map file. I highly st
 
 <pre>
 <code>
-code
+# Generate a SAM file containing aligned reads - 1 file
+bwa mem -M -R '@RG\tID:exampleFASTA\tSM:sample1' human_b37_20.fasta exampleFASTA.fasta > aligned_reads.sam
 </code>
 </pre>
 
-The "-R" argument is the "read group," for more information seem the SAM file spec: http://samtools.sourceforge.net/SAMv1.pdf. The only required fields seem to be the ID and SM (sample). If you had more than one reads file, each would need a unique ID. Thanks to my friend "Boots" for pointing this out to me ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)
+The "-R" argument is the "read group," for more information seem the SAM file spec: http://samtools.sourceforge.net/SAMv1.pdf. The only required fields seem to be the ID and SM (sample). If you had more than one reads file, each would need a unique ID. Thanks to my friend "Boots" for pointing this out to me :)
 
 If you don't specify the read string, then your SAM file won't have read group information, and you will need to add this later (I include this step in the walkthrough below.) I would recommend doing it correctly from the start, but if you don't, I go over the "fix it" step later.
 
 
 <pre>
 <code>
-code
+# Convert to BAM, sort and mark duplicates
+java -jar SortSam.jar \
+INPUT=aligned_reads.sam \
+OUTPUT=sorted_reads.bam \
+SORT_ORDER=coordinate
 </code>
 </pre>
 
@@ -238,7 +293,11 @@ This is the first step that appears to produce a compiled file (e.g., I can no l
 
 <pre>
 <code>
-code
+# Create "dedup_reads.bam" file - same as before, but without duplicates
+java -jar MarkDuplicates.jar \
+INPUT=sorted_reads.bam \
+OUTPUT=dedup_reads.bam \
+M=metrics.txt
 </code>
 </pre>
 
@@ -247,7 +306,8 @@ What in the world is in the metrics file? It looks like a job file that keeps a 
 
 <pre>
 <code>
-code
+java -jar BuildBamIndex.jar \
+INPUT=dedup_reads.bam
 </code>
 </pre>
 
@@ -262,7 +322,8 @@ In neuroimaging analysis, dealing with noise is like brushing your teeth in the 
 
 <pre>
 <code>
-code
+java -jar BuildBamIndex.jar \
+INPUT=dedupped_20.bam
 </code>
 </pre>
 
@@ -271,7 +332,14 @@ And now
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T RealignerTargetCreator \ # the analysis type
+-R human_b37_20.fasta \ # our reference sequence
+-I dedupped_20.bam \ # input sequence alignment map file
+-known dbsnp_b37_20.vcf \ # known indel sites
+-known Homo_sapiens_assembly19.1kg_pilot_indels.vcf \
+-known indels_b37_20.vcf
+-o target_intervals.list
 </code>
 </pre>
 
@@ -280,7 +348,7 @@ At this point, if you don't have the read group specified, the GATK will give yo
 
 <pre>
 <code>
-code
+...SAM/BAM file dedup_reads.bam is malformed: SAM file doesn't have any read groups defined in the header.
 </code>
 </pre>
 
@@ -289,7 +357,10 @@ Oops. This is where not specifying the read group information when I first use b
 
 <pre>
 <code>
-code
+java -jar AddOrReplaceReadGroups.jar \
+INPUT=dedup_reads.bam \
+OUTPUT=addrg_reads.bam \
+RGID=group1 RGLB=lib1 RGPL=illumina RGPU=unit1 RGSM=sample1
 </code>
 </pre>
 
@@ -298,7 +369,8 @@ I wasn't entirely sure where to get this kind of information for a random fq fil
 
 <pre>
 <code>
-code
+java -jar BuildBamIndex \
+INPUT=addrg_reads.bam
 </code>
 </pre>
 
@@ -309,7 +381,7 @@ I'll admit to you that I've gone through this sequence of steps muliple times, a
 
 <pre>
 <code>
-code
+INFO 15:46:30,009 GATKRunReport - Uploaded run statistics report to AWS S3
 </code>
 </pre>
 
@@ -322,7 +394,15 @@ Now we should take this list... and do the realignments! Let's compare to the co
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar
+-T IndelRealigner
+-R human_b37_20.fasta
+-I dedupped_20.bam
+-targetIntervals target_intervals.list
+-known dbsnp_b37_20.vcf
+-known Homo_sapiens_assembly19.1kg_pilot_indels.vcf
+-known indels_b37_20.vcf
+-o realigned_reads.bam
 </code>
 </pre>
 
@@ -337,7 +417,15 @@ As we noted earlier, one of the lines (for each read) in these sequence files (b
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T BaseRecalibrator \
+-R human_b37_20.fasta \
+-I realigned_reads.bam \
+-L 20 \
+-knownSites dbsnp_b37_20.vcf
+-knownSites Homo_sapiens_assembly19.1kg_pilot_indels.vcf
+-knownSites indels_b37_20.vcf
+-o recal_data.grp
 </code>
 </pre>
 
@@ -346,7 +434,16 @@ This is an initial model, and we then create a secondary model that looks for re
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T BaseRecalibrator \
+-R human_b37_20.fasta \
+-I realigned_reads.bam \
+-L 20 \
+-knownSites dbsnp_b37_20.vcf
+-knownSites Homo_sapiens_assembly19.1kg_pilot_indels.vcf
+-knownSites indels_b37_20.vcf
+-BQSR recal_data.grp \
+-o post_recal_data.grp
 </code>
 </pre>
 
@@ -355,7 +452,13 @@ The -BQSR points GATK to our previously-made file with the recalibration data. T
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T AnalyzeCovariates \
+-R human_b37_20.fasta \
+-L 20 \
+-before recal_data.grp \
+-after post_recal_data.grp \
+-plots recalibration_plots.pdf
 </code>
 </pre>
 
@@ -364,7 +467,13 @@ This didn't work the first time I tried it - I got an error about the RScript. I
 
 <pre>
 <code>
-code
+install.packages('ggplot2')
+install.packages('gtools')
+install.packages('gdata')
+install.packages('caTools')
+install.packages('reshape')
+install.packages('gplots_2.8.0.tar.gz',repos=NULL, type="source")
+install.packages('gsalib')
 </code>
 </pre>
 
@@ -376,7 +485,13 @@ If you run the AnalyzeCovariates with the flag "-l DEBUG" you can see where the 
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T PrintReads \
+-R human_b37_20.fasta \
+-I realigned_reads.bam \
+-L 20 \
+-BQSR recal_data.table \
+-o recal_reads.bam
 </code>
 </pre>
 
@@ -395,7 +510,15 @@ Before we run this: a few notes. The default mode is called "DISCOVERY," and thi
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T HaplotypeCaller \
+-R human_b37_20.fasta \
+-I recal_reads.bam \ # reduced or not
+-L 20 \
+--genotyping_mode DISCOVERY \
+-stand_emit_conf 10 \
+-stand_call_conf 30 \
+-o raw_variants.vcf
 </code>
 </pre>
 
@@ -404,7 +527,7 @@ When I was running the above, I saw this message:
 
 <pre>
 <code>
-code
+WARN 13:25:31,915 DiploidExactAFCalc - this tool is currently set to genotype at most 6 alternate alleles in a given context, but the context at 20:13967957 has 8 alternate alleles so only the top alleles will be used; see the --max_alternate_alleles argument
 </code>
 </pre>
 
@@ -413,7 +536,16 @@ Despite the enormous runtime of the above command, I decided to run it again, us
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T HaplotypeCaller \
+-R human_b37_20.fasta \
+-I recal_reads.bam \ # reduced or not
+-L 20 \
+--genotyping_mode DISCOVERY \
+-max_alternative_alleles
+-stand_emit_conf 10 \
+-stand_call_conf 30 \
+-o raw_variants_maxaa.vcf \
 </code>
 </pre>
 
@@ -426,7 +558,14 @@ As a reminder, we just maximized sensitivity, meaning that we aren't going to mi
 
 <pre>
 <code>
-code
+1000G_omni2.5.b37.vcf
+1000G_omni2.5.b37.vcf.idx
+dbsnp_b37_20.vcf
+dbsnp_b37_20.vcf.idx
+hapmap_3.3.b37.vcf
+hapmap_3.3.b37.vcf.idx
+Mills_and_1000G_gold_standard.indels.b37.vcf
+Mills_and_1000G_gold_standard.indels.b37.vcf.idx
 </code>
 </pre>
 
@@ -435,7 +574,24 @@ I downloaded the index files as well, but you could also make them like we did e
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T VariantRecalibrator \
+-R human_b37_20.fasta \
+-input raw_variants.vcf \
+-resource:hapmap,known=false,training=true,truth=true,prior=15.0 hapmap_3.3.b37.vcf \
+-resource:omni,known=false,training=true,truth=true,prior=12.0 1000G_omni2.5.b37.vcf \
+-resource:1000G,known=false,training=true,truth=false,prior=10.0 Mills_and_1000G_gold_standard.indels.b37.vcf \
+-resource:dbsnp,known=true,training=false,truth=false,prior=2.0 dbsnp_b37_20.vcf \
+-an DP \
+-an QD \
+-an FS \
+-an MQRankSum \
+-an ReadPosRankSum \
+-mode SNP \
+-tranche 100.0 -tranche 99.9 -tranche 99.0 -tranche 90.0 \
+-recalFile recalibrate_SNP.recal \ # recalibration report with data
+-tranchesFile recalibrate_SNP.tranches \ # contains quality score thresholds
+-rscriptFile recalibrate_SNP_plots.R
 </code>
 </pre>
 
@@ -443,7 +599,15 @@ Then apply the recalibration:
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T ApplyRecalibration \
+-R human_b37_20.fasta \
+-input raw_variants.vcf \
+-mode SNP \
+--ts_filter_level 99.0 \
+-recalFile recalibrate_SNP.recal \
+-tranchesFile recalibrate_SNP.tranches \
+-o recalibrated_snps_raw_indels.vcf
 </code>
 </pre>
 
@@ -452,26 +616,58 @@ This didn't actually work for me, and those files are indeed the ones they sugge
 
 <pre>
 <code>
-code
+# This is for the SNPs
+java -jar GenomeAnalysisTK.jar \
+-T SelectVariants \
+-R human_b37_20.fasta \
+-V raw_variants.vcf \
+-L 20 \
+-selectType SNP \
+-o raw_snps.vcf
 </code>
 </pre>
 
 That made a file with SNPs from the original file of raw variants, and now we need to apply a manual filter. Here I am again going to use the suggested values:
 
- 60.0 || mq < 40.0 || haplotypescore > 13.0 || mappingqualityranksum code
+<pre>
+<code>
+java -jar GenomeAnalysisTK.jar \
+-T VariantFiltration \
+-R human_b37_20.fasta \
+-V raw_snps.vcf \
+--filterExpression "QD < 2.0 || FS > 60.0 || MQ &lt; 40.0 || HaplotypeScore > 13.0 || MappingQualityRankSum < -12.5 || ReadPosRankSum < -8.0" \
+--filterName "vanessa_snp_filter" \
+-o filtered_snps.vcf
+</code>
+</pre>
+
 
 Now if we look at the filtered_snps.vcf file, we can see PASS labels for the ones that passed the filter, and if it didn't pass, it says "vanessa_snp_filter." Next, let's do the same for the indels (insertions and deletions) from the call set. You'll notice that we are again using the "SelectVariants" option, but instead of "SNP" for the select type, we are choosing "INDEL":
 
 
 <pre>
 <code>
-code
+java -jar GenomeAnalysisTK.jar \
+-T SelectVariants \
+-R human_b37_20.fasta \
+-V raw_HC_variants.vcf \
+-L 20 \
+-selectType INDEL \
+-o raw_indels.vcf
 </code>
 </pre>
 
 Now we have the file "raw_indels.vcf" that just has the insertions and deletions from the original file of raw variants. Let's again apply manual filters:
 
- 200.0 || readposranksum code
+<pre>
+<code>
+java -jar GenomeAnalysisTK.jar \
+-T VariantFiltration \
+-R human_b37_20.fasta \
+-V raw_indels.vcf \
+--filterExpression "QD < 2.0 || FS > 200.0 || ReadPosRankSum < -20.0" \ --filterName "vanessa_indel_filter" \ -o filtered_indels.vcf
+</code>
+</pre>
 
 We are done filtering! At this point it's time for preliminary analysis, and next comes analysis.  Since this post is quite a bit long, I'm going to end it here, and will do preliminary analysis in a second post.
 
@@ -483,10 +679,9 @@ Other than the GATK Resource Bundle, available via FTP, we can download referenc
 
 <pre>
 <code>
-code
+chmod u+x twoBitToFa
+./twoBitToFa hg19.2bit hg19.fa
 </code>
 </pre>
 
 That's all for today!
-
-
