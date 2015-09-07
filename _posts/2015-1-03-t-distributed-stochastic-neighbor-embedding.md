@@ -126,7 +126,7 @@ This is me reading the equation above.  The Kullback Leibler Divergence for dis
 
 #### Why KL Divergence?
 
-Why does that preserve local structure? If we have two similar points, they will have large Pij value. If that is the case, then they also should have a large Qij value.  If they are exactly the same, then we take log of 1, and that is 0, and I don't think we can minimize much more than that ![:)](http://www.vbmis.com/learn/wp-includes/images/smilies/simple-smile.png)  Now imagine if this isn't the case - if we have a large Pij and a small Qij - in using KL divergence we will be dividing a huge number by a tiny one == huge number --> log of huge number approaches infinity --> the equation blows up (and remember we are trying to minimize it!  So KL is good because it tries to model large Pij (similar high dimensional points) by large Qij.
+Why does that preserve local structure? If we have two similar points, they will have large Pij value. If that is the case, then they also should have a large Qij value.  If they are exactly the same, then we take log of 1, and that is 0, and I don't think we can minimize much more than that :).  Now imagine if this isn't the case - if we have a large Pij and a small Qij - in using KL divergence we will be dividing a huge number by a tiny one == huge number --> log of huge number approaches infinity --> the equation blows up (and remember we are trying to minimize it!  So KL is good because it tries to model large Pij (similar high dimensional points) by large Qij.
 
  
 
@@ -193,5 +193,3 @@ This algorithm extends to [multiple maps](http://homepage.tudelft.nl/19j49/multi
  
 
 Credit for this content goes to [Laurens van der Maaten](http://lvdmaaten.github.io/), who is doing some incredibly awesome work that spans machine learning and visualization!
-
-

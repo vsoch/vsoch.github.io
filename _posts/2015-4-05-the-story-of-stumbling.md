@@ -4,7 +4,7 @@ date: 2015-4-05 00:30:57
 tags:
   future
   introspection
-  thinking-2
+  thinking
 ---
 
 
@@ -62,6 +62,6 @@ I again have many questions and not a lot of good answers. Ironically, I read ab
 
 On a more serious note, looking back on this experience, a proper conclusion to this 8 year introspection must include an evaluation. While sometimes it feels like it would be less of a burden to have the emotional depth of a goldfish, I find value in the possibility of being able to introspect, and instill change.  While these early experiences (possibly) eliminated my capacity for deriving enjoyment from thinking about the future, they did alter my focus to direct, immediate actions and feelings, and over time that has instilled in me an almost stupid naivety and ability to derive joy from such trivial things. I plan my future in a way to maximize these momentary pleasures, which means avoiding airports, sitting in traffic, and post-office lines. It’s also lead to a (so far) bottomless well of motivation and drive that lacks any clear explanation for existing at all. When self-doubt and obstacles knock, while there may be a time when the turkeys get me down, a strength comes forth that transforms frustration into empowerment, and I try again.
 
-One thing I am sure of, is that there are only about 3 hours left before I must bike home in the evening, and I really want to do some lovely producing! I don’t know if I’ll stumble into interpersonal meaning, but for now I’m going to stumble back into syntax colored gedit where I like to be ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+One thing I am sure of, is that there are only about 3 hours left before I must bike home in the evening, and I really want to do some lovely producing! I don’t know if I’ll stumble into interpersonal meaning, but for now I’m going to stumble back into syntax colored gedit where I like to be :).
 
 
