@@ -1,3 +1,3 @@
 # vsoch.github.io
 
-Developing Jekyll site
+[under development](http://vsoch.github.io/)
