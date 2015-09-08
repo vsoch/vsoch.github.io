@@ -567,6 +567,38 @@ h2.month {
 
 }
 
+/* Search */
+
+#results-container {
+ list-style-type: none;
+}
+
+#search-input {
+  margin-bottom: 5px;
+}
+
+.modal-title {
+    background-color: #fd1268;
+}
+
+.modal {
+    top: 100px;
+}
+
+#fade {
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 1001;
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
 #archive-list li:last-child {
 	margin-bottom: 0;
 }

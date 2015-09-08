@@ -9,19 +9,26 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ site.baseurl }}rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="VSoch" href="{{ site.baseurl }}rss.xml">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="{{ site.baseurl }}assets/js/jekyll-search.min.js" type="text/javascript"></script>
 
 </head>
 <body>
 
+  <div id="fade"></div>
   <div class="container" id="notebook">
+
   {% include navigation.html %}
+  {% include search.html %}
+
   {% if page.profile %}
       {% include profile.html %}
   {% endif %}
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+
     <div class="row">
         {% if page.url == "/index.html" %}
         <div class="col-md-9">
@@ -61,6 +68,3 @@
   </script>
 </body>
 </html>
-
-
-

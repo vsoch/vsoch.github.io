@@ -1,0 +1,37 @@
+<div class="modal" id="search-modal" style="hidden">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <a onclick="searchToggle()"><span aria-hidden="true">&times;</span></a>
+          u<span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+          <!-- Search -->
+          <div id="search-container">
+              <input type="text" id="search-input" placeholder="search...">
+              <ul id="results-container"></ul>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <a onclick="searchToggle()"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}search.json',
+  })
+
+  // Show search when click button
+  function searchToggle(){
+      $("#search-modal").toggle()
+      $("#fade").toggle()
+  }
+  </script>
