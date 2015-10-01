@@ -3,7 +3,7 @@ title: "Creating Script Directory and Moving Files..."
 date: 2010-7-19 09:51:54
 tags:
   bash
-  code-2
+  code
   files
   move
   navigation
