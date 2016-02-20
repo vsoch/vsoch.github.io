@@ -4,7 +4,6 @@ meta_description: "vanessa villamia sochat"
 
 aboutPage: true
 
-markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
