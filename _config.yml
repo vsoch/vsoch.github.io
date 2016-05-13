@@ -13,6 +13,14 @@ google_analytics: 'UA-67197905-1'
 disqus: true
 disqus_shortname: 'vsoch'
 
+# SEO details
+twitter:
+  username: vsoch
+logo: /assets/images/avatar.png
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
 # Details for the RSS feed generator
 url:            'http://vsoch.github.io'
 author:         'vsoch'
