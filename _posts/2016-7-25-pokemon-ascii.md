@@ -175,7 +175,7 @@ On the surface, this seems very silly, however there are many good reasons that 
 </div>
 
 There are many more nice uses for simple things like this, what do you think?
-
+<br><br>
 
 # Usage
 
@@ -197,7 +197,7 @@ The usage is quite simple, and this is taken straight from the <a href="https://
       usage: pokemon [-h] [--avatar AVATAR] [--pokemon POKEMON] [--message MESSAGE] [--catch]
 </code>
 </pre>
-
+<br>
 
 ## Installation
 
@@ -221,7 +221,7 @@ or for the development version, clone the repo and install manually:
       sudo python setup.py install
 </code>
 </pre>
-
+<br>
 
 
 ## Produce an avatar
@@ -282,7 +282,7 @@ You can also use the functions on command line (from within Python):
       avatar = get_avatar("vsoch",include_name=False)
 </code>
 </pre>
-
+<br>
 
 
 ## Randomly select a Pokemon
