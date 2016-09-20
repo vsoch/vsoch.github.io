@@ -28,10 +28,10 @@ Forever caring, emotionally smart <br>
 Always defeated yet finding start <br>
 Might I surpass ego to play my part? <br>
 
-Last came dream, fickle and sweet! <br>
+Last came dream, fickle and sweet, <br>
 Traversing muddy forest, stinky feet! <br>
 Falling constantly, never to defeat <br>
-Will I traverse mountains, but promises keep? <br>
+Will I traverse mountains, promises keep? <br>
 
 I thought long and hard <br>
 about what I might expect <br>
@@ -40,7 +40,6 @@ that fate keeps in her deck <br>
 
 Thirty years this September <br>
 that's as long as I remember <br>
-I've lost some things, but net I've won <br>
 For future passed and what may come <br>
 Ask me when I'm thirty one :) <br>
 
