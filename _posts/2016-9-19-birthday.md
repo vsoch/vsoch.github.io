@@ -10,7 +10,7 @@ What things may duly come? <br>
 
 My preponderance prodded at the Dish, <br>
 why Vanessasaur, what do you wish? <br>
-Thoughts climbing hills, far up and down <br>
+Thoughts climbing slopes, far up and down <br>
 from the foothills side, back toward town. <br>
 
 First came hopes, lithe and fun! <br>
@@ -29,8 +29,8 @@ Always defeated yet finding start <br>
 Might I surpass ego to play my part? <br>
 
 Last came dream, fickle and sweet! <br>
-Traversing muddy forest, never stinky feet! <br>
-Falling constantly; never in defeat <br>
+Traversing muddy forest, stinky feet! <br>
+Falling constantly, never to defeat <br>
 Will I traverse mountains, but promises keep? <br>
 
 I thought long and hard <br>
