@@ -5,8 +5,6 @@ date: 2016-10-18 9:00:00
 
 Do you want to run Python? I can help you out! This documentation is specific to the `farmshare2` cluster at Stanford, on which there are several versions on python available. The python convention is that python v2 is called 'python', and python v3 is called 'python3'. They are not directly compatible, and in fact can be thought of as entirely different software. 
 
-{% include toc.html %}
-
 ## How do I know which python I'm calling?
 Like most Linux software, when you issue a command to execute some software, you have a variable called `$PATH` that loads the first executable it finds with that name. The same is true for `python` and `python3`. Let's take a look at some of the defaults:
 
