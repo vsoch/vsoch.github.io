@@ -4,7 +4,7 @@ meta_description: "vanessa villamia sochat"
 
 aboutPage: true
 
-highlighter: rouge
+highlighter:      rouge
 
 paginate: 20
 baseurl: /

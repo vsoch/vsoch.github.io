@@ -1,6 +1,7 @@
 ---
 title: "Python Environments, A User Guide"
 date: 2016-10-18 9:00:00
+toc: yes
 ---
 
 Do you want to run Python? I can help you out! This documentation is specific to the `farmshare2` cluster at Stanford, on which there are several versions on python available. The python convention is that python v2 is called 'python', and python v3 is called 'python3'. They are not directly compatible, and in fact can be thought of as entirely different software. 

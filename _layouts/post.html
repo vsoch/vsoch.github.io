@@ -3,13 +3,6 @@ layout: default
 archive: true
 ---
 
-<!-- Add anchor tags automatically -->
-<script>
-$('h1,h2,h3,h4,h5,h6').filter('[id]').each(function () {
-    $(this).html('<a href="#'+$(this).attr('id')+'">' + $(this).text() + '</a>');
-});
-</script>
-
 <!-- Main article content -->
 <article class="post">
     <header>
@@ -21,6 +14,11 @@ $('h1,h2,h3,h4,h5,h6').filter('[id]').each(function () {
         {% endfor %}
     </header>
     <section id="post-body">
+        <!-- Include table of contents?-->
+        {% if page.toc %}
+        {% include toc.html %}
+        {% endif %}
+
         {{content}}
     </section>
 </article>
@@ -57,3 +55,10 @@ $('h1,h2,h3,h4,h5,h6').filter('[id]').each(function () {
         {% endfor %}
     </ul>
 {% endif %}
+
+<!-- Add anchor tags automatically -->
+<script>
+$('h1,h2,h3,h4,h5,h6').filter('[id]').each(function () {
+    $(this).html('<a href="#'+$(this).attr('id')+'">' + $(this).text() + '</a>');
+});
+</script>
