@@ -29,7 +29,15 @@ Python 3.5.2
 </code>
 </pre>
 
-This is great, but what if you want to use a different version? As a reminder, most clusters like Farmshare2 come with packages, modules, and can also be installed with your custom software ([here's a refresher](https://srcc.stanford.edu/farmshare2/software) if you need it). Let's talk about the different options for extending the provided environments, or creating your own environment. So, what to do when the default python doesn't fit your needs? You have many choices:
+This is great, but what if you want to use a different version? As a reminder, most clusters like Farmshare2 come with packages, modules, and can also be installed with your custom software ([here's a refresher](https://srcc.stanford.edu/farmshare2/software) if you need it). Let's talk about the different options for extending the provided environments, or creating your own environment. First, remember that for all of your scripts, the first line instructs what executable to use. So make sure to have this at the top of your script:
+
+<pre>
+<code>
+#!/usr/bin/env python
+</code>
+</pre>
+
+Now, what to do when the default python doesn't fit your needs? You have many choices:
 
 1. **Install to a User Library** if you want to continue using a provided python, but add a module of your choice to a personal library
 2. **Install a conda environment** if you need standard scientific software modules, and don't want the hassle of compiling and installing them.
