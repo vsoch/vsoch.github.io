@@ -702,7 +702,9 @@ h2.month {
 #sharing a.twitter {
   background: #4fafed;
 }
-
+#sharing a.reddit {
+  background: #ff4500;
+}
 #sharing a {
   font-size: 20px;
   font-size: 13px;
