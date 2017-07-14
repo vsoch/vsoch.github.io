@@ -77,7 +77,7 @@ I would argue that the following folders, most scientific software should not to
  - `/sbin`: system specific binaries
  - `/sys`: system, devices, kernel features
 
-<br><br>
+<br>
 
 ## Variable and Working Locations
 
@@ -85,7 +85,7 @@ I would argue that the following folders, most scientific software should not to
  - `/tmp`: temporary location for users and programs to dump things.
  - `/home`: can be considered the user's working space. Singularity mounts by default, so nothing would be valued there. The same is true for..
 
-<br><br>
+<br>
 
 ## Connections
 Arguably, connections for containers are devices and mount points. So the following should be saved for that:
@@ -96,13 +96,13 @@ Arguably, connections for containers are devices and mount points. So the follow
 
 The point that "connections" also means mounting of data has not escaped my attention. This is an entire section of discussion.
 
-<br><br>
+<br>
 
 ### Data
 This is arguably just a mount point, but I think there is one mount root folder that is perfectly suited for data:
 
  - `/media`: removable media. This is technically something like a CD-ROM or USB, and since these media are rare to use, or used to mount drives with data, perhaps we can use it for exactly that.
-<br><br>
+<br>
 
 Data mounted for a specific application should have the same identifier (top folder) to make the association. The organization of the data under that location is up to the application. The data can be included in the container, or mounted at runtime, and this is under the decision of the application. Akin to software modules, overlap in modules is not allowed. For example, let's say we have an application called bids (the bids-apps for neuroimaging):
 
