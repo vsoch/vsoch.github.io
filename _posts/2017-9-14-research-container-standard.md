@@ -106,8 +106,6 @@ This is arguably just a mount point, but I think there is one mount root folder 
 
 Data mounted for a specific application should have the same identifier (top folder) to make the association. The organization of the data under that location is up to the application. The data can be included in the container, or mounted at runtime, and this is under the decision of the application. Akin to software modules, overlap in modules is not allowed. For example, let's say we have an application called bids (the bids-apps for neuroimaging):
 
-
-<br>
  >> the bids data would be mounted / saved at `/media/bids`.
 <br>
  >> importing of distinct data (subjects) under that folder would be allowed, eg `/media/bids/sub1` and `/media/bids/sub2`.
@@ -252,4 +250,4 @@ I think we have to first look at the pieces we are dealing with. It's safe to st
 >> where would the different metadata/ metrics be hosted?
 
 
-This is very important. And it feels like the kind of thing that if done right, it will be easy to follow and support. I think it's been hard for academics and research scientists to produce software is because there are no guides or practices outlined for what the final thing should look like. What do you think?
+This is very important. And it feels like the kind of thing that if done right, it would be easy to follow and support. I think it's been hard for research scientists to produce software because there are no guides or practices outlined for how a software module should integrate into it's installation system. There are plenty of examples for how to create an R or Python module in isolation, or in a notebook, but not beyond that. What do you think?
