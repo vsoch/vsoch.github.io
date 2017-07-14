@@ -63,10 +63,10 @@ Since the biggest pain in creating containers (seems to be) the compiling and "g
 
 If we assume that these are important questions to be able to answer, and that this is a reasonable approach to take, then perhaps we should start by talking about file system organization.
 
-### File Organization
+## File Organization
 File organization is likely to vary a bit based on the host OS. For example, busybox has something like 441 "files" and most of them are symbolic links. Arguably, we might be able to develop an organizational schema that remains (somewhat) true to the [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard), but is extendable to operating systems of many types. I'm not sure how I feel about this standard given that someday we will likely have operating systems designing themselves, but that is a topic for another day.
 
-## Do Not Touch
+### Do Not Touch
 I would argue that the following folders, most scientific software should not touch:
 
  - `/boot`: boot loader, kernel files
@@ -79,7 +79,7 @@ I would argue that the following folders, most scientific software should not to
 
 <br>
 
-## Variable and Working Locations
+### Variable and Working Locations
 
  - `/run`: run time variables, should only be used for that, during running of programs.
  - `/tmp`: temporary location for users and programs to dump things.
@@ -87,7 +87,7 @@ I would argue that the following folders, most scientific software should not to
 
 <br>
 
-## Connections
+### Connections
 Arguably, connections for containers are devices and mount points. So the following should be saved for that:
 
  - `/dev`: essential devices
@@ -98,7 +98,7 @@ The point that "connections" also means mounting of data has not escaped my atte
 
 <br>
 
-### Data
+## Data
 This is arguably just a mount point, but I think there is one mount root folder that is perfectly suited for data:
 
  - `/media`: removable media. This is technically something like a CD-ROM or USB, and since these media are rare to use, or used to mount drives with data, perhaps we can use it for exactly that.
@@ -184,7 +184,6 @@ The only requirement is that we would need a way / standard to make the software
 If the main problem with `/opt` is having to find/add multiple things to the path, there could be a quasi solution that places (or links) main executables in a main `/bin` under `/opt`. Thus, you can add one place to the path, and have fine control over the programs on the path by way of simply adding/removing a link. This also means that the addition of a software module to a container needs to understand what should be linked.
 
 
-
 ### Submodules
 We are operating on the level of the software (eg, python, bids-app, or other). What about modules that are installed to software? For example, pip is a package manager that installs to python. Two equivalent python installations with different submodules are, by definition, different. We could take one of the following approaches:
 
@@ -224,6 +223,39 @@ Permissions are something that seem to be very important, and likely there are g
 
 I wish that we lived in a compute world where each user could have total control over a resource, and empowered to break and change things with little consequences. But we don't. So likely we would advocate for a model that supports that - needing root to build and then install, and then making it executable for the user.
 
+## Overview
+A simple approach like this::
+
+>> fits in fairly well with current software organization
+<br>
+>> is both modular for data and software, but still creates reproducible containers
+<br>
+>> allows for programmatic parsing to be able to easily find software and capture the contents of a container.
+
+We could then have a more organized base to work from, along with clearer directions (even templates) for researchers to follow to create software. In the context of Singularity containers, these data and software packages become their own thing, sort of like Docker layers (they would have a hash, for example) but they wouldn't be random collections of things that users happened to put on the same line in a Dockerfile. They would be humanly understood, logically grouped packages. Given some host for these packages (or a user's own cache that contains them) we can designate some uri (let's call it `data://` that will check the user's cache first, and then the various hosted repositories for these objects. A user could add `anaconda3` for a specific version to their container (whether the data is cached or pulled) like:
+
+```
+import data://anaconda3:latest
+```
+
+And a user could just as easily, during build time, export a particular software or data module for his or her use:
+
+```
+export data://mysoftware:v1.0 
+```
+
+and since the locations of mysoftware for the version would be understood given the research container standard, it would be found and packaged, put in the user's cache (and later optionally / hopefully shared for others).
+
+This would also be possible not just from/during a bootstrap, but from a finished container:
+
+#bootstrap 
+```
+singularity export container.img data://anaconda3:latest 
+```
+
+I would even go as far to say that we stay away from system provided default packages and software, and take preference for ones that are more modular (fitting with our organizational schema) and come with the best quality package managers. That way, we don't have to worry about things like "What is the default version of Python on Ubuntu 14.04? Ubuntu 14.06? Instead of a system python, I would use anaconda, miniconda, etc.
+
+
 ### Challenges
 Challenges of course come down to:
 
@@ -250,4 +282,8 @@ I think we have to first look at the pieces we are dealing with. It's safe to st
 >> where would the different metadata/ metrics be hosted?
 
 
-This is very important. And it feels like the kind of thing that if done right, it would be easy to follow and support. I think it's been hard for research scientists to produce software because there are no guides or practices outlined for how a software module should integrate into it's installation system. There are plenty of examples for how to create an R or Python module in isolation, or in a notebook, but not beyond that. What do you think?
+This is very important. And it feels like the kind of thing that if done right, it would be easy to follow and support. I think it's been hard for research scientists to produce software because there are no guides or practices outlined for how a software module should integrate into it's installation system. There are plenty of examples for how to create an R or Python module in isolation, or in a notebook, but not beyond that. 
+
+I think if we work on a simple goal for this standard, and then start building examples and tools around it, we can tackle a few problems at once: `1.` the organizational / curation issue with containers, `2.` the ability to have more modularity while still preserving reproducibility, and `3.` a base of data and software containers that can be selected to put into a container with clicks in a graphical user interface.
+
+What do you think?
