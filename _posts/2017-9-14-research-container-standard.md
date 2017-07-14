@@ -3,6 +3,14 @@ title: "The Research Container Standard"
 date: 2017-07-14 7:24:00
 ---
 
+Containers, on the level of the operating system, are like houses. We carry an expectation that we find food in the kitchen, a bed in a bedroom, and toiletries in a bathroom.  We can imagine a fresh Ubuntu image is akin to a newly furnished house. When you shell in, most of your expectations are met. However, as soon as a human variable is thrown into the mix (we move in), the organization breaks. Despite our best efforts, the keys sometimes end up in the refrigerator. A sock becomes a lone prisoner under a couch cushion. The underlying organization of the original house is still there with the matching expectations, but we can no longer trust it. What do I mean? If I look at a house from the outside and someone asks me "Are the beds in the bedroom?" I would guess yes. However, sometimes I might be wrong, because we are looking at a Bay Area house that has three people residing in a living area.
+
+Now imagine that there is a magical box, and into it I can throw any item, or ask for any item, and it is immediately retieved or placed appropriately. Everything in my house has a definitive location, and there are rules for new items to follow suit. I can, at any moment, generate a manifest of everything in the house, or answer questions about the things in the house. If someone asks me "Are the beds in the bedroom?" knowing that this house has this box, I can answer definitively "yes!"
+
+The house is the container, and the box represents what a simple standard and software can do for us. In this post I want to discuss how our unit of understanding systems has changed in a way that does not make it easy for reproducibility and scalable modularity to co-exist in harmony.
+
+
+## Modular or Reproducibile?
 For quite some time, our unit of understanding has been based on the operating system. It is the level of magnification at which we understand data, software, and products of those two things. Recently, however, two needs have arisen.
 
 We simultaneously need modularity and reproducible practices. At first glance, these two things don't seem very contradictory. A modular piece of software, given that all dependencies are packaged nicely, is very reproducible. The problem arises because it's never the case that a single piece of software is nicely suited for a particular problem. A single problem, whether it be sequencing genetic code, predicting prostate cancer recurrence from highly dimensional data, or writing a bash script to play tetris, requires many disparate libraries and other software dependencies. Given our current level of understanding of information, the operating system, the best that we can do is give the user absolutely everything - a complete operating system with data, libraries, and software. But now for reproducibility we have lost modularity. A scientific software packaged in a container with one change to a version of a library yields a completely different container despite much of the content duplicated. We are being forced to operate on a level that no longer makes sense given the scale of the problem, and the dual need for modularity and dependency. How can we resolve this?
@@ -276,15 +284,19 @@ I think we have to first look at the pieces we are dealing with. It's safe to st
 <br>
 >> where would the different metadata/ metrics be hosted?
 
+ to one that does not 
 
-Containers, on the level of the operating system, are like houses. We carry an expectation that we find food in the kitchen, a bed in a bedroom, and toiletries in a bathroom.  We can imagine a fresh Ubuntu image is akin to a newly furnished house. When you shell in, most of your expectations are met. However, as soon as a human variable is thrown into the mix (we move in), the organization breaks. Despite our best efforts, the keys sometimes end up in the refrigerator. A sock becomes a lone prisoner under a couch cushion. The underlying organization of the original house is still there with the matching expectations, but we can no longer trust it. What do I mean? If I look at a house from the outside and someone asks me "Are the beds in the bedroom?" I would guess yes. However, sometimes I might be wrong, because we are looking at a Palo Alto house that has three people residing in a living area.
-
-Now imagine that there is a magical box, and into it I can throw any item, or ask for any item, and it is immediately retieved or placed appropriately. Everything in my house has a definitive location, and there are rules for new items to follow suit. I can, at any moment, generate a manifest of everything that I own, and given some query, I can answer it relatively easy. If someone asks me "Are the beds in the bedroom?" knowing that this house has this box, I can answer definitively "yes!"
-
-This is what a simple standard and software can do for us. Organization and simple standards that make things predictible while still allowing for flexibility within an application is a powerful framework for reproducible software, and science. Given a standard, we can build tools around it (the box) that give means to test, compare, and make our containers more trusted. All of these things are very important.
+Organization and simple standards that make things predictible (while still allowing for flexibility within an application) is a powerful framework for reproducible software, and science. Given a standard, we can build tools around it that give means to test, compare, and make our containers more trusted. We never have to worry about capturing our changes to decorating the new house, because we decorate with a tool that captures them for us. 
 
 I think it's been hard for research scientists to produce software because they are given a house, and told to perform some task in it, but no guidance beyond that. They lose their spare change in couches, don't remember how they hung their pictures on the wall, and then get in trouble when someone wants to decorate a different house in the same way.  There are plenty of guides for how to create an R or Python module in isolation, or in a notebook, but there are minimal examples outlined or tools provided to show how a software module should integrate into it's home. 
 
-I think if we work on a simple goal for this standard, and then start building examples and tools around it, we can tackle a few problems at once: `1.` the organizational / curation issue with containers, `2.` the ability to have more modularity while still preserving reproducibility, and `3.` a base of data and software containers that can be selected to put into a container with clicks in a graphical user interface.
+I also think that following the traditional approach of trying to assemble a group, come to some agreement, publish a paper, and wait for it to be published, is annoying and slow. Can open source work better? If we work together on a simple goal for this standard, and then start building examples and tools around it, we can possibly (more quickly) tackle a few problems at once. 
 
-What do you think?
+>> `1.` the organizational / curation issue with containers
+<br>
+>> `2.` the ability to have more modularity while still preserving reproducibility, and 
+<br>
+>> `3.` a base of data and software containers that can be selected to put into a container with clicks in a graphical user interface.
+<br>
+
+Now if only houses could work in the same way! What do you think?
