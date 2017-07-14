@@ -220,7 +220,7 @@ Permissions are something that seem to be very important, and likely there are g
 I wish that we lived in a compute world where each user could have total control over a resource, and empowered to break and change things with little consequences. But we don't. So likely we would advocate for a model that supports that - needing root to build and then install, and then making it executable for the user.
 
 ## Overview
-A simple approach like this::
+A simple approach like this:
 
 >> fits in fairly well with current software organization
 <br>
@@ -244,7 +244,6 @@ and since the locations of mysoftware for the version would be understood given 
 
 This would also be possible not just from/during a bootstrap, but from a finished container:
 
-#bootstrap 
 ```
 singularity export container.img data://anaconda3:latest 
 ```
