@@ -22,7 +22,7 @@ gems:
   - jekyll-paginate
 
 # Details for the RSS feed generator
-url:            'http://vsoch.github.io'
+url:            'https://vsoch.github.io'
 author:         'vsoch'
 authorTwitter:  'vsoch'
 
