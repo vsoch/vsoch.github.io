@@ -1,11 +1,11 @@
 <ul id="post-list">
     {% for post in paginator.posts %}
         <li>
-            <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            <a href="https://vsoch.github.io/{{ post.url | remove_first: '/' }}"><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
             <h2 style="padding-top:40px;font-weight:600"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }} </h2></a>
             <p>{{ post.content }} &middot;</p>
              {% for tag in post.tags %}
-                 <a href="{{ site.baseurl }}tag/{{ tag }}"><button class="btn btn-default btn-xs">{{ tag }}</button></a>
+                 <a href="https://vsoch.github.io/tag/{{ tag }}"><button class="btn btn-default btn-xs">{{ tag }}</button></a>
              {% endfor %}
         </li>
     {% endfor %}

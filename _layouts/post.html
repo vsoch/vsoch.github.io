@@ -10,7 +10,7 @@ archive: true
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
 
         {% for tag in tags %}
-    <a href="{{ site.baseurl }}tag/{{ tag }}"><button class="btn btn-default btn-xs" style="background-color:#fd1268; color:white">{{ tag }}</button></a>
+    <a href="https://vsoch.github.io/tag/{{ tag }}"><button class="btn btn-default btn-xs" style="background-color:#fd1268; color:white">{{ tag }}</button></a>
         {% endfor %}
     </header>
     <section id="post-body">
@@ -24,7 +24,7 @@ archive: true
 </article>
 <footer id="post-meta" class="clearfix">
     <a href="https://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
+        <img class="avatar" src="https://vsoch.github.io/assets/images/avatar.png">
         <div>
             <span class="dark">{{ site.author }}</span>
             <span>{{ site.description }}</span>
@@ -50,7 +50,7 @@ archive: true
         <h3>Read more</h3>
         {% for post in site.posts %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates" style="padding-top:0px">{{ post.date | date:"%b %d" }}</aside></a>
+                <a href="https://vsoch.github.io/{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates" style="padding-top:0px">{{ post.date | date:"%b %d" }}</aside></a>
             </li>
         {% endfor %}
     </ul>
