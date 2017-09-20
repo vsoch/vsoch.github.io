@@ -1,3 +1,1 @@
-# vsoch.github.io
-
-[under development](http://vsoch.github.io/)
+[vsoch.github.io](https://vsoch.github.io)

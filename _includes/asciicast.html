@@ -1,0 +1,16 @@
+{% if include.hide %}
+<button style='color:white;margin-top:5px' class="button -regular center asciinema-button" id="{{ include.title | replace:' ','-' }}">Show Video</button>
+{% endif %}
+<div {% if include.hide %}style="display:none"{% endif %} id="asciinema-{{ include.title | replace:' ','-' }}" class="asciinema-wrapper">
+    <asciinema-player 
+        src="{{ site.baseurl }}/assets/asciicast/{{include.source}}" 
+        poster="data:text/plain,{{include.title}}" 
+        title="{{include.title}}" 
+        author="{{include.author}}" 
+        cols="{{site.asciicast.cols}}"
+        rows="{{site.asciicast.rows}}" 
+        speed="{{site.asciicast.speed}}" 
+        theme="{{site.asciicast.theme}}">
+    </asciinema-player>
+</div>
+

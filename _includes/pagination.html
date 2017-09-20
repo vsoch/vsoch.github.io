@@ -1,22 +1,21 @@
-<nav id="post-nav">
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" role="pagination">
+  <ul>
+    {% assign url = site.baseurl | append: "/" %}
     {% if paginator.previous_page %}
-        <span class="prev">
-            {% if paginator.previous_page == 1 %}
-                <a href="https://vsoch.github.io/" title="Previous Page">
-                    <span class="arrow">←</span> Newer Posts
-                </a>
-            {% else %}
-                <a href="https://vsoch.github.io/page{{ paginator.previous_page }}/">
-                    <span class="arrow">←</span> Newer Posts
-                </a>
-            {% endif %}
-        </span>
+      {% if paginator.previous_page > 1 %}
+        {% assign prev = 'page/' | append: paginator.previous_page %}
+      {% endif %}
+      <li><a class="prev" href="{{ url | append: prev }}" title="Articles new">&laquo; Prev</a></li>
+    {% else %}
+      <li><span class="prev disabled">&laquo; Prev</span></li>
     {% endif %}
+    <li><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></li>
     {% if paginator.next_page %}
-        <span class="next">
-            <a href="https://vsoch.github.io/page{{ paginator.next_page }}/">
-                Older Posts <span class="arrow">→</span>
-            </a>
-        </span>
+      <li><a class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Articles old">Next &raquo;</a></li>
+    {% else %}
+      <li><span class="next disabled">Next &raquo;</span></li>
     {% endif %}
+  </ul>
 </nav>
+{% endif %}

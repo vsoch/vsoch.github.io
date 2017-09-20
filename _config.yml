@@ -1,33 +1,23 @@
-name: vsoch
-description: vanessa villamia sochat
-meta_description: "vanessa villamia sochat"
+# SEO settings
+title: VanessaSaurus
+description: "dinosaurs, programming, and parsnips"
+keywords: "dinosaurs, programming, parsnips"
+url: https://vsoch.github.io/
+baseurl: null
 
-aboutPage: true
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
 
-highlighter:      rouge
-
-paginate: 20
-paginate_path: "page:num"
-baseurl: /
-domain_name: 'vsoch.github.io'
+# Social networking, etc
+repo: http://github.com/vsoch/vsoch.github.io
 google_analytics: 'UA-67197905-1'
-disqus: true
-disqus_shortname: 'vsoch'
-
-# SEO details
-twitter:
-  username: vsoch
-logo: /assets/images/avatar.png
-gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# Details for the RSS feed generator
-url:            'https://vsoch.github.io'
-author:         'vsoch'
-authorTwitter:  'vsoch'
-
-permalink:       /:year/:title/
+disqus_shortname: "vsoch"
 
 defaults:
     -
@@ -35,16 +25,58 @@ defaults:
             path: "" # empty string for all files
             type: pages
         values:
-            layout: default
+            layout: page
     -
         scope:
             path: "" # empty string for all files
             type: posts
         values:
             layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+
+# asciinema defaults
+asciicast:
+    cols: "115"
+    rows: "25"
+    speed: "2.0"
+    theme: "monokai"
+
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+destination: _site
+
+# Author settings
+author:
+  name     : VanessaSaurus
+  job      : Software Engineer
+  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  thumb    : /images/author.jpg
+  email    : vsochat@gmail.com
+  url      : https://vsoch.github.io
+  github   : http://github.com/vsoch
+  twitter  : http://twitter.com/vsoch
+  facebook : http://facebook.com/vsochat
+  linkedin : https://www.linkedin.com/in/vsochat
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@vsoch"
+
+plugins:
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: [".git", "README.md", "LICENSE.md", "_site", "_drafts"]
