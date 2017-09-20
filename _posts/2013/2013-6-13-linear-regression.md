@@ -75,15 +75,13 @@ Convergence might mean that the parameters stop changing, or a certain number of
 
 Guess what? We don't necessarily have to look at every training example before "taking a step."  What if we have a HUGE dataset, and looking at every training example is infeasible?  We can use stochastic gradient descent!  It's almost exactly the same, except we update J(x) after looking at each of the m training examples.  The new update equation becomes:
 
-<pre>
-<code>
+```
 for i=1:m {
 
 xj = xj + a (h(x)i) - y(x)i)^2 * xj
 
 }
-</code>
-</pre>
+```
 
 This will let us hop around the hypothesis space much faster, although we may never completely converge (although we are usually very close).
 

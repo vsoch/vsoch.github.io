@@ -30,5 +30,3 @@ This is by no means an all encompassing list, but I wanted to have a place to jo
 - Patient Data: some virtual medical record? (vMR)
 - Approaches for terminology / ontology inferencing (OWL)
 - and of course, [Arden Syntax](http://www.vbmis.com/learn/?p=449 "The Arden Syntax") for taking data --> executable model
-
-

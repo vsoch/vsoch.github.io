@@ -2,7 +2,7 @@
 title: "Brain Podcast with Temple Grandin"
 date: 2013-8-23 22:04:46
 tags:
-  autism-2
+  autism
   temple-grandin
 ---
 
@@ -18,9 +18,3 @@ I listened to it a few days ago, but the points that stuck out as interesting to
 - She thinks that an approach that uses specific traits (eg, sensitivity to touch, sound, yes or no) over clumping ASD into one group makes most sense (I agree!)
 
 Dr. Grandin also gives very interesting details about her personal experiences, research, and perception of the world.  It's a good talk, and you should listen.
-
- 
-
- 
-
-

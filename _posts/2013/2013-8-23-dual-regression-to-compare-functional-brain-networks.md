@@ -48,5 +48,3 @@ Namely, we use the timecourses as temporal regressors in a General Linear Model 
 ### Visualize Dual Regression Results
 
 I wrote a script to create an incredibly simple web report visualization of the corrected and thresholded dual regression maps, one for each contrast.  You can see some [sample output here](http://www.vbmis.com/bmi/project/ndar/brainstemica/), and the [scripts are here](https://gist.github.com/vsoch/6323663).
-
-

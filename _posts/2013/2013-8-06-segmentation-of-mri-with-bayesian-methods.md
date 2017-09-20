@@ -7,7 +7,7 @@ tags:
   freesurfer
   intensity-based
   markov
-  segmentation-2
+  segmentation
   subcortical-segmentation
 ---
 
@@ -177,9 +177,3 @@ There are some pre and post-processing steps [detailed in the paper](https://sur
 We can now venture into subcortical segmentation in freesurfer with a little more understanding of what is going on under the GUI, and come up with beautiful delineations, as shown below, demonstrating the method in action.  And (hopefully) we can build on this understanding to extend the tools for our particular goals.
 
 [![freesurfer](http://www.vbmis.com/learn/wp-content/uploads/2013/08/freesurfer-785x509.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/freesurfer.png)
-
- 
-
- 
-
-

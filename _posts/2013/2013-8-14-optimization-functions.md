@@ -100,5 +100,3 @@ We would minimize this function in an alternating fashion.
 Again, is the same basic model as ICA and Archetypal (above), however we model each resulting component with poisson, and then we can maximize the likelihood or minimize the the log of the likelihood:
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq130.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq130.png)
-
-

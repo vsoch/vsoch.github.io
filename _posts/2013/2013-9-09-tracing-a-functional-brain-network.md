@@ -83,5 +83,3 @@ Trying to visualize these voxels, spatially, in Matlab is not a good idea.  Ins
 [![includedvox](http://www.vbmis.com/learn/wp-content/uploads/2013/09/includedvox.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/09/includedvox.png)
 
 My instincts were correct that I got most of the brain, and for a first go at this, I am pretty pleased!  The running time wasn't ridiculous, and we get coverage of most of the brain's gray matter.  In fact, I think that it's even too much, and I'm going to up the threshold.  [For my next post](http://www.vbmis.com/learn/?p=702), I will increase the threshold to a much higher value (.9?) and see if I can visualize this network as a graph.  My goal is to get a sense if using this kind of graphing software for visualization makes sense for functional MRI data.
-
-

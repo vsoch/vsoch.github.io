@@ -23,11 +23,9 @@ Obviously, first you need [R installed for Windows](http://cran.r-project.org/bi
 
 Either launch Rgui.exe (in your start menu or under "C:\Program Files\R\R-2.15.2\bin\i386\Rgui.exe," or launch R-Studio.  If you've used R before, this is probably all set up.  Now type
 
-<pre>
-<code>
+```
 install.packages('RODBC')
-</code>
-</pre>
+```
  
 
 ### 3. Configure MySQL
@@ -54,29 +52,23 @@ This was a little confusing at first, because I'm used to specifying credentials
 
 First, load the package, and use the odbcConnect function (with the first argument being the dsn) to connect to your database:
 
-<pre>
-<code>
+```
 library(RODBC)
 dsn = 'candyDatabase'
 conn = odbcConnect(dsn)
 query = sqlFetch('candyDatabase.TABLE')
-</code>
-</pre>
+```
 
 If you have trouble with the case (eg, the sqlFetch tells you it cannot find "candyDatabase.table," then in your initial connection you need to specify the case varible:
 
-<pre>
-<code>
+```
 ch = odbcConnect('candyDatabase',case="nochange") # other options include toupper and tolower
-</code>
-</pre>
+```
 
 There are beautiful examples of how to work with your database in the documentation for ODBC.  To see, type the following in R:
 
-<pre>
-<code>
+```
 RShowDoc("RODBC", package="RODBC")
-</code>
-</pre>
+```
 
 Happy databasing! :)

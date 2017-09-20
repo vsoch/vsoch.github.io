@@ -83,5 +83,3 @@ There are three categories of MLMs:
  
 
 **The Future?**  libraries of MLM syntax (akin to the Apple App store) for download and use!
-
-

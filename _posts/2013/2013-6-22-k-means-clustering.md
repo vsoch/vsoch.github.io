@@ -5,8 +5,8 @@ tags:
   clustering
   k-means
   kmeans
-  machine-learning-2
-  unsupervised-2
+  machine-learning
+  unsupervised
 ---
 
 
@@ -44,5 +44,3 @@ If you are doing an analysis for which "soft" cluster assignment is appropriate 
 ### **What are some drawbacks to this approach?**
 
 We are making a big assumption about our clusters - that they are spherical blobs, and they are the same size.  Other interesting patterns in the data that are not of this shape or equivalent size won't be captured by this algorithm.  At the end of the day, each cluster is represented by a single mean vector (of our features).  If we want to classify a new point into a cluster, we calculate the distance of that point to all of our mean vectors, and assign it to the closest one.
-
-

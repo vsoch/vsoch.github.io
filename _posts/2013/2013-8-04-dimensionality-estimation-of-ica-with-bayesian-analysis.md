@@ -5,7 +5,7 @@ tags:
   bayesian-estimate
   ica
   order-estimation
-  statistics-2
+  statistics
 ---
 
 

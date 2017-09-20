@@ -5,7 +5,7 @@ tags:
   blender
   modeling
   three-js
-  visualization-2
+  visualization
 ---
 
 
@@ -84,12 +84,10 @@ We need to enable an extra module in Blender to export to [three.js](https://git
 
 First, create a directory for your site, copy your ketchup.js (the exported model) into a "models" folder, and create another directory called "js."  In the JS folder, copy the following files from three.js into your js folder:
 
-<pre>
-<code>
+```
 threejs/examples/js/controls/OrbitControls.js
 threejs/build/three.min.js
-</code>
-</pre>
+```
 
 The secret to learning anything that you haven't a clue about is starting a template, and then tweaking.  For this aim, I found a nice example from the guys at [Treehouse](http://blog.teamtreehouse.com/), and I didn't do very much in the way of editing, because I was too eager to get it in the browser.  As long as your directory structure is ok for the js and models folder, and you change the name of the model, it should be good to go!  Also keep in mind that WebGL doesn't work in all browsers - on my linux it didn't work in Chrome, but it worked in firefox. To see the code, just go to either of my final pages below, right click --> View Source.
 
@@ -99,5 +97,3 @@ The secret to learning anything that you haven't a clue about is starting a temp
 ### What Next?
 
 When I want to learn something, it's good to start with basic goals, and then slowly add complexity.  A good "next" step would be to figure out texture mapping, and use three.js to do simple user controlled movements. Then, toward my car racing goal, I'd want to animate a background and road. That will be for a later time, however, because I want to work a little bit on something else now :)
-
-

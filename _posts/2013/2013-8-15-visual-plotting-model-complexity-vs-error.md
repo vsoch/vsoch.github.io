@@ -24,5 +24,3 @@ Error is on y, and complexity on x.  When we go past the "sweet spot" we are ov
 [![knn_error](http://www.vbmis.com/learn/wp-content/uploads/2013/08/knn_error1.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/knn_error1.png)
 
 Why of course! We model the complexity of KNN with 1/K.  This means that when K=1 (far right side), our model is going to perform very well on training data (blue line), and not so well with different test data (orange line).  We are overfitting, and likely have low error due to bias and high error due to variance.  On the other hand, when K is very large (left side of plot), we don't do well in either case.  You can imagine the extreme case when K = size of data, we just have a "majority rules" classifier that assigns the majority class to everyone.  This means that we have high error due to bias (a bad model!) and low error due to variance (because when we change our data, the predictions don't change much.)
-
-

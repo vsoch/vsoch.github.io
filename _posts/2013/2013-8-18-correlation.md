@@ -5,7 +5,7 @@ tags:
   correlation
   covariance
   standard-error
-  statistics-2
+  statistics
 ---
 
 
@@ -22,7 +22,3 @@ Again, the top of this equation is covariance(x,y), and the bottom is standard d
 ### Correlation is related to R (squared) statistic!
 
 One cool thing that I learned recently is that squared correlation is equal to the [R (squared) statistic](http://www.vbmis.com/learn/?p=623 "R (squared) Statistic") in the case of two variables, x and y!  I think that also means that we could take the square route of the R (squared) statistic and get the correlation.  This means that we could also use correlation as a metric for goodness of fit.  This works nicely in the case of our two variables, however since correlation is only defined to be between these two variables, we can't use it as this metric for multivariate regression.  In this case, Mr. R (squared) wins.
-
- 
-
-

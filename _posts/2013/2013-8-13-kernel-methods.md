@@ -40,7 +40,3 @@ I read that they typically are much faster than radial based ones.
 #### Polynomial kernel
 
 A better choice for text classification problems, commonly with the exponent = 2.
-
- 
-
-

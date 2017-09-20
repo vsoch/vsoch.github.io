@@ -2,10 +2,10 @@
 title: "Self Organizing Maps (SOM)"
 date: 2013-7-29 19:24:25
 tags:
-  machine-learning-2
+  machine-learning
   self-organizing-map
   som
-  unsupervised-2
+  unsupervised
 ---
 
 

@@ -4,7 +4,7 @@ date: 2013-8-15 21:24:12
 tags:
   standard-deviation
   standard-error
-  statistics-2
+  statistics
   variance
 ---
 
@@ -48,5 +48,3 @@ We can also use the standard error to calculate a T-statistic, or the number of 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/08/eq12.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/eq12.png)
 
 If my memory serves me correctly, a t-statistic of +/-1.96 is a good estimate of the 95% confidence interval for normalized data with mean zero.
-
-

@@ -3,7 +3,7 @@ title: "Meyer Watershed Segmentation"
 date: 2013-7-02 21:56:10
 tags:
   meyer-watershed
-  segmentation-2
+  segmentation
 ---
 
 

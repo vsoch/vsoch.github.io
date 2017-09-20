@@ -44,5 +44,3 @@ These three sets of templates come zipped up with the script, and there are 46 o
 You can easily modify the script to generate fake timecourses, and not limit to messages of 46 characters. You can also create new templates (smiley faces, custom logos), or improve the code however you see fit. Have fun!
 
 [Download Scripts](https://github.com/vsoch/BrainMessage "BrainMessage")
-
-

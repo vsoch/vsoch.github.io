@@ -78,27 +78,22 @@ I've gone over unsupervised algorithms in other posts, so here I will just list 
 
 Now it's time to have fun and use this package!  I won't give you the specifics of my data other than I'm looking at structural metrics to describe brains, and I want to use unsupervised clustering to group similar brains.  If you want to use any of my simple scripts, you can source my R Cloud gist as follows:
 
-<pre>
-<code>
+```
 source('http://tinyurl.com/vanessaR')
-</code>
-</pre>
+```
 
 First let's normalize our data, then look at k-means and hierarchical clustering for a good range of cluster values:
 
-<pre>
-<code>
+```
 # Normalize data
 x = as.matrix(normalize(area.lh))
-</code>
-</pre>
+```
 
 library('clValid')
 clusty &amp;amp;amp;amp;amp;amp;amp;amp;lt;- clValid(x, 2:20, clMethods=c("hierarchical","kmeans","pam"),validation="internal",neighbSize=50)
 summary(clusty)
 plot(clusty)
-</code>
-</pre>
+```
 
 clValid gives us each metric for each clustering, and then reports the optimal values.  I ran this for different numbers of clusters, and consistently saw 2 as being the most prevalent, except for when using k-means:
 
@@ -134,13 +129,11 @@ It certainly makes sense that we see the best metrics for two clusters.  The nu
 ## clValid Application - Stability Metrics
 
 
-<pre>
-<code>
+```
 # Now validate stability
 clusty &amp;amp;amp;amp;amp;amp;amp;amp;lt;- clValid(x, 2:6, clMethods=c("hierarchical","kmeans","pam"),validation="stability")
 optimalScores(clusty)
-</code>
-</pre>
+```
 
 
 [![conn](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn4.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn4.png)
@@ -154,8 +147,7 @@ Remember, we are validating a clustering based on how much it changes when we re
 
 What I really want is actually to evaluate clustering based on biology.  I have separate labels that describe these brains, and I would want to see that it's more likely to find similar labels in a cluster than not.  I really should do feature selection first, but I'll give this a go now just to figure out how to do it.  Note that, to simplify things, I just used two annotations to distinguish two different classes, and the annotation variable (rx.bin) is a list, which the function converts into a matrix format.
 
-<pre>
-<code>
+```
 # Validate biologically - first create two labels based on Rx
 
 rx.bin = rx.filt
@@ -166,8 +158,7 @@ rx.bin[which(rx.bin %in% c(2,3,4,5))] = 0
 annot &amp;amp;amp;amp;lt;- tapply(rownames(x.filt),rx.bin, c)
 bio &amp;amp;amp;amp;lt;- clValid(x.filt, 2:20, clMethods=c("hierarchical","kmeans","pam"),validation="biological", annotation=annot)
 optimalScores(bio)
-</code>
-</pre>
+```
 
 And as you see above, we can use the optimalScores() method instead of summary() to see the best of the bunch:
 

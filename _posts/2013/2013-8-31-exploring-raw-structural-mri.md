@@ -81,5 +81,3 @@ I'm not sure how well we could do using these features to predict disorder... it
 Just kidding, don't answer that!
 
 I will do some functional investigation, and then we will combine these two feature sets to try building a bunch of different classifiers.  Cool cool!
-
-

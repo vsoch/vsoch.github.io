@@ -4,8 +4,8 @@ date: 2013-6-13 20:11:55
 tags:
   clustering
   knn
-  machine-learning-2
-  supervised-2
+  machine-learning
+  supervised
 ---
 
 
@@ -43,5 +43,3 @@ In the case of KNN, we can't really say anything about finding a "significant" r
 ### K-Nearest Neighbors in High Dimensions
 
 Unfortunately, KNN falls prey to the curse of dimensionality.  It's ok to have lots of observations, but in the case of many features, KNN can fail in high dimensions because it becomes difficult to gather K observations close to a target point xo.
-
-

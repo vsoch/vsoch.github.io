@@ -56,5 +56,3 @@ FDR is an estimate of the percentage of false positives among the categories con
 - [Significant Signal in fMRI of an Atlantic Salmon](http://www.jsur.org/ar/jsur_ben102010.pdf) (why you need to use FDR)!
 - [Statistical Significance for Genome Wide Studies](http://www.pnas.org/content/100/16/9440.long "Statistical Significance for Genome-wide Studies")
 - [The Principaled Control of False Positives in Neuroimaging](http://scan.oxfordjournals.org/content/4/4/417.full)
-
-

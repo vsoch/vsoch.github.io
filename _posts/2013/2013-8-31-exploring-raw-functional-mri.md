@@ -63,5 +63,3 @@ In this exploration I've shown an important idea.  We can't make strong assumpt
 **7) So how can I make more "abstract" features for functional data?**
 
 This is why, for functional data, I prefer methods like [ICA](http://www.vbmis.com/learn/?p=88 "Independent Component Analysis (ICA)") that can decompose the brain into some set of N independent signals, and their timecourses, not making any pre-conceived assumptions about spatial location of voxels (other than assuming independence).  Since I'd like to transform my functional data into some set of meaningful features to combine with my structural data and predict things like disorder type (probably won't be good models) or behavioral traits (a better idea), I need to think about how I want to do this.  I don't think that I expected to learn from this simple investigation that it would be a good idea to extract features about the signal of mean timecourses, so this introduces opportunity for creative thinking.  But I kind of want to work on something else for now, so I'll save that for another time!
-
-

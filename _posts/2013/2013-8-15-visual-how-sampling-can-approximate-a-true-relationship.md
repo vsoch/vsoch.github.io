@@ -18,5 +18,3 @@ This plot is from ESL with Applications in R.  The plot on the left shows our d
 [![sample_mean](http://www.vbmis.com/learn/wp-content/uploads/2013/08/sample_mean-785x440.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/sample_mean.png)
 
 The plot on the right again shows our population "true" relationship (red), and the sample estimate (dark blue), however now we have added a bunch of estimates from many random samples (the light blue lines).  Here is the super cool part - we can see that if we take an average of these random sample lines, we come quite close to the true relationship, the red line!  I (think) this is a good example of something akin to central limit theorum applied to a learning algorithm.
-
-
