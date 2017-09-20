@@ -1,0 +1,18 @@
+machine:
+  ruby:
+    version: 2.3.1
+
+dependencies:
+  pre:
+    - rvm --ruby-version use 2.3.1
+    - bundle install
+    - rm -rf vendor
+    - bundle exec jekyll build
+
+general:
+  artifacts:
+    - "./_site"
+
+test:
+  post:
+    - python tests/circle_urls.py ./_site

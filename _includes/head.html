@@ -65,29 +65,29 @@
   <meta property="og:type" content="website">
 {% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:image" content="{{ page_image }}">
-  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:image" content="{{ page.image }}">
+  <meta property="og:description" content="{{ page.description }}">
   <meta property="og:site_name" content="{{ site.author.name }}">
-  <meta property="og:locale" content="{{ site.og_locale }}">
+  <meta property="og:locale" content="{{ site.locale }}">
 
   <!-- Social: Twitter -->
-  <meta name="twitter:card" content="{{ site.twitter_card }}">
-  <meta name="twitter:site" content="{{ site.twitter_site }}">
-  <meta name="twitter:title" content="{{ page_title }}">
-  <meta name="twitter:description" content="{{ page_description }}">
-  <meta name="twitter:image:src" content="{{ page_image }}">
+  <meta name="twitter:card" content="{{ site.twitter.card }}">
+  <meta name="twitter:site" content="{{ site.twitter.site }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image:src" content="{{ page.image }}">
 
   <!-- Social: Google+ / Schema.org  -->
-  <meta itemprop="name" content="{{ page_title }}">
-  <meta itemprop="description" content="{{ page_description }}">
-  <meta itemprop="image" content="{{ page_image }}">
+  <meta itemprop="name" content="{{ page.title }}">
+  <meta itemprop="description" content="{{ page.description }}">
+  <meta itemprop="image" content="{{ page.image }}">
 
   <!-- rel prev and next -->
   {% if paginator.previous_page %}
     <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
-  {% if paginator.next_page %}
+  {% if paginator_next_page %}
     <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
 
