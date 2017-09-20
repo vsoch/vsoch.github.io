@@ -1,0 +1,28 @@
+<style>
+#container {
+    margin: auto;
+}
+#first {
+    width: 70%;
+    float: left;
+}
+#second {
+    width: 30%;
+    float: left;
+}
+#clear {
+    clear: both;
+}
+</style>
+<section class="intro">
+  <div class="container container-white" style="margin-top:50px">
+    <div id="first">
+    <p class="lead">Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>. <br>
+    {{ site.author.bio }} -- <a href="{{ '/about' | prepend: site.baseurl }}">about me</a></p>
+    </div>
+    <div id="second">
+        <a class="no-after" href="{{ '/about' | prepend: site.baseurl }}"><img src="{{ '/assets/images/avatar.png' | prepend: site.baseurl }}" style="padding-right:5px" width="150px"/></a>    
+    </div>
+    <div id="clear"></div>
+  </div>
+</section>
