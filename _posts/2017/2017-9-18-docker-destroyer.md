@@ -1,6 +1,7 @@
 ---
 title: "The Docker Destroyer"
 date: 2017-09-19 7:24:00
+comments:true
 ---
 
 I've had to reinstall my Ubuntu operating system once, and today almost twice, because of what comes down
