@@ -7,10 +7,10 @@ profile: true
 <p style="padding-top:40px">
 </p>
 
-<h3><strong>Fun Ideas and Projects</strong></h3>
+<h3><strong>Ideas and Projects</strong></h3>
 <ul>
 
-	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a></li>
+	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
 	<li><a href="https://vsoch.github.io/salted-caramel/" target="_blank">Salted Caramel</a>: never too old for a bedtime story! :)</li>
 	<li><a href="http://vsoch.github.io/2016/pokemon-ascii/" target="_blank">Pokemon Ascii</a>: avatar generator [<a href="https://github.com/vsoch/pokemon-ascii" target="_blank">Github</a>]</li>
 	<li><a href="http://vsoch.github.io/2016/service-worker-resource-saver/" target="_blank">Service Worker Resource Saved</a> [<a href="https://vsoch.github.io/resource-saver/" target="_blank">demo</a>]</li>
