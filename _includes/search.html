@@ -1,0 +1,84 @@
+<style>
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+        margin-left:200px !important;
+        margin-right:200px !important;
+	z-index: 99999;
+        margin-top:100px !important;
+	opacity:1;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: auto;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+.close {
+	background: #666;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	left: -15px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: darkturquoise; }
+</style>
+
+<div id="openModal" class="modalDialog" style="display:none" id="search-modal; margin:auto;">
+<a href="#" id="closeModal" title="Close" class="close">x</a>
+          <form class="navbar-form navbar-right" role="search" action="/search">
+          <span class="tipue_search_left"></span>
+          <span class="tipue_search_right">
+            <input type="text" 
+                   name="q" 
+                   id="tipue_search_input" 
+                   pattern=".{3,}" 
+                   class="form-control" 
+                   placeholder="Search" 
+                   title="At least 3 characters" required>
+            </span>
+          </form>
+</div>
+
+
+  <script>
+
+  // Show search when click button
+  function searchToggle(){
+      $("#fade").show();
+      $("#openModal").show();
+  };
+
+  $("#closeModal").click(function(){
+     $("#fade").hide();
+     $("#openModal").hide();
+  })
+  </script>

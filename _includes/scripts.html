@@ -1,0 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+  $("#search-toggle").click(function(){
+     $("#fade").show();
+     $("#openModal").show();
+  });
+
+  $("#closeModal").click(function(){
+     $("#fade").hide();
+     $("#openModal").hide();
+  })
+});
+
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+       $("#fade").hide();
+       $("#openModal").hide();
+    }
+});
+</script>
+

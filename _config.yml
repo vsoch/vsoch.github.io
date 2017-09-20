@@ -41,6 +41,16 @@ asciicast:
     speed: "2.0"
     theme: "monokai"
 
+# Search settings
+tipue_search:
+  include:
+    pages: false
+#    collections: [apps]
+  exclude:
+    files: [index.html, 
+            pages/search.md, 
+            search.md]
+
 
 # Build settings
 permalink   : /:year/:title/
