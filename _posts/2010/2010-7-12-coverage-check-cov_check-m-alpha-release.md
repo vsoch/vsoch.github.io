@@ -2,7 +2,7 @@
 title: "Coverage Check (cov_check.m) Alpha Release!"
 date: 2010-7-12 15:43:05
 tags:
-  code-2
+  code
   coverage
   signal
   spm

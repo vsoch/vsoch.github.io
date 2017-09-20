@@ -2,7 +2,7 @@
 title: "Find the Longest Reversed Substring in a String"
 date: 2010-10-10 20:58:30
 tags:
-  code-2
+  code
   grelin
   matlab
   puzzle
@@ -15,9 +15,8 @@ I basically did it by identifying all the possible centers in the string (indica
 
 The string given for the challenge was:
 
-<pre>
-<code>
-'FourscoreandsevenyearsagoourfaathersbroughtforthonthiscontainentanewnationconceivedinzLibertyandded
+```
+FourscoreandsevenyearsagoourfaathersbroughtforthonthiscontainentanewnationconceivedinzLibertyandded
 icatedtothepropositionthatallmenarecreatedequalNowweareengagedinagreahtcivilwartestingwhetherthatnapti
 onoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehave
 cometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliv
@@ -29,13 +28,11 @@ onoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeust
 deadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighly
 resolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatg
 overnmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth'
-</code>
-</pre>
+```
 
 and my scripty-doo got it right on the first try! :O)
 
-<pre>
-<code>
+```
 function reverse_substring(stringy)
 
 string_length = length(stringy);
@@ -78,6 +75,4 @@ end
 longest
 
 end
-</code>
-</pre>
-
+```

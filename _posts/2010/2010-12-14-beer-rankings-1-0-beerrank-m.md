@@ -3,7 +3,7 @@ title: "Beer Rankings 1.0 (beerrank.m)"
 date: 2010-12-14 15:28:52
 tags:
   beer
-  code-2
+  code
   holiday
   matlab
 ---

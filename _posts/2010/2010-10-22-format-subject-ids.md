@@ -2,7 +2,7 @@
 title: "Format Subject IDs"
 date: 2010-10-22 10:28:09
 tags:
-  code-2
+  code
   matlab
   tool
 ---

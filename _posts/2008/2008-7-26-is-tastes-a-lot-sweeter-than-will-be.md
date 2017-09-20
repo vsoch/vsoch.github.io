@@ -4,8 +4,8 @@ date: 2008-7-26 18:18:06
 tags:
   life
   marriage
-  runs-2
-  thinking-2
+  runs
+  thinking
 ---
 
 

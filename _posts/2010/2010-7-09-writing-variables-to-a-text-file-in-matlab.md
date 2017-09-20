@@ -2,7 +2,7 @@
 title: "Writing Variables to a Text File in MATLAB"
 date: 2010-7-09 12:03:46
 tags:
-  code-2
+  code
   matlab
   text-file
   variables

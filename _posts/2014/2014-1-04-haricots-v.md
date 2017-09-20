@@ -4,7 +4,7 @@ date: 2014-1-04 00:07:49
 tags:
   food
   haricots-v
-  poetry-2
+  poetry
 ---
 
 
@@ -15,6 +15,6 @@ A moment of awareness, overwhelming for a small pea
  Many miss you, your gentle nature they fail to see.  
  But I’ll never miss you, you are special to me, my Haricots V.
 
-![](http://www.vbmis.com/learn/wp-content/uploads/2013/12/HaricotsV.gif)
+![](/assets/images/posts/{{ page.slug }}/HaricotsV.gif)
 
 

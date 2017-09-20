@@ -2,7 +2,7 @@
 title: "Madlib Python Game!"
 date: 2010-12-20 12:21:03
 tags:
-  code-2
+  code
   game
   madlib
   python

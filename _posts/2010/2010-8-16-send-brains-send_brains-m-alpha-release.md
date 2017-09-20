@@ -3,7 +3,7 @@ title: '"Send Brains" (send_brains.m) Alpha Release!'
 date: 2010-8-16 14:28:50
 tags:
   brain-images
-  code-2
+  code
   software
   spm
 ---

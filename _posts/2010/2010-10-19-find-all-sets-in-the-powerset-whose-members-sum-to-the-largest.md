@@ -219,5 +219,3 @@ end
 and here is a snapshot of finding the answer!
 
 [![](http://www.vsoch.com/blog/wp-content/uploads/2010/10/powerset_output-300x191.png "powerset_output")](http://www.vsoch.com/blog/wp-content/uploads/2010/10/powerset_output.png)
-
-

@@ -2,7 +2,7 @@
 title: "A poem from last year"
 date: 2008-1-25 09:03:08
 tags:
-  poetry-2
+  poetry
   spanish
 ---
 

@@ -4,20 +4,20 @@ date: 2014-9-23 00:09:07
 tags:
   bmi
   graduate-school
-  thinking-2
+  thinking
 ---
 
 
 I’m finishing up the primary research for my PhD, and as I start to go through my list of “fun projects” to try, I am terribly aware of the big picture.  Part of growing up (as a researcher) is not just doing analyses for fun, but moving toward doing work that has clinical applicability.  It also seems that the traditional role of the academic – as a PI at a large research university – is drastically changing.  A PI is less of a research scientist, and more of a manager with skills in acquiring grants to fund the work of the lab, and acting as a spokesperson for those that provide the funding.  A PI who can foster relationships with private companies that (actually) have the infrastructure to create meaningful medical applications or databsaes for mining (eg, Apple, Google) is a successful one.  A PI who still has his or her nose in some small local data is likely not going to survive.  The training that I am getting in Biomedical Informatics used to be to make an academic – a professor, a leader of a lab, and someone who is invested in the research.  The training that I am getting is moreso to produce a expert in all things data analysis to either:
 
-1. Start / lead a company that will do big, great things
-2. Be employed at a company to do big, great things
-3. Become a PI to foster a relationship with said private entities
+<ol class="custom-counter">
+<li>Start / lead a company that will do big, great things</li>
+<li>Be employed at a company to do big, great things</li>
+<li>Become a PI to foster a relationship with said private entities</li>
+</ol>
 
 I think all of these options are great.  But I still have about two years left.  And as I finish up this current work mapping genes to brain to disorder, I’m haunted by the question of **1)** my ability to truly demonstrate clinical applicability in the short scope of graduate school, and **2)** what I should work on next that could be useful, and **3)** if any work that can be done in the scope of a graduate school career can ever really be as meaningful as I’d want it to be (in cases where it does happen, maybe it is just luck?)
 
-
-# 
 
 
 # What am I supposed to be doing?
@@ -32,5 +32,4 @@ So – what to do? What am I supposed to be doing?  To step back, maybe as a gr
 # A Plan of Action
 
 The best thing to do is probably to finish up my thesis work, and continue reading everything, looking for data in unknown places, and thinking about gaps in methods and technology that would be fun to work on.  I was terrible at publishing before graduate school, but I’m getting better.  When I was 21 there wasn’t a computational bone in my body, and now at 28 I have quite a few.  Before graduate school (but when I knew that I wanted to pursue a PhD) I imagined that my job was to join a lab, and do the bidding / vision of the PI, and then graduate and hope that someone would need the skill set associated with that bidding.  I’ve now realized that my job is to be an independent, inspiring, and passionate data scientist.  I am responsible for my own learning, for my own collaborations, and I have to be able to develop a vision and (sometimes single handedly) bring it to life. In fact, it is frustrating to have to rely on someone higher than you to move forward, and that should be minimized.  It would be nice to have structured and concerned guidance and leadership, but I’ve realized over the years that no one will ever be concerned enough with my development or success to fit that role.  It’s actually not fair to expect that of a person, given the change of the PI from data scientist to manager and link to private industry.  I want to be the best, the greatest, at all things data analysis and visualization.  I’m convinced that I can be.  So I’ll keep working on that skill set for now, even if the “big picture” project or research aim is not yet clear.
-
 

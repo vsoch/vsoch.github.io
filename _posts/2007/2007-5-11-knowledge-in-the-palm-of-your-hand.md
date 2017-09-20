@@ -2,7 +2,7 @@
 title: "Knowledge in the Palm of Your Hand"
 date: 2007-5-11 15:07:38
 tags:
-  books-2
+  books
   knowledge
   library
 ---

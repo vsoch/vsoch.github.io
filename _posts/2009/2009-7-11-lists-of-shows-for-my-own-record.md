@@ -2,7 +2,7 @@
 title: "Lists of Shows, for my own record"
 date: 2009-7-11 12:30:42
 tags:
-  lists-2
+  lists
   television
   tv
   tv-shows

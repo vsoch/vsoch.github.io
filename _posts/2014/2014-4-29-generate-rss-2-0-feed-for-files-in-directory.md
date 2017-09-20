@@ -2,7 +2,7 @@
 title: "Generate RSS 2.0 Feed for Files in Directory"
 date: 2014-4-29 21:57:39
 tags:
-  code-2
+  code
   feed
   php
   rss

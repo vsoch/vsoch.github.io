@@ -2,7 +2,7 @@
 title: "Find the smallest prime greater than an input number"
 date: 2010-10-11 20:01:25
 tags:
-  code-2
+  code
   grelin
   matlab
   puzzle

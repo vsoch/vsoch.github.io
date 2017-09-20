@@ -2,7 +2,7 @@
 title: "Loading Dynamic Variables in a Static Workspace in MATLAB"
 date: 2010-11-27 11:31:14
 tags:
-  code-2
+  code
   matlab
   static
   variables

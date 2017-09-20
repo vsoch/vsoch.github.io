@@ -79,5 +79,3 @@ This script works in the same basic manner as rem_email.m, except that it is har
  various LOG.txt files: Are output logs and error logs of reminder emails and texts sent. To be updated upon each script run.
 
 These are new scripts, of course, and should be checked regularly for successful runs, and in the case of error, troubleshooted! In the long run I am hoping these will provide an easy and reliable toolset for sending reminder emails and text messages to participants, and doing away with missed appointments!
-
-

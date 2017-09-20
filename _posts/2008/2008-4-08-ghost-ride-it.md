@@ -3,7 +3,7 @@ title: "Ghost Ride it!"
 date: 2008-4-08 22:37:45
 tags:
   duke
-  media-2
+  media
   video
 ---
 

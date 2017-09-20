@@ -4,7 +4,7 @@ date: 2008-6-16 01:09:42
 tags:
   friendship
   happiness
-  thinking-2
+  thinking
 ---
 
 

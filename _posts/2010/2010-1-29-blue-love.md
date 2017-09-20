@@ -2,7 +2,7 @@
 title: "Blue Love"
 date: 2010-1-29 10:51:05
 tags:
-  poetry-2
+  poetry
 ---
 
 

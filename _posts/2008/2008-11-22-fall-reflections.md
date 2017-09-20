@@ -7,7 +7,7 @@ tags:
   introvert
   milestone
   relationships
-  thinking-2
+  thinking
 ---
 
 

@@ -4,7 +4,7 @@ date: 2010-9-11 13:46:48
 tags:
   bash
   carriage-return
-  code-2
+  code
   tr
 ---
 

@@ -5,7 +5,7 @@ tags:
   contrast
   expectation
   experience
-  thinking-2
+  thinking
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Persimmony Freckles"
 date: 2010-2-03 14:12:20
 tags:
-  poetry-2
+  poetry
 ---
 
 

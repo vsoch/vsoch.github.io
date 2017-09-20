@@ -3,7 +3,7 @@ title: "My Gum Chewing Algorithm :P"
 date: 2010-11-27 11:50:28
 tags:
   algorithm
-  code-2
+  code
   fun
   gum
 ---

@@ -3,8 +3,8 @@ title: "Life States"
 date: 2009-4-24 12:17:25
 tags:
   life
-  lists-2
-  thinking-2
+  lists
+  thinking
 ---
 
 

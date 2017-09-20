@@ -2,7 +2,7 @@
 title: "Sharing My Writing Process"
 date: 2008-8-02 17:29:08
 tags:
-  lists-2
+  lists
   organization
   papers
   steps

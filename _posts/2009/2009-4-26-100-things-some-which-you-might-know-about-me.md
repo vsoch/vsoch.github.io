@@ -2,7 +2,7 @@
 title: "100 Things, some which you might know about me :)"
 date: 2009-4-26 14:29:31
 tags:
-  lists-2
+  lists
   me
 ---
 

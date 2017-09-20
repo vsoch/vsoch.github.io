@@ -3,7 +3,7 @@ title: "Basic awk to tweak data files!"
 date: 2014-9-18 00:08:36
 tags:
   awk
-  code-2
+  code
   script
   vcftools
 ---
