@@ -12,10 +12,11 @@ Well, the scenario (both times) has looked something like this:
 I'm doing something with Docker. In this case, I was trying to reproduce an error on CircleCI for a build running in a Centos 7 container. I very naively followed what they were doing, and ran a centos 7 container:
 
 ```
-docker run --privileged -d -ti -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup -v $PWD/singularity:/build:rw centos:7 /usr/sbin/init
+docker run --privileged -d -ti -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup \
+           -v $PWD/singularity:/build:rw centos:7 /usr/sbin/init
 ```
 
-The command I was investigating was running test for Singularity on Travis CI, and I was trying to reproduce their build environment because I didn't see the ssh option anymore.
+I always remind myself to be careful with that "privileged" tag, and then promptly forget. The command I was investigating was running test for Singularity on Travis CI, and I was trying to reproduce their build environment because I didn't see the ssh option anymore.
 
 >> My computer freaks out
 
