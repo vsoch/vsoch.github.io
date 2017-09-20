@@ -2,7 +2,7 @@
 title: "Sudo, make me a sandwich!"
 date: 2011-1-06 09:24:48
 tags:
-  
+  - comics
 ---
 
 
@@ -12,8 +12,7 @@ I love [this cartoon](http://xkcd.com/149/) from xkcd
 
 As I dream up a new design for this, how about some sandwich python?
 
-<pre>
-<code>
+```
 #!/usr/bin/python
 
 class sandwich:
@@ -43,7 +42,4 @@ mysandwich.makeSandwich('honey wheat',mysandwich.sandwich['spread'],'blisswich')
 mysandwich.nomnom()
 if __name__ == '__main__':
 main()
-</code>
-</pre>
-
-
+```

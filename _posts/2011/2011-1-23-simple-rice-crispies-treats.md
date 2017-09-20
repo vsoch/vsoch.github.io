@@ -2,7 +2,7 @@
 title: "Simple Rice Crispies Treats"
 date: 2011-1-23 12:14:57
 tags:
-  
+  - baking
 ---
 
 

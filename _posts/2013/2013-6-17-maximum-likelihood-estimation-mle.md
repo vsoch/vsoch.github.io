@@ -4,7 +4,7 @@ date: 2013-6-17 21:30:00
 tags:
   maximum-likelihood
   mle
-  supervised-2
+  supervised
 ---
 
 

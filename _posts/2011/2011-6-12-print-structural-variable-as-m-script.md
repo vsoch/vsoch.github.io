@@ -2,7 +2,7 @@
 title: "Print Structural Variable as M Script"
 date: 2011-6-12 17:01:20
 tags:
-  code-2
+  code
   matlab
   spm
   structure

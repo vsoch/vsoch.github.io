@@ -2,7 +2,7 @@
 title: "Bootstrapping"
 date: 2013-7-08 21:05:57
 tags:
-  
+  statistics
 ---
 
 

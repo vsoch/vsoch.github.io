@@ -5,8 +5,8 @@ tags:
   functional-margin
   geometric-margin
   kernel
-  machine-learning-2
-  supervised-2
+  machine-learning
+  supervised
   svm
 ---
 

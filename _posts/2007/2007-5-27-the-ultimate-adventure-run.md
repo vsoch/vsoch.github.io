@@ -2,8 +2,8 @@
 title: "The Ultimate Adventure Run!"
 date: 2007-5-27 10:34:59
 tags:
-  adventure-2
-  runs-2
+  adventure
+  runs
 ---
 
 

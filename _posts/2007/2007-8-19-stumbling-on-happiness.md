@@ -2,7 +2,7 @@
 title: "Stumbling on Happiness"
 date: 2007-8-19 11:30:52
 tags:
-  books-2
+  books
   happiness
   wisdom
 ---

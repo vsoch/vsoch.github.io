@@ -2,7 +2,7 @@
 title: "A Collection of Observations from this week..."
 date: 2010-6-03 15:15:39
 tags:
-  adventure-2
+  adventure
   dell
   flies
   found

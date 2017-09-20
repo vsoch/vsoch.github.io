@@ -2,7 +2,9 @@
 title: "Generalized Linear Models (GLM)"
 date: 2013-6-26 19:58:11
 tags:
-  
+  regression
+  linear-models
+  glm
 ---
 
 

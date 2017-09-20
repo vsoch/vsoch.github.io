@@ -3,7 +3,7 @@ title: "Region Growing"
 date: 2013-6-30 18:10:04
 tags:
   region-growing
-  segmentation-2
+  segmentation
 ---
 
 

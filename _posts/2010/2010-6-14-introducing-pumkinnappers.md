@@ -2,7 +2,7 @@
 title: "Introducing, PumkinNappers!"
 date: 2010-6-14 15:34:57
 tags:
-  adventure-2
+  adventure
   exploration
   gps
   pumpkin

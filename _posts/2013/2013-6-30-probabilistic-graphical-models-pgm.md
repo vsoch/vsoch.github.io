@@ -6,7 +6,7 @@ tags:
   graphs
   networks
   pgm
-  statistics-2
+  statistics
 ---
 
 

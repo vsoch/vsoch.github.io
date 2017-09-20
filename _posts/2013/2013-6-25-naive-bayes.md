@@ -3,10 +3,10 @@ title: "Naive Bayes"
 date: 2013-6-25 14:56:40
 tags:
   generative-learning
-  machine-learning-2
+  machine-learning
   naive-bayes
   probabilistic
-  supervised-2
+  supervised
 ---
 
 

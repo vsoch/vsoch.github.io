@@ -1,8 +1,6 @@
 ---
 title: "MRlog to create text log of nifti brain images"
 date: 2011-9-23 15:40:11
-tags:
-  
 ---
 
 

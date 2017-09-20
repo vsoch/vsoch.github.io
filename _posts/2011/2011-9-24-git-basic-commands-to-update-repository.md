@@ -2,7 +2,7 @@
 title: "GIT Basic Commands to Update Repository"
 date: 2011-9-24 19:34:51
 tags:
-  code-2
+  code
   documentation
   git
   github

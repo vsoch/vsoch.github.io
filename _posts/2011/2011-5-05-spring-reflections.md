@@ -8,7 +8,7 @@ tags:
   motivation
   opportunity-cost
   past
-  thinking-2
+  thinking
 ---
 
 

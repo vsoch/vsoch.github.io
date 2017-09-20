@@ -2,7 +2,7 @@
 title: "Optimization Functions"
 date: 2013-8-14 19:14:04
 tags:
-  
+  regression  
 ---
 
 

@@ -3,7 +3,7 @@ title: "Median Filtering"
 date: 2013-7-02 21:28:59
 tags:
   filter
-  filtering-2
+  filtering
   median-filter
   noise
   salt-and-pepper-noise

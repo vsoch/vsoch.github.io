@@ -2,11 +2,11 @@
 title: "I Am Charlotte Simmons by Tom Wolfe"
 date: 2007-5-27 10:34:20
 tags:
-  books-2
+  books
   duke
   individuality
   introspection
-  thinking-2
+  thinking
 ---
 
 

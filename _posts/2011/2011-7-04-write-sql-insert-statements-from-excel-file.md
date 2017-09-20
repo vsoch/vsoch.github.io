@@ -2,7 +2,7 @@
 title: "Write SQL insert statements from excel file"
 date: 2011-7-04 14:16:00
 tags:
-  code-2
+  code
   excel
   matlab
   sql

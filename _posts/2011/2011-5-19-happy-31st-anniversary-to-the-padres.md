@@ -1,8 +1,6 @@
 ---
 title: "Happy 31st Anniversary to the Padres!"
 date: 2011-5-19 10:52:48
-tags:
-  
 ---
 
 

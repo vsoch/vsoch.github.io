@@ -2,7 +2,7 @@
 title: "Sudomance"
 date: 2011-1-16 16:31:49
 tags:
-  
+  - cartoon
 ---
 
 

@@ -2,9 +2,9 @@
 title: "Non-Negative Matrix Factorization"
 date: 2013-7-24 19:13:27
 tags:
-  machine-learning-2
+  machine-learning
   non-negative-matrix-factorization
-  unsupervised-2
+  unsupervised
 ---
 
 

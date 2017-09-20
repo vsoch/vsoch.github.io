@@ -3,10 +3,10 @@ title: "Logistic Regression"
 date: 2013-6-20 17:26:35
 tags:
   logistic-regression
-  machine-learning-2
+  machine-learning
   newtons-method
   perceptron
-  supervised-2
+  supervised
 ---
 
 

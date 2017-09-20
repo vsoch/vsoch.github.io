@@ -2,7 +2,7 @@
 title: "Standard Errors and Confidence Intervals"
 date: 2013-7-08 17:13:10
 tags:
-  
+  statistics
 ---
 
 

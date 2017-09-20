@@ -2,7 +2,6 @@
 title: "Modeling Biomedical Systems (BMI 210)"
 date: 2013-6-14 17:36:44
 tags:
-  bmi210
   controlled-terminology
   decision-support
   knowledge-representation

@@ -3,11 +3,11 @@ title: "Neuroanatomy of Autism"
 date: 2013-6-18 21:03:09
 tags:
   amygdala
-  autism-2
+  autism
   brain-size
   caudate
-  comorbidity-2
-  development-2
+  comorbidity
+  development
   gray-matter
   language
   morphometry

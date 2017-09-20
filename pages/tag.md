@@ -31,7 +31,7 @@ permalink: /tag/
         </div>
     {% endfor %}
     </div>
-    <div style='margin-top:20px' style="position: absolute; right:0px; top:100px;">
+    <div style='margin-top:20px' style="position: absolute; right:5px; top:100px;">
     {% for tag in tags %}
         <p style="background-color:#F7F7F7;">
             <a href="#block-{{ tag }}" style="font-weight:600; text-decoration:none;">
@@ -39,7 +39,5 @@ permalink: /tag/
             </a>
         </p>
     {% endfor %}
-    </div>
-
     </div>
 </div>

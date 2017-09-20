@@ -3,7 +3,7 @@ title: "Convolution"
 date: 2013-7-02 21:08:30
 tags:
   convolution
-  filtering-2
+  filtering
   fspectial
 ---
 

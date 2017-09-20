@@ -3,7 +3,7 @@ title: "Analysis of Affymetrix .CEL Files"
 date: 2014-3-17 23:01:53
 tags:
   affymetrix
-  genetics-2
+  genetics
   microarray-expression
 ---
 

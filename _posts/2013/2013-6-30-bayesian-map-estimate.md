@@ -3,7 +3,7 @@ title: "Bayesian MAP Estimate"
 date: 2013-6-30 16:39:33
 tags:
   bayesian
-  machine-learning-2
+  machine-learning
   map
   map-estimate
   regularization

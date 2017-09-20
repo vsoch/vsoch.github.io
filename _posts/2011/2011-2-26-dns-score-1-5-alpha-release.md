@@ -2,7 +2,7 @@
 title: "DNS Score 1.5 Alpha Release"
 date: 2011-2-26 17:02:51
 tags:
-  
+  - application
 ---
 
 
