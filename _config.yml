@@ -7,6 +7,7 @@ aboutPage: true
 highlighter:      rouge
 
 paginate: 20
+paginate_path: "page:num"
 baseurl: /
 domain_name: 'vsoch.github.io'
 google_analytics: 'UA-67197905-1'
