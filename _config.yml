@@ -57,12 +57,10 @@ author:
   job      : Software Engineer
   bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
   thumb    : /images/author.jpg
-  email    : vsochat@gmail.com
   url      : https://vsoch.github.io
   github   : http://github.com/vsoch
   twitter  : http://twitter.com/vsoch
   facebook : http://facebook.com/vsochat
-  linkedin : https://www.linkedin.com/in/vsochat
 
 # social settings
 og_locale: "pt_BR"
