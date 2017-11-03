@@ -16,7 +16,7 @@ sudo singularity build labels.simg Singularity.labels
 And now we can inspect the container to see the labels:
 
 ```
-singularity inspect test 
+singularity inspect labels.simg 
 {
     "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
     "org.label-schema.usage.singularity.deffile": "Singularity.labels",
