@@ -10,6 +10,7 @@ profile: true
 <h3><strong>Ideas and Projects</strong></h3>
 <ul>
 
+	<li><a href="https://expfactory.github.io/expfactory" target="_blank">The Experiment Factory</a>: reproducible experiment containers <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a></li>
 	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
 	<li><a href="https://vsoch.github.io/salted-caramel/" target="_blank">Salted Caramel</a>: never too old for a bedtime story! :)</li>
 	<li><a href="http://vsoch.github.io/2016/pokemon-ascii/" target="_blank">Pokemon Ascii</a>: avatar generator [<a href="https://github.com/vsoch/pokemon-ascii" target="_blank">Github</a>]</li>
@@ -40,9 +41,10 @@ profile: true
 <h3><strong>Containers</strong></h3>
 <ul>
 
+	<li><a href="https://containers-ftw.github.io/SCI-F/" target="_blank">SCI-F</a>The Standard Container Integration Format.</li>
 	<li><a href="https://containers-ftw.github.io/apps" target="_blank">Standard Container Integration Format (SCIF)</a>: (internally) modular apps for containers<a href="https://containers-ftw.github.io/apps" target="_blank">[software]</a></li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank">[software]</a></li>
-	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank">[software]</a></li>
+	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank">[software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
 	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank">[software]</a></li>
 </ul>
 &nbsp;
@@ -50,7 +52,7 @@ profile: true
 
 <h3><strong>Research and Academic</strong></h3>
 <ul>
-	<li><a href="https://expfactory.github.io" target="_blank">The Experiment Factory</a>: standardizing deployment of behavioral experiments <a href="http://www.expfactory.org" target="_blank">[expfactory.org]</a></li>
+	<li><a href="https://expfactory.github.io" target="_blank">The Experiment Factory (Legacy)</a>: standardizing deployment of behavioral experiments <a href="http://www.expfactory.org" target="_blank">[expfactory.org]</a></li>
 	<li><a href="http://www.neuropowertools.org/" target="_blank">Neuropower Tools</a>: for calculating power / sample size.</li>
         <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank">[details]</a></li>
 	<li><a href="https://github.com/vsoch/image-comparison-thresholding" target="_blank">Confusion</a>: optimal classification of fMRI contrast images [<a href="http://journal.frontiersin.org/article/10.3389/fnins.2015.00418/full" target="_blank">cite</a>]</li>
