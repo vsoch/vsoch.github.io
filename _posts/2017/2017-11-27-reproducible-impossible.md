@@ -1,6 +1,6 @@
 ---
 title: "Reproducibie Impossible"
-date: 2017-28-19 8:45:00
+date: 2017-11-28 8:45:00
 ---
 
 Is reproducibility possible? This effort to "freeze everything so we can do it again" exactly the same mirrors the way that science is practiced, and not the natural world. Let me explain. Let's start with asking how we understand data.
