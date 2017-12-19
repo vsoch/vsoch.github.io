@@ -38,7 +38,7 @@ defaults:
 asciicast:
     cols: "115"
     rows: "25"
-    speed: "2.0"
+    speed: "3.0"
     theme: "monokai"
 
 # Search settings
