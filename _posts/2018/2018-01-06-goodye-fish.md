@@ -22,7 +22,7 @@ For love of a Fish <br>
 Oceans so deep, <br>
 beautiful sleep; <br> 
 dreams, hope, trust<br>
-gone as textual dust<br>
+gone textual dust<br>
 
 Lord give me new strength <br>
 To live this again.
