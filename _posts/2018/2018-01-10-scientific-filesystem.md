@@ -24,6 +24,8 @@ Here we show that interaction with a scientific filesystem is the same for a Doc
  - [Really Quick Start](https://vsoch.github.io/scif/tutorial-really-quick-start)
  - [Contribute](https://www.github.com/vsoch/scif) to the specification, the client shown, or the documentation, and please add your name to the specification authors! The response to reviewers will be submit early March, and we want your involvement for this first publication!
 
+<br><br>
+
 # How can I help?
 I'm skiing over sunshine with happiness to be working on this, and I want *you* to be a part of it! The response to reviewers (with this update) will be submit in early March. Please contribute feedback (no matter how small!) to the [docs, spec, or the client](https://github.com/vsoch/scif) (all served from that repo) and add your name to the [specification](https://github.com/vsoch/scif/blob/master/docs/spec/spec.md). If you have *already contributed*, then please submit a pull request there and add your name! Onwards to scientific filesystem galaxies, friends!
 
