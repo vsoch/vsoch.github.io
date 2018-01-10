@@ -9,12 +9,13 @@ date: 2018-01-10 5:41:00
 
 The Scientific Filesystem (scif) is an organizational format that supports exposure of executables and metadata for discoverability. The format includes a known filesystem structure, a definition for a set of environment variables describing it, and functions for generation of the variables and interaction with the libraries, metadata, and executables located within.
 
+<br><br>
+
 # Learn More about SCIF
  - [Documentation](https://vsoch.github.io/scif/)
  - [Quick Start](https://vsoch.github.io/scif/tutorial-quick-start)
  - [Really Quick Start](https://vsoch.github.io/scif/tutorial-really-quick-start)
  - [Contribute](https://www.github.com/vsoch/scif) to the specification, the client shown, or the documentation, and please add your name to the specification authors! The response to reviewers will be submit early March, and we want your involvement for this first publication!
-
 
 [![asciicast](https://asciinema.org/a/156490.png)](https://asciinema.org/a/156490?speed=2)
 
