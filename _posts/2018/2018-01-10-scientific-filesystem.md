@@ -19,10 +19,10 @@ Here we show that interaction with a scientific filesystem is the same for a Doc
 <br><br>
 
 # Learn More about SCIF
- - [Documentation](https://vsoch.github.io/scif/)
- - [Quick Start](https://vsoch.github.io/scif/tutorial-quick-start)
- - [Really Quick Start](https://vsoch.github.io/scif/tutorial-really-quick-start)
- - [Contribute](https://www.github.com/vsoch/scif) to the specification, the client shown, or the documentation, and please add your name to the specification authors! The response to reviewers will be submit early March, and we want your involvement for this first publication!
+ - [Documentation](https://sci-f.github.io/)
+ - [Quick Start](https://sci-f.github.io/tutorial-quick-start)
+ - [Really Quick Start](https://sci-f.github.io/tutorial-really-quick-start)
+ - Contribute to the [client](https://www.github.com/vsoch/scif), to the [docs or specification](https://sci-f.github.io), and please add your name to the specification authors! The response to reviewers will be submit early March, and we want your involvement for this first publication!
 
 <br><br>
 
