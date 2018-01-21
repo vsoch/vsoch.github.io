@@ -10,6 +10,7 @@ profile: true
 <h3><strong>Ideas and Projects</strong></h3>
 <ul>
 
+	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata <a href="https://github.com/vsoch/scif" target="_blank">[client]</a></li>
 	<li><a href="https://expfactory.github.io/expfactory" target="_blank">The Experiment Factory</a>: reproducible experiment containers <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a></li>
 	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
 	<li><a href="https://vsoch.github.io/salted-caramel/" target="_blank">Salted Caramel</a>: never too old for a bedtime story! :)</li>
