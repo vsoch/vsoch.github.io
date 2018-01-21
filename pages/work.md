@@ -41,9 +41,7 @@ profile: true
 
 <h3><strong>Containers</strong></h3>
 <ul>
-
-	<li><a href="https://containers-ftw.github.io/SCI-F/" target="_blank">SCI-F</a>The Standard Container Integration Format.</li>
-	<li><a href="https://containers-ftw.github.io/apps" target="_blank">Standard Container Integration Format (SCIF)</a>: (internally) modular apps for containers<a href="https://containers-ftw.github.io/apps" target="_blank">[software]</a></li>
+	<li><a href="https://singugularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank">[software]</a></li>
 	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank">[software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
 	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank">[software]</a></li>
