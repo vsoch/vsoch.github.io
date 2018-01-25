@@ -3,6 +3,41 @@ title: "Titanium Dreams"
 date: 2018-01-25 09:31:00
 ---
 
+# November, 2005
+
+Titanium fuérzo<br>
+es lo que tenía<br>
+cuando la tierra había ganado<br>
+mis pies le mostráron<br>
+
+Titanim alma <br>
+es la que emita<br>
+cuando su querido ha caído<br>
+su corazón me muestra<br>
+
+Titanium moralejas<br>
+son los que siento<br>
+cuando se ofréce el jugo<br>
+me conciencia me muestra<br>
+
+Titanium ojos <br>
+son los que lleva<br>
+cuando quiero cruzar el mundo<br>
+su mirada me muestra<br>
+
+Titanium pedazos <br>
+son los que me forman<br>
+y aúnque debo ser fuerte<br>
+nunca he sentido tan debil<br>
+
+Titanium titanium<br>
+salva mi esencia<br>
+llena mi cabeza<br>
+en tantas maneras<br>
+
+
+# January, 2018
+
 <a title="November 2005" href="/assets/images/posts/titanium-dreams/titanium.mp4" target="_blank">Titanium dreams</a><br>
 That's what you are <br>
 Opening seams<br>
