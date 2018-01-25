@@ -3,7 +3,7 @@ title: "Titanium Dreams"
 date: 2018-01-25 09:31:00
 ---
 
-# November, 2005
+#### November, 2005
 
 Titanium fuérzo<br>
 es lo que tenía<br>
@@ -35,12 +35,15 @@ salva mi esencia<br>
 llena mi cabeza<br>
 en tantas maneras<br>
 
+<br><br>
 
-# October, 2006
+#### October, 2006
 
  - [The Last Two](https://vsoch.github.io/2006/the-last-two/)
 
-# January, 2018
+<br><br>
+
+##### January, 2018
 
 <a title="November 2005" href="/assets/images/posts/titanium-dreams/titanium.mp4" target="_blank">Titanium dreams</a><br>
 That's what you are <br>
@@ -64,3 +67,4 @@ You were wrong<br>
     </a>
 </div>
 
+<p> Enough of that. Time to wake up!</a>
