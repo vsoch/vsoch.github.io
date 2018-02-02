@@ -8,14 +8,14 @@ date: 2018-02-02 5:41:00
 <img src="/assets/images/posts/learning-go/gophercises_jumping.gif" style="float:left" title="Gophercises.com">
 </div><br><br>
 
-Learning a new programming language is magic. Since it's such a rare occurrence I want to document and reflect a bit on what it feels like. This post is about a ridiculous thing I have in the works, "Salad Fork!"
+Learning a new programming language is magic. Since it's such a rare experience, I want to document it. This post is about a ridiculous thing I have in the works, "Salad Fork!"
 
 <br><br>
 <a target="_blank" href="https://gophercises.com">gophercises.com</a><br>
 <br><br><br><br>
 
-# What motivates someone to learn a new language?
-For anyone there is likely a huge catalyst needed to start the chemical reaction of "want to learn this thing!" The worst motivation would probably be needing to learn it because it's required for your job, because then you have added expectation. My most common catalyst is seeing repeatedly awesome things that **I must** figure out how to do too. I will immediately fall in love with any language that looks beautiful when rendered in a simple text editor (e.g., gedit is my main other than vim). Here is some goLang in gedit:
+# What motivates someone to learn?
+There is a huge catalyst needed to start the chemical reaction of "Want to learn an entire new language!" This catalyst is our underlying motivation that powers us through tricky bugs and sometimes not getting the answer right away. The worst motivation would probably be needing to learn it because it's required for your job, because then you have added expectation. My most common catalyst is seeing repeatedly awesome things that **I must** figure out how to do too. I will immediately fall in love with any language that looks beautiful when rendered in a simple text editor (e.g., gedit is my main other than vim). Here is some goLang in gedit:
 
 <img src="/assets/images/posts/learning-go/gedit.png" style="float:left" title="Gophercises.com">
 
