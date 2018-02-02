@@ -9,9 +9,7 @@ date: 2018-02-02 5:41:00
 <a target="_blank" href="https://gophercises.com">gophercises.com</a>
 </div><br><br>
 
-Learning a new programming language is magic. Since it's such a rare occurrence I want to document and reflect a bit on what it feels like. Or just skip the learning and see the ridiculous thing I have in the works, "Salad Fork!"
-
-{% include asciicast.html source='salad-fork-2-02-2018.json' title='Salad Fork' author='vsochat@stanford.edu' %}
+Learning a new programming language is magic. Since it's such a rare occurrence I want to document and reflect a bit on what it feels like. This post is about a ridiculous thing I have in the works, "Salad Fork!"
 
 # What motivates someone to learn a new language?
 For anyone there is likely a huge catalyst needed to start the chemical reaction of "want to learn this thing!" The worst motivation would probably be needing to learn it because it's required for your job, because then you have added expectation. My most common catalyst is seeing repeatedly awesome things that **I must** figure out how to do too. I will immediately fall in love with any language that looks beautiful when rendered in a simple text editor (e.g., gedit is my main other than vim). Here is some goLang in gedit:
@@ -111,7 +109,9 @@ if color != "" {
 }
 ```
 
-Hey, I think I just wrote nicer code! I'm learning stuff, woot! Using the simple algorithm of 1. Want to do something, and 2. Hack around until I figured it out, I was able to add different modules for each of fork and spoon, and a simple command line parsing of arguments (largely done by a nice package). Next, I think I'm going to make it serve a simple utensil pun API, because I've heard that is one of the strengths of the language.
+Hey, I think I just wrote nicer code! I'm learning stuff, woot! Using the simple algorithm of 1. Want to do something, and 2. Hack around until I figured it out, I was able to add different modules for each of fork and spoon, colors, and a simple command line parsing of arguments (largely done by a nice package). Next, I think I'm going to make it serve a simple utensil pun API, because I've heard that is one of the strengths of the language. Here it is!
+
+{% include asciicast.html source='salad-fork-2-02-2018.json' title='Salad Fork' author='vsochat@stanford.edu' %}
 
 ## After Day 2
 I largely still have no idea what is going on, but I'm starting to recognize patterns. The more I look at scripts with Go, the more I'm able to understand what things mean, and understand the logic of a particular design that I find. The most magical of moments (which can take anywhere from 6 months to 5 years) happens when I can just open up a text editor, start typing, and it's akin to writing this post. I can't say when I'll get there, but I'll have fun on the journey! h
