@@ -23,27 +23,32 @@ It's beautiful. I could stare that that all day. And I do :)
 
 
 # How do I learn a new programming language?
-I don't learn well from guides or tutorials, because I'm not usually interested in what they are trying to do. I only can get heavily invested when I have a very specific (typically useless) goal of making something fun. This goal determines how I start. For example, this last week one of my colleagues made a <a href="https://www.github.com/GodLoveD/salad" target="_blank">repository</a> called "salad" with nothing written in the README other than something akin to, "If your fork this repo you have a salad." It was brilliant. I had to create something silly and lovely to match it. 
+I don't learn well from guides or tutorials, because I'm not usually interested in what they are trying to do. I only can get heavily invested when I have a very specific (typically useless) goal of making something fun. This goal determines how I start. For example, this last week one of my colleagues made a <a href="https://www.github.com/GodLoveD/salad" target="_blank">repository</a> called "salad" with nothing written in the README other than something akin to, "If your fork this repo you have a salad." It was brilliant. I had to create something silly and lovely to match it. Our lesson here is:
 
-My idea? A command line generator of forks paired with puns. With this goal, I knew I needed to start with a command line client of some flavor. And here we start the journey! If you don't care about the journey, then just check out the <a href="https://www.github.com/vsoch/salad" target="_blank">work in progress [WIP}</a>. There is much more to come, and I have to figure it out as I go (ha, pun!).
+> Make something fun that you are really excited about, and make it your own.
+
+My idea was a command line generator of forks paired with puns. I could do this easily in Python, but definitely not Go. With this idea, I could scope my goal to be to produce a command line client of some flavor. And here we start the journey! If you don't care about the journey, then just check out the <a href="https://www.github.com/vsoch/salad" target="_blank">work in progress [WIP}</a>. There is much more to come, and I have to figure it out as I go (ha, pun!).
 
 ## Learning Go
-This post reflects only a few days of work, and some on an airplane drifting in and out of sleep. None of it is likely to be wisdom, and I'd bet some is just wrong. It's purpose is to reflect on my learning. I will also note that before this small project, I had done the simple things to install Go and run the hello world example, although I never delved into anything challenging because I haven't found "my motivating project."
+This post reflects only a few days of work, and some on an airplane drifting in and out of sleep. None of it is likely to be wisdom, and I'd bet some is just wrong. It's purpose is to reflect on my learning. I will also note that before this small project, I had done the simple things to install Go and run the hello world example, although I never delved into anything challenging because I had not found "my motivating project."
 
 ### Day One
-On day one of my motivating project, most of GoLang looked like Perl (or any other language that I haven't done for 10+ years), and maybe I could readily identify for-loops and if statements. The first 30 minutes or so was spent after a dinner, and browsing through other Go repositories. I finally found a simple entry point example script from <a href="https://github.com/gogits/gogs" target="_blank">gogs</a> and used that as a template. That's a good piece of wisdom,
-
+On day one of my motivating project, most of Go looked like Perl (or any other language that I haven't done for 10+ years), and maybe I could readily identify for-loops and if statements. I wasn't even used to the idea of (a declarative language?) where you have to actually declare the variables and their types **before** using them. Python just doesn't care about these things! My first 30 minutes or so of learning was passive. It was spent after a dinner browsing through other people's code. This is how I've learned not everything, but a good chunk of programming, because when you look at enough examples you start to see subtle patterns in programming design emerge. I'm not even sure all of them are easy to articulate. To start I finally found a simple entry point example script and used that as a template. And here we have a good piece of wisdom:
 
 > Use a simple example as a template to start. First customize, then extend it.
 
-From this simple method I created an (almost equivalent) entry point, but with my own functions. My first finished script, which I also created a Dockerfile for, was one executable called <a href="https://github.com/vsoch/salad/commit/8a135df2cc12192cf6094f403dd16bdd60ae9afc" target="_blank">fork.go</a>, and it included all the functions to select a fork and a pun randomly. The first version <a href="https://asciinema.org/a/159960" target="_blank">looked like this</a>.
+From this simple method I created an (almost equivalent) entry point, but with my own functions. My first finished script, which I also created a <a href="https://github.com/vsoch/salad/blob/master/Dockerfile" target="_blank">Dockerfile</a> for, was one executable called <a href="https://github.com/vsoch/salad/commit/8a135df2cc12192cf6094f403dd16bdd60ae9afc" target="_blank">fork.go</a>, and it included all the functions to select a fork and a pun randomly. The first version <a href="https://asciinema.org/a/159960" target="_blank">looked like this</a>.
 
 ### Day Two
 
 #### Including Data
-One interesting thing I learned is that package data is more challenging to implement. There is no guarantee the executable will be in the same relative spot, unlike python that maintains it's nice little structure in `site-packages`.
+One interesting thing I learned is that package data is more challenging to implement. There is no guarantee the executable will be in the same relative spot, unlike python that maintains it's nice little structure in `site-packages`. But this made me realize something:
 
-As a work around, I think there are packages that compile the data into the binary. I decided to just create the data (in my case, ascii of forks and spoons, and lists of puns) as structures included in the scripts to be compiled. This seems reasonable for most applications. If something like scientific data is used, it's likely to be something like genomic or brain imaging and would be provided by the user. If it's small enough, it's reasonable to be packaged with the binary. We only run into trouble if we need to include something huge. I bet there are other strategies like creating a predictible application cache, and downloading there on install.
+> constraints in a language or framework make you a better programmer.
+
+In truth, I had never thought about the size of the modules (e.g. data packaged with Python modules) that I added. I just added them and went on. For the first time, a simple constraint had me asking this question! I really liked that.
+
+But I still needed a solution to have even a simple data structure! As a work around, While I think there are packages that compile the data into the binary, I decided to just create the data (in my case, ascii of forks and spoons, and lists of puns) in the scripts. This seems reasonable for most applications, unless of course you have really huge data to include. For big scientific data, you can provide it as a variable path at runtime. For data that must be packaged, I could imagine creating a predictible application cache, and having an install routine to create it and download the "beeeeeg" data there.
 
 #### Package Names
 I had no idea how the scripts in any given folder related to one another, or what they compiled into. I observed that there can be any number of "go" scripts in the top level folder, and the line at the top that declares a package, if it's the one called "main," tells us that script is the executable entry point. The rest of the files must be named according to the repository name. For example, 
