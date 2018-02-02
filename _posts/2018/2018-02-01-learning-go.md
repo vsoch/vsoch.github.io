@@ -5,8 +5,8 @@ date: 2018-02-02 5:41:00
 
 
 <div>
-<img src="/assets/images/posts/learning-go/gophercises_jumping.gif" style="float:left" title="Gophercises.com">
-<a target="_blank" href="https://gophercises.com">gophercises.com</a>
+<img src="/assets/images/posts/learning-go/gophercises_jumping.gif" style="float:left" title="Gophercises.com"><br>
+<a target="_blank" href="https://gophercises.com">gophercises.com</a><br>
 </div><br><br>
 
 Learning a new programming language is magic. Since it's such a rare occurrence I want to document and reflect a bit on what it feels like. This post is about a ridiculous thing I have in the works, "Salad Fork!"
