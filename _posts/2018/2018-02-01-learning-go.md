@@ -54,6 +54,7 @@ But I still needed a solution to have even a simple data structure! As a work ar
 I had no idea how the scripts in any given folder related to one another, or what they compiled into. I observed that there can be any number of "go" scripts in the top level folder, packages tended to be flat, and the line at the top that declares a package, if it's the one called "main," tells us that script is the executable entry point. The rest of the files must be named according to the repository name. For example, 
 
 ```
+
 ./github.com/vsoch/salad
 ├── cmd
 │   ├── cmd.go
@@ -63,6 +64,7 @@ I had no idea how the scripts in any given folder related to one another, or wha
 │   └── config.go
 ├── Dockerfile
 └── salad.go
+
 ```
 
 Let's say that the above `salad.go` has the top line say `package main` - this tells us it's the entrypoint to the application. Since the repository folder is `salad` we would put all other scripts in the `salad` namespace (`package salad`). But on the other hand, if we import a subfolder, we are actually more likely creating a new package! In the above, the scripts `cmd.go`, `fork.go`, and `spoon.go` are in the `package cmd`. I (think?) that the functions that are defined in those three files are shared between them.
@@ -76,12 +78,14 @@ To install a new package you type `go get` and I would bet doing a `go install` 
 The other cool thing about this is that we can thus have **subfolders** in our repository that we add the includes that are, each in themself, akin to submodules in Python. For example:
 
 ```
+
 import (
 	"os"
 	"github.com/urfave/cli"
 	"github.com/vsoch/salad/cmd"
 	"github.com/vsoch/salad/config"
 )
+
 ```
 
 The folders "cmd" and "config" are nice organized folders that are for each of package `cmd` and `config`, and just happen to live with the package `salad` (see the file structure shown previously). In the same way that the top level folder is called `salad` and the package and main file are called salad, this is also the case with cmd and config.
@@ -90,7 +94,9 @@ The folders "cmd" and "config" are nice organized folders that are for each of p
 I was terribly sad to learn that Go doesn't like my four spaces over a single tab. When I format my data, the delimiter of choice is tab. Here is how I formatted a file:
 
 ```
+
 go fmt salad.go
+
 ```
 
 I would bet you there are editors (or more properly, IDEs) that will do this automatically for you. I'm sticking with gedit and vim, I can't stand IDEs, but that's another story! I think I can live with using tabs. 
@@ -98,11 +104,13 @@ I would bet you there are editors (or more properly, IDEs) that will do this aut
 There are some other checks that are done that, while they ensure better programming, I feel like a lot of developers will just come up with hacks to silence them. For example:
 
 ```
+
 if color != "" {
 	if val, ok := colors[color]; ok {
 		return colors[color]
 	}
 }
+
 ```
 
 I was OK with this. I was checking if an argument was an empty string, and if it wasn't, I was checking to see if it was a key in the colors map (a map is a dictionary, for all those Python users). If ok evaluates to true, then the previous ok evaluates to true, and the val is the value. Go got angry at me that I didn't use "val" always. So then I thought, "Well, then I'll use it! And I'll put it nowhere." I did this:
@@ -121,11 +129,13 @@ But then I had the (obvious) epiphany, "Why didn't I just put it nowhere to begi
 
 
 ```
+
 if color != "" {
         if _, ok := colors[color]; ok {
                 return colors[color]
         }
 }
+
 ```
 
 Hey, I think I just wrote nicer code! This is another example of why constraints are sometimes good.  
