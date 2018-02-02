@@ -23,8 +23,8 @@ There is a huge catalyst needed to start the chemical reaction of "Want to learn
 
 It's beautiful. I could stare that that all day. And I do :)
 
-<hr>
 
+<br><br>
 
 # How do I learn a new programming language?
 I don't learn well from guides or tutorials, because I'm not usually interested in what they are trying to do. I only can get heavily invested when I have a very specific (typically useless) goal of making something fun. This goal determines how I start. For example, this last week one of my colleagues made a <a href="https://www.github.com/GodLoveD/salad" target="_blank">repository</a> called "salad" with nothing written in the README other than something akin to, "If your fork this repo you have a salad." It was brilliant. I had to create something silly and lovely to match it. Our lesson here is:
