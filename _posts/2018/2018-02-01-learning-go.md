@@ -51,18 +51,27 @@ In truth, I had never thought about the size of the modules (e.g. data packaged 
 But I still needed a solution to have even a simple data structure! As a work around, While I think there are packages that compile the data into the binary, I decided to just create the data (in my case, ascii of forks and spoons, and lists of puns) in the scripts. This seems reasonable for most applications, unless of course you have really huge data to include. For big scientific data, you can provide it as a variable path at runtime. For data that must be packaged, I could imagine creating a predictible application cache, and having an install routine to create it and download the "beeeeeg" data there.
 
 #### Package Names
-I had no idea how the scripts in any given folder related to one another, or what they compiled into. I observed that there can be any number of "go" scripts in the top level folder, and the line at the top that declares a package, if it's the one called "main," tells us that script is the executable entry point. The rest of the files must be named according to the repository name. For example, 
+I had no idea how the scripts in any given folder related to one another, or what they compiled into. I observed that there can be any number of "go" scripts in the top level folder, packages tended to be flat, and the line at the top that declares a package, if it's the one called "main," tells us that script is the executable entry point. The rest of the files must be named according to the repository name. For example, 
 
 ```
- /github.com/vsoch/salad
-                   salad.go
-                   fork.go
+./github.com/vsoch/salad
+├── cmd
+│   ├── cmd.go
+│   ├── fork.go
+│   └── spoon.go
+├── config
+│   └── config.go
+├── Dockerfile
+└── salad.go
 ```
 
-Let's say that the above `salad.go` has the top line say `package main` - this tells us it's the entrypoint to the application. Since the repository folder is `salad` we would put all other scripts in the `salad` namespace (`package salad`). But on the other hand, if we import a subfolder, we are actually more likely creating a new package.
+Let's say that the above `salad.go` has the top line say `package main` - this tells us it's the entrypoint to the application. Since the repository folder is `salad` we would put all other scripts in the `salad` namespace (`package salad`). But on the other hand, if we import a subfolder, we are actually more likely creating a new package! In the above, the scripts `cmd.go`, `fork.go`, and `spoon.go` are in the `package cmd`. I (think?) that the functions that are defined in those three files are shared between them.
+
 
 #### Imports
-There are some standard imports that I see a lot (e.g., `os`,`string` and `fmt`) and the rest are assumed to be folders again installed at `$GOPATH`. To install a new package you type `go get` and I would bet doing a `go install` against a script will (along with compiling the package) download other packages that you don't have. I like how the mapping from the repository to the package name and repository is pretty seamless.
+There are some standard imports that I see a lot (e.g., `os`,`string` and `fmt`) and the rest are assumed to be folders again installed at `$GOPATH`. One thing I really like is that if I import something and don't use it, it gives me an error. How I wish Python could do this! I have to go through old scripts and spend inordinate amounts of time doing searches to see if an import appears only once (and I can remove it).
+
+To install a new package you type `go get` and I would bet doing a `go install` against a script will (along with compiling the package) download other packages that you don't have. I would bet there is a more solid install routine (akin to Python's `requirements.txt` or `setup.py` and I'll stumble on it soon. Overall, I like how the mapping from the repository to the package name and repository is pretty seamless, and how it all lives neatly organized in my `$GOPATH`.
 
 The other cool thing about this is that we can thus have **subfolders** in our repository that we add the includes that are, each in themself, akin to submodules in Python. For example:
 
@@ -75,16 +84,18 @@ import (
 )
 ```
 
-The folders "cmd" and "config" are nice organized folders that are for each of package `cmd` and `config`, and just happen to live with the package `salad`. In the same way that the top level folder is called salad and the package and main file are called salad, this is also the case with cmd and config.
+The folders "cmd" and "config" are nice organized folders that are for each of package `cmd` and `config`, and just happen to live with the package `salad` (see the file structure shown previously). In the same way that the top level folder is called `salad` and the package and main file are called salad, this is also the case with cmd and config.
 
 #### Strictness
-I was terribly sad to learn that Go doesn't like my four spaces over tab. When I format my data, the delimiter of choice is tab:
+I was terribly sad to learn that Go doesn't like my four spaces over a single tab. When I format my data, the delimiter of choice is tab. Here is how I formatted a file:
 
 ```
 go fmt salad.go
 ```
 
-I think I can live with this. There are some other checks that are done that, while they ensure better programming, I feel like a lot of developers will just come up with hacks to silence them. For example:
+I would bet you there are editors (or more properly, IDEs) that will do this automatically for you. I'm sticking with gedit and vim, I can't stand IDEs, but that's another story! I think I can live with using tabs. 
+
+There are some other checks that are done that, while they ensure better programming, I feel like a lot of developers will just come up with hacks to silence them. For example:
 
 ```
 if color != "" {
@@ -94,7 +105,7 @@ if color != "" {
 }
 ```
 
-I was OK with this, and without an error on compile I would have left it. I was checking if an argument was an empty string, and if it wasn't, I was checking to see if it was a key in the colors map (a map is a dictionary, for all those Python users). If ok evaluates to true, then ok evaluates to true, and the val is the value. Go got angry at me that I didn't use it. So then I thought "well, then I'll use it! And I'll put it nowhere." I did this:
+I was OK with this. I was checking if an argument was an empty string, and if it wasn't, I was checking to see if it was a key in the colors map (a map is a dictionary, for all those Python users). If ok evaluates to true, then the previous ok evaluates to true, and the val is the value. Go got angry at me that I didn't use "val" always. So then I thought, "Well, then I'll use it! And I'll put it nowhere." I did this:
 
 ```
 	if color != "" {
@@ -117,11 +128,13 @@ if color != "" {
 }
 ```
 
-Hey, I think I just wrote nicer code! I'm learning stuff, woot! Using the simple algorithm of 1. Want to do something, and 2. Hack around until I figured it out, I was able to add different modules for each of fork and spoon, colors, and a simple command line parsing of arguments (largely done by a nice package). Next, I think I'm going to make it serve a simple utensil pun API, because I've heard that is one of the strengths of the language. Here it is!
+Hey, I think I just wrote nicer code! This is another example of why constraints are sometimes good.  
+
+Using the simple algorithm of `1.` Wanting to do something, and `2.` Hacking around until I figure it out, I was able to add different modules for each of fork and spoon, colors, and a simple command line parsing of arguments (largely done by a nice package). Next, I think I'm going to make it serve a simple utensil pun API, because I've heard that is one of the strengths of the language. Here it is!
 
 {% include asciicast.html source='salad-fork-2-02-2018.json' title='Salad Fork' author='vsochat@stanford.edu' %}
 
 ## After Day 2
-I largely still have no idea what is going on, but I'm starting to recognize patterns. The more I look at scripts with Go, the more I'm able to understand what things mean, and understand the logic of a particular design that I find. The most magical of moments (which can take anywhere from 6 months to 5 years) happens when I can just open up a text editor, start typing, and it's akin to writing this post. I can't say when I'll get there, but I'll have fun on the journey! h
+I largely still have no idea what is going on, but I'm starting to recognize patterns. The more I look at scripts with Go, the more I'm able to understand what things mean, and understand the logic of a particular design that I find. The most magical of moments (which can take anywhere from 6 months to 5 years) happens when I can just open up a text editor, start typing, and it's akin to writing this post. I can't say when I'll get there, but I'll have fun on the journey!
 
 Time to work on other things, don't forget your Salad Fork, friends!
