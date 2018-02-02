@@ -29,7 +29,7 @@ It's beautiful. I could stare that that all day. And I do :)
 # How do I learn a new programming language?
 I don't learn well from guides or tutorials, because I'm not usually interested in what they are trying to do. I only can get heavily invested when I have a very specific (typically useless) goal of making something fun. This goal determines how I start. For example, this last week one of my colleagues made a <a href="https://www.github.com/GodLoveD/salad" target="_blank">repository</a> called "salad" with nothing written in the README other than something akin to, "If your fork this repo you have a salad." It was brilliant. I had to create something silly and lovely to match it. Our lesson here is:
 
-> Make something fun that you are really excited about, and make it your own.
+> Make something fun that you are genuinely excited about.
 
 My idea was a command line generator of forks paired with puns. I could do this easily in Python, but definitely not Go. With this idea, I could scope my goal to be to produce a command line client of some flavor. And here we start the journey! If you don't care about the journey, then just check out the <a href="https://www.github.com/vsoch/salad" target="_blank">work in progress [WIP}</a>. There is much more to come, and I have to figure it out as I go (ha, pun!).
 
