@@ -17,7 +17,7 @@ Learning a new programming language is magic. Since it's such a rare experience,
 # What motivates someone to learn?
 There is a huge catalyst needed to start the chemical reaction of "Want to learn an entire new language!" This catalyst is our underlying motivation that powers us through tricky bugs and sometimes not getting the answer right away. The worst motivation would probably be needing to learn it because it's required for your job, because then you have added expectation. My most common catalyst is seeing repeatedly awesome things that **I must** figure out how to do too. I will immediately fall in love with any language that looks beautiful when rendered in a simple text editor (e.g., gedit is my main other than vim). Here is some goLang in gedit:
 
-<img src="/assets/images/posts/learning-go/gedit.png" style="float:left" title="Gophercises.com">
+<img src="/assets/images/posts/learning-go/gedit.png" style="float:left; width:100%" title="Gophercises.com">
 
 It's beautiful. I could stare that that all day. And I do :)
 
