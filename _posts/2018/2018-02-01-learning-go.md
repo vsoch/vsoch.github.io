@@ -137,4 +137,22 @@ Using the simple algorithm of `1.` Wanting to do something, and `2.` Hacking aro
 ## After Day 2
 I largely still have no idea what is going on, but I'm starting to recognize patterns. The more I look at scripts with Go, the more I'm able to understand what things mean, and understand the logic of a particular design that I find. The most magical of moments (which can take anywhere from 6 months to 5 years) happens when I can just open up a text editor, start typing, and it's akin to writing this post. I can't say when I'll get there, but I'll have fun on the journey!
 
+Anyway, if you want to check out the most recent ridiculous thing, just use Docker.
+
+```
+
+# Random Fork Pun
+docker run vanessa/salad
+
+# Random Spoon Pun
+docker run vanessa/salad spoon
+
+# Your Wisdom Added
+docker run vanessa/salad spoon --message "All hail, the allmighty dish-washer!"
+
+# Control the color
+docker run vanessa/salad fork --color cyan
+
+```
+
 Time to work on other things, don't forget your Salad Fork, friends!
