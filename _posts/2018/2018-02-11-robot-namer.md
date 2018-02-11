@@ -13,18 +13,7 @@ Happy Birthday Padr, from me and noodles-blue <br>
 Always know that I love you!<br>
 
 
-<div id="asciinema-the-robot-namer" class="asciinema-wrapper">
-    <asciinema-player 
-        src="{{ site.baseurl }}/assets/asciicast/robot-namer-2-11-2018.json" 
-        poster="data:text/plain,The Robot Namer" 
-        title="The Robot Namer" 
-        author="vsochat@stanford.edu" 
-        cols="{{site.asciicast.cols}}"
-        rows="{{site.asciicast.rows}}" 
-        speed="2" 
-        theme="{{site.asciicast.theme}}">
-    </asciinema-player>
-</div>
+[![asciicast](https://asciinema.org/a/162228.png)](https://asciinema.org/a/162228)
 
 
 ## Docker
