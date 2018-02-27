@@ -193,7 +193,6 @@ if you are publishing software with your work, you are already winning if you us
    <li>Add a README.md to explain how to install and use your software. A cute picture or logo makes it more fun, or a science cartoon.</li>
    <li>Create a folder called "docs" in your repository, and start writing files! In your repository settings you can turn on Github pages, and it will render from this folder to `https://<username>.github.io/<reponame>`.</li>
    <li>Add the snippet from <a href="https://github.com/vsoch/vsoch.github.io/blob/master/_includes/editable.html" target="_blank">editable.html</a> to a base template page, or an individual page. Look at the <a href="https://developer.github.com/v3/issues/#create-an-issue" target="_blank">issues API</a> to see all the things that you can do!</li>
-</ol>
 
 
 Do you want help? Reach out to me, or <a href="https://twitter.com/StanfordCompute" target="_blank">StanfordCompute</a> and we will help you with your living documentation, in the name of reproducible, fun, and (beautiful) science! Document on, friends!
