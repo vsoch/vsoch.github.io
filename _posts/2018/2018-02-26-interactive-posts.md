@@ -11,7 +11,8 @@ You want to make the experience of learning about your software pleasant, but st
 contribute fixes. You want the time between someone's eyes going over a line and having a thought pop into their
 head to ask or change something, and pushing a button to do that, to be minimized. Today this is our topic for discussion.
 Let's talk about Living Documentation. If you don't want to talk about it and just want a quick template for your own living
-docs on Github pages, see the <a href="https://github.com/researchapps/living-docs" target="_blank">living docs repository</a>.
+docs on Github pages, see the <a href="https://github.com/researchapps/living-docs" target="_blank">living docs repository</a>,
+or some of the examples linked at the end of the post.
 
 ## What is documentation?
 When someone references documentation, they are ususally referring to a texty thing that is intended to help
@@ -184,6 +185,20 @@ and there is some additional styling (not shown here) that takes care of the ali
 > Anywhere that we have a header on a post page we have automatically generated permalinks, help and support links! We do this once, and we're done. All future users will be able to quickly get help or suggest a change.
 
 Notice that I chose to pass the variables for `?labels=` and `?body=` and `&title=` through the url, and these show up in the issue. I figured this out by trial and error and then looking at the Github API documentation (remember that whole thing we were talking about earlier and reading documentation?"
+
+# Examples
+Here are a few examples of how a simple code snippet added to documentation pages can make them much more user friendly.
+
+<ol class='custom-counter'>
+  <li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Global Client</a></li>
+  <li><a href="https://github.com/researchapps/living-docs" target="_blank">Living Docs</a></li>
+  <li><a href="https://sci-f.github.io/" target="_blank">The Scientific Filesystem</a></li>
+  <li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">Singularity Python</a></li>
+  <li><a href="https://expfactory.github.io/expfactory/" target="_blank">The Experiment Factory</a></li>
+  <li><a href="https://researchapps.github.io" target="_blank">Research Applications</a></li>
+</ol>
+
+<br><br>
 
 # Your Mission!
 
