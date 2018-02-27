@@ -1,6 +1,7 @@
 ---
 title: "The Robot Namer"
 date: 2018-02-11 10:33:00
+editable: question
 ---
 
 I was working on a thing, as I usually do. <br>
