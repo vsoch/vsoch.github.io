@@ -34,7 +34,7 @@ profile: true
 	<li><a href="http://vbmis.com/bmi/n2g/" target="_blank">Neuro2Gene</a>: a project with work not suitable for publication, but a nice web interface</li>
 	<li><a href="http://www.vbmis.com/bmi/project/mac/" target="_blank">theMAC</a>: Early work for a functional connectivity explorer</li>
 	<li><a href="http://vbmis.com/bmi/project/GO/">GO</a>: Genetic annotation of behavior (mapping of brain to behaviors via genes)</li>
-	<li><a href="http://vbmis.com/bmi/project/brainsilouette/" target="_blank">Silhouette</a>: An idea for comparing regional brain maps</li>
+	<li><a href="https://vsoch.github.io/brainsilouette/" target="_blank">Silhouette</a>: An idea for comparing regional brain maps</li>
 </ul>
 &nbsp;
 
@@ -91,11 +91,11 @@ profile: true
 <ul>
 	<li><a href="https://github.com/vsoch/brainart" target="_blank">make web images out of actual brain data</a></li>
 	<li><a href="http://vsoch.github.io/chris-computer" target="_blank">Chris Computer: Should have bought a PC...</a></li>
-	<li><a href="http://www.vbmis.com/bmi/project/particles/" target="_blank">Particles</a></li>
-	<li><a href="http://vbmis.com/bmi/project/soylent" target="_blank">Soylent Green</a></li>
-	<li><a href="http://www.vbmis.com/bmi/project/ketchup/" target="_blank">Ketchup</a></li>
+	<li><a href="https://vsoch.github.io/particles/" target="_blank">Particles</a></li>
+	<li><a href="https://vsoch.github.io/soylent/" target="_blank">Soylent Green</a></li>
+	<li><a href="https://vsoch.github.io/ketchup/" target="_blank">Ketchup</a></li>
 	<li><a href="http://www.vbmis.com/project/mosquito" target="_blank">Mosquito</a></li>
-	<li><a href="http://www.vbmis.com/bmi/project/snowstorm/" target="_blank">Snowstorm</a></li>
+	<li><a href="https://vsoch.github.io/snowstorm/" target="_blank">Snowstorm</a></li>
 </ul>
 <h3></h3>
 <h3><strong>Archive</strong></h3>
