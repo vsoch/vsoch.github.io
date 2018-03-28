@@ -10,8 +10,12 @@ profile: true
 <h3><strong>Ideas and Projects</strong></h3>
 <ul>
 
-	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata <a href="https://github.com/vsoch/scif" target="_blank">[client]</a></li>
-	<li><a href="https://expfactory.github.io/expfactory" target="_blank">The Experiment Factory</a>: reproducible experiment containers <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a></li>
+	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
+       <a href="https://github.com/vsoch/scif" target="_blank">[client]</a>
+       <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016105/resolver?q=SCIF&l=" target="_blank">[RRID]</a></li>
+	<li><a href="https://expfactory.github.io/expfactory" target="_blank">The Experiment Factory</a>: reproducible experiment containers 
+       <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a>
+       <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016107/resolver?q=SCR_016107&l=SCR_016107" target="_blank">[RRID]</a></li>
 	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
 	<li><a href="https://vsoch.github.io/salted-caramel/" target="_blank">Salted Caramel</a>: never too old for a bedtime story! :)</li>
 	<li><a href="http://vsoch.github.io/2016/pokemon-ascii/" target="_blank">Pokemon Ascii</a>: avatar generator [<a href="https://github.com/vsoch/pokemon-ascii" target="_blank">Github</a>]</li>
