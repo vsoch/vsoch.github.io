@@ -15,7 +15,16 @@ something I'm working on. I also want to add an element of fun. Fun is sort of
 uncommon when I look around the interwebs for implementations and examples.
 Let's start with the idea of [interview scheduling](https://en.wikipedia.org/wiki/Interval_scheduling).
 The <a href='https://github.com/vsoch/algorithms/tree/master/interval-scheduling' target="_blank">code is here</a>
- if you are interested.
+ if you are interested. Or just skip everything and run the thing with Docker:
+
+```bash
+# Random selection of N
+docker run vanessa/algorithms:interview-scheduling
+
+# Choose N to be 15 for 15 contender events
+docker run vanessa/algorithms:interview-scheduling 15
+```
+
 
 ## Interval Scheduling
 
