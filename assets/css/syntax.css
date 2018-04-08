@@ -20,7 +20,7 @@ pre.highlighter-rouge,
 }
 .highlight, .highlighter-rouge .hll { background-color: #272822; }
 .highlight, .highlighter-rouge .c { color: #75715e } /* Comment */
-.highlight, .highlighter-rouge .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight, .highlighter-rouge .err { color: #960050 } /* Error */
 .highlight, .highlighter-rouge .k { color: #66d9ef } /* Keyword */
 .highlight, .highlighter-rouge .l { color: #ae81ff } /* Literal */
 .highlight, .highlighter-rouge .n { color: #f8f8f2 } /* Name */
