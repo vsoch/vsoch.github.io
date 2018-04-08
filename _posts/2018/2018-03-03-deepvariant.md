@@ -170,7 +170,7 @@ Putting myself in the shoes of a general user, I'm just like `<O.o> -->  Â¯\_(ãƒ
 If you look at the header for the call that did work
 above, we see that this particular call was in fact using the version 2:
 
-```
+```bash
 print(response.headers)
 {
  'X-Frame-Options': 'SAMEORIGIN', 
@@ -191,7 +191,7 @@ the config with a media type of `application/vnd.docker.container.image.v1+json`
 that this is a "choose your own adventure" sort of deal. The documentation tells me about all the different formats, and
 even <a href="https://console.cloud.google.com/gcr/images/deepvariant-docker/GLOBAL/deepvariant@sha256:b872b508394fcd20c2eec02687e99902682c6f55656c0da4b19af72837fe9212/details/info" target="_blank">presents specific images</a> as conforing to one or the other, but it's no guarantee that the information I need is easy to find. Will I find a manifest for some subset of images? Maybe? If I keep trying to play around with different combinations of setting an `Accept` and/or a `Docker-Content-Digest` will I uncover the secrets? Sure, I tried that. How about the same call, but ask for the right digest:
 
-```
+```bash
 # I think the config needs to come from another call here
 print(manifest['config'])
 { 'mediaType': 'application/vnd.docker.container.image.v1+json', 
@@ -216,7 +216,7 @@ of API calls discussed above that should give me layers and then metadata) I din
 ## Singularity Pull
 Normally, Singularity has some back end code (originally a bash script, then python, and now being expoded in favor of GoLang) that can issue these requests to get layers and metadata. Given that gcr.io doesn't have the version 1 manifest, this is what it looks like when you try to pull the image using Singularity:
 
-```
+```bash
 singularity pull docker://gcr.io/deepvariant-docker/deepvariant:0.5.0
 WARNING: pull for Docker Hub is not guaranteed to produce the
 WARNING: same image on repeated pull. Use Singularity Registry
@@ -237,7 +237,7 @@ The reason is because they will need to be updated and debugging quite frequentl
 ## Pull
 We saw above that we can't used Singularity to pull, so here let's look at using sregistry to get our layers. First we will pull. Since there is no verison 1.0 of anything, we only get layers and no metadata. The client gives us this warning.
 
-```
+```bash
 sregistry pull docker://gcr.io/deepvariant-docker/deepvariant:0.5.0
 [client|docker] [database|sqlite:////home/vanessa/.singularity/sregistry.db]
 WARNING No metadata will be included.
@@ -257,7 +257,7 @@ Success! /home/vanessa/.singularity/shub/deepvariant-docker-deepvariant:0.5.0.si
 
 Here is the image file.
 
-```
+```bash
 sregistry get deepvariant-docker/deepvariant:0.5.0
 /home/vanessa/.singularity/shub/deepvariant-docker-deepvariant:0.5.0.simg
 ```
@@ -269,7 +269,7 @@ I spent quite a bit of time struggling to find this information from the various
  Let's pull the image from Docker and the Daemon will do it's magic
 that (if I spent enough time looking through their source code) I could possibly find the secret call to get the config blob.
 
-```
+```bash
 docker pull gcr.io/deepvariant-docker/deepvariant:0.5.0
 ```
 
@@ -290,7 +290,7 @@ The above is great, but it's problematic for reproducibility because we are usin
 ## Building, Buliding, Building
 To perform the build with the <a href="https://gist.github.com/vsoch/7103c9b51b67904d80291ac6c04764a0#file-singularity" target="_blank">recipe above</a>, a file called `Singularity` we can do:
 
-```
+```bash
 sudo singularity build deepvariant Singularity
 ```
 
@@ -301,7 +301,7 @@ and added another SCIF entrypoint for it (notice all the wgets). I could then gi
 ## Interaction and Discoverability
 Let's see what we get when we just run the image, pretending we haven't a clue what it does.
 
-```
+```bash
 ./deepvariant
 
 Example Usage:
@@ -324,7 +324,7 @@ Example Usage:
 
 Since I added a bunch of scientific filesystem applications, the Singularity integration of SCIF will let us list those:
 
-```
+```bash
 singularity apps deepvariant
    call_variants
    download_models
@@ -338,7 +338,7 @@ We can then follow the instructions we saw above and download data. This downloa
 and `models` in the `$PWD`, since Singularity has a pretty 
 seamless environment between host and container. We don't need to worry about mapping things like with Docker. 
 
-```
+```bash
 singularity run --app download_testdata deepvariant
 singularity run --app download_models deepvariant
 ```
@@ -353,7 +353,7 @@ NA12878_S1.chr20.10_10p1mb.bam.bai         ucsc.hg19.chr20.unittest.fasta
 test_nist.b37_chr20_100kbp_at_10mb.bed     ucsc.hg19.chr20.unittest.fasta.fai
 test_nist.b37_chr20_100kbp_at_10mb.vcf.gz  ucsc.hg19.chr20.unittest.fasta.gz
 ```
-```
+```bash
 ls models
 model.ckpt.data-00000-of-00001  model.ckpt.index  model.ckpt.meta
 ```
@@ -363,7 +363,7 @@ For this next command, since stuffs is expected in some directory called `/dv2/i
 ## Run the Thing
 At this point we have our container, we've seen how it works, and we want to run-the-thing. We finish up running with these steps:
 
-```
+```bash
 singularity run --bind input:/dv2/input/ --app make_examples deepvariant
 singularity run --bind models:/dv2/models/ --app call_variants deepvariant
 singularity run --bind input:/dv2/input/ --app postprocess_variants deepvariant
@@ -375,7 +375,7 @@ The output is an output.vcf (variant calling format) file that has all the answe
 ## What this should have been
 Okay, let's step back and pretend that things worked as they should have. Do you know how easy this could have been?! It could have looked like this:
 
-```
+```bash
 singularity pull docker://gcr.io/deepvariant-docker/deepvariant:0.5.0
 singularity run --app download_testdata deepvariant
 singularity run --app download_models deepvariant
@@ -415,7 +415,7 @@ And now we can address the interaction between the two parties above. I've been 
 ## Software Engineer
 Now let's talk about my boat, the software engineer. I am terrible as an HPC admin, and mediocre as a software engineer, but I span the two spices nicely enough to understand the challenges and needs of both. I want to be able to use the miniumum amount of "modern" resources to build something that is reproducible and runs on HPC. This was the first driver for the early conversion script of Docker to Singularity, and now the core of Singularity that makes it possible, period, for a researcher to run any Docker image, as we might have done above:
 
-```
+```bash
 singularity shell docker://ubuntu:14.04
 ```
 
@@ -433,7 +433,7 @@ In the end I had to dig into the core API (hitting issues that I couldn't figure
 ## Reproducibility
 Let's say that I'm a scientist, and I just spent my weekend figuring this out. I have this solution, and my container, and today we are having *creamy ramen* for dinner to celebrate! I would first write my build steps into a recipe. Here is the first place I could go wrong - if I rely on `sregistry` I would need to also account for the version.
 
-```
+```bash
 sregistry version
 0.0.71
 ```
