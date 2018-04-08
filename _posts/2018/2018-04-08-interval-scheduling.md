@@ -14,6 +14,8 @@ I want to put these little implementations under similar scruity that I might
 something I'm working on. I also want to add an element of fun. Fun is sort of 
 uncommon when I look around the interwebs for implementations and examples.
 Let's start with the idea of [interview scheduling](https://en.wikipedia.org/wiki/Interval_scheduling).
+The <a href='https://github.com/vsoch/algorithms/tree/master/interval-scheduling' target="_blank">code is here</a>
+ if you are interested.
 
 ## Interval Scheduling
 
@@ -383,3 +385,4 @@ we can talk about it?
  - What if the selection pool of start/end times wasn't uniformly distributed?
  - What if the selection algorithm was dependent on time?
  - What real world things do all of the above apply to?
+ - Just <a href='https://github.com/vsoch/algorithms/tree/master/interval-scheduling' target="_blank">give me code!</a>
