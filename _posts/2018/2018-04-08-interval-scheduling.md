@@ -21,8 +21,32 @@ The <a href='https://github.com/vsoch/algorithms/tree/master/interval-scheduling
 # Random selection of N
 docker run vanessa/algorithms:interval-scheduling
 
-# Choose N to be 15 for 15 contender events
-docker run vanessa/algorithms:interval-scheduling 15
+# Choose N to be 6 for 6 contender events
+docker run vanessa/algorithms:interval-scheduling 6
+------------------------------------------------------------------------------
+Generating random 6 intervals...
+
+------------------------------------------------------------------------------
+New Activity (0419:0728) purple-staircase-airing-8988
+New Activity (0048:0394) purple-nalgas-stoning-0425
+New Activity (0306:0767) conspicuous-sundae-circus-1586
+New Activity (0824:0871) boopy-milkshake-burping-3169
+New Activity (0339:0758) red-peas-cooking-4518
+New Activity (0503:0750) eccentric-animal-trick-or-treating-8623
+------------------------------------------------------------------------------
+Chooosing greedy intervals...
+------------------------------------------------------------------------------
+Step 1 added Activity (0048:0394) purple-nalgas-stoning-0425
+Step 2 added Activity (0419:0728) purple-staircase-airing-8988
+Step 3 added Activity (0824:0871) boopy-milkshake-burping-3169
+Total steps taken: 3
+------------------------------------------------------------------------------
+
+We have a final set of 3 activities!
+------------------------------------------------------------------------------
+Chosen Activity (0048:0394) purple-nalgas-stoning-0425
+Chosen Activity (0419:0728) purple-staircase-airing-8988
+Chosen Activity (0824:0871) boopy-milkshake-burping-3169
 ```
 
 
