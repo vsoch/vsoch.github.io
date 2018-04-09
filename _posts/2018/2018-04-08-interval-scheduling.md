@@ -19,10 +19,10 @@ The <a href='https://github.com/vsoch/algorithms/tree/master/interval-scheduling
 
 ```bash
 # Random selection of N
-docker run vanessa/algorithms:interview-scheduling
+docker run vanessa/algorithms:interval-scheduling
 
 # Choose N to be 15 for 15 contender events
-docker run vanessa/algorithms:interview-scheduling 15
+docker run vanessa/algorithms:interval-scheduling 15
 ```
 
 
