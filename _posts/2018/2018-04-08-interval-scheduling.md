@@ -225,7 +225,6 @@ extra verbosity than is needed. I can't help it if my programming and writing
 styles are similar :)
 
 ```python
-
 def interval_schedule(activities):
     ''' Given N activities with their start and finish times. Select the maximum 
         number of activities that can be performed by a single person, assuming 
@@ -242,12 +241,12 @@ def interval_schedule(activities):
     chosen = []
     step = 0
 
+    # Sort activities so by soonest ending
+    activities = sorted(activities, key=lambda act: act.end)    
+
     while len(activities) > 0:
 
         step+=1
-
-        # Sort activities so by soonest ending
-        activities = sorted(activities, key=lambda act: act.end)    
         
         # Choose the earliest end time, tell the user
         activity = activities.pop(0)
@@ -256,34 +255,26 @@ def interval_schedule(activities):
         # Add activity to start always, since earlier are added later
         chosen.append(activity)
         
-        # Remove other activities with start times earlier than the start
-        activities = [a for a in activities if a.start >= activity.end]
+        # Keep track of some removed metrics for the user
+        keep_removing = True
+
+        # Remove (pop) other activities with start times earlier than the start
+        while keep_removing and len(activities) > 0:
+            next = activities[0]
+            if next.start < activity.end:
+                _ = activities.pop(0)
+            else:
+                keep_removing = False
+
 
     print('Total steps taken: %s' %step)
 
-    # Sort by start time again
-    return sorted(chosen, key=lambda act: act.start)
-
+    # Return... the chosen ones!
+    return chosen
 ```
 
-Let's break this down. This part says that we are going to go through the list
-of activities until there are none left. These are "unchosen" activities, of
-course.
-
-```python
-
-while len(activities) > 0:
-
-```
-
-The keeping track of steps is just to tell the user what is going on, it's 
-not really necessary. I originally put this at the end of the loop, but realized
-it was cleaner to report the final number at the end without having to add 1 to 
-it. Instead of initializing the variable steps at 1, it was easy enough to start
-at 0 and add 1 on the first loop. I use zero indexing, but I generally count 
-starting with 1. Here is where probably most of the complexity happens because
-we bring in a sorting algorithm. We are going to sort the list of activities
-based on their end time, meaning that the soonest to end is first.
+Let's break this down. The first thing that we do is sort our activities
+based on the soonest ending:
 
 ```python
 
@@ -296,8 +287,26 @@ The "key" variable tells sorted what to sort by. Using lambda is a Python way
 (I believe requested by Lisp?) to specify a "function on the fly" that you
 intend to use once and expose of. The function above says that, for each
 activity (act) in activities, return the attribute "end" and use that as the
-key to sort. We then take without a further look (and this is why this algorithm
-is greedy) the activity that ends soonest, which is the first in the list.
+key to sort. I had originally put this inside the while loop, however this would increase
+the complexity of the algorithm to `O(n^2)` because for N points, we were
+doing a sort that required going through all N each time. I had some 
+<a href="https://github.com/vsoch/algorithms/issues/2" target="_blank">help</a> 
+to properly fix this, and the advice is so beautifully written I'll share it
+here:
+
+> The current complexity is O(n^2) because whenever we are looking for overlaps against a given task we check against all remaining tasks. By keeping track of the chronological order of when the tasks start, we can ensure overlapping tasks with the task that ends soonest always come first. This way we don't have to check all tasks for overlaps, but instead iterate until either there are no more tasks or the next task doesn't overlap (since none of the following tasks would overlap either). This reduces the runtime complexity to O(n logn) because of the required sorting steps.
+
+Boum! The next part says that we are going to go through the list of activities 
+until there are none left. These are "unchosen" activities, of course.
+
+```python
+
+while len(activities) > 0:
+
+```
+
+The logic inside the loop is simple. We pop off the first and add it to our chosen
+list (knowing that it has the earliest ending time) 
 
 ```python
 
@@ -324,27 +333,49 @@ chosen.append(activity)
 
 ```
 
-And importantly, we need to _remove_ other activities that start earlier than this recent
-addition's ending time. This will prevent overlap in our subset.
+and then we use the fact that the list is already sorted to our advantage. 
+We can remove others from the list of activities for which the start time is before the
+chosen activity end time (meaning there is overlap). This could have been written
+out in fewer lines, but I like to use variable names to more easily tell me what's going on.
 
 ```python
 
-# Remove other activities with start times earlier than the start
-activities = [a for a in activities if a.start >= activity.end]
+# Keep track of some removed metrics for the user
+keep_removing = True
+
+# Remove (pop) other activities with start times earlier than the start
+while keep_removing and len(activities) > 0:
+    next = activities[0]
+    if next.start < activity.end:
+        _ = activities.pop(0)
+    else:
+        keep_removing = False
 
 ```
 
-And the rest is flull to tell the user the total steps, and return a list
-that is again sorted based on the start time (chronological).
+We break from this second while loop when there are no longer any activities
+or keep removing is False (indicating the next activity is not overlapping).
+ As we go, we keep track of steps, and report the final number to the user:
+
 
 ```python
 
 print('Total steps taken: %s' %step)
 
-# Sort by start time again
-return sorted(chosen, key=lambda act: act.start)
-
 ```
+
+The keeping track of steps is just to tell the user what is going on, it's 
+not really necessary. I originally put this at the end of the loop, but realized
+it was cleaner to report the final number at the end without having to add 1 to 
+it. Instead of initializing the variable steps at 1, it was easy enough to start
+at 0 and add 1 on the first loop. I use zero indexing, but I generally count 
+starting with 1. Then we return the !chosen ones! to the user:
+
+```python
+# Return... the chosen ones!
+return chosen
+```
+
 
 ## RobotNamer
 And where do those names come from like `quirky-kitty-sneezing-4672` ? The 
