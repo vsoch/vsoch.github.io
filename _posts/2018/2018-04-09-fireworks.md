@@ -212,7 +212,7 @@ and adding a design character at some offset to form a circle (and close it). Th
 did slightly better at modeling something that is orby, but it still looked more like
 scrolling bubbles than any kind of firework. And when I added background colors to the random generation and a more consistent way to vary the speed, I got the following:
 
-<script src="https://asciinema.org/a/175892.js" id="asciicast-175892" data-speed="3" data-width="100%" async></script>
+<script src="https://asciinema.org/a/175892.js" id="asciicast-175892" data-speed="3" async></script>
 
 Then things got fun :)
 
