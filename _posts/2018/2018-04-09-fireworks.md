@@ -705,4 +705,5 @@ Fourth of July. You might want to take a stab at overlaying fireworks for even c
 `generate_center` to return the same context in a list of lists (a matrix). You would want to accomplish 
 this without numpy.
 
-That's all for now, have fun! Rawr!
+Overall, I continue to be astounded by what relatively simple ideas plus some programming can come up with.
+This is what makes the practice such a rewarding thing to do. That's all for now, have fun! Rawr!
