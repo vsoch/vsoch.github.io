@@ -222,8 +222,8 @@ firework designs when things got fun :)
 We needed a fireworks generating algorithm! I had two options here. I could generate
 ascii designs a priori and then modify the color (like I did with my 
 <a href="https://vsoch.github.io/2018/learning-go/" target="_blank">salad fork</a> 
-generator) easier, but less challenging) or come up with an algorithm to 
-generate them for me. I spent the entirety of an evening with <a href="https://www.github.com/tabakg" target="_blank">tabakg</a> obsessively using and testing this beautiful (and terribly documented) function:
+generator, and this is easier, but less challenging) or come up with an algorithm to 
+generate them for me. I spent the entirety of an evening with <a href="https://www.github.com/tabakg" target="_blank">tabakg</a> obsessively playing with this beautiful (and terribly documented) function:
 
 ```python
 
@@ -252,13 +252,18 @@ this possibly beats my entire graduate education.
 
 
 ### Humanizing the Algorithm
-Here is where it would have been easy to use the above, and stop there. Unfortunately
-I'm someone that has a learning requirement of huge verbosity (can you tell?). There is no way I 
-could come back to the above code the next day, let along a long time from now,
-and know what the heck is going on. So I spent most of an early morning 
+It would have been easy to use the above function, and stop there. But if someone
+stumbled on it, they wouldn't really get a sense of what is going on unless they are
+very good with math, or test it out for themself. Unfortunately
+I'm someone that has a learning requirement of huge verbosity (can you tell?), and
+I would fall into the category of seeing this equation, and not <italic>really</italic>
+understanding what is going on without opening a Python console and testing it out. 
+I wanted to make it the case that I could come back to the above code, and 
+have it remind me what's going on. So I spent most of an early morning 
 <a href="https://github.com/vsoch/algorithms/commit/24f08157ac197600e6f5529cac5851563c0568ef" target="_blank">rewriting
-the function</a> to be "future Vanessa friendly."
-
+the function</a> to be "future Vanessa friendly." The future me has deterioration of
+white matter and time, and investing the time now will mean less time trying to
+re-understand things.
 
 ```python
 
