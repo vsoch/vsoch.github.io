@@ -666,23 +666,21 @@ that I would like to again highlight.
 <strong>Favor Simplicity</strong>
 
 It's sometimes easy to get caught up in wanting to use a new technology that you are just learning about,
-or that seems to be trending. It's sometimes thought of as a more rare skill to be able to press your delete key.
-Yes, that means pruning down the code to favor simplicity, and maybe do one thing really well. This fireworks
-algorithm isn't perfect, but I found myself doing this at least twice, and I like the result better for it. 
-This general way of thinking should be applied to more things. Before jumping into the newest trend, you 
-might step back and ask yourself, "why?"
+or that seems to be trending. It's a more rare skill, whether you are a programmer or a designer, to
+remove elements to make it better. This fireworks algorithm isn't perfect, but I found myself doing 
+this at least twice, because I scratched asyncio, and more complicated overlapping designs. I like the
+result better for it. This general way of thinking should be applied to more things. Before jumping into the newest trend, you might step back and ask yourself, "Why?"
 
 <strong>Consider Humans</strong>
 
-I'm clearly not one of those developers that goes for the "one line solution." While we obviously need
-to consider runtime optimization to some extent, I am a huge proponent of documentation and commenting
-being a standard in writing programs. If you do a thing twice, write a function and explain the inputs
+I'm clearly not one of those developers that goes for the "one line solution."  
+While we obviously need to consider runtime optimization to some extent, I am a huge proponent of documentation and commenting being a standard in writing programs. If you do a thing twice, write a function and explain the inputs
 and what it does. This makes the code more likely to be used, run, and appreciated at some later date!
 
 <strong>Consider Dependencies</strong>
 
 One of the reasons it took me a long time to do simple things like combining matrices and calculations
-is because I didn't want to introduce any large dependencies beyond what is offered in standard Python 3.0.
+is because I didn't want to introduce any large dependencies beyond what is offered in standard Python 3.x.
 This means instead of using a library like numpy, I opted for the <a href="https://docs.python.org/3/library/math.html" target="_blank">math module</a>
 or operations on lists instead of traditional numpy arrays. Of course, things like this are always troubling:
 
@@ -692,6 +690,9 @@ or operations on lists instead of traditional numpy arrays. Of course, things li
 
 > Python why do you do this to me?
 
+And while I can't have confidence that the code will run on your computer natively, I can have (maybe?) a little
+more confidence that the container versions will persist slightly longer. Longer than that? Well it probably doesn't matter.
+As I've said before, I'm <a href="https://vsoch.github.io/2017/reproducible-impossible/" target="_blank">not convinced</a> that guaranteed, forever reproducibility is actually possible.
 
 <strong> Exposure of Variables</strong>
 
@@ -699,26 +700,32 @@ The decision about what variables to expose to the user is not one to be taken l
 originally exposed the `start_time` as a function variable, and this made sense given
 that fireworks were generated in the "internal recursive" way I first imagined. However, 
 once I changed the algorithm and realized that, for the purposes of this little ditty, it would
-be the case 99% of the time to have a start time at time zero, so I removed the exposure from
- command line exposure. It's one less thing for the user to be confused about.
+be the case 99% of the time to have a start time at time zero, I decided to remove the variable from
+ command line exposure. It's one less thing for the user to be confused about. If developers want
+to have at it, it's still available when calling the function.
 
 <strong>Challenge Yourself</strong>
 
-You (and by you I mean <strong>I</strong>) don't stop learning just because you have finished school. 
-I never learned much during those times anyway, in college it was all about World of Warcraft, and I loved
-graduate school but didn't take away much from attending lectures. On the other hand, I know that I learn
+You (and by you I mean <strong>I</strong>) don't stop learning just because school is finished. 
+I never learned much during those times anyway. In college it was all about World of Warcraft and learning
+about myself, and I loved graduate school but didn't take away much from attending lectures, other than
+furiously writing things down with some hope they would be useful later. On the other hand, I know that I learn
 really well by trying to do something, and stumbling around until I figure it out. This way, I can almost
 be guaranteed that if I challenge myself with interesting problems, life is going to be very rich! Or
-at least if I don't, I tend to get bored :)
+at least if I don't, I tend to get bored. I get very ornery and restless when I'm bored, I'd probably bite someone and
+then run up a mountain. Anyway, thinking about creative problems like this is one of my favorite things to do, after building
+things, and I imagine many others feel the same :)
 
 <strong>What next?</strong>
 
 If you are administrator of a cluster resource, you could use a Singularity container
-to play some customized (or random) fireworks when they log in to your resource(s) on the
-Fourth of July. You might want to take a stab at overlaying fireworks for even cooler designs
-(note that I set you up to do this! You can add a `matrix=True` to either of `generate_shape` or
-`generate_center` to return the same context in a list of lists (a matrix). You would want to accomplish 
-this without numpy.
+to play some customized (or random) fireworks when your users log in to your resource(s) on the
+Fourth of July. If you like to play with algorithms, you might want to take a stab at 
+overlaying fireworks for even cooler designs (and if you poke through my various commits, there is a good
+start of this with the bug I mentioned). As the code is now, I set you up to do this! 
+You can add a `matrix=True` to either of `generate_shape` or `generate_center` to 
+return the same context in a list of lists (a matrix). Taking into account minimization of dependencies,
+you would want to accomplish this without numpy.
 
 Overall, I continue to be astounded by what relatively simple ideas plus some programming can come up with.
-This is what makes the practice such a rewarding thing to do. That's all for now, have fun! Rawr!
+This is what makes the practice such a rewarding thing to do. Rawr!
