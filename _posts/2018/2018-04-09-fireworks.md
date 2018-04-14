@@ -320,7 +320,7 @@ logically. For example:
 <ol class="custom-counter">
   <li> I found that Arctan2 is <a href="https://www.medcalc.org/manual/atan2_function.php"
 target="_blank">defined for values y and x</a>. The ordering technically doesn't matter (it's an angle between x and y) but I wanted to be consistent with the definition, and changed it.</li>
-  <li>As a reader, it's natural to have basic variables defined before any more complex steps. I moved the definition of the radius variable up before the zigzag (variable Z).</li>
+  <li>As a reader, it's natural to have basic variables defined before any more complex steps. I moved the definition of `radius` to before `zigzag` (original variable `Z`).</li>
   <li>It wasn't totally intuitive what `if r-inner < Z*(outer - inner)` was doing. By rearranging the variables and defining one ahead of time (`cutoff=zigzag*(outer - inner) + inner` I was able to use the code to tell the user that the value was for a cutoff, and that the if condition was comparing it to the radius (`if radius < cutoff:`)</li>
   <li>I did not allow for any line to go unexplained. I challenged myself to justify every little thing, and it was a great learning experience.</li>
 </ol>
@@ -329,6 +329,7 @@ This was very challenging for me, putting the entire thing into the right words.
 about general programming:
 
 > The program runtime may be dependent only on the machine's ability to "read" it, but it's future development relies also on human digestability.
+
 
 ### Animation
 At this point I was going nuts, I was so excited. I was also unhappy with the "flowing bubbles" effect that
@@ -664,6 +665,9 @@ or operations on lists instead of traditional numpy arrays. Of course, things li
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/fireworks/python-why.jpg" style="margin:auto; display:block">
 </div>
+
+> Python why do you do this to me?
+
 
 <strong> Exposure of Variables</strong>
 
