@@ -394,7 +394,7 @@ can also use a Singularity container).
 docker run -it --entrypoint ipython vanessa/algorithms:fireworks
 ```
 ```
-singularity exec docker://vanessa/algorithms:fireworks ipython
+singularity exec --pwd /code docker://vanessa/algorithms:fireworks ipython
 ```
 
 or we can just clone the repository and use our own python. I tried to reduce
@@ -442,7 +442,7 @@ firework.boum()
 You can customize your firework as you like:
 
 ```python
-firework = Firework(end=200, simple=False, thresh=13)
+firework = Firework(end=200, simple=False, design=13)
 ```
 
 or use `randomize` to come up with a new design for the current firework.
@@ -655,15 +655,13 @@ print(design)
 ```
 
 The sky is really the limit in terms of how you want to use this tiny script.
-Have fun! Keep reading for a story of developing the algorithms. Thinking about
-creative problems like this is one of my favorite things to do, after building
-things :)
 
 
 # What I learned
 While this originally was a project where I wanted to focus on learning about asyncronous event loops in Python,
-it turned out to not use the library at all. I'm okay with this! There were some subtle challenges and learnings 
-that I would like to highlight (again in a few cases!).
+it turned out to not use the library at all. I'm okay with this, because I still learned about asyncio, and
+likely will use it for future projects. There were some subtle challenges and learnings 
+that I would like to again highlight.
 
 <strong>Favor Simplicity</strong>
 
