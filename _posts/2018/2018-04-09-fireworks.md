@@ -333,13 +333,18 @@ explaining it. Is it overkill? Maybe. I don't think so. It may be the case that 
 is indifferent to the two versions, but for the human there are small changes so that it flows
 logically. For example:
 
-<ol class="custom-counter">
-  <li> I found that Arctan2 is <a href="https://www.medcalc.org/manual/atan2_function.php"
-target="_blank">defined for values y and x</a>. The ordering technically doesn't matter (it's an angle between x and y) but I wanted to be consistent with the definition, and changed it.</li>
-  <li>As a reader, it's natural to have basic variables defined before any more complex steps. I moved the definition of `radius` to before `zigzag` (original variable `Z`).</li>
-  <li>It wasn't totally intuitive what `if r-inner < Z*(outer - inner)` was doing. By rearranging the variables and defining one ahead of time (`cutoff=zigzag*(outer - inner) + inner` I was able to use the code to tell the user that the value was for a cutoff, and that the if condition was comparing it to the radius (`if radius < cutoff:`)</li>
-  <li>I did not allow for any line to go unexplained. I challenged myself to justify every little thing, and it was a great learning experience.</li>
-</ol>
+<strong>People will compare the code to definitions they find</strong>
+I found that Arctan2 is <a href="https://www.medcalc.org/manual/atan2_function.php" target="_blank">defined for y and x</a>. It's an angle so ordering doesn't technically matter, but I changed it to be consistent with the definition.
+
+<strong>Lead up to complexity</strong>
+As a reader, it's natural to have basic variables defined before any more complex steps. I moved the definition of `radius` to before `zigzag` (the original variable `Z`) so my brain would understand the simple stuff before getting tangled in figuring out `zigzag`.
+
+<strong>Break apart statements</strong>
+It wasn't totally intuitive what `if r-inner < Z*(outer - inner)` was doing. By rearranging the variables and defining one ahead of time (`cutoff=zigzag*(outer - inner) + inner` I was able to use the code to tell the user that the value was for a cutoff, and that the if condition was comparing it to the radius (`if radius < cutoff:`)
+
+<strong>Comments, ftw!</strong>
+I did not allow for any line to go unexplained. I challenged myself to justify every little thing, and it was a great learning experience. Yes, it's a bit much. I'm ok with this.
+
 
 This was very challenging for me, putting the entire thing into the right words. It taught me a valuable lesson
 about general programming:
