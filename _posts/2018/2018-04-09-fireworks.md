@@ -96,7 +96,6 @@ I decided that I wanted to generate an algorithm to do the following:
   <li>calculate trigger times for a firework depending on increasing size.</li>
   <li>create an event loop to trigger the fireworks.</li>
 </ol>
-
 <br>
 
 Thanks to the magic of version control, you can see the first effort <a href="https://github.com/vsoch/algorithms/commit/b0d447b124647bf6b78c7535833c10b91f34f43b" target="_blank">here</a>. 
@@ -104,8 +103,9 @@ Thanks to the magic of version control, you can see the first effort <a href="ht
 ## Async.io for Asyncronous Events
 Specifically, I had a Fireworks
 class that would let me generate multiple fireworks, each having a start time, end time, 
-a design (color, character, size) and a calculated duration from that. The main function
-to run the show would then use async.io to create an event loop
+a design (color, character, size) and a calculated duration. The main function
+to run the show would then use <a href="https://docs.python.org/3/library/asyncio.html" target="_blank">async.io</a>
+ to create an event loop
 
 ```python
 
@@ -128,7 +128,9 @@ def fireworks_show(fireworks):
     loop.close()
 ```
 
-and then schedule each firework in the function called "booms" that you can see is
+The above took me a long time to do, because the concept of an 
+<a href="https://en.wikipedia.org/wiki/Event_loop" target="_blank">event loop</a> is completely
+new to me. I would then schedule each firework in the function called "booms" that you can see is
 handed to the loop as a task. The function would start a counter, and start printing
 the firework only after we had reached the start time or later:
 
@@ -156,7 +158,8 @@ def booms(firework, start_time):
 ```
 
 The cool thing about async.io is that with the expression `yield from asyncio.sleep`
-I am able to hand control to other processes in the loop. Although the above wasn't
+I am able to hand control to other processes in the loop, so one particular firework
+doesn't dominate control and not let others run. Although the above wasn't
 perfect (I might have used the loop's time instead of `time.time()` it achieved the
 asyncronous quality that I was looking for. My fireworks were nothing to call
 home about (just a line of a randomly selected character and color) but 
@@ -165,10 +168,11 @@ the result looked like this:
 <script src="https://asciinema.org/a/175710.js" data-speed="3" id="asciicast-175710" async></script>
 
 If you had patience to watch the above for more than 30 seconds, other than being
-border, you would realize that it does a poor job of actually modeling fireworks.
+bored, you would realize that it does a poor job of actually modeling fireworks.
 Other than the visual representation being off, the timing is wrong too. No fireworks show 
-that I've ever seen has a climax and then gradually comes back down. 
-The more correct fireworks model looks like this:
+that I've ever seen has a climax and then gradually comes back down. I think there are other
+real world things that follow this design, but fireworks aren't one of them. And I was 
+set on making fireworks! The more correct fireworks model looks like this:
 
 ```
 [start]  [s1]   [s2]  [s3]  [s4] [s5][s6][sN] [end]
@@ -179,11 +183,10 @@ Notice the build up, represented by an increasing frequency? I needed to do that
 ### Fireworks in Ascii
 But first, I wanted to deal with those epically ugly fireworks. I came up with a
 very simple algorithm to generate a design! The changes that I made <a href="https://github.com/vsoch/algorithms/commit/0fbf4b69eccbaaceba1404bfc90b0fabdac0191a" target="_blank">are here</a>. Overall, 
-the algorithm was again pretty simple, it looked like this.
-
-Given some randomly selected characters and colors, along with a size and offset, I generated
-a design that is essentially a half circle, adding the design with
-padding from some small size (2) through the size. The function had a few different
+the algorithm was again pretty simple. Given some randomly selected characters 
+and colors, along with a size and offset, I generated a design that is 
+essentially a half circle. I looped through some small size (2) through the final size,
+and then reversed it back down to generate the bottom half. The function had a few different
 versions, but the more final one looked like this:
 
 ```python
@@ -212,12 +215,13 @@ scrolling bubbles than any kind of firework. And when I added background colors 
 
 Then things got fun :)
 
+
 ## Firework Generation Algorithm
 We needed a fireworks generating algorithm! I had two options here. I could generate
-ascii designs a priori and then modify the color (easier, but less challenging) or
-come up with an algorithm to generate them for me. I spent the entirety of an
-evening with <a href="https://www.github.com/tabakg" target="_blank">tabakg</a> 
-obsessively using and testing this beautiful (and terribly documented) function:
+ascii designs a priori and then modify the color (like I did with my 
+<a href="https://vsoch.github.io/2018/learning-go/" target="_blank">salad fork</a> 
+generator) easier, but less challenging) or come up with an algorithm to 
+generate them for me. I spent the entirety of an evening with <a href="https://www.github.com/tabakg" target="_blank">tabakg</a> obsessively using and testing this beautiful (and terribly documented) function:
 
 ```python
 
