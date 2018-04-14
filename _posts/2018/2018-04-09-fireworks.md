@@ -186,8 +186,7 @@ But first, I wanted to deal with those epically ugly fireworks. I came up with a
 very simple algorithm to generate a design! The changes that I made <a href="https://github.com/vsoch/algorithms/commit/0fbf4b69eccbaaceba1404bfc90b0fabdac0191a" target="_blank">are here</a>. Overall, 
 the algorithm was again pretty simple. Given some randomly selected characters 
 and colors, along with a size and offset, I generated a design that is 
-essentially a half circle. I looped through some small size (2) through the final size,
-and then reversed it back down to generate the bottom half. The function had a few different
+essentially two half circles. The function had a few different
 versions, but the more final one looked like this:
 
 ```python
@@ -208,13 +207,15 @@ versions, but the more final one looked like this:
 ```
 
 In the above, I'm going from 2 up to the randomly chosen size, and then back again,
-and adding a design character at some offset to form a circle (and close it). This
+and adding a design character at some offset to form a circle with a bit of edge chopped off. This
 did slightly better at modeling something that is orby, but it still looked more like
 scrolling bubbles than any kind of firework. And when I added background colors to the random generation and a more consistent way to vary the speed, I got the following:
 
 <script src="https://asciinema.org/a/175892.js" id="asciicast-175892" data-speed="3" async></script>
 
-Then things got fun :)
+This looked really cool, but it wasn't my goal to create scrolling bubbles and
+call them fireworks. It was in thinking about an algorithm to generate
+firework designs when things got fun :)
 
 
 ## Firework Generation Algorithm
