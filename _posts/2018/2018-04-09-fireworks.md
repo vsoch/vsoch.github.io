@@ -351,13 +351,16 @@ about general programming:
 
 > The program runtime may be dependent only on the machine's ability to "read" it, but it's future development relies also on human digestability.
 
+This isn't just important for reproducible research, it's important for general software engineering. Some future next dude should be able to look at your code and not want to poke hotdogs into his eyes.
+
 
 ### Animation
 At this point I was going nuts, I was so excited. I was also unhappy with the "flowing bubbles" effect that
 was being used to model the fireworks. I had great excitement to figure out the right character to use to 
-<a href="https://github.com/vsoch/algorithms/commit/29f591b53650109419e3482356c2781f843d3c23#diff-ba47e3ecc231ea5708d2dae24a5550cfR114" target="_blank">clear the terminal</a>! This meant that I could clear the terminal between single fireworks, and have more of an "increasing in size and exploding"
+<a href="https://github.com/vsoch/algorithms/commit/29f591b53650109419e3482356c2781f843d3c23#diff-ba47e3ecc231ea5708d2dae24a5550cfR114" target="_blank">clear the terminal</a>. Figuring this out
+ meant that I could clear the terminal between single fireworks, and have more of an "increasing in size and exploding"
 effect. This was another change to the algorithm. I had orginally generated the design to be "hard coded" and stored
-with the Fireworks object, but realized that I needed to generated it on the fly, given some pre-determined 
+with the Fireworks object, but realized that I needed to generate it on the fly, given some pre-determined 
 variables like color and overall shape, and then vary the size. I also decided to use my "bubble" design as an center overlay on the more firework-y design:
 
 <script src="https://asciinema.org/a/176100.js" id="asciicast-176100" data-speed="2" async></script>
@@ -377,7 +380,9 @@ looked **much** more like fireworks. And then I deleted a
 > Simplicity is sometimes the best strategy.
 
 In this case, I easily gave up many hours of work, and the result is a lot less code and a result
-I'm much happier with.
+I'm much happier with. More on this later. Let's make some Fireworks!
+
+<br>
 
 
 # Using Fireworks
