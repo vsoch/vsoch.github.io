@@ -658,8 +658,12 @@ and what it does. This makes the code more likely to be used, run, and appreciat
 
 One of the reasons it took me a long time to do simple things like combining matrices and calculations
 is because I didn't want to introduce any large dependencies beyond what is offered in standard Python 3.0.
-This means instead of using a library like numpy, I opted for the <a href="" target="_blank">math module</a>
-or operations on lists instead of traditional numpy arrays.
+This means instead of using a library like numpy, I opted for the <a href="https://docs.python.org/3/library/math.html" target="_blank">math module</a>
+or operations on lists instead of traditional numpy arrays. Of course, things like this are always troubling:
+
+<div style="padding-top:10px; padding-bottom:20px">
+   <img src="/assets/images/posts/fireworks/python-why.jpg" style="margin:auto; display:block">
+</div>
 
 <strong> Exposure of Variables</strong>
 
