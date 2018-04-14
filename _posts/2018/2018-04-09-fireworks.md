@@ -68,8 +68,13 @@ If you are interested in adding fireworks to your clusters or code, skip to the
 [Using Fireworks](#using-fireworks) section, or jump to the end to 
 see [what I learned](#what-i-learned). 
 
+<br>
 
 # Recursive Internal Events
+To be clear, this original idea did not turn out to be the final implementation, and I'll
+comment on that later. It's important that I describe my entire development process,
+and that starts with this first method. I summarized the problem as follows:
+
 Let's say that you start with one large start value (a time in seconds, likely
 we would start at time 0.0) and end some N seconds later. This forms a range from
 0 through N, and we would want to create some kind of fireworks display so that 
