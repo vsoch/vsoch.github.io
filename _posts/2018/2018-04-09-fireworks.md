@@ -75,7 +75,7 @@ To be clear, this original idea did not turn out to be the final implementation,
 comment on that later. It's important that I describe my entire development process,
 and that starts with this first method. I summarized the problem as follows:
 
-Let's say that you start with one large start value (a time in seconds, likely
+Let's say that you start with a start value (a time in seconds, likely
 we would start at time 0.0) and end some N seconds later. This forms a range from
 0 through N, and we would want to create some kind of fireworks display so that 
 the fireworks come on gradually starting at time zero, climax in the middle,
@@ -101,7 +101,8 @@ I decided that I wanted to generate an algorithm to do the following:
 Thanks to the magic of version control, you can see the first effort <a href="https://github.com/vsoch/algorithms/commit/b0d447b124647bf6b78c7535833c10b91f34f43b" target="_blank">here</a>. 
 
 ## Async.io for Asyncronous Events
-Specifically, I had a Fireworks
+I thought that I could build up intensity by adding more fireworks to be fired toward the
+"finale" of the show. Specifically, I had a Fireworks
 class that would let me generate multiple fireworks, each having a start time, end time, 
 a design (color, character, size) and a calculated duration. The main function
 to run the show would then use <a href="https://docs.python.org/3/library/asyncio.html" target="_blank">async.io</a>
