@@ -9,9 +9,12 @@ and it is complex and lovely and strangely intuitive. That domain is Operating S
 I feel a compulsion to understand what is going on, and then to use this understanding
 in to build my own things. I don't think I fully understand the extent of this statement, but I want to have a go at creating
 an operating system. This isn't something that can be done in Python, and my goal is to document
-my journey in <a href="https://github.com/vsoch/os" target="_blank">this repository</a>. The end goal will be a tutorial of sorts
+my journey in <a href="https://github.com/vsoch/os" target="_blank">this repository</a>. 
+The end goal will be a tutorial of sorts
 for understanding and designing the most simplest one I can come up with, and then we can have
 fun and try things based on our new understanding.
+
+<br>
 
 # The Boot Loader
 Let's start with step 1, and go over some basics. Have you ever partitioned a drive on your computer,
