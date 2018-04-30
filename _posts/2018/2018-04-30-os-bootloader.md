@@ -194,9 +194,15 @@ This is like, me talking directly to my computer! I find this nuts! (meaning coo
 ### How is this going to work?
 I'm reading from the <a target="_blank" href="http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf"> Boot Process</a> chapter
 here, which describes the following flow.
- 
+
+**1** 
+
 The computer without an OS has a simple utility, the Basic Input/Output Software (BIOS) that you likely know
-about if you've ever done any kind of debugging of your hardward. It's a set of routines that are called when the computer starts, and is mostly about control for disks, screen, memory, keyboard devices. If all goes well, the operating system is booted from a device. Since there is no way for the software to know where to look, there is a stupid rule that it knows to always look in certain addresses (physical locations) of the disk devices. And tada! We call this the Boot Sector (I've heard of this before!) and it's located at "Cylinder 0, Head 0, Sector 0)" If you've ever reformatted your hard drive you would have seen this little section and probably scratched your head. Good job for not deleting it :) It's identified correctly by ending in a "magic number" 0xaa55.
+about if you've ever done any kind of debugging of your hardward. It's a set of routines that are called when the computer starts, and is mostly about control for disks, screen, memory, keyboard devices. If all goes well, the operating system is booted from a device. 
+
+**2**
+
+Since there is no way for the software to know where to look, there is a stupid rule that it knows to always look in certain addresses (physical locations) of the disk devices. And tada! We call this the Boot Sector (I've heard of this before!) and it's located at "Cylinder 0, Head 0, Sector 0)" If you've ever reformatted your hard drive you would have seen this little section and probably scratched your head. Good job for not deleting it :) It's identified correctly by ending in a "magic number" 0xaa55.
 
 
 Also from the chapter on page 14, we can see how "lower memory" is mapped out when the computer starts up. Look at the little boot sector, he's so happy nestled there!
