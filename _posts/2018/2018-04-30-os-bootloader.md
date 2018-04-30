@@ -7,15 +7,21 @@ toc: false
 I've recently wandered into a domain of studying computers that I barely knew existed, 
 and it is complex and lovely and strangely intuitive. That domain is Operating Systems, and
 I feel a compulsion to understand what is going on, and then to use this understanding
-in to build my own things. But let's start with step 1, and go over some basics. Today
-I want to just talk about the Boot Loader.
-
-# Operating Systems
-I don't think I fully understand the extent of this statement, but I want to have a go at creating
+in to build my own things. I don't think I fully understand the extent of this statement, but I want to have a go at creating
 an operating system. This isn't something that can be done in Python, and my goal is to document
 my journey in <a href="https://github.com/vsoch/os" target="_blank">this repository</a>. The end goal will be a tutorial of sorts
 for understanding and designing the most simplest one I can come up with, and then we can have
 fun and try things based on our new understanding.
+
+# The Boot Loader
+Let's start with step 1, and go over some basics. Have you ever partitioned a drive on your computer,
+and seen this tiny section called a Boot Sector? Did you hopefully not delete it? 
+Today I want to talk about all things Booty. The Boot Loader is the executable that will load your 
+operating system when your computer boots up. The Boot Sector is a specific region of disk where
+this instruction lives. A cool thing I realized is that there isn't any significant difference between a
+"data" type disk and one with an operating system installed, other than stumbling on this particular sector. 
+We will discuss this further.
+
 
 ## 1. Create Boot Sector
 The file in the <a href="https://github.com/vsoch/os/blob/master/boot/boot_sect_simple.asm" target="_blank">
