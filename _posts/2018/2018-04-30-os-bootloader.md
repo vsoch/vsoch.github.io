@@ -133,8 +133,8 @@ And then if we want to say:
 
 <ol class="custom-counter">
 <li>put in teletype mode to advance the cursor</li>
-<li>interrupt to change</li>
 <li>print an ascii character</li>
+<li>interrupt to change (and then another character would follow)</li>
 </ol>
 
 We would do:
@@ -198,20 +198,11 @@ here, which describes the following flow.
 **1** 
 
 The computer without an OS has a simple utility, the Basic Input/Output Software (BIOS) that you likely know
-about if you've ever done any kind of debugging of your hardward. It's a set of routines that are called when the computer starts, and is mostly about control for disks, screen, memory, keyboard devices. If all goes well, the operating system is booted from a device. 
+about if you've ever done any kind of debugging or testing of your hardware. It's a set of routines that are called when the computer starts, and is mostly about control for disks, screen, memory, and keyboard devices. If all goes well, the operating system is booted from a device. 
 
 **2**
 
 Since there is no way for the software to know where to look, there is a stupid rule that it knows to always look in certain addresses (physical locations) of the disk devices. And tada! We call this the Boot Sector (I've heard of this before!) and it's located at "Cylinder 0, Head 0, Sector 0)" If you've ever reformatted your hard drive you would have seen this little section and probably scratched your head. Good job for not deleting it :) It's identified correctly by ending in a "magic number" 0xaa55.
-
-
-Also from the chapter on page 14, we can see how "lower memory" is mapped out when the computer starts up. Look at the little boot sector, he's so happy nestled there!
-
-<div style="padding-top:10px; padding-bottom:20px">
-   <img src="/assets/images/posts/os-bootloader/3-lower-memory.png"  style="margin:auto; display:block">
-</div>
-
-In computer speak, the BIOS is putting the Boot Sector at `0x7C00` (remember that `0x` indicates it's a hexidecaimal address, and since we have 16 characters we go from 123...def) 
 
 I loaded the file into a graphical hex editor on my local machine to look at the hex from the compiled binary!
 
@@ -240,6 +231,14 @@ You can even try this for the boot loader executables on your host!
 $ od -t x1 -A n /boot/memtest86+.bin 
 ```
 
+Then what happens when we load it? Also from the chapter on page 14, we can see how "lower memory" is mapped out when the computer starts up. The BIOS has loaded it at `0x7C00` (remember that `0x` indicates it's a hexidecaimal address, and since we have 16 characters we go from 123...def) 
+
+<div style="padding-top:10px; padding-bottom:20px">
+   <img src="/assets/images/posts/os-bootloader/3-lower-memory.png"  style="margin:auto; display:block">
+</div>
+
+
+I'll finish up this Boot Sector section with a cool tidbit of information. 
 This is really interesting - the oldest CPU in Intel's family is called the Intel 8086,
 and it's *so* old that it only supported 16 bit instructions and no memory protection, 
 meaning that a user could interact with the kernel's memory directly. All modern Intel 
@@ -253,8 +252,7 @@ whether you are a software engineer or a scientist, it's common to have tunnel v
 to your frame of reference and tooling base. Your entire flow of thinking starts with some programming language
 on an operating system, and maybe you get into an argument with your colleague about which sub-technology in a space
 is slightly superior. While I'm not saying that many might benefit from starting at a level below that, it's
-worth minimally knowing that the level exists. For some, it could be the case that a hard problem you are trying
-to solve might be solved by simply moving to a different level. For me, asking these simpler questions that reveal 
+worth minimally knowing that the level exists. For some, it could be the case that a hard problem you are working on might be better approached by operating (harhar) at a different level. For me, asking these simpler questions that reveal 
 the complexity and beauty in the design of a computer, and the infinite ways that might be used, brings pure amazement.
 Problems and bugs that I encounter every day take on a new light, and I can only imagine the future fun I might have
 making new things!  This also gives me great appreciation for the decades of work that has led to this complexity. I know
