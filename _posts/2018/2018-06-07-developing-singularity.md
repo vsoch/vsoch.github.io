@@ -1,10 +1,8 @@
 ---
 title: "Developing for Singularity 3.0"
-date: 2018-05-06 2:12:00
-toc: true
+date: 2018-05-07 2:12:00
+toc: false
 ---
-
-{% include toc.html %}
 
 Barriers to entry in the open source development world correspond to how hard it is to
 get started working on something. This can include any and all of:
@@ -25,7 +23,7 @@ quickly that
 Whether I didn't want to install a bunch of new dependencies, or I had trouble doing 
 it, or I just didn't want to spend the time, the thought of this need to "set up
 from scratch" a development environment that is (additionally) unfamiliar is 
-a scary thing for open source. It's terrifying because sometime so trivial like a few
+a scary thing for open source. It's terrifying because something so trivial like a few
 `apt-get install ...` might make the difference between a fun contribution and 
 changing your mind to return to watching slow motion cake icing on YouTube (no judgment!) 
 
