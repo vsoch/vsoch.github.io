@@ -685,6 +685,8 @@ file and folder presence, but on their versions. You could even use the containe
 For a very logical progression the viewer would be presented with a heatmap portal that could be easily explored to go from the highest level (the heatmap) down to the version of a file fairly quickly. That is <strong>SO</strong> cool. Now if only I had someone with an interesting research question and a container in mind that would want to work on this with me? *hint hint*.
 
 ## Summary
+
+### Visualization
 I'll stop here for now and summarize what I learned, because in this journey I learned some important things. Notably, that I can aspire
 to provide automated functions to get very far with data analysis, but at the end of the day some human expertise is (usually) needed
 to make decisions about what is important to highlight in the final plot. The automated algorithm would be happy to show everything, but 
@@ -696,6 +698,11 @@ is (still) largely needed to produce a final visualization that is functional me
 
 I also learned that visualizing large data in a browser (with the standard DOM) is still pretty hard, and we need libraries
 that use pixels / WebGL to do better. I haven't worked in this domain for a while, so I might want to play around in it again at some point.
+
+### Comparison
+Importantly, I don't mean to say that this one (rather limited) way of comparing containers is the best or even correct in all circumstances. For example, the same software installed in two different locations would be identified as different! Rather, I want to provide for you a base data structure and simple functions for you to develop your own algorithms. I also want to inspire you to think about container comparisons, and how you might do it. Could you generate a tree that keeps the file hash at each node, and then identify similar containers based on matching files, and use a graph distance metric to measure distance in the file hierarchy? Might you instead compare containers based on a <strong>functional difference</strong> because after all, the function is what we care about? Could you combine both structure and function into a meaningful algorithm? (This is starting to feel eerily like we are asking similar questions that we asked years ago during our early study of the brain. Structure? Function? Both?
+
+### MooMoo, MotherTruckers
 
 Oh, and the last thing we learned today...
 
