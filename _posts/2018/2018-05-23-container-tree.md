@@ -710,6 +710,19 @@ Oh, and the last thing we learned today...
 
 because my visualization says so. QED!
 
+### Why are these Exciting Times?
+
+We can dive even deeper into our kinds of comparisons. For example, if you write a program to print "Hello World" in multiple languages 
+(<a href="https://github.com/sci-f/container.scif" target="_blank">ahem</a>) you will produce the same output running the program ("Hello World!") but if you run a trace, will see very different things happening on the level of the operating system. If we want to optimize not only function but also structure, we must take into account structure and function on the lowest level, and so a next logical step would be to assess how our programs are different on this lowest level. We might find something surprising like we can break down most things into routines of reads and writes in different patterns that are present across what (appear to be) very different software.
+
+One thing that the find really exciting is that the incentive landscape is changing quite quickly. We haven't yet in history had a point in time
+when these subtle (system level) differences are important enough for someone to get funding for to write a paper. These are the sorts of questions that historically a graduate student might bring to his or her PI (studying the differences in software or libraries) and get a "So what?" kind of answer. They would never be funded or labeled as interesting.  But now that data / infrastructure / everything is getting huge, and people want (and need) more optimized resources (GPUs! containers!) and what not, people are starting to care. They care because they have to, because the thing they want to accomplish possibly isn't even possible if they cannot.
+
+This is exciting because the time will be soon (I think) for analyses like these that 5 years ago weren't impendingly important! We are also entering this weird "AI does everything" state of the world, and it's only logical that we soon will have operating systems / software designed by algorithms. Algorithms need something to train over, features and metrics of goodness, and it's usually the case that the first go at features come from the human hand before they are optimized by a machine.
+
+Finally, I'll add that containers have a huge role in this new kind of AI operating system science. With containers, we can spin up an entire OS with one line, make a change, and then do it again. We can do it at scale. I would expect (and hope) to see grid-style analyses where an entire operating system is built with varying perhaps just one feature, and then assessing how the variance leads to some variable of interest in using the container. Containers, for the win! :D
+
+
 ## Your Job!
 I want you to have fun! Tell me what other functions you are interested in? Remember that the examples and their generation are provided in each of the subfolders of the <a href="https://github.com/singularityhub/container-tree/tree/master/examples" target="_blank"> examples directory</a>. You can use/install and contribute to <a href="https://github.com/singularityhub/container-tree" target="_blank">containertree</a> by following the instructions in the `README.md`, and open an issue on the issues board there if you run into any.
 
