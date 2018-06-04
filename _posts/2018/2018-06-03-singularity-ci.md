@@ -162,4 +162,4 @@ You can also do other sanity checks like testing if the container runs as you wo
 
 ## Contributing
 
-I learn best from examples, and I suspect that others do too. If you have an example continuous integration recipe that you find interesting or useful, please <a href="https://www.github.com/singularityhub/sregistry-cli/issues" target="_blank"> share it with me</a> so we can add it as an example to this repository, write about it for others to see, or some other idea that you have! The Container Tools robots have some other ideas up their sleeves for how this can be creatively used, so stay tuned!
+I learn best from examples, and I suspect that others do too. If you have an example continuous integration recipe that you find interesting or useful, please <a href="https://www.github.com/singularityhub/singularity-ci/issues" target="_blank"> share it with me</a> so we can add it as an example to this repository, write about it for others to see, or some other idea that you have! The Container Tools robots have some other ideas up their sleeves for how this can be creatively used, so stay tuned!
