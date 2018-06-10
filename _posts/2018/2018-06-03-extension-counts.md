@@ -700,4 +700,12 @@ I'll finish up with the change that I want to see. It's much larger than me.
   <li>I want institutions to help researchers produce and share these datasets.</li>
 </ol>
 
-I think we can do it. But I want to go for a run now, so maybe later.
+And these are some interesting datasets that I have in the queue!
+
+<ol class="custom-counter">
+  <li>Dockerfiles</li>
+  <li>California flowers</li>
+  <li>Container Trees</li>
+</ol>
+
+I think we can accomplish these goals, but it will take time, not being afraid to ask for help, or reaching out to someone that you might not know to work together.
