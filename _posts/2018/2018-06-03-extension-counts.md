@@ -188,7 +188,7 @@ My goal is to identify signatures of files that identify different software, and
 do this, it will be much more reasonable to try and organize the universe of containers. Zenodo is the perfect repository to start exploring this problem, because the records can be filtered to software, and the
 software comes with rich metadata and an archive of the code. In this post we won't even get into machine
 learning or the metadata, we are just going to look at some of the code. For more details and the
-scripts that I will describe, you can <a href="https://vsoch.github.io/datasets/2018/zenodo/#software-in-the-context-of-image-analysis" target="_blank"> read more about the dataset herea</a>.
+scripts that I will describe, you can <a href="https://vsoch.github.io/datasets/2018/zenodo/#software-in-the-context-of-image-analysis" target="_blank"> read more about the dataset here</a>.
 
 > Let's count things!
 
