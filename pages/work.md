@@ -23,7 +23,7 @@ profile: true
 	<li><a href="http://vsoch.github.io/2016/service-worker-resource-saver/" target="_blank">Service Worker Resource Saved</a> [<a href="https://vsoch.github.io/resource-saver/" target="_blank">demo</a>]</li>
 	<li><a href="http://vbmis.com/bmi/project/banner/" target="_blank">Banner</a>: Custom banner creation (created for a virtual machine for a publication)</li>
 	<li><a href="http://vbmis.com/bmi/project/GO/">GO</a>: Genetic annotation of behavior (mapping of brain to behaviors via genes)</li>
-       <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank">[details]</a></li>
+       <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
 </ul>
 &nbsp;
 
@@ -32,10 +32,10 @@ profile: true
 <ul>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
 	<li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
-	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank">[software]</a></li>
+	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank"> [software]</a></li>
 	<li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">spython</a>: Singularity Python Client</li>
-	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank">[software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
-	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank">[software]</a></li>
+	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank"> [software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
+	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank"> [software]</a></li>
 </ul>
 &nbsp;
 
