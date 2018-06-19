@@ -411,3 +411,9 @@ And then tada! We have open source, collaborative sharing of datasets, and publi
 if you are a researcher with a cool dataset (even if it's messy) and you want help to share it, please 
 <a href="https://www.github.com/vsoch/datasets/issues" target="_blank">reach out</a> and I will help you. IF you
 have some ideas or thinking on how we can do a toy example of the above, I hope you reach out too.
+
+Are you interested in a dataset to better understand software? Check out the 
+<a href="https://www.kaggle.com/stanfordcompute/code-images" target="_blank">Code Images<a> Kaggle Dataset that
+can help to do that. If you use the dataset, here is a reference for it:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1286417.svg)](https://doi.org/10.5281/zenodo.1286417)
