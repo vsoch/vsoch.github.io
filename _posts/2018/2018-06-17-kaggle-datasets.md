@@ -5,7 +5,7 @@ toc: false
 ---
 
 Data sharing is hard, but we all know that there is great potential for discovery and reward <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5723929/" target="_blank">[1]</a>.
-A typical "sharing operation" might look like passing around a portable drives, putting compressed archives on some university or cloud server,  or bulk
+A typical "sharing operation" might look like passing around a portable drive, putting compressed archives on some university or cloud server,  or bulk
 storing on a secure university cluster (and living in fear it will be purged). Is this an optimal approach? Is it easy enough to do? To answer this question, let's think about the journey that  one of our datasets might take. It looks like this:
 
 ```bash
