@@ -12,8 +12,8 @@ means a workflow of:
 build --> test --> deploy
 ```
 
-The technologies that we use are <a href="https://www.github.com" target="_blank">Github</a> for code and version control, 
-<a href="https://www.circleci.com" target="_blank">CircleCI</a> for testing, and Docker Hub for final container deployment. And guess what? You don't need to do much more than fork and clone a Github repository, add your special software, and then connect to the services above. If you want to jump ahead, here is what we will review today:
+The technologies that we use are <a href="https://www.github.com/sci-f/builder" target="_blank">Github</a> for code and version control, 
+<a href="https://circleci.com/workflow-run/ce5aaaf4-ac94-444e-984d-f8d28c09b912" target="_blank">CircleCI</a> for testing, and Docker Hub for final container deployment. And guess what? You don't need to do much more than fork and clone a Github repository, add your special software, and then connect to the services above. If you want to jump ahead, here is what we will review today:
 
 <ol class="custom-counter">
   <li><a href="#background">Background</a></li>
