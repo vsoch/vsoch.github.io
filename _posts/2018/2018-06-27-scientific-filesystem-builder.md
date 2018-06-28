@@ -318,7 +318,15 @@ actions:
 
 ### Deploy away, Merrill!
 Currently, the last step to deploy requires definition of some environment variables in
-your project. The user must define a `DOCKER_USER` and `DOCKER_PASS` and `CONTAINER_NAME` in order for the final step (deployment to Docker Hub) to happen. It also <strong>only will happen on successful test after merge of master branch</strong>. The repository also needs to be <a href="https://hub.docker.com/add/repository/" target="_blank">created</a> in the interface.
+your project. The user must define a `DOCKER_USER` and `DOCKER_PASS` in order for the final step (deployment to Docker Hub) to happen. If your Docker Hub repository that you've created is different from your Github username and password (likely) you also need to define a `CONTAINER_NAME`. The deploy will <strong>only happen on successful test after merge of master branch</strong>. The repository also needs to be <a href="https://hub.docker.com/add/repository/" target="_blank">created</a> in the interface. When you finish, you should see these variables:
+
+<br>
+
+<div>
+<img src="/assets/images/posts/scif/envars.png">
+</div><br>
+
+Take a look at the container built for this repository <a href="https://hub.docker.com/r/vanessa/cowsay/" target="_blank">here.</a>
 
 ## Play with the Example
 The example container is rather silly, you can see it <a href="https://hub.docker.com/r/vanessa/cowsay/" target="_blank">here</a>. Here is a quick show of it in action:
