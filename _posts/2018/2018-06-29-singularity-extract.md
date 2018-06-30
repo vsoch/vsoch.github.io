@@ -12,7 +12,7 @@ went something like this, and I have a feeling many administrators have "been he
 
 and the response?
 
-> Just run the `.ext`
+> Just run the `.exe`
 
 Awkward silence
 
