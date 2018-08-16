@@ -51,8 +51,9 @@ hallway of paper butterflies on the campus. I could have stayed in that magical 
 When you see this combined beauty in technological and visual design,
 there is a moment of pause. It's just so beautiful.
 
-But back to talking about traditional art - where you have galleries of things hanging on the wall, or 
+But back to talking about traditional art. You have galleries of things hanging on the wall, or 
 sitting in the middle of a big empty space, and people walking around (mostly) silently and oggling. 
+In my experiences, I've walked around silently and pretended to know what was going on.
 This feels very different from open source, right? Open source (visual) art might be more similar to
 installation that invite the viewer to "participate." Still, in these situations it is more the case of
 "This is a conceptual work under **my** name that I am exemplifying my creativity by offering this experience to you."
