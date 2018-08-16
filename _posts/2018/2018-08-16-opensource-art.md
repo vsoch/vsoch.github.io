@@ -5,8 +5,9 @@ toc: false
 ---
 
 What happens when you combine continuous integration, deep learning, and (traditionally) disparate 
-open source communities? This is a small project I started on not even a week ago that has resulted
-in a space of work that I haven't encountered before. It's a bit rough around the edges, but
+open source communities? This is a small project I started not even a week ago to help 
+<a href="https://www.natacha.net" target="_blank">@nsoch</a>that has resulted
+in a new kind of multi-faceted work. It's a bit rough around the edges, but
 I'd like to present the basic concept to inspire your own thinking, and because it's really cool. 
 Today I want to talk about Open Source Art.
 
