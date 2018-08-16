@@ -11,19 +11,21 @@ in a new kind of multi-faceted work. It's a bit rough around the edges, but
 I'd like to present the basic concept to inspire your own thinking, and because it's really cool. 
 Today I want to talk about Open Source Art.
 
+<br>
+
 <div>
 <img src="https://vsoch.github.io/opensource-art/gallery/vanessa-sochat-avocado-love/layer-conv2-norm2-vanessa-sochat-avocado-love.jpg">
 </div><br>
 
-## What is Opensource Art?
+## What is OpenSource Art?
 
-While traditionally used for programming, this project combines open source development with community artistic 
-contributions to create the first automated, programatically and manually generated gallery. It is a fun exercise 
+While traditionally used for programming, this project combines **open source development** with **community artistic 
+contributions** to create the first automated, **programatically generated gallery**. It is a fun exercise 
 in using these technologies, but also a bit personal.
 
-Let's talk about my Mom and I. Since I've been maybe twelve years old, we are like water and oil,
-or fire and ice. We could barely exist in the same room without pulling out battle axes and
-war hammers. I think it's because we are very different. I am relentless, and stubborn. I value
+Let's talk about my Mom and I. Since I've been maybe twelve years old, we are like pasta water and olive oil. 
+We could barely exist in the same room without pulling out battle axes and
+World of Warcraft epic gear. I think it's because we are very different. I am relentless, and stubborn. I value
 *only* hard work and transparency, and seek challenge to the point of unrealistic expectations that I
 forge through sometimes to my own detriment. The way that we conceptualize failure is different. Failure for me
 is ironiclly both common and elusive, because it happens to me multiple times a day in the traditional sense,
