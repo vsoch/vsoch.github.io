@@ -247,3 +247,5 @@ about any of these components  If you want to make a submission, here are some t
 
 If not, I hope that you are inspired to build, create, and dream. :) This general framework has utility beyond visual enjoyment
 and extends to quality analysis, science, and streaming, living data science.
+
+> This post is dedicated to Natacha Villamia Sochat
