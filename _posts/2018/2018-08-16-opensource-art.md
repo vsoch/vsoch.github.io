@@ -6,7 +6,7 @@ toc: false
 
 What happens when you combine continuous integration, deep learning, and (traditionally) disparate 
 open source communities? This is a small project I started not even a week ago to help 
-<a href="https://www.natacha.net" target="_blank">@nsoch</a>that has resulted
+<a href="https://www.natacha.net" target="_blank">@nsoch</a> that has resulted
 in a new kind of multi-faceted work. It's a bit rough around the edges, but
 I'd like to present the basic concept to inspire your own thinking, and because it's really cool. 
 Today I want to talk about Open Source Art.
@@ -43,11 +43,12 @@ A passion and focus comes directly through our fingers out into the world. I'll 
 Visual arts and open source software development are traditionally (mostly) separate. 
 You occasionally see digital artists that have expertise that spans into data visualization, but let's think
 about what the typical gallery or art show looks like.  It's likely the case that you see artist work attributed 
-to one or a few individuals. An artist "portfolio" online encompasses pictures of their work. 
+to one or a few individuals. An artist online portfolio encompasses pictures of their work. 
 The paintings in your favorite gallery are done by one individual, or perhaps a collaboration between a small group.
 The exception is with groups like the <a href="https://www.media.mit.edu/research/?filter=projects" target="_blank">
-MIT Media Lab</a> that I've been taken with since I discovered them, and my close friend walked me through a
-hallway of paper butterflies on the campus. When you see this combined beauty in technological and visual design,
+MIT Media Lab</a> that I've been taken with since I discovered them, when my friend walked me through a
+hallway of paper butterflies on the campus. I could have stayed in that magical place forever.
+When you see this combined beauty in technological and visual design,
 there is a moment of pause. It's just so beautiful.
 
 But back to talking about traditional art - where you have galleries of things hanging on the wall, or 
