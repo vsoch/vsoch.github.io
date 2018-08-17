@@ -128,8 +128,11 @@ the images, and then click "Approve" to send it webhooking back to finish the wo
 In the build step, this <a href="https://www.github.com/vsoch/deepdream-docker" target="_blank">container</a> first 
 uses deepdream to generate a nice set of image derivations. Here are a bunch:
 
+<br>
+
 <div style="padding:20px">
-<a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/dreamy-vanessa-sochat-nature.jpg"><src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/dreamy-vanessa-sochat-nature.jpg" alt="image" /></a>
+<a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/dreamy-vanessa-sochat-nature.jpg">
+<img src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/dreamy-vanessa-sochat-nature.jpg" alt="image"/></a>
 <a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0000-vanessa-sochat-nature.jpg"><img src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0000-vanessa-sochat-nature.jpg" alt="image" /></a>
 <a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0001-vanessa-sochat-nature.jpg"><img src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0001-vanessa-sochat-nature.jpg" alt="image" /></a>
 <a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0002-vanessa-sochat-nature.jpg"><img src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/frame-0002-vanessa-sochat-nature.jpg" alt="image" /></a>
