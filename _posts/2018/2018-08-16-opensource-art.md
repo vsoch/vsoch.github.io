@@ -52,7 +52,7 @@ When you see this combined beauty in technological and visual design,
 there is a moment of pause. It's just so beautiful.
 
 But back to talking about traditional art. You have galleries of things hanging on the wall, or 
-sitting in the middle of a big empty space, and people walking around (mostly) silently and oggling. 
+sitting in the middle of a big empty space, and people walking around (mostly) silently and ogling. 
 In my experiences, I've walked around silently and pretended to know what was going on.
 This feels very different from open source, right? Open source (visual) art might be more similar to
 installation that invite the viewer to "participate." Still, in these situations it is more the case of
@@ -66,19 +66,19 @@ although it may be mentioned in a small paragraph next to the work or assumed, i
 secret or impressive and known skill that the artist does not make directly observable. We are the naive views,
 and we are meant to gaze, but not know.
 
-Now bring in open source. It's this powerful, and different framework 
+Now bring in **open source**. It's this powerful, different framework 
 that has many eyes making tiny contributions to develop highly complex things. All steps of development
 are collaborative, publicly seen, and enduring. In the context of programming, 
 this means that a group of developers opens up their code base for contributions from
 the community, and many eyes on the code squash the bugs. But can we take it farther? When it gets really,
-I would argue, we might combine across people, ideas, and entire disciplines.
+interesting, I would argue, we might combine across people, ideas, and entire disciplines.
 
-### What did we make?
+### How was Open Source Art Made?
 
-We made the project <a href="https://www.github.com/vsoch/opensource-art">opensource-art</a> with a dummy example
+The project <a href="https://www.github.com/vsoch/opensource-art">opensource-art</a> is a dummy example
 deployed at <a href="https://vsoch.github.io/opensource-art">vsoch.github.io/opensource-art</a>.
 It combines software engineering, automation, machine learning, and visual art so that many small 
-contributions in both spaces can create unexpected beauty. I even got started early with the open
+contributions in both spaces can create unexpected beauty. I got started early with the open
 source aspect by <a href="https://github.com/tholman/tholman.com/issues/2" target="_blank">reaching out</a> 
 to a digital artist that I really like who is behind this beautiful (programatically generated!) image:
 
