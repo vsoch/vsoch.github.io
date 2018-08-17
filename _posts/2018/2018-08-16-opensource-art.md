@@ -126,7 +126,8 @@ over my career. The workflow is a series of steps to build, save things to a cac
 Notice the third little box? That is where I can click on the button, then click to view the artifact files to preview
 the images, and then click "Approve" to send it webhooking back to finish the workflow.
 In the build step, this <a href="https://www.github.com/vsoch/deepdream-docker" target="_blank">container</a> first 
-uses deepdream to generate a nice set of image derivations. Here are a bunch:
+uses <a href="https://github.com/google/deepdream" target="_blank">Google's deepdream</a> 
+to generate a nice set of image derivations. Here are a bunch:
 
 <br>
 
@@ -143,7 +144,8 @@ uses deepdream to generate a nice set of image derivations. Here are a bunch:
 <a href="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/layer-conv2-norm2-vanessa-sochat-nature.jpg"><img src="https://vsoch.github.io//opensource-art/gallery/vanessa-sochat-nature/layer-conv2-norm2-vanessa-sochat-nature.jpg" alt="image" /></a>
 </div>
 
-I'm not hugely interested in the models or algorithms here, but I want to point out that this is another entrypoint
+I'm not hugely interested in the models or algorithms here. I'm optimized to just figure out how it works,
+and then inject creativity to quickly make some nice variations! But I want to point out that this is another entrypoint
 for open source collaboration.
 
 > The engineer that loves the algorithms can contribute to the algorithm.
