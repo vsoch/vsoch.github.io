@@ -75,8 +75,8 @@ interesting, I would argue, we might combine across people, ideas, and entire di
 
 ### How was Open Source Art Made?
 
-The project <a href="https://www.github.com/vsoch/opensource-art">opensource-art</a> is a dummy example
-deployed at <a href="https://vsoch.github.io/opensource-art">vsoch.github.io/opensource-art</a>.
+The project <a href="https://www.github.com/vsoch/opensource-art" target="_blank">opensource-art</a> is a dummy example
+deployed at <a target="_blank" href="https://vsoch.github.io/opensource-art">vsoch.github.io/opensource-art</a>.
 It combines software engineering, automation, machine learning, and visual art so that many small 
 contributions in both spaces can create unexpected beauty. I got started early with the open
 source aspect by <a href="https://github.com/tholman/tholman.com/issues/2" target="_blank">reaching out</a> 
