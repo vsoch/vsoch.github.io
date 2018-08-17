@@ -86,7 +86,8 @@ to a digital artist that I really like who is behind this beautiful (programatic
    <img src="https://vsoch.github.io/opensource-art/assets/images/2018/tim-holman-circle-packing.jpg">
 </div><br>
 
-Here is how it works.
+
+#### Here is how it works.
 
 We start with an image submission, and actually, smaller or dinkier is usually better because the deep learning container runs faster. Also,
 if you submit an image 256px or smaller, you get bonus "layer" images generated. Here is a Google Search result I found for "nature":
@@ -110,17 +111,20 @@ image: 2018/vanessa-sochat-avocado-love.jpg
 --- 
 ```
 
-That's the only "sorta-programmy" part, because you have to write this text file with a weird syntax.
+That's the only "sorta-programmy" part, because you have to write this text file with a weird syntax (no harsh feelings yaml, I've 
+actually taken quite a fondness for you!).
 
 Then you submit a pull request, and it gets tested as a workflow! Don't get me wrong, writing
 these workflows is still <a href="https://github.com/vsoch/opensource-art/blob/master/.circleci/config.yml" target="_blank">a messy practice</a>.
-I suspect I'll do this over at least 3 or 4 times until I am somewhat happy with it. The workflow is a series
-of steps to build, save things to a cache, get manual approval, and then deploy:
+I suspect I'll do this over at least 3 or 4 times until I am somewhat happy with it, and tens to hundreds more times
+over my career. The workflow is a series of steps to build, save things to a cache, get manual approval, and then deploy:
 
 <div style="padding-top:20px; padding-bottom:20px">
    <img src="/assets/images/posts/opensource-art/workflow.png">
 </div><br>
 
+Notice the third little box? That is where I can click on the button, then click to view the artifact files to preview
+the images, and then click "Approve" to send it webhooking back to finish the workflow.
 In the build step, this <a href="https://www.github.com/vsoch/deepdream-docker" target="_blank">container</a> first 
 uses deepdream to generate a nice set of image derivations. Here are a bunch:
 
