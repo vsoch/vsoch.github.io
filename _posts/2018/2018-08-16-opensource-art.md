@@ -174,8 +174,8 @@ for this entire thing was less than a week, so I'll take it!
 
 ### How can I change it?
 
-Let's summarize the steps we showed above. We generate an open source gallery, which has contributions from programmers
-(code bases and testing), visual artists (the textures or graphics), and data scientists (algorithms). That looks like this:
+Let's summarize the steps we showed above. We generate an **open source gallery**, which has contributions from **programmers**
+(code bases and testing), **visual artists** (the textures or graphics), and **data scientists** (algorithms). That looks like this:
 
 <ol class="custom-counter">
   <li>A graphic and metadata are submit to the repository</li>
@@ -187,7 +187,7 @@ And if we step back, we must realize that the beauty of this setup is how genera
 (or add to!) any of those entire domains or disciplines. How often do you see programmers and chefs working
 together? What about sound artists? 
 
-> As a developer I am empowered to dream it, and make it
+> As a developer I am empowered to dream it, and then make it
 
 Let's think of all of the steps than can be customized.
 
@@ -211,7 +211,9 @@ Speaking of testing, it's pretty straight forward that you can have the testing 
 submits a change to Github via a pull request. But what if instead you wanted to have a data feed (that is always
 happily moving along) that has a recent set of records analyzed? You can set up <a href="https://support.circleci.com/hc/en-us/articles/115015481128-Scheduling-jobs-cron-for-builds-" target="_blank">cron jobs</a> on CircleCI to do that.
 Did you know that you can also trigger the builds with the 
-<a href="https://circleci.com/docs/2.0/api-job-trigger/" target="_blank">Circle API</a>?
+<a href="https://circleci.com/docs/2.0/api-job-trigger/" target="_blank">Circle API</a>? Remember this idea of 
+<a href="https://vsoch.github.io//2017/reproducible-impossible/#evolution-of-data" target="_blank">living data, analyses,
+and publication</a>? Yeah, we can do that!
 
 **The Gallery**
 
@@ -254,15 +256,22 @@ optional arguments:
 $ docker run -v $PWD:/data vanessa/deepdream:0.0.9 --input vanessa-sochat-avocado-love.jpg --layers
 ```
 
+Try changing the scale coefficient, and adding an image guide! The image guides (meaning integrating
+a second image into the style) add a very cool effect.
+
+
 ### Contribute!
 
 I hope after reading the above you consider <a href="https://github.com/vsoch/opensource-art" target="_blank">reading more about the project</a>,
 and consider making a submission. I didn't go into any of the details of the algorithm, or
 the workflow, or the circle configuration, because there is too much to put here! But I'd love to
-<a href="https://github.com/vsoch/opensource-art" target="_blank">chat with you</a>
+<a href="https://github.com/vsoch/opensource-art/issues" target="_blank">chat with you</a>
 about any of these components  If you want to make a submission, here are some tips:
 
  - I've found that smaller images (even textures) are more fun
+ - The image guide (`--guide`) argument adds a lot of richness, how can you combine them into the algorithm?
+ - How can we integrate layers? (e.g., if you are running it, look at `net.blobs.keys()`)
+ - Can we have the model selection be a variable too? (see [this issue](https://github.com/vsoch/deepdream-docker/issues/1))
  - If you aren't great with Github, reach out to me and I'll help you
 
 If not, I hope that you are inspired to build, create, and dream. :) This general framework has utility beyond visual enjoyment
