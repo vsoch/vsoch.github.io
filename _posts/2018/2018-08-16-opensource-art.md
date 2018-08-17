@@ -56,12 +56,15 @@ sitting in the middle of a big empty space, and people walking around (mostly) s
 In my experiences, I've walked around silently and pretended to know what was going on.
 This feels very different from open source, right? Open source (visual) art might be more similar to
 installation that invite the viewer to "participate." Still, in these situations it is more the case of
-"This is a conceptual work under **my** name that I am exemplifying my creativity by offering this experience to you."
+
+
+> "This is a conceptual work under **my** name that is exemplifying my creativity by offering this experience to you."
+
 The generation is commonly not transparent. The artist(s) work behind the scenes and only reveal to you the final
-piece against the stark white cleanliness of a gallery where it is to be displayed.  The underlying process, 
+masterpiece against the stark white cleanliness of a gallery where it is to be displayed.  The underlying process, 
 although it may be mentioned in a small paragraph next to the work or assumed, is mainly hidden as a trade 
-secret or impressive and known skill that the artist does not make
-directly observable. 
+secret or impressive and known skill that the artist does not make directly observable. We are the naive views,
+and we are meant to gaze, but not know.
 
 Now bring in open source. It's this powerful, and different framework 
 that has many eyes making tiny contributions to develop highly complex things. All steps of development
