@@ -150,6 +150,8 @@ for open source collaboration.
 
 > The engineer that loves the algorithms can contribute to the algorithm.
 
+And the engineer that loves systems and infrastructure and software can build things using them!  And the
+artist can contribute new textures to flow through those things! 
 We then save them as artifacts so someone can come along and take a look. If a contribution has some element
 that needs to be fixed or isn't appropriate, the human eye can catch this. We put it on hold, and then approve it.
 
