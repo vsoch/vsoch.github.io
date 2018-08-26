@@ -35,4 +35,4 @@ singularity pull --name expfactory-robots shub://expfactory/expfactory-robots
 ./expfactory-robots --help
 ```
 
-For the official docs, see <a href="https://expfactory.github.io/expfactory/integrations#expfactory-robots" target="_blank">here</a>, or go <a href="https://github.com/expfactory/expfactory-robots" target="_blank">straight to the code</a>. Stay tuned for a few more really cool integrations coming soon to make it easier to interactively generate and run experiments.
+For the official docs, see <a href="https://expfactory.github.io/integrations#expfactory-robots" target="_blank">here</a>, or go <a href="https://github.com/expfactory/expfactory-robots" target="_blank">straight to the code</a>. Stay tuned for a few more really cool integrations coming soon to make it easier to interactively generate and run experiments.

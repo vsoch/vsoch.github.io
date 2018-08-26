@@ -15,7 +15,7 @@ profile: true
 	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
        <a href="https://github.com/vsoch/scif" target="_blank">[client]</a>
        <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016105/resolver?q=SCIF&l=" target="_blank">[RRID]</a></li>
-	<li><a href="https://expfactory.github.io/expfactory" target="_blank">The Experiment Factory</a>: reproducible experiment containers 
+	<li><a href="https://expfactory.github.io/" target="_blank">The Experiment Factory</a>: reproducible experiment containers 
        <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a>
        <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016107/resolver?q=SCR_016107&l=SCR_016107" target="_blank">[RRID]</a></li>
 	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
@@ -30,6 +30,7 @@ profile: true
 
 <h3><strong>Containers</strong></h3>
 <ul>
+	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
 	<li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank"> [software]</a></li>

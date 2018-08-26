@@ -155,7 +155,7 @@ At the end of this, you have a consistent workflow to build a container, deploy 
 
 ### Experimental Paradigm Library
 
-The <a href="https://expfactory.github.io/experiments" target="_blank">experiment factory</a> library is equivalently a collection of web based experiments, and serves a nice table to discover the repositories. However, while each repository serves it's own web based experiment, we are still missing a setup with testing, automated deployment of containers for the experiments, and metadata for these container versions. And it's a terrible thing because I've even developed <a href="https://expfactory.github.io/expfactory/integration-robots" target="_blank">a robot</a> that could do the headless testing. Now imagine a containershare of of these experiments, where each one shows you exactly the software, versions, and Docker Hub images that are automatically built, tested, and deployed. I can integrate the containershare library table into the command to search for experiments (this will already work):
+The <a href="https://expfactory.github.io/experiments" target="_blank">experiment factory</a> library is equivalently a collection of web based experiments, and serves a nice table to discover the repositories. However, while each repository serves it's own web based experiment, we are still missing a setup with testing, automated deployment of containers for the experiments, and metadata for these container versions. And it's a terrible thing because I've even developed <a href="https://expfactory.github.io/integration-robots" target="_blank">a robot</a> that could do the headless testing. Now imagine a containershare of of these experiments, where each one shows you exactly the software, versions, and Docker Hub images that are automatically built, tested, and deployed. I can integrate the containershare library table into the command to search for experiments (this will already work):
 
 ```bash
 
@@ -166,7 +166,7 @@ docker run vanessa/expfactory-builder list
 99 zoning-out-task	https://github.com/earcanal/zoning-out-task
 ```
 
-but then take it a step further by having each experiment, on its own, expose complete metadata about its containers. For example, I'd want to issue another command for the `writing-task` that exposes the tags and containers available to me to <a href="https://expfactory.github.io/expfactory/generate#quick-start" target="_blank">build into my experiment container</a>.
+but then take it a step further by having each experiment, on its own, expose complete metadata about its containers. For example, I'd want to issue another command for the `writing-task` that exposes the tags and containers available to me to <a href="https://expfactory.github.io/generate#quick-start" target="_blank">build into my experiment container</a>.
 
 
 ### Sherlock Cluster Library

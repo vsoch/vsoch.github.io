@@ -10,12 +10,12 @@ date: 2017-11-19 1:04:00
 I'm excited to share more progress on the now beta version of The Experiment Factory, with the following updates:
 
 <ol class='custom-counter'>
- <li>support for <a href="https://expfactory.github.io/expfactory/usage.html#postgresql" target="_blank">postgresql</a>, <a href="https://expfactory.github.io/expfactory/usage.html#sqlite" target="_blank">sqlite</a>, and <a href="https://expfactory.github.io/expfactory/usage.html#mysql" target="_blank">mysql</a> in addition to the default <a href="https://expfactory.github.io/expfactory/usage.html#filesystem" target="_blank">filesystem</a></li>
-<li>tutorials for each database, and for <a href="https://expfactory.github.io/expfactory/usage.html#working-with-json" target="_blank">accessing data</a></li>
+ <li>support for <a href="https://expfactory.github.io/usage.html#postgresql" target="_blank">postgresql</a>, <a href="https://expfactory.github.io/usage.html#sqlite" target="_blank">sqlite</a>, and <a href="https://expfactory.github.io/usage.html#mysql" target="_blank">mysql</a> in addition to the default <a href="https://expfactory.github.io/usage.html#filesystem" target="_blank">filesystem</a></li>
+<li>tutorials for each database, and for <a href="https://expfactory.github.io/usage.html#working-with-json" target="_blank">accessing data</a></li>
  <li>a <a href="https://expfactory.github.io/experiments/" target="_blank">browsable, tested library and API</a></li>
  <li>the library includes 95 experiments (jspsych paradigms, phaser games, and traditional surveys)</li>
- <li>an <a href="https://expfactory.github.io/expfactory/generate#quick-start" target="_blank">experiment container builder</a></li>
- <li>a <a href="https://expfactory.github.io/expfactory/contribute#contribute-a-survey" target="_blank">survey generator</a> container to turn a single tab separted file into a web-ready survey.</li>
+ <li>an <a href="https://expfactory.github.io/generate#quick-start" target="_blank">experiment container builder</a></li>
+ <li>a <a href="https://expfactory.github.io/contribute#contribute-a-survey" target="_blank">survey generator</a> container to turn a single tab separted file into a web-ready survey.</li>
 </ol>
 
 This means that it is easy for a researcher to contribute in many ways, or just use the tool! If you want to jump in and try some experiments for yourself, here is the "quick start"
@@ -69,7 +69,7 @@ Once you build your experiment container and provide it's unique identifier in a
 </ol>
 
 ## A Quick View
-If you want a thorough walk-through of using the containers or building an experiment, see our <a href="https://expfactory.github.io/expfactory/" target="_blank">official documentation</a>. This will be a broad overview with some pictures of the interface. First we start with a container from Docker Hub
+If you want a thorough walk-through of using the containers or building an experiment, see our <a href="https://expfactory.github.io/" target="_blank">official documentation</a>. This will be a broad overview with some pictures of the interface. First we start with a container from Docker Hub
 
 
 ```

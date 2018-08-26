@@ -194,7 +194,7 @@ Here are a few examples of how a simple code snippet added to documentation page
   <li><a href="https://github.com/researchapps/living-docs" target="_blank">Living Docs</a></li>
   <li><a href="https://sci-f.github.io/" target="_blank">The Scientific Filesystem</a></li>
   <li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">Singularity Python</a></li>
-  <li><a href="https://expfactory.github.io/expfactory/" target="_blank">The Experiment Factory</a></li>
+  <li><a href="https://expfactory.github.io/" target="_blank">The Experiment Factory</a></li>
   <li><a href="https://researchapps.github.io" target="_blank">Research Applications</a></li>
 </ol>
 

@@ -11,7 +11,7 @@ I'm pleased to share that I've been working on a new alpha version of The Experi
 
 When I graduated and started working on Singularity I knew the direction I wanted to take Experiment Factory, but the development of the software was not far enough along to support it. I also had hopes that possibly the current maintainers would take it in a better direction. But after years of hoping, and much development from our Singularity team, I did what I commonly do. When you want something to be a certain way, you just do it. And now we are ready to bring Expfactory back to life! I'm looking for testing, and importantly, feedback about what you want and need:
 
-[https://expfactory.github.io/expfactory/](https://expfactory.github.io/expfactory/)
+[https://expfactory.github.io/](https://expfactory.github.io/)
 
 If you collect behavioral data, please provide feedback at the repositories linked to give details about your use case. My plan is to respond to feedback (likely meaning addition of customization to the application), and then migration of all legacy experiments, and then reaching out to the larger community. Woohoo!
 

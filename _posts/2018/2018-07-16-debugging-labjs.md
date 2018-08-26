@@ -242,7 +242,7 @@ After almost 100 <a href="https://github.com/FelixHenninger/lab.js/issues/18" ta
 
 **Expfactory <3 LabJS**
 
-Why do we care about this so much? What does it all mean? We are working on making it easier to go from creating a behavioral experiment, in your browser, to having a production-ready reproducible container. If you want an early preview of our work, check out the <a href="https://expfactory.github.io/expfactory/integration-labjs" target="_blank">LabJS integration page here</a>, and you can expect some beautiful LabJS based documentation to come in the following weeks. This bout of work is awesome and deserves an entire post on its own, but not before I am able to put some time into helping my colleague with LabJS. Stay tuned!
+Why do we care about this so much? What does it all mean? We are working on making it easier to go from creating a behavioral experiment, in your browser, to having a production-ready reproducible container. If you want an early preview of our work, check out the <a href="https://expfactory.github.io/integration-labjs" target="_blank">LabJS integration page here</a>, and you can expect some beautiful LabJS based documentation to come in the following weeks. This bout of work is awesome and deserves an entire post on its own, but not before I am able to put some time into helping my colleague with LabJS. Stay tuned!
 
 
 ## Should you Share your Solution? (SyS!)
