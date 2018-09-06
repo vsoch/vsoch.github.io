@@ -36,8 +36,9 @@ I don't think so!
 ### Where does all this stuff go?
 
 It belongs with the experiment. Each experiment should provide its own
-reproducible testing, development, and sharing, because The Experiment Factory itself
-cannot take on the burden of doing this at every level. 
+reproducible testing, development, and sharing, because software like the The Experiment 
+Factory that is optimized to package and serve cannot take on the burden of these functions
+at every level. 
 
 
 ### Who is responsible for doing this?
