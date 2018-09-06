@@ -16,18 +16,17 @@ places a lot of trust in the creator of the experiments. What is missing?
 The fact that the individual experiments aren't **tested**, **deployed**, and **archived**
  is problematic. If I were to install from Github
 today and build into a container, that's great. But what if someone else wants to use
-a previous version of the experiment? Or they want to just inspect software versions
-from a previous version? With Github it isn't _impossible_, but as you move further
+a previous version of the experiment? With Github it isn't _impossible_, but as you move further
 away from "the thing that I'm actually using" to "scripts run in some place that no longer exists
 to generate the thing" the probability of success decreases. What would be an improvement? 
 I would want the following things:
 
 <ol class="custom-counter">
-<li>Automation to build a container to deploy the experiment</li>
-<li>Software or functions for parsing data, and performing analyses</li>
-<li>Testing for the experiment and any analysis software</li>
-<li>A versioned archive of metadata and manifests</li>
-<li>A live preview of the current version</li>
+<li><strong>Automation</strong> to build a container to deploy the experiment</li>
+<li><strong>Software</strong> or functions for working with results</li>
+<li><strong>Testing</strong> for the experiment and any analysis software</li>
+<li>A versioned <strong>archive</strong> of metadata and manifests</li>
+<li>A live <strong>preview</strong> of the current version</li>
 </ol>
 
 > Is this too much to ask?
