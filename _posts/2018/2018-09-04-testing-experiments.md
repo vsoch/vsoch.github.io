@@ -226,7 +226,7 @@ and it's metadata and manifests generated and put back on <a href="https://githu
 
 While it's not rendered (the master branch is used to serve the task in the repository) there is also a 
 <a href="https://github.com/expfactory-experiments/nback-10min-animals/blob/gh-pages/index.html" target="_blank">table index.html</a> file. This means that you can drop the entire `gh-pages` branch into a web root and get a nice site to explore
-container links, and metadata. It looks like <a href="https://vsoch.github.io/repo2docker-keras/">this one</a>. And of course to  test out task container:
+container links, and metadata. It looks like <a href="https://vsoch.github.io/repo2docker-keras/">this one</a>. And of course to  test the task container:
 
 ```bash
 
@@ -239,7 +239,7 @@ $ docker run -p 80:80 expfactory/nback-10min-animals start
 # Templates are Important
 
 I probably sound like a broken record, but this simple setup of having code in version control, testing and deploying, and keeping
-some important outputs or even interactive web content? There are endless many use cases! The exciting thing is
+some important outputs or even interactive web content? There are endless use cases! The exciting thing is
 that while these initial bases can be a lot to create, once you have your template? It is **so** easy to hand to someone else and they get the same beautiful thing. As a developer, I've gone from a mindset of
 
 > How do I create a new tool to do the thing
@@ -248,7 +248,10 @@ to
 
 > How can I made it easier to use already existing things?
 
-And this means that the <span style="color:green">currency</span> that I want to operate is on the level of webhooks (services) and modular templates to use them. It makes sense, right? 
+And this means that the <span style="color:green">currency</span> that I want to operate is on the level of webhooks (services) and modular templates to use them. I want to do the hard work of connecting the pipes and making pretty metadata
+and renderings, and hand it over to the researcher. The researcher can then add what is important to him or her,
+namely the experiment and analysis. The reproducible products that are essential for his or her success
+are ready to go. It makes sense, right? 
 
 ### What I'm thinking about
 
