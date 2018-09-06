@@ -172,15 +172,13 @@ longer versions. This one, "N-Back 10 Minute Animals" is one of my favorite beca
 </div>
 
 
-Those icons are beautiful. This, along with the "Breath Counting Task" were the first
-two for which I finally chiseled together a complete workflow that I've wanted for quite some time. 
-We put together what I would consider the start of my definition 
-for a tested reproducible experiment. Yes, there are improvements to make, but the duct taped
-thing has taken shape! And it's a beautiful beastie.
+Those icons are beautiful. 
+
 
 ### The Workflow Setup
 
-As we did previously, we also start with a 
+Since I've described the workflow with the "Breath Counting Task" 
+I'll show you this briefly. As we did previously, we also start with a 
 <a href="https://github.com/expfactory-experiments/nback-10min-animals" target="_blank">Github
 repository</a>
 
