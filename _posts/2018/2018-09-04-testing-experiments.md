@@ -56,11 +56,11 @@ I'm going to be giving a quick overview of the following two experiments:
 
  - [The Breath Counting Task](#example-1-the-breath-counting-task)
  - [The N-back 10 Minute Animals](#example-2-the-back-10min-animals)
- - [Final Thoughts on Templates](#templates-are-important)
 
 <br>
 
-I challenged my colleagues <a href="http://github.com/earcanal" target="_blank">@earcanal</a> and
+and then some <a href="#templates-are-important" target="_blank">Final Thoughts on Templates</a>.
+ I challenged my colleagues <a href="http://github.com/earcanal" target="_blank">@earcanal</a> and
 <a href="http://github.com/tylerburleigh" target="_blank">@tylerburleigh</a> to stick with me as
 we went on an adventure of Github, CircleCI, R package creation and testing, headless browser drivers,
 and back! 
