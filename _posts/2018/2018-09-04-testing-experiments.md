@@ -47,7 +47,8 @@ There is no single person better optimized to write (and provide) code for doing
 the results or testing the experiment software than the creator of it. But we must separate the actual functions and
 experiment from the supporting infrastructure. 
 
-> The ability to plug into a testing system and configure deployment should not be something that the creator needs to worry about.
+> The extra work to plug into a build, test, deploy system should not be something that the creator needs to worry about.
+
 
 This final point was the start of my thinking. While each individual component in the list above might be 
 not too terrible to set up, getting them all together sums to quite a bit of work. It's not time 
@@ -59,7 +60,7 @@ I'm going to be giving a quick overview of the following two experiments:
 
 <br>
 
-and then some <a href="#templates-are-important" target="_blank">Final Thoughts on Templates</a>.
+and then some <a href="#templates-are-important">Final Thoughts on Templates</a>.
  I challenged my colleagues <a href="http://github.com/earcanal" target="_blank">@earcanal</a> and
 <a href="http://github.com/tylerburleigh" target="_blank">@tylerburleigh</a> to stick with me as
 we went on an adventure of Github, CircleCI, R package creation and testing, headless browser drivers,
