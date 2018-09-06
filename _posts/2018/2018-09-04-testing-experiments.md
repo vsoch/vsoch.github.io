@@ -97,7 +97,9 @@ service, here is the workflow on <a href="https://circleci.com/workflow-run/65bb
 
 ### Testing Software
 
-If it's a pull request, we are primarily interested with running the library of tests. Here are tests run by the
+If it's a pull request, this means that someone is requesting changes to be made to the software. 
+We need to test those changes, and ensure that nothing is broken. 
+This means that we are primarily interested with running the library of tests. Here are tests run by the
 <a href="https://github.com/expfactory/expfactoryr" target="_blank">expfactoryr</a> library to test the Breath Counting
 Task's own library. Note that we do this via a <a href="https://hub.docker.com/r/expfactory/expfactoryr/" target="_blank">Docker Container</a>.
 
