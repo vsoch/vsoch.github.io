@@ -44,8 +44,7 @@ at every level.
 ### Who is responsible for doing this?
 
 There is no single person better optimized to write (and provide) code for doing things like processing
-the results or testing the experiment software than the creator of it, **not** a user
-that starts at a step 1 of "What's going on?" But we must separate the actual functions and
+the results or testing the experiment software than the creator of it. But we must separate the actual functions and
 experiment from the supporting infrastructure. The ability to plug into a testing system and
 configure deployment should not be something that the creator needs to worry about.
 
