@@ -271,11 +271,11 @@ a selection of different issue templates to provide based on the needs of the te
 **Modular Github Pages**
 
 It's fairly straight forward to deploy a single thing to Github pages like a set of manifests or a rendered PDF. But what 
-happens when you put together components of some template like blocks? Then what if each of those blocks has it's own
-version of an "index.html" and you either have to merge them or only choose one? I ran into this issue when
+happens when you put together components that each want their own webby space? They each have their own
+version of an "index.html" and you either have to combine them or only choose one? I ran into this issue when
 I realized I couldn't deploy my table of manifests because the experiment preview was already rendered there.
-We need to define an organizational structure for the Github Pages content that is generated so we can have certainty that some
-set of rendered outputs each has a consistent place to live.
+We need to define an organizational structure for the Github Pages content that gives us certainty that each of some
+set of rendered outputs has a consistent place to live.
 
 
 **Badges**
