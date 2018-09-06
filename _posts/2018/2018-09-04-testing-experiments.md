@@ -36,8 +36,8 @@ I don't think so!
 ### Where does all this stuff go?
 
 It belongs with the experiment. Each experiment should provide its own
-reproducible testing, development, and sharing, because software like the The Experiment 
-Factory that is optimized to package and serve cannot take on the burden of these functions
+reproducible testing, development, and sharing, because any packaging and deployment
+software like the The Experiment Factory cannot take on the burden of these functions
 at every level. 
 
 
@@ -45,14 +45,14 @@ at every level.
 
 There is no single person better optimized to write (and provide) code for doing things like processing
 the results or testing the experiment software than the creator of it. But we must separate the actual functions and
-experiment from the supporting infrastructure. The ability to plug into a testing system and
-configure deployment should not be something that the creator needs to worry about.
+experiment from the supporting infrastructure. 
 
-This point was the start of my thinking, and 
-that while each individual component in the list above might be easy to set up, getting them
-all together would sum to quite a bit of work. How can we make this easier? Today I want to discuss
-the start of this work by talking about the steps involved. I'm going to be giving a quick overview of the 
-following two experiments:
+> The ability to plug into a testing system and configure deployment should not be something that the creator needs to worry about.
+
+This final point was the start of my thinking. While each individual component in the list above might be 
+not too terrible to set up, getting them all together sums to quite a bit of work. It's not time 
+that everyone has. How can we make this easier? Today I want to discuss some of the steps involved toward this goal. 
+I'm going to be giving a quick overview of the following two experiments:
 
  - [The Breath Counting Task](#example-1-the-breath-counting-task)
  - [The N-back 10 Minute Animals](#example-2-the-back-10min-animals)
