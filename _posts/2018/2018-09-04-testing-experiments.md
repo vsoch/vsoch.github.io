@@ -7,13 +7,13 @@ toc: false
 Web based experiments must be reproducible, but what does that mean? Typically,
 a "best effort" might provide code on Github, and pre-register on the 
 <a href="https://osf.io" target="_blank">open science framework</a>. 
-This is a good start, but can we do better? An open source project near and dear to me,
+This is a good start, but can we do better? For example, an open source project near and dear to me,
 the <a href="https://expfactory.github.io" target="_blank">Experiment Factory</a>
-places a lot of trust in the creator of the experiments.
+places a lot of trust in the creator of the experiments. What is missing?
 
 ## Testing Reproducible Experiments
 
-What do I mean? The fact that the individual experiments aren't **tested**, **deployed**, and **archived**
+The fact that the individual experiments aren't **tested**, **deployed**, and **archived**
  is problematic. If I were to install from Github
 today and build into a container, that's great. But what if someone else wants to use
 a previous version of the experiment? Or they want to just inspect software versions
