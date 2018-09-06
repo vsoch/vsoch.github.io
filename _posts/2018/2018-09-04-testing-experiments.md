@@ -118,7 +118,8 @@ And if the tests pass, we use the <a href="https://hub.docker.com/r/vanessa/expf
 
 ### Reproducible Experiment
 
-And then guess what? We push this new container to Docker Hub, where it's immediately available for your use.
+And then guess what? We push this new container to Docker Hub as 
+<a href="https://hub.docker.com/r/expfactory/breath-counting-task/" target="_blank">expfactory/breath-counting-task</a>, where it's immediately available for your use.
 
 <div>
 <img src="/assets/images/posts/breath-counting-task/docker-hub.png" style="padding-top:20px; padding-bottom:20px">
