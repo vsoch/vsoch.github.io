@@ -136,7 +136,7 @@ $ docker run -p 80:80 expfactory/breath-counting-task start
 
 <br>
 
-and open your browser to `http://127.0.0.1` (a.k.a "localhost") and there it is!
+and open your browser to `http://127.0.0.1` and there it is!
 
 <div>
 <img src="/assets/images/posts/breath-counting-task/browser.png" style="padding-top:20px; padding-bottom:20px">
@@ -164,7 +164,7 @@ Github Pages branch</a>.
 
 My colleague <a href="http://github.com/tylerburleigh" target="_blank">@tylerburleigh</a> is 
 doing <a href="https://osf.io/nzm2g/drafts/5b8d56f1cc53a9001735a15b/register">some work</a>
- to access if shorter versions of some of our favorite paradigms can be used in place of the
+ to assess if shorter versions of some of our favorite paradigms can be used in place of the
 longer versions. This one, "N-Back 10 Minute Animals" is one of my favorite because of this:
 
 <div>
