@@ -10,6 +10,8 @@ profile: true
 <h3><strong>Ideas and Projects</strong></h3>
 <ul>
 
+	<li><a href="https://openbases.github.io/" target="_blank">OpenBases</a>: templates that use Github+CircleCI for easy, reproducible research</li>
+	<li><a href="https://openschemas.github.io/" target="_blank">OpenSchemas</a>: Tools to interact with and develop specifications for schema.org</li>
 	<li><a href="https://vsoch.github.io/lessons/" target="_blank">Stanford Research Computing Lessons</a>: Lessons and tutorials for HPC</li>
 	<li><a href="https://vsoch.github.io/datasets/" target="_blank">Dinosaur Datasets</a>: Open Source Datasets</li>
 	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
