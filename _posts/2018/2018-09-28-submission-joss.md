@@ -176,6 +176,7 @@ $ docker run openbases/openbases icons
 # pip install openbases
 $ ob-icons --help
 $ ob-icons
+
 ```
 
 This is the vision of the <a href="https://github.com/openbases" target="_blank"> open research bases</a> organization,
