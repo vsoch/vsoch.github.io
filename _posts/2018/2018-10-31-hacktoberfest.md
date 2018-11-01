@@ -9,17 +9,17 @@ hours after the time I should have gone to sleep. I was, like every technology-c
 American, reading the endless stream of content on my "little internet,"
 or my phone with improperly lit screens to keep me up well beyond what my biological
 clock would allow otherwise. This was the time that a series of chained events
-the combination of Github and Digital Ocean's Hacktoberfest, Open Source Spirit, 
+- the combination of Github and Digital Ocean's Hacktoberfest, Open Source Spirit, 
 Avocados and dinosaur creativity would lead to...
 
 ## The 12 Days of Halloweenie
 
 ```
-$ docker run vanessa/40-avocados markdown
+$ docker run vanessa/40-avocados
 ```
 
 Today I will tell you a story written by a container, using a script that is driven by a tested tiny
-database of items that add up to $40, currently a reasonably sized set that have been contributed from
+database of items that add up to $40, currently a reasonably sized set that have been contributed via
 Hacktoberfest fun in under 24 hours. This was unplanned, unexpectedly fun, and it 
 all came together in under 24 hours! In this post, as you will see, I will tell you how my
 Halloweenie came to be.
@@ -31,7 +31,7 @@ It was in a Slack from a colleague I learned of this interesting news!
 It was an announcement from Apple shared via [Hackaday](https://hackaday.com/2018/10/30/apple-introduces-what-weve-all-been-waiting-for/). The rainbow logo... he's coming back! I've never been a Mac user, 
 but I do have memories of being a child and seeing other people's computers, and feeling 
 a compulsion to rub the little logo like a genie lamp. Because anything shiny and plastic I
-deemed must be a color changing mood ring sort of toy. In this post, Apple is likely 
+deemed must be a color changing mood ring sort of toy. Apple is likely 
 restoring a lot of this legacy happiness by deciding to "bring back" their old school logo.
 And it's only available for $40.00 "exclusively at the Flag Park Visitor's Center."
 
@@ -110,10 +110,12 @@ By the end of the day (sort of now?) we had:
 
 But this isn't the end of the story! I wanted to create something that would live beyond
 the repository, and use it, in whatever its current version is. So I build the 
-[vanessa/40-avocados]() container. You can use it to write text to the screen, or markdown.
+[vanessa/40-avocados](https://hub.docker.com/r/vanessa/40-avocados/) container. 
+You can use it to write text to the screen, or markdown.
 Here is the text:
 
 ```bash
+
 $ docker run vanessa/40-avocados
 On the 128 day of Halloweenie my pusheena earthworm gave to me, ... dumplings
 On the 60 day of Halloween my stanky despacito gave to me, ... rainbow-glasses
@@ -127,6 +129,7 @@ On the 8 day of October my dirty pumpkin gave to me, ... waving-cats
 On the 5 day of Hacktoberfest my phat parsnip gave to me, ... canned-unicorn-meat
 On the 2 day of Fall my orange house gave to me, ... the-elder-scrolls-online
 And arduino-mkr-zero just for me :)
+
 ```
 
 and the same, but ask for markdown!
