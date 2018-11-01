@@ -5,10 +5,10 @@ toc: false
 ---
 
 On the Eve of Hallows Eve, and the last day of Hacktoberfest, it was already
-hours after the time I should have gone to sleep. I was, like every technology
-chained American, reading the endless stream of content on my "little internet,"
+hours after the time I should have gone to sleep. I was, like every technology-chained 
+American, reading the endless stream of content on my "little internet,"
 or my phone with improperly lit screens to keep me up well beyond what my biological
-clock would allow otherwise. This was the time that a serious of chained events
+clock would allow otherwise. This was the time that a series of chained events
 the combination of Github and Digital Ocean's Hacktoberfest, Open Source Spirit, 
 Avocados and dinosaur creativity would lead to...
 
