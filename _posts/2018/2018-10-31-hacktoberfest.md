@@ -1,6 +1,6 @@
 ---
 title: "Hacktoberfest 2018"
-date: 2018-10-03 5:30:00
+date: 2018-10-31 5:30:00
 toc: false
 ---
 
