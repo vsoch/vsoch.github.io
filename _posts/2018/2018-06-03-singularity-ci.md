@@ -61,7 +61,6 @@ You can clone and tweak, but it's easiest likely to get started with our example
 We will be working with <a href="https://www.travis-ci.org" target="_blank">Travis CI</a>. You can see example builds for this <a href="https://travis-ci.org/singularityhub/singularity-ci/builds" target="_blank">repository here</a>.
 
  - Travis offers <a href="https://docs.travis-ci.com/user/cron-jobs/" target="_blank">cron jobs</a> so you could schedule builds at some frequency.
- - Travis also offers <a href="https://circleci.com/docs/2.0/gpu/" target="_blank">GPU Builders</a> if you want/need that sort of thing.
  - If you don't want to use the <a href="https://singularityhub.github.io/sregistry-cli" target="_blank">sregistry</a>
  to push to Google Storage, Drive, Globus, Dropbox, or your personal Singularity Registry, travis will upload your artifacts directly to your <a href="https://docs.travis-ci.com/user/uploading-artifacts/" target="_blank">Amazon S3 bucket</a>
  along with a <a href="https://docs.travis-ci.com/user/deployment" target="_blank">crapton</a> of other deployment methods.
@@ -147,10 +146,6 @@ Guess what, this setup is totally changeable by you, it's your build! This means
 **Cron Jobs**
 
 This setup can work as an analysis node as well! Try setting up a [cron job](https://docs.travis-ci.com/user/cron-jobs/) to build a container that processes some information feed, and you have a regularly scheduled task.
-
-**GPU Builders**
-
-try out one of the [GPU builders](https://circleci.com/docs/2.0/gpu/)
 
 **Resource Optimization**
 
