@@ -12,11 +12,7 @@ Today I'm happy to announce a Thanksgiving special treat for Singularity and Git
 
 The robots and I have listened to your requests for a GitLab CI template, and had
 a fun weekend exploring using GitLab for the first time. We are very excited
-about what we've found, for example, did you know that GitLab can easily connect
-to a [Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)? 
-I encourage you to explore it's [various projects](https://docs.gitlab.com/ee/user/project/), 
-if you are new like me. Today we will focus on one feature, the <strong>Continuous Integration</strong>
-or <strong>Continuous Deployment</strong>, often referred to as CI/CI. GitLab has its own Continuous Integration service built in, which means that you can (from a single repository):
+about what we've found. GitLab has its own Continuous Integration service built in, which means that you can (from a single repository):
 
  - build a container using the built in continuous integration
  - store it as an artifact
@@ -24,7 +20,7 @@ or <strong>Continuous Deployment</strong>, often referred to as CI/CI. GitLab ha
 
 <br>
 
-For the first step, I've added a new GitLab template to the [singularityhub/singularity-ci](https://github.com/singularityhub/singularity-ci) repository. The template itself is served on GitLab as
+What did we make for you? For the first step, I've added a new GitLab template to the [singularityhub/singularity-ci](https://github.com/singularityhub/singularity-ci) repository. The template itself is served on GitLab as
 [singularityhub/gitlab-ci](https://gitlab.com/singularityhub/gitlab-ci/). You can find
 a complete tutorial for using the template in the README there, or continue reading for 
 a quick rundown. But this wasn't good enough, because it didn't seem easy enough to
@@ -239,6 +235,16 @@ Polo !
 and are overtaken with a sudden sadness that this container has been lying dormant,
 waiting to respond to the call of some "Marco!" emit long ago. We just freed his little
 container spirit!
+
+<br>
+
+
+# Summary
+In summary!
+
+ - Check out the GitLab [singularityhub/gitlab-ci](https://gitlab.com/singularityhub/gitlab-ci/) template to start building and creating artifacts.
+ - Use the sregistry [GitLab client](https://singularityhub.github.io/sregistry-cli/client-gitlab) to pull your little poopsies.
+
 
 <br>
 
