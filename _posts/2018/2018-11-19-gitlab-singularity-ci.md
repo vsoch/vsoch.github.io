@@ -7,7 +7,7 @@ toc: false
 Today I'm happy to announce a Thanksgiving special treat for Singularity and GitLab users!
 
 <div>
-<img src="https://vsoch.github.io/assets/images/posts/gitlab/sregistry-gitlab.png">
+<img style="align-center; width:100%" src="https://vsoch.github.io/assets/images/posts/gitlab/sregistry-gitlab.png">
 </div><br>
 
 The robots and I have listened to your requests for a GitLab CI template, and had
