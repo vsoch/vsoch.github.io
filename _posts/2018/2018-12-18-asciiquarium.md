@@ -8,7 +8,7 @@ I didn't know that I could have a pet until I found the [asciiquarium](https://o
 It's the pet that I've always wanted! Specifically, I get an entire tank of fish, sharks,
 and dolphins, and they can code with me and (importantly) not die! Look at them go!
 
-<a href="https://asciinema.org/a/217511" target="_blank"><img src="https://asciinema.org/a/217511.svg" /></a>
+<script id="asciicast-217511" src="https://asciinema.org/a/217511.js" data-speed="2" async></script>
 
 Since the package manager seems most suited for fedora, I created a Docker container.
 It's an automated build from [GitHub](https://github.com/vsoch/asciiquarium).
