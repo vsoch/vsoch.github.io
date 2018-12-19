@@ -10,12 +10,14 @@ and dolphins, and they can code with me and (importantly) not die! Look at them 
 
 <script id="asciicast-217511" src="https://asciinema.org/a/217511.js" data-speed="2" async></script>
 
-Since the package manager seems most suited for fedora, I created a Docker container.
+To make "installation" and use easy, I created a Docker container.
 It's an automated build from [GitHub](https://github.com/vsoch/asciiquarium).
 It is giving me great joy, and I want to share that with you!
 
 ```bash
+
 docker run -it vanessa/asciiquarium
+
 ```
 
 Thank you to the creators of the asciiquarium. It's little finds like these that
