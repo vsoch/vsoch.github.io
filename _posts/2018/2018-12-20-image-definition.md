@@ -8,8 +8,8 @@ Before we go into details, here is what I am going to talk about in this post:
 
 <ol class="custom-counter">
  <li><strong>Container-diff</strong> is HPC Friendly. It affords doing a scaled analysis of Dockerfiles.</li>
- <li><strong>ImageDefinition</strong> is my proposal to schema.org to describe a Dockerfile. I made a bunch.</li>
- <li>I made <strong>Github Actions</strong> to extract metadata for your Dockerfiles and Datasets in Github repositories</li>
+ <li><strong>ImageDefinition</strong> is my proposal to schema.org to describe a Dockerfile.</li>
+ <li>I made <strong>Github Actions</strong> to extract metadata for your Dockerfiles and Datasets in Github repositories.</li>
 </ol>
 
 Let's get started!
@@ -18,16 +18,19 @@ Let's get started!
 <hr>
 <br>
 
-# Container-diff is HPC Friendly
+# container-diff is HPC Friendly
 
 When I first wanted to use Google's <a href="https://github.com/GoogleContainerTools/container-diff" target="_blank">container-diff</a>
  at scale, I realized that it wasn't suited for a cluster environment. 
-Why? Because <strong>1.</strong> I couldn't control the cache, and it would default to my home that would subsequently fill 
-up almost immediately and then lock me out from logging in again. Then <strong>2.</strong> There wasn't an 
-option to save to file, and I couldn't come up with a (reasonably simple) solution to pipe the output 
-from a node. Sure, I could come up with a hack, but it wasn't the best and right way to address the issue.
+Why? Because 
 
-To solve these problems, despite being super noobish with GoLang, I did two pull requests (now merged into master, [1](https://github.com/GoogleContainerTools/container-diff/pull/274) and [2](https://github.com/GoogleContainerTools/container-diff/pull/279)) to add the ability to customize the cache and save output to a file. In a nutshell, I added command line options for an `--output` and `--cache-dir` and a few tests. The release with these features hasn't yet been done yet at the time of writing of this post, so if you are interested in testing you would need to build from the master branch. I also want to give a "Thank you from the Vanessasaurus!" to <a href="https://github.com/nkubala" target="_blank">@nkubala</a> because contributing was really fun. This is the best way to run open source software.
+<strong>1.</strong> I couldn't control the cache, and it would default to my home that would subsequently fill 
+up almost immediately.<br>
+<strong>2.</strong> There wasn't an 
+option to save to file, and I couldn't come up with a (reasonably simple) solution to pipe the output 
+from a node. Sure, I could come up with a hack, but it wasn't a long term solution.
+
+To solve these problems, despite being super noobish with GoLang, I did two pull requests (now merged into master, [1](https://github.com/GoogleContainerTools/container-diff/pull/274) and [2](https://github.com/GoogleContainerTools/container-diff/pull/279)) to add the ability to customize the cache and save output to a file. In a nutshell, I added command line options for an "--output" and "--cache-dir" and a few tests. The release with these features hasn't yet been done yet at the time of writing of this post, so if you are interested in testing you would need to build from the master branch. I also want to say thank you to <a href="https://github.com/nkubala" target="_blank">@nkubala</a> because contributing was really fun. This is the best way to run open source software.
 
 ## Analysis of Dockerfiles
 
@@ -43,8 +46,8 @@ there is beautiful structure:
 If you want to see the entire analysis, the 
 <a href="https://github.com/openschemas/dockerfiles/blob/master/container-analysis.ipynb" target="_blank">notebook is available</a>.
 The take away message that I want you to have is that containers are the new unit that we operate in. We don't understand their 
-guts. With tools like container-diff, and with data structures like an `ImageDefinition` defined by schema.org, we can
-have all this metadata splot out statically in HTML for search giants like Google to parse. We might actually be able
+guts. With tools like container-diff, and with data structures like an "ImageDefinition" (hopefully soon defined by schema.org), 
+we can have all this metadata splot out statically in HTML for search giants like Google to parse. We might actually be able
 to parse and organize this massive landscape. How do you do that? Let me show you how to start.
 
 ## How do we label a Dockerfile?
@@ -53,7 +56,12 @@ For each Dockerfile, I used <a href="https://openschemas.github.io/schemaorg/" t
 Python to define an extractor, and used the extractor to generate an html page (with embedded metadata). 
 If you remember the early work thinking about <a href="https://vsoch.github.io/2018/schemaorg/" target="_blank">
 a container definition</a> and then <a href="https://vsoch.github.io/2018/datasets/" target="_blank"> doing an actual extraction</a>
-this was leading up to the extraction done here - we finally labeled each Dockerfile as an `ImageDefinition`.
+this was leading up to the extraction done here - we finally labeled each Dockerfile as an "ImageDefinition".
+The extractors I'm talking about are provided via containers served by [the openschemas/extractors](https://github.com/openschemas/extractors)
+Github repository.
+
+ - [Dataset Extractor](https://github.com/openschemas/extractors/tree/master/Dataset)
+ - [ImageDefinition Extractor](https://github.com/openschemas/extractors/tree/master/ImageDefinition)
 
 <br><br>
 <hr>
@@ -62,7 +70,7 @@ this was leading up to the extraction done here - we finally labeled each Docker
 # The ImageDefinition
 
 This jumps to our next question. We needed an entity in schema.org to define a build specification / container recipe 
-or definition like a Dockerfile. This is the `ImageDefinition`.
+or definition like a Dockerfile. This is the "ImageDefinition".
 
 ## What is an ImageDefinition?
 
@@ -80,6 +88,27 @@ html file (or a json structure) to describe your dataset or Dockerfile. [Here is
 that provides both Apt and Pip packages, extracted thanks to Container-diff, and parsed
 into that metadata thanks to schamaorg Python.
 
+## What is an Extractor?
+
+An extractor is just a set of Python scripts that use <a href="https://openschemas.github.io/schemaorg/" target="_blank">schemaorg</a>
+python to generate a datastructure (json or html with json embedded) to describe an entity described in schema.org
+like a Dataset or Software source code. You can use or modify the [extractors](https://github.com/openschemas/extractors)
+scripts directly for your purposes, or for Dataset or ImageDefinition, follow the instructions in
+the repository READMEs to run a container locally:
+
+```bash
+
+$ docker run -e DATASET_THUMBNAIL=https://vsoch.github.io/datasets/assets/img/avocado.png \
+             -e DATASET_ABOUT="This Dockerfile was created by the avocado dinosaur." \
+             -e GITHUB_REPOSITORY="openschemas/dockerfiles" \
+             -e DATASET_DESCRIPTION="ubuntu with golang and extra python modules installed." \
+             -e DATASET_KWARGS="{'encoding' : 'utf-8', 'author' : 'Dinosaur'}" \
+             -it openschemas/extractors:Dataset extract --name "Dinosaur Dataset" --contact vsoch --version "1.0.0"
+
+```
+
+These containers on [Docker Hub](https://cloud.docker.com/u/openschemas/repository/docker/openschemas/extractors) are
+what drive the Github Actions to do the same, discussed next.
 
 <br><br>
 <hr>
@@ -105,16 +134,16 @@ Here are recipes and examples to show you each of the demos for ImageDefinition 
 
 [zenodo-ml](https://vsoch.github.io/zenodo-ml/) describes the [vsoch/zenodo-ml](https://github.com/vsoch/zenodo-ml) repository, with a bunch of Github code snippets from Zenodo records and their metadata. This is a <strong>Dataset</strong> and you can see it's valid based on the Google Metadata Testing tool:
 
-<div>
-<img src="/assets/images/posts/schemaorg/valid-dataset.png" style="float:left" title="Dinosaur Dataset">
+<div style="padding:20px">
+<img src="/assets/images/posts/schemaorg/valid-dataset.png" style="float:left; margin-bottom:20px" title="Dinosaur Dataset">
 </div><br><br>
 
 
 Here is a snapshot of the site that is validated. You can see the metadata there, and it's also provided
 in a script tag for the robots to find.
 
-<div>
-<img src="/assets/images/posts/schemaorg/zenodo-ml.png" style="float:left" title="Dinosaur Dataset">
+<div style="padding:20px">
+<img src="/assets/images/posts/schemaorg/zenodo-ml.png" style="float:left; margin-bottom:20px" title="Dinosaur Dataset">
 </div><br><br>
 
 
@@ -139,8 +168,8 @@ action "Extract Dataset Schema" {
   secrets = ["GITHUB_TOKEN"]
   env = {
     DATASET_THUMBNAIL = "https://vsoch.github.io/datasets/assets/img/avocado.png"
-    DATASET_ABOUT = "Images and metadata from ~10K Github repositories. A Dinosaur Dataset. See https://vsoch.github.io/2018/extension-counts/"
-    DATASET_DESCRIPTION = "Data is compressed with squashfs and includes python3 pickled images and metadata dictionaries. "
+    DATASET_ABOUT = "Images and metadata from ~10K Github repositories. A Dinosaur Dataset."
+    DATASET_DESCRIPTION = "Data is compressed with squashfs, including images and metadata. "
   }
   args = ["extract", "--name", "zenodo-ml", "--contact", "@vsoch", "--version", "1.0.0", "--deploy"]
 }
@@ -207,16 +236,16 @@ switch to master branch, and then back to Github Pages. The same thing unfortuna
 happens on updates - you will notice the Github Action runs successfully, but then that
 the page isn't updated. If you go back to settings you will see the issue:
 
-<div>
-<img src="/assets/images/posts/schemaorg/error.png" style="float:left" title="Dinosaur Dataset">
+<div style="padding:20px">
+<img src="/assets/images/posts/schemaorg/error.png" style="float:left; margin-bottom:20px" title="Dinosaur Dataset">
 </div><br><br>
 
 And again the fix is to switch back and forth from master back to Github pages.
 
 # Summary
 
-I've been working a long time on this, and I'm happy to have created something that
-could be useful. What can you do to actively start exposing the metadata for your Datasets
+I hope that I've started to create something that could be useful. Please open issues
+if you have questions or want to help to make the tools better. What can you do to actively start exposing the metadata for your Datasets
 and Containers? Here are some suggestions:
 
  - Use the [extractors](https://github.com/openschemas/extractors) locally or via Github actions.
