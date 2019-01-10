@@ -36,30 +36,18 @@ So here is what I did:
  <li>Put those two things together in <a href="https://github.com/vsoch/containertree" target="_blank">vsoch/containertree</a> to test it out!</li>
 </ol>
 
-Let's walk through the workflow logic.
+Here is how you can deploy container trees from your Github repositories too!
 
 ### 1. Create a Workflow
 
-Let's create a <a href="https://developer.github.com/actions/" target="_blank">Github Actions</a> workflow that
-will This Github repository will deploy (and show) example Github Actions workflows
-for interacting with Google's Container Diff, along with the python
-module (containertree) that uses it.
-
-> What does this mean, in layman's terms?
-
-We will deploy a containertree to your Github pages from an existing Docker container,
-or after deploying a Docker container. First, we can create a `.github/main.workflow` 
-in our repository that looks like this:
+Let's create our <a href="https://developer.github.com/actions/" target="_blank">Github Actions</a> workflow.
+first. It will deploy a containertree to your Github pages from an existing Docker container.
+Create a `.github/main.workflow` in your repository that looks like this:
 
 ```
 workflow "Deploy ContainerTree Extraction" {
   on = "push"
   resolves = ["deploy"]
-}
-
-action "login" {
-  uses = "actions/docker/login@master"
-  secrets = ["DOCKER_USERNAME", "DOCKER_PASSWORD"]
 }
 
 action "extract" {
@@ -75,23 +63,18 @@ action "list" {
 }
 
 action "deploy" {
-  needs = ["login", "extract", "list"]
+  needs = ["extract", "list"]
   uses = "vsoch/github-deploy@master"
   secrets = ["GITHUB_TOKEN"]
   args = ["index.html data.json"]
 }
 ```
 
-In the above, we are :
-
-**Login**
-
-Logging into the docker daemon (login) in case we wanted to push.
-You need to add these credentials to your Github Secrets under the repository settings.
+In the above, we are:
 
 **Extract**
 
-Then using the SingularityHub ContainerTree container to extract static files to the github workspace
+Using the SingularityHub ContainerTree container to extract static files to the github workspace
 Note we are using an existing container "vanessa/salad.
 
 **List**
@@ -117,7 +100,7 @@ to the branch without activating it (as an admin) from the respository first.
 
 If you have a Dockerfile in your repository, then you can build and deploy it,
 and then generate its tree for Github pages! Notice below we've added
-steps to build and push.
+steps to login, build, and push.
 
 ```
 workflow "Deploy ContainerTree Extraction" {
@@ -162,7 +145,15 @@ action "deploy" {
 }
 ```
 
-The above is exactly the same but we've added steps "build" and "push."
+We've added steps to:
+
+**Login**
+
+means logging into the docker daemon in case we want to push.
+You need to add these credentials to your Github Secrets under the repository settings.
+
+And then build and push do exactly that. The vanessa/salad that is referenced under
+extract will use the container that we just pushed.
 
 ## The Power of Container-Diff
 
