@@ -23,7 +23,7 @@ alongside our version controlled code?
 
 ## Github Actions for Visualization
 
-I'm working on a <a href="https://www.github.com/singularityhub/containertree">Container Tree</a> 
+I'm working on a <a href="https://www.github.com/singularityhub/container-tree">Container Tree</a> 
 python module that will generate both data structures and visualizations for trees. 
 I have various aspirations for this library, but for now, let's say that 
 it can be used to take some container (e.g., [vanessa/salad](https://hub.docker.com/r/vanessa/salad))
@@ -31,9 +31,9 @@ and spit out a [d3.js](https://d3js.org/) visualization of its inner files.
 So here is what I did:
 
 <ol class="custom-counter">
- <li>Generated a simple Github Action ([vsoch/github-deploy](https://github.com/vsoch/github-deploy)) to deploy static files to Github Pages</li>
+ <li>Generated a simple Github Action <a href="https://github.com/vsoch/github-deploy" target="_blank">vsoch/github-deploy</a>) to deploy static files to Github Pages</li>
  <li>Created a Container Tree client to generate the trees from the command line.</li>
- <li>Put those two things together in [vsoch/containertree](https://github.com/vsoch/containertree) to test it out!</li>
+ <li>Put those two things together in <a href="https://github.com/vsoch/containertree" target="_blank">vsoch/containertree</a> to test it out!</li>
 </ol>
 
 Let's walk through the workflow logic.
