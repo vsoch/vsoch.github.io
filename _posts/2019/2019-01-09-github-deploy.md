@@ -45,6 +45,7 @@ first. It will deploy a containertree to your Github pages from an existing Dock
 Create a `.github/main.workflow` in your repository that looks like this:
 
 ```
+
 workflow "Deploy ContainerTree Extraction" {
   on = "push"
   resolves = ["deploy"]
@@ -68,6 +69,7 @@ action "deploy" {
   secrets = ["GITHUB_TOKEN"]
   args = ["index.html data.json"]
 }
+
 ```
 
 In the above, we are:
@@ -103,6 +105,7 @@ and then generate its tree for Github pages! Notice below we've added
 steps to login, build, and push.
 
 ```
+
 workflow "Deploy ContainerTree Extraction" {
   on = "push"
   resolves = ["deploy"]
@@ -143,6 +146,7 @@ action "deploy" {
   secrets = ["GITHUB_TOKEN"]
   args = ["index.html data.json"]
 }
+
 ```
 
 We've added steps to:
@@ -159,12 +163,12 @@ extract will use the container that we just pushed.
 
 The driver of the tree visualization is exporting the filesystem, and we
 do this by way of Google's [Container Diff](https://github.com/GoogleContainerTools/container-diff).
-I love this tool, and will have much more fun to show you with it.
- 
-For now, if you just want to generate the data.json for Container Diff (and roll
+I love this tool, and will have much more fun to show you with it. For now, 
+if you just want to generate the data.json for Container Diff (and roll
 your own visualization) here is an example main.workflow to get you started:
 
 ```
+
 workflow "Run container-diff isolated" {
   on = "push"
   resolves = ["list"]
@@ -181,9 +185,11 @@ action "list" {
   runs = "ls"
   args = ["/github/workspace"]
 }
+
 ```
 
-Note that the above for container-diff is currently opened as a PR, so
+Note that the above for container-diff is currently 
+[opened as a PR](https://github.com/GoogleContainerTools/container-diff/pull/286), so
 you should soon be able to use the uri `GoogleContainerTools/container-diff@master`.
 
 That's it! If you have any questions, please [open up an issue](https://www.github.com/vsoch/containertree)
