@@ -86,7 +86,9 @@ Then we are listing the files for our own debugging.
 **Deploy**
 
 Finally, we are using the [vsoch/github-deploy](https://github.com/vsoch/github-deploy)
-to deploy the static files back to Github Pages.
+to deploy the static files back to Github Pages. The arguments for the container
+are a single list of files in the Github Workspace (generated in the extract step)
+that we want to deploy.
 
 ### 2. Push to Github
 
