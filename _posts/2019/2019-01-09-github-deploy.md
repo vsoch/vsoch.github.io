@@ -1,6 +1,6 @@
 ---
 title: "Visualize Containers with Github Actions"
-date: 2019-01-03 3:15:00
+date: 2019-01-09 7:55:00
 ---
 
 Container introspection is hard. When you have a container binary, or
