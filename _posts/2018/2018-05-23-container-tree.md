@@ -413,7 +413,7 @@ show you the visualizations that I came up with, and remember that <a href="http
 
 First, here are some hierarchy-like trees.
 
-<strong><a href="https://singularityhub.github.io/container-tree/examples/tree/demo/" target="_blank">A General Tree</a></strong>
+<strong><a href="https://singularityhub.github.io/container-tree/pages/demo/tree/" target="_blank">A General Tree</a></strong>
  is your basic bread and butter d3 tree that <a href="https://bl.ocks.org/mbostock/4339083" target="_blank">Mike Bostock</a> has made famous. I don't know him, but his work is amazing. I mean, it's so elegant and lovely, you can't improve much upon it's simplicity.
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/container-tree/tree.png" style="margin:auto; display:block">
@@ -426,7 +426,7 @@ icons to tell you that you are browsing a file hierarchy. I could imagine pairin
    <img src="/assets/images/posts/container-tree/files_tree.png" style="margin:auto; display:block">
 </div>
 
-<strong><a href="https://singularityhub.github.io/container-tree/examples/shub_tree/demo/" target="_blank">The Shub Tree</a></strong>
+<strong><a href="https://singularityhub.github.io/container-tree/pages/demo/shub_tree/" target="_blank">The Shub Tree</a></strong>
 (where "shub" is in reference to "Singularity Hub" mimics a summary plot on Singularity Hub, and is the least successful of the three. 
 I can still share it and tell you what I was trying to get at. Unlike
 the other two, this tree represents more than one container. Actually, there are just under 200 containers represented here. The basic idea is that
@@ -445,7 +445,7 @@ beats the simple heatmap! This is the bread and butter of biology and genetics, 
 the simple container heatmap that I created works well for a small number of containers. Here it is in action to compare, pairwise,
 10 containers.
 
-<strong><a href="https://singularityhub.github.io/container-tree/examples/heatmap/demo/" target="_blank">Simple Heatmap</a></strong>
+<strong><a href="https://singularityhub.github.io/container-tree/pages/demo/heatmap/" target="_blank">Simple Heatmap</a></strong>
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/container-tree/heatmap-small.png" style="margin:auto; display:block">
 </div>
