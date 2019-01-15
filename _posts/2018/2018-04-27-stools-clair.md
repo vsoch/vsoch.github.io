@@ -31,9 +31,9 @@ Awesome! Here it is in action. I recorded this after not sleeping an entire nigh
 If you want to skip the prose, 
 
 <ol class="custom-counter">
-<li>go straight to the [example Travis code](https://github.com/singularityhub/stools-clair)</li>
-<li>contribute to the development of stools at [singularityhub/stools](https://github.com/singularityhub/stools)</li>
-<li>or see the example testing [on Travis](https://travis-ci.org/singularityhub/stools-clair)</li>
+<li>go straight to the <a href="https://github.com/singularityhub/stools-clair" target="_blank">example Travis code</a></li>
+<li>contribute to the development of stools at <a href="https://github.com/singularityhub/stools" target="_blank">singularityhub/stools</a></li>
+<li>or see the example testing <a href="https://travis-ci.org/singularityhub/stools-clair" target="_blank">on Travis</a></li>
 </ol>
 More information is provided below.
 
