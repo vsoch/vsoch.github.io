@@ -23,8 +23,11 @@ a container repository is updated? Let's imagine a workflow that looks like this
 The way that the last step might work is an indirect route. What I decided to do was have the metadata
 added to a branch of the central registry, and then create a GitHub action that would automatically
 create a pull request for any update to a branch that isn't master.  
-This is entirely possible, and in fact I put together this workflow this morning!
+This probably sounds complicated, but it can be summarized as:
 
+> open a pull request when I push to a branch
+
+This is entirely possible, and in fact I put together this workflow this afternoon!
 
 ## Pull Request from Branch Action
 
