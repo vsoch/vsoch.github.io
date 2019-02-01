@@ -17,13 +17,12 @@ a container repository is updated? Let's imagine a workflow that looks like this
 <ol class="custom-counter">
 <li>A container build definition is stored in a repository, such as <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a></li>
 <li>A pull request to the repository, along with triggering a build, generates manifests to update the central registry.</li>
-<li>When the continuous integration passes and the container is deployed, a pull request with the updated metadata is automatically submit.</li>
+<li>When the continuous integration finishes, a pull request with updated metadata is automatically submit.</li>
 </ol>
 
 The way that the last step might work is an indirect route. What I decided to do was have the metadata
 added to a branch of the central registry, and then create a GitHub action that would automatically
-create a pull request for any update to a branch that isn't master.  
-This probably sounds complicated, but it can be summarized as:
+create a pull request for any update to a branch that isn't master. This probably sounds complicated, but it can be summarized as:
 
 > open a pull request when I push to a branch
 
