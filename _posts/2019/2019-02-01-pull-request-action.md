@@ -73,7 +73,7 @@ above:
 
 
 This is a cool GitHub action because it's very developer friendly - the ways that
-you can use a simple trigger to create pull requests from branch is really only
+you can use a simple trigger to create pull requests from a push to a branch is really only
 limited by your own creativity. It's also great if you like having robot friends.
 I strangely still get joy whenever my robot updates his pull request when a container's
 tests pass :)
