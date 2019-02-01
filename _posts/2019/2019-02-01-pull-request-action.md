@@ -71,11 +71,6 @@ above:
 <a href="https://vsoch.github.io/assets/images/posts/sregistry/robot-update.png"><img src="https://vsoch.github.io/assets/images/posts/sregistry/robot-update.png"></a>
 </div>
 
-and how considerate, he sends me an email too!
-
-<div style="padding:20px">
-<a href="https://vsoch.github.io/assets/images/posts/sregistry/robot-email.png"><img src="https://vsoch.github.io/assets/images/posts/sregistry/robot-email.png"></a>
-</div>
 
 This is a cool GitHub action because it's very developer friendly - the ways that
 you can use a simple trigger to create pull requests from branch is really only
