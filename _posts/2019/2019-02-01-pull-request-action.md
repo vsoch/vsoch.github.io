@@ -30,8 +30,8 @@ The idea is actually very simple, and I put together a GitHub Action to do this,
 
 ## Pull Request from Branch Action
 
-I've put together the [pull-request-action](https://github.com/vsoch/pull-request-action) action
-that serves one purpose - when a branch (that you have specified) is pushed to or updated,
+I've put together the <a href=https://github.com/vsoch/pull-request-action" target="_blank">pull-request-action</a>
+GitHub action that serves one purpose - when a branch (that you have specified) is pushed to or updated,
 it will open a pull request for it. That's it! Here is what to add to your .github/main.workflow
 file:
 
