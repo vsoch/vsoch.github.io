@@ -26,7 +26,7 @@ create a pull request for any update to a branch that isn't master. This probabl
 
 > open a pull request when I push to a branch
 
-This is entirely possible, and in fact I put together this workflow this afternoon!
+The idea is actually very simple, and I put together a GitHub Action to do this, discussed next.
 
 ## Pull Request from Branch Action
 
