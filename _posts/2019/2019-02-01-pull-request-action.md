@@ -64,8 +64,8 @@ for these automatic triggers. For the file above, it says that the GitHub action
 should open a pull request to the master branch whenever a branch is pushed to
 that starts with "update/." If the pull request is already open, no action is taken.
 For example, here is the pull request that is opened for the 
-[registry use case](https://github.com/singularityhub/registry/wiki/deploy-container-storage#organizational) outlined
-above:
+[registry use case](https://github.com/singularityhub/registry/wiki/deploy-container-storage#organizational) 
+outlined above:
 
 <div style="padding:20px">
 <a href="https://vsoch.github.io/assets/images/posts/sregistry/robot-update.png"><img src="https://vsoch.github.io/assets/images/posts/sregistry/robot-update.png"></a>
