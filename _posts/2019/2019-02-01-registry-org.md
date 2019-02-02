@@ -45,7 +45,7 @@ that have a continuous integration setup akin to <a href="https://www.github.com
 Specifically:
 
 <ol class="custom-counter">
-<li>Start with a template such as <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a>. This will build Singularity containers</li>
+<li>Start with a template such as <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a>. This will build Singularity containers sent to artifact storage.</li>
 <li>Connect the repository to <a href="https://circleci.com/docs/2.0/getting-started/#setting-up-your-build-on-circleci" target="_blank">CircleCI</a></li>
 <li>Create a <a href="https://github.com/singularityhub/registry/wiki/Github-Machine-User" target="_blank">Github Machine User</a></li>
 <li>Proceed as you would to add containers (Singularity recipe files) in your repository.</li>
