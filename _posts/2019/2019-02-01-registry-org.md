@@ -41,7 +41,7 @@ knows how to deploy it's content to GitHub pages, and it relies on pull requests
 
 If you want details for how to set this up, I've updated the [documentation here](https://github.com/singularityhub/registry/wiki/deploy-container-storage).
 It comes down to forking the repository, and then generating repositories for your containers
-that have a continuous integration setup akin to <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a>
+that have a continuous integration setup akin to <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a>.
 Specifically:
 
 <ol class="custom-counter">
