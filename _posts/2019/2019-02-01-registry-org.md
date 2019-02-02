@@ -19,7 +19,7 @@ It <a href="https://singularityhub.github.io/registry-org/" target="_blank">look
 <ol class="custom-counter">
 <li>other repositories such as <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a> serve and build container recipes</li>
 <li>a pull request runs a continuous integration workflow to build and upload the container to storage</li>
-<li>the workflow finishes by creating a new branch (named according to its namespace, so each repository always has a unique branch)</li>
+<li>the workflow finishes by creating a branch named according to the repository name (unique)</li>
 <li>the branch push opens or updates a pull request on the repository via this <a href="https://www.github.com/vsoch/pull-request-action" target="_blank">GitHub Action</a></li>
 </ol>
 
