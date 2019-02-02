@@ -32,8 +32,8 @@ doesn't place the burden of building on one single repository.
 
 ## The Organizational Static Registry
 
-The [org registry](https://www.github.com/singularityhub/registry-org) that I put together is a modified basic registry
-with the change that the registry repository itself doesn't do any building. It's a silly GitHub repository that only
+We can summarize the [org registry](https://www.github.com/singularityhub/registry-org) as a modified basic registry
+that itself doesn't do any building. It's a silly GitHub repository that only
 knows how to deploy it's content to GitHub pages, and it relies on pull requests to it in order to update that content.
 
 
