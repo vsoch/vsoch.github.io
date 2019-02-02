@@ -3,7 +3,8 @@ title: "Organizational Static Container Registry"
 date: 2019-02-01 7:05:00
 ---
 
-To follow up on my <a href="">original post</a> about a basic <a href="https://www.github.com/singularityhub/registry-" target="_blank">static container registry</a>,
+To follow up on my <a href="https://vsoch.github.io/2019/static-registry/" target="_blank">original post</a> 
+about a basic <a href="https://www.github.com/singularityhub/registry-" target="_blank">static container registry</a>,
 I've following up with another model that might be more of interest to groups that don't want to build, test, and deploy
 all in one place. The <a href="https://www.github.com/singularityhub/registry-org" target="_blank">organizational registry</a>!
 It <a href="https://singularityhub.github.io/registry-org/" target="_blank">looks exactly the same</a>:
