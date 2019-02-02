@@ -54,7 +54,7 @@ Specifically:
 
 ### How Does the namespace Work?
 
-Unlike the basic registry, the organizational registry has a namespace based on the GitHub repositories that submit containers to it! So if you are submitting a container from `singularityhub/ubuntu`, the container will be served from `https://singularityhub.github.io/singularityhub/ubuntu`, with manifests and tags under `https://singularityhub.github.io/singularityhub/ubuntu/manifests/<tag>`. This makes life much easier for the registry, because the namespaces aren't maintainer via
+Unlike the basic registry, the organizational registry has a namespace based on the GitHub repositories that submit containers to it! So if you are submitting a container from `singularityhub/ubuntu`, the container will be served from `https://singularityhub.github.io/singularityhub/ubuntu`, with manifests and tags under `https://singularityhub.github.io/singularityhub/ubuntu/manifests/<tag>`. This makes life much easier for the registry, because the namespaces aren't maintained via
 randomly generated folder hierarchies, but rather via the GitHub namespace.
 
 ### How do I create a tag?
