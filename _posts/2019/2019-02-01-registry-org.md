@@ -5,7 +5,7 @@ date: 2019-02-01 7:05:00
 
 To follow up on my <a href="">original post</a> about a basic <a href="https://www.github.com/singularityhub/registry-" target="_blank">static container registry</a>,
 I've following up with another model that might be more of interest to groups that don't want to build, test, and deploy
-all in one place. The <a href="https://www.github.com/singularityhub/registry-org" target="_blank">organizational registry</a>.
+all in one place. The <a href="https://www.github.com/singularityhub/registry-org" target="_blank">organizational registry</a>!
 It <a href="https://singularityhub.github.io/registry-org/" target="_blank">looks exactly the same</a>:
 
 
@@ -19,7 +19,7 @@ It <a href="https://singularityhub.github.io/registry-org/" target="_blank">look
 <ol class="custom-counter">
 <li>other repositories such as <a href="https://www.github.com/singularityhub/centos" target="_blank">singularityhub/centos</a> serve and build container recipes</li>
 <li>a pull request runs a continuous integration workflow to build and upload the container to storage</li>
-<li>when step 2 is done, the workflow finishes by creating a new branch (named according to its namespace, so each repository always has a unique branch)</li>
+<li>the workflow finishes by creating a new branch (named according to its namespace, so each repository always has a unique branch)</li>
 <li>the branch push opens or updates a pull request on the repository via this <a href="https://www.github.com/vsoch/pull-request-action" target="_blank">GitHub Action</a></li>
 </ol>
 
