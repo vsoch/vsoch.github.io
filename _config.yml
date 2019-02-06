@@ -88,4 +88,4 @@ navbar:
   - slug : blog
     title: Blog
 
-exclude: [".git", "README.md", "LICENSE.md", "_site", "_drafts"]
+exclude: [".git", "README.md", "LICENSE.md", "_site", "_drafts", "vendor"]
