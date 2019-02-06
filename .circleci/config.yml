@@ -34,7 +34,7 @@ jobs:
       - run:
           name: Jekyll build
           command: |
-              echo "Building Snakey thoughts!"
+              echo "Rawwwr the Vanessasaurus!"
               cp .circleci/circle_urls.sh .
               chmod u+x circle_urls.sh
               bash circle_urls.sh
