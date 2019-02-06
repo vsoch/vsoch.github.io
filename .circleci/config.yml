@@ -1,0 +1,58 @@
+# This will build the nipy.github.io repository, only with intention
+# to preview on circle
+
+################################################################################
+# Functions
+################################################################################
+
+defaults: &defaults
+  docker:
+    - image: circleci/ruby:2.5
+  working_directory: ~/repo
+  environment:
+    - JEKYLL_ENV: production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of libraries
+    - BUNDLE_PATH: ~/repo/vendor/bundle
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
+          command: |
+              echo "Building Snakey thoughts!"
+              cp .circleci/circle_urls.sh .
+              chmod u+x circle_urls.sh
+              bash circle_urls.sh
+              bundle exec jekyll build
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+
+      - store_artifacts:
+          path: ./_site
+          destination: vsoch.github.io
+
+workflows:
+  version: 2
+  build-site:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: master
