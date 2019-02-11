@@ -54,7 +54,7 @@ consumers, I don't believe this can be the case. This data is not for some
 
 If the goal is for machines to find the chargemasters, then the release of this data cannot be intended for consumers, but rather for researchers and developers to collaborate and help.  To show you that there is interesting signal in the data, here is <a href="https://www.github.com/vsoch/hospital-chargemaster-analysis" target="_blank">one tiny analysis</a> of building a linear model and using Lasso for feature selection to predict prices based on description terms for one hospital. There is no validation or tuning, but I think the simple notebook in the repository shows that there is signal (and interesting questions) to ask of the data.
 
-Although I originally planned to create web interface to explore the data, I decided that my intended audience was not the consumer, but rather researchers that could make intelligent conclusions from
+Although I originally planned to create a web interface to explore the data, I decided that my intended audience was not the consumer, but rather researchers that could make intelligent conclusions from
 the data. If you are interested in the download and parsing, see the 
 <a href="https://github.com/vsoch/hospital-chargemaster" target="_blank">README</a>
 in the respository. 
