@@ -239,8 +239,7 @@ post on <a href="https://github.com/vsoch/hospital-chargemaster/issues" target="
 open source compels you! Open a pull request, and make it right.
 
 Finally, I want to encourage all of the hospitals for working hard to release this
-data. Technology has a lot of bugs, and definitely a lot of hype. Despite all this, 
-I firmly believe that technology, and working together, can have an overall
+data to keep up these kinds of efforts. Technology has a lot of bugs, and definitely a lot of hype. Despite all this, I firmly believe that technology, and working together, can have an overall
 positive impact. I believe that small efforts to push for change can have impact,
 and to this aim I provide you this tiny dataset. Discover away, friends!
 
