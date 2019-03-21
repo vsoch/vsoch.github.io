@@ -398,7 +398,7 @@ had both labels) and differed by the other 44K (meaning one container was define
 have about 21% similarity with respect to the filesystems.
 
 I have no interesting questions to ask, so instead I went to town to create visualizations and heatmaps to show these comparisons. 
-For example, <a href="https://singularityhub.github.io/container-tree/examples/heatmap/demo/" target="_blank">here is the first heatmap</a>
+For example, <a href="https://singularityhub.github.io/container-tree/pages/demo/heatmap/" target="_blank">here is the first heatmap</a>
 that I made for a small subset. I'll discuss a harder problem of scaling this later in the post. Let's first talk about visualization 
 of the filesystems themselves.
 
@@ -419,7 +419,7 @@ First, here are some hierarchy-like trees.
    <img src="/assets/images/posts/container-tree/tree.png" style="margin:auto; display:block">
 </div>
 
-<strong><a href="https://singularityhub.github.io/container-tree/examples/files_tree/demo/" target="_blank">Files Tree</a></strong>
+<strong><a href="https://singularityhub.github.io/container-tree/pages/demo/files_tree/" target="_blank">Files Tree</a></strong>
  is my favorite for this use case, because it shows the files in each folder on the right, and has simple
 icons to tell you that you are browsing a file hierarchy. I could imagine pairing this with <a href="http://man7.org/linux/man-pages/man7/inotify.7.html" target="_blank">inotify</a> and a dynamically updating page to create a really simple (live) file browser. 
 <div style="padding-top:10px; padding-bottom:20px">
@@ -636,7 +636,7 @@ Sort of? This picture with clustering of the containers might give some sense of
 
 Crap. So I tried filtering down the set of containers, and removing those that were mostly 0s (not similar to any other containers) just to see if the plot could be more easily viewed.
 
-<strong><a href="https://singularityhub.github.io/container-tree/examples/summary_tree_slurm/demo/" target="_blank">Useless Heatmap</a></strong>
+<strong>Useless Heatmap</strong>
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/container-tree/useless-heatmap.png" style="margin:auto; display:block">
 </div>
