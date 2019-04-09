@@ -20,4 +20,4 @@ If you want more proper descriptions and links, go straight to the
 <a href="https://opencontainers.github.io/org/contributing" target="_blank">contribution documentation</a>.
 If you want to eat your sandwich and watch a thing, you can do that too.
 
-<iframe width="560" height="315" src="https://youtu.be/vDXYDDeUIGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vDXYDDeUIGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
