@@ -17,7 +17,7 @@ p {
 <p style="padding-top:40px;">I am a <a href="https://profiles.stanford.edu/vanessa-sochat" target="_blank">Research Software Engineer</a> for <a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing</a> and an active dinosaur in the open source community. I specialize in system engineering, infrastructure development, and data processing for computational analyses and workflows. I am the primary developer at Stanford for 
 <a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>, the open source <a href="https://expfactory.github.io/" target="_blank"> 
 Experiment Factory</a>, <a href="https://vsoch.github.io/datasets" target="_blank"> Dinosaur Datasets</a>, 
-<a href="https://vsoch.github.io/lessons" target="_blank"> Research Computing Lessons</a>, and the <a href="https://researchapps.github.io/helpme" target="_blank"> HelpMe</a> command line client.</p>
+<a href="https://vsoch.github.io/lessons" target="_blank"> Research Computing Lessons</a>, and the <a href="https://researchapps.github.io/helpme" target="_blank"> HelpMe</a>  and  <a href="https://vsoch.github.io/watchme" target="_blank"> WatchMe</a>command line clients</p>.
 
 <p>Right now, I'm really excited about two open source projects that I'm leading centered around continuous integration, 
 and data organization and specifications. They are the <a href="https://openbases.github.io/" target="_blank">OpenBases</a>,
