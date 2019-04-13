@@ -18,7 +18,7 @@ p {
 <a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>, the open source <a href="https://expfactory.github.io/" target="_blank"> 
 Experiment Factory</a>, <a href="https://vsoch.github.io/datasets" target="_blank"> Dinosaur Datasets</a>, 
 <a href="https://vsoch.github.io/lessons" target="_blank"> Research Computing Lessons</a>, and the <a href="https://researchapps.github.io/helpme" target="_blank"> HelpMe</a>  
-and <a href="https://vsoch.github.io/watchme" target="_blank">WatchMe</a> command line clients</p>.
+and <a href="https://vsoch.github.io/watchme" target="_blank">WatchMe</a> command line clients.</p>
 
 <p>Right now, I'm really excited about two open source projects that I'm leading centered around continuous integration, 
 and data organization and specifications. They are the <a href="https://openbases.github.io/" target="_blank">OpenBases</a>,
