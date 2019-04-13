@@ -7,18 +7,18 @@ profile: true
 <p style="padding-top:40px">
 </p>
 
-<h3><strong>Ideas and Projects</strong></h3>
+<h3><strong>Projects</strong></h3>
 <ul>
-
-	<li><a href="https://openbases.github.io/" target="_blank">OpenBases</a>: templates that use Github+CircleCI for easy, reproducible research</li>
-	<li><a href="https://openschemas.github.io/" target="_blank">OpenSchemas</a>: Tools to interact with and develop specifications for schema.org</li>
+	<li><a href="https://vsoch.github.io/watchme/" target="_blank">WatchMe</a>: reproducible monitoring</li>
+	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
+       <a href="https://github.com/vsoch/scif" target="_blank">[client]</a></li>
 	<li><a href="https://vsoch.github.io/lessons/" target="_blank">Stanford Research Computing Lessons</a>: Lessons and tutorials for HPC</li>
 	<li><a href="https://vsoch.github.io/datasets/" target="_blank">Dinosaur Datasets</a>: Open Source Datasets</li>
-	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
-       <a href="https://github.com/vsoch/scif" target="_blank">[client]</a>
+	<li><a href="https://openbases.github.io/" target="_blank">OpenBases</a>: templates that use Github+CircleCI for easy, reproducible research</li>
+	<li><a href="https://openschemas.github.io/" target="_blank">OpenSchemas</a>: Tools to interact with and develop specifications for schema.org</li>
        <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016105/resolver?q=SCIF&l=" target="_blank">[RRID]</a></li>
 	<li><a href="https://expfactory.github.io/" target="_blank">The Experiment Factory</a>: reproducible experiment containers 
-       <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a>
+       <a href="https://expfactory.github.io/experiments/" target="_blank">[library]</a></li>
        <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016107/resolver?q=SCR_016107&l=SCR_016107" target="_blank">[RRID]</a></li>
 	<li><a href="https://vsoch.github.io/robots/" target="_blank">The Robots</a> I just needed over 15K of them. Don't judge.</li>
 	<li><a href="http://vsoch.github.io/2016/pokemon-ascii/" target="_blank">Pokemon Ascii</a>: avatar generator [<a href="https://github.com/vsoch/pokemon-ascii" target="_blank">Github</a>]</li>
@@ -32,8 +32,9 @@ profile: true
 
 <h3><strong>Containers</strong></h3>
 <ul>
-	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
+	<li><a href="https://singularityhub.github.io/container-tree/" target="_blank">ContainerTree</a>: data structures and visualizations for understanding containers</li>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
+	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
 	<li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank"> [software]</a></li>
 	<li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">spython</a>: Singularity Python Client</li>
