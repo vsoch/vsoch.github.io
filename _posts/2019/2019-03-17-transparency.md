@@ -32,7 +32,7 @@ to talk about today. Open source is not transparent anymore, and this is a probl
 
 This observation has been caused by and led to a shift in the open source culture 
 that has happened in the last few years. At some point companies started embracing (other)
-open source sotware. Then they started putting resources into releasing 
+open source software. Then they started putting resources into releasing 
 their source code to the community, and having their own employees play significant roles
 in contribution. It's a win-win strategy, because embracing the open source
 culture and stamping it onto your brand says good things about you. From my standpoint,
@@ -97,7 +97,7 @@ be unbiased to what the company needs?
 
 The above points are scary. A culture that we know and trust is sometimes being used to manipulate us.
 Something that used to feel so special and community focused is being branded, controlled,
-and harnassed for efforts that I don't completely understand. The question that keeps me 
+and harnessed for efforts that I don't completely understand. The question that keeps me 
 up at night is how this change in open source is going to influence smaller communities.
 For example, science is about workflows. If workflow engines are being more catered to cloud
 technologies, and services that are so hard to set up you either need to pay for them or invest
@@ -154,7 +154,7 @@ hoops to ultimately feel good about our contribution. This interaction needs to 
 When I open a pull request, along with my agreement, I want to have a statement that tells me
 about the project goals, the contributor makeup, and the intended audience. If there is any
 service or related product that drives some money making machine, that needs to be stated
-clearly. It's really not much different than poltics, when you think about it. If I support a
+clearly. It's really not much different than politics, when you think about it. If I support a
 candidate, I want to know who is paying the candidate that might ultimately drive the decisions
 he or she makes. These are the requirements of transparency, and any project that isn't clear in these
 points, as far as I'm concerned, cannot claim the open source label.
@@ -194,7 +194,7 @@ will be different, and generally the audience.md should communicate:
 
 <ol class="custom-counter">
 <li>Intended Use Cases</li> 
-<li>Intended (and Acutal) Audience</li> 
+<li>Intended (and Actual) Audience</li> 
 </ol>
 
 
@@ -210,5 +210,5 @@ we need to stop for a second and ask where it's going, and if that's somewhere t
 we want to be.
 
  - [^1]: [Passionate Linux Nerds](https://twitter.com/jessfraz/status/1105785534562082817)
- - [^2]: [Admirable Effot Reference 1](https://www.mozilla.org/en-US/moss/)
- - [^3]: [Admirable Effot Reference 2](https://opensource.indeedeng.io/)
+ - [^2]: [Admirable Effort Reference 1](https://www.mozilla.org/en-US/moss/)
+ - [^3]: [Admirable Effort Reference 2](https://opensource.indeedeng.io/)
