@@ -86,7 +86,8 @@ For example, you can add formatting for your code, of course.
 
 Just remember `<details></details>` and write code and content between these tags.
 My colleague mentioned that it's good to have an empty line at the top, so if you run
-into issues try that.
+into issues try that. [Here is a gist](https://gist.github.com/vsoch/1235f639d50d358a017abce651580435)
+I put together so you can see both rendered and code examples.
 
 ## Why does this work?
 
