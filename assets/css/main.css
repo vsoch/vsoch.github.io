@@ -586,8 +586,7 @@ hr {
 .pagination .next,
 .site-footer a {
     display: inline-block;
-    padding-bottom: .08em;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     -webkit-transition: border 300ms linear;
     -moz-transition: border 300ms linear;
     transition: border 300ms linear
