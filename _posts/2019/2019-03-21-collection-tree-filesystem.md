@@ -1,6 +1,7 @@
 ---
 title: "Collection Tree Filesystems"
 date: 2019-03-21 6:30:00
+categories: rse
 ---
 
 The [containertree](https://singularityhub.github.io/container-tree/) software

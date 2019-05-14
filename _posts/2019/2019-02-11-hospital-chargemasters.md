@@ -1,6 +1,7 @@
 ---
 title: "Hospital Chargemasters"
 date: 2019-02-11 7:05:00
+categories: rse
 ---
 
 On January 1st, 2019, the Center's for Medicare and Medicaid Services <a href="https://www.cms.gov/newsroom/fact-sheets/fiscal-year-fy-2019-medicare-hospital-inpatient-prospective-payment-system-ipps-and-long-term-acute-0" target="_blank">Price

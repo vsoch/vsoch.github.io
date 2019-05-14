@@ -1,6 +1,7 @@
 ---
 title: "OCI Series Part III: How to Contribute"
 date: 2019-04-09 3:15:00
+categories: rse
 ---
 
 An important aspect of any community is knowing <a href="https://opencontainers.github.io/org/contributing" target="_blank">how to contribute</a>.

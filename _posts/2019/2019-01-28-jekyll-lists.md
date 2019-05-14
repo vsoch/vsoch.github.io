@@ -1,6 +1,7 @@
 ---
 title: "Jekyll, this is the Last Comma!"
 date: 2019-01-28 7:12:00
+categories: rse
 ---
 
 This is a quick solution for a problem I've run into countless times when

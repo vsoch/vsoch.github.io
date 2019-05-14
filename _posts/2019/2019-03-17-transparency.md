@@ -1,6 +1,7 @@
 ---
 title: "Open Source Transparency"
 date: 2019-03-17 4:45:00
+categories: rse
 ---
 
 Let's talk about transparency. It's having an openness in culture

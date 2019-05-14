@@ -1,6 +1,7 @@
 ---
 title: "Ubuntu Dependencies"
 date: 2019-01-20 6:05:00
+categories: rse
 ---
 
 # Ubuntu Package Dependencies

@@ -1,6 +1,7 @@
 ---
 title: "Open Pull Requests on Branch Updates"
 date: 2019-02-01 4:20:00
+categories: rse
 ---
 
 I've recently been thinking about how we can use GitHub actions (possibly combined

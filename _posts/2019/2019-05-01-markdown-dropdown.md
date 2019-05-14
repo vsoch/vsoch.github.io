@@ -1,6 +1,7 @@
 ---
 title: "Markdown Details"
 date: 2019-05-01 7:30:00
+categories: rse
 ---
 
 This is a quick post to share a highly useful trick for posting long

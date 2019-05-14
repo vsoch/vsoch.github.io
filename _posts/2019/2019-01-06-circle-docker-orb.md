@@ -1,6 +1,7 @@
 ---
 title: "CircleCI Docker Build with Programmatic Tag"
 date: 2019-01-06 5:15:00
+categories: rse
 ---
 
 I'm starting to get the hang of using CircleCI Orbs as recipe templates

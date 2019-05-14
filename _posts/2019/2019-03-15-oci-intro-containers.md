@@ -1,6 +1,7 @@
 ---
 title: "OCI Series Part I: Introduction to Containers"
 date: 2019-03-15 7:30:00
+categories: rse
 ---
 
 Hey friends! I'm <a href="https://github.com/opencontainers/org/pull/9" target="_blank">working on

@@ -1,6 +1,7 @@
 ---
 title: "HelpMe Discourse You're My Only Hope..."
 date: 2019-01-22 6:05:00
+categories: rse
 ---
 
 In this one shot wonder, I give a quick rundown of the 

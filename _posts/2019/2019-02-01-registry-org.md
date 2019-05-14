@@ -1,6 +1,7 @@
 ---
 title: "Organizational Static Container Registry"
 date: 2019-02-01 7:05:00
+categories: rse
 ---
 
 To follow up on my <a href="https://vsoch.github.io/2019/static-registry/" target="_blank">original post</a> 

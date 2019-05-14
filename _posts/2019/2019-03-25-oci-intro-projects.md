@@ -1,6 +1,7 @@
 ---
 title: "OCI Series Part II: Introduction to Projects"
 date: 2019-03-25 1:15:00
+categories: rse
 ---
 
 The skeleton of documentation <a href="https://opencontainers.github.io/org/" target="_blank">is ready</a>

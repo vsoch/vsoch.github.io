@@ -1,6 +1,7 @@
 ---
 title: "Git Hooks to Plot Reproducible Monitoring"
 date: 2019-04-13 11:34:00
+categories: rse
 ---
 
 

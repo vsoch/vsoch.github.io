@@ -1,6 +1,7 @@
 ---
 title: "Deploy a Minio Singularity Container Registry"
 date: 2019-01-03 3:15:00
+categories: rse
 ---
 
 Happy New Year container monkeys! We are only three days in, so I think it's still okay

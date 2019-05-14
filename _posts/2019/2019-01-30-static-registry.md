@@ -1,6 +1,7 @@
 ---
 title: "Proof of Concept: The Static Registry"
 date: 2019-01-30 7:12:00
+categories: rse
 ---
 
 > Dearest user, how do you build?

@@ -1,6 +1,7 @@
 ---
 title: "Git Tricks"
 date: 2019-04-08 11:30:00
+categories: rse
 ---
 
 I'm convinced that git is the greatest software of all time. Not only does it give
