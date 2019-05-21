@@ -91,7 +91,7 @@ profile: true
 	<li><a href="https://vsoch.github.io/vbmis.com/projects/ndar/" target="_blank">NDAR</a>: Summarizing data in NDAR</li>
 	<li><a href="https://github.com/vsoch/potpourri" target="_blank">Potpourri</a>: Mixing up ontologies</li>
 	<li><a href="https://github.com/vsoch/bmi-courses">Courses</a>: An old site for classes I took for my PhD, database is lost.</li>
-        <li><a href="http://www.vsoch.com/wiki/doku.php" target="_blank">Pre-graduate school</a></li>
+        <li><a href=https://vsoch.github.io/wiki/ target="_blank">Pre-graduate school wiki (migrated to GitHub)</a></li>
 </ul>
 &nbsp;
 <h3><strong>Pybraincompare Python Package [<a href="http://www.github.com/vsoch/pybraincompare" target="_blank">github</a>]</strong></h3>
@@ -121,5 +121,5 @@ profile: true
 	<li><a href="https://github.com/vsoch/gbmatlas.stanford.edu" target="_blank">GBMAtlas</a>: for glioblastomia multiforme, explore genes and brain anatomy</li>
 	<li><a href="http://www.neuropowertools.org/" target="_blank">Neuropower Tools</a>: for calculating power / sample size.</li>
 	<li><a href="http://haririlab.com" target="_blank">Long</a>: Laboratory of NeuroGenetics (created original design, 2009)</li>
-	<li><a href="http://vsoch.com/blog/media/Bogdan/" target="_blank">BRAIN Lab</a>: designed 2011.</li>
+	<li><a href="https://vsoch.github.io/bogdan/" target="_blank">BRAIN Lab</a>: designed 2011.</li>
 </ul>
