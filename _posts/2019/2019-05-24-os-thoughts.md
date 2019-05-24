@@ -1,6 +1,7 @@
 ---
 title: "The Changing Open Source Landscape"
 date: 2019-05-24 2:30:00
+categories: rse
 ---
 
 This is a discussion about the changing open source landscape, from the perspective
