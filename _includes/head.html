@@ -72,11 +72,11 @@
   <meta property="og:locale" content="{{ site.locale }}">
 
   <!-- Social: Twitter -->
-  <meta name="twitter:card" content="{{ site.twitter.card }}">
-  <meta name="twitter:site" content="{{ site.twitter.site }}">
+  <meta name="twitter:card" content="{{ site.twitter_card }}">
+  <meta name="twitter:site" content="{{ site.twitter_site }}">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image:src" content="{{ page.image }}">
+  {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% else %}<meta name="twitter:image" content="{{ site.twitter_image }}">{% endif %}
 
   <!-- Social: Google+ / Schema.org  -->
   <meta itemprop="name" content="{{ page.title }}">

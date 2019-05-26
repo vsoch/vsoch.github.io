@@ -75,8 +75,9 @@ author:
 
 # social settings
 og_locale: "pt_BR"
-twitter_card: "summary_large_image"
+twitter_card: "summary"
 twitter_site: "@vsoch"
+twitter_image: https://vsoch.github.io/assets/images/avatar.png
 
 plugins:
   - jekyll-paginate
