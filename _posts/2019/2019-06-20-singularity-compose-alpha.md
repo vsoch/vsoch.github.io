@@ -163,7 +163,8 @@ The next veriication I needed was that when I created instances, they were added
 This would mean that their addresses (assigned in the address space of the bridge) would
 be viewable to one another. All I had to do in this case was start a group
 of containers (with singularity-compose). If you run it with `--debug` it will
-show you the commands that are run to start the instances. They looked like this:
+show you the commands that are run to start the instances. Here is one (abridged) 
+example (networking pun!):
 
 ```bash
 $ singularity instance start \
