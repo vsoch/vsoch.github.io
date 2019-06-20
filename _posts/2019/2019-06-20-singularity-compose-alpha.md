@@ -31,7 +31,7 @@ of the single container example:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q4dAPVK964Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The beginning has a weird echo (I don't use anything beyond the mic on my laptop, so that's that)
+The beginning has a weird echo (I don't use anything beyond the mic on my laptop, so there's that)
 and the color is also completely off (meh?). I'll update you when the multi-container example is ready to go, meaning the networking issue linked
 above is closed. For now, let's jump into some basics that I learned about networking.
 
@@ -104,7 +104,6 @@ upstream django {
     server app:3031;      # web port socket
 }
 
-
 ```
 
 ### Bridge Networks
@@ -131,7 +130,6 @@ bridge name	bridge id		STP enabled	interfaces
 docker0		8000.0242e77953e2	no		
 sbr0		8000.2280256f1d10	no		
 							
-
 ```
 
 I was really quite overjoyed to see docker0 there, because I would have expected that.
@@ -169,10 +167,10 @@ show you the commands that are run to start the instances. They looked like this
 
 ```bash
 $ singularity instance start \
-    --bind /home/vanessa/Documents/Dropbox/Code/singularity/singularity-compose-simple/etc.hosts:/etc/hosts \
-    --net --network-args "portmap=80:80/tcp" --network-args "IP=10.22.0.2" \
-    --hostname app \
-    --writable-tmpfs app.sif app
+  --bind /home/vanessa/Documents/Dropbox/Code/singularity/singularity-compose-simple/etc.hosts:/etc/hosts \
+  --net --network-args "portmap=80:80/tcp" --network-args "IP=10.22.0.2" \
+  --hostname app \
+  --writable-tmpfs app.sif app
 ```
 
 Notice that we provide "--net" to indicate that we want to set up networking, following
