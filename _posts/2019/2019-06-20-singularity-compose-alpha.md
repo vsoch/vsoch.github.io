@@ -14,7 +14,7 @@ to be able to (akin to Docker) create a
 In the last week or so, I decided that it was time! Today I want to share you an
 <a target="_blank" href="https://singularityhub.github.io/singularity-compose">Alpha release</a> 
 of singularity-compose" (yes it is intentionally
-named to mirror <a href="https://docs.docker.com/compose/" target="_blank">docker-compose</a>)  
+named to mirror <a href="https://docs.docker.com/compose/" target="_blank">docker-compose</a>) 
 and it's also implemented in Python like it's counterpart.
 This was also an easy choice because <a target="_blank" href="https://www.github.com/singularityhub/singularity-cli">Singularity
 Python</a> already has nice handles to work with instances and Singularity from Python.
