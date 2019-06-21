@@ -92,7 +92,7 @@ profile: true
 	<li><a href="https://vsoch.github.io/vbmis.com/projects/ndar/" target="_blank">NDAR</a>: Summarizing data in NDAR</li>
 	<li><a href="https://github.com/vsoch/potpourri" target="_blank">Potpourri</a>: Mixing up ontologies</li>
 	<li><a href="https://github.com/vsoch/bmi-courses">Courses</a>: An old site for classes I took for my PhD, database is lost.</li>
-        <li><a href=https://vsoch.github.io/wiki/ target="_blank">Pre-graduate school wiki (migrated to GitHub)</a></li>
+        <li><a href="https://vsoch.github.io/wiki/" target="_blank">Pre-graduate school wiki (migrated to GitHub)</a></li>
 </ul>
 &nbsp;
 <h3><strong>Pybraincompare Python Package [<a href="http://www.github.com/vsoch/pybraincompare" target="_blank">github</a>]</strong></h3>
