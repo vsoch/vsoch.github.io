@@ -31,6 +31,7 @@ profile: true
 
 <h3><strong>Containers</strong></h3>
 <ul>
+	<li><a href="https://singularityhub.github.io/singularity-compose/#/" target="_blank">singularity-compose</a>: orchestration for Singularity containers.</li>
 	<li><a href="https://singularityhub.github.io/container-tree/" target="_blank">ContainerTree</a>: data structures and visualizations for understanding containers</li>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
 	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
