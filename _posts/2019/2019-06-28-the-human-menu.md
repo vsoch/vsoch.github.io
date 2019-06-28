@@ -9,8 +9,8 @@ if there is anything interesting on "the little internet."
 My phone offers a limited number of icons for social media, consumer-based, 
 and news applications, so I click back and forth, and scroll indefinitely, 
 and 15, 20, or 30 minutes of my life passes largely without me noticing.
-I am the type of person that goes on Instacart or Amazon to find one thing,
-and have the impulsion to review all items in the paginated results to
+I am also the type of person that goes on Instacart or Amazon to find one thing,
+and I have the impulsion to review all items in the paginated results to
 be sure I've found the best choice. When I was a kid I would be unable to
 pick up a magazine without thoroughly reading every page. It sometimes doesn't
 even feel like a choice - a stimuli is placed in front of me, and I consume it.
