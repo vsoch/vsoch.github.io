@@ -53,11 +53,9 @@ or completely reset the list.
 
 It uses local storage to keep track of your items suggested, newly added, and completed,
 so you can navigate away from the page and come back to where you left off.
-The project is inspired by the problems outlined 
-by <a href="https://humanetech.com/problem/" target="_blank">The Center for Humane Technology</a>,
-specifically that our attentions are captured by addictive "digital slot 
+The project is inspired by the problems outlined  by <a href="https://humanetech.com/problem/" target="_blank">The Center for Humane Technology</a>, specifically that our attentions are captured by addictive "digital slot 
 machines" to the detriment of our mental health. While the items in the example
-above might not be perfect for you (for example, if you really don't like Puzzles, or
+above might not be perfect for you (for example, if you really don't like puzzles, or
 baking, you might not like the list), you can easily fork the repository and edit
 the items to your liking. Let's talk in more detail about how you can customize
 it for your use case and contribute!
@@ -93,5 +91,9 @@ an older family member with memory issues could benefit from a list of suggested
 or remove the loaded items, and even build an interface that serves as a todo list.
 When you've made a contribution, please open a pull request. If you have
 any questions or issues, you can <a href="https://www.github.com/good-labs/human-menu/issues" target="_blank">open them here</a>.
+
+Happy Friday!
+
+<br>
 
 [![https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg](https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg)](https://good-labs.github.io/greater-good-affirmation)
