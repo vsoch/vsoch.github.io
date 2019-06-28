@@ -22,7 +22,8 @@ to which it is noticed.
 I started to realize in college that controlling my behavior came down to 
 controlling my environment. This meant everything from buying nutritious foods
 that would make me feel good, to avoiding people that consistently made me feel
-terrible. I've recently realized that the same is true for our attention. Without
+terrible, to establishing routines like putting on sneakers to go outside because
+I knew I'd feel better after the fact. I've recently realized that the same is true for our attention. Without
 conscious thought, our attention is easily gobbled up by the digital attention
 economy. It's not that we don't have other choices, but rather that
 we don't have a method for seeing them. Instead of offering a list of YouTube 
