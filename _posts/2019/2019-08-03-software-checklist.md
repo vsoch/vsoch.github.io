@@ -90,9 +90,9 @@ For others that try this, may the force be with you!
 If you inspect the source of the svg at the URL, you'll notice that there is a script
 embedded with it. The script allows us to use parameters external to the svg (such as from the url)
 to define content within it. For our URL with the image, we define a label (the right portion with the score),
-a list of ids (the identifiers of the criteria the user selected), and a color (the color
-corresponding to the final score). That renders directly into the correctly <a href="https://stanford-rc.github.io/rse-services/docs/tools/software-checklist/badges/badge.svg?label=100%25&color=#59BF40" target="_blank">generated badge</a>.
-If you are interested, that page is simply a jekyll <a href="https://raw.githubusercontent.com/stanford-rc/rse-services/master/_includes/badges/software-checklist.svg" target="_blank">include template</a> that can take
+and a color (the color corresponding to the final score). 
+That renders directly into the correctly <a href="https://stanford-rc.github.io/rse-services/docs/tools/software-checklist/badges/badge.svg?label=100%25&color=#59BF40" target="_blank">generated badge</a>. If you are interested, 
+that page is simply a jekyll <a href="https://raw.githubusercontent.com/stanford-rc/rse-services/master/_includes/badges/software-checklist.svg" target="_blank">include template</a> that can take
 default parameters for color and extra attributes, along with from the URL via the embedded
 script.
 
