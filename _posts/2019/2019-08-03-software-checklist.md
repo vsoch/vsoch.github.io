@@ -109,7 +109,8 @@ in a markdown, because GitHub has to <a href="https://github.community/t5/How-to
 
 I was so heartbroken when the entire project came crumbling down due to not being able
 to embed the graphic in GitHub flavored markdown, which is just about the only place
-I needed it to work. I tried various tricks with embedding (iframe, embed, and an image
+I needed it to work. But for me, initial heartbreak translates pretty quickly
+to dinosaur-level motivation. I tried various tricks with embedding (iframe, embed, and an image
 as base64, none of them worked). I also tried a variation of having the user download
 the image, and while this worked, I don't think that downloading an image
 and having to add it to the repository's code is easy enough or something that I'd
@@ -126,11 +127,12 @@ For our URL with the details that the image links to, we also define the color a
 add to that a title for the repository, and a list of identifiers that correspond with the user's choices.
 When you click on the badge, you are taken to this URL, and from it you can
 view the previously selected checkboxes of the user, along with the score and correct color.
-
+Here is that details page:
 
 <div style="padding: 20px">
-  <img src="/assets/images/posts/software-checklist/markdown.png">
+  <img src="/assets/images/posts/software-checklist/badge.png">
 </div>
+
 
 It's like a details page that the repository can proudly show to indicate 
 "reproducible practices here!"
