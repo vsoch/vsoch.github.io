@@ -141,7 +141,9 @@ It's like a details page that the repository can proudly show to indicate
 
 ### Is Your Software Reproducible?
 
-Give the checklist a try, and see if your software is reproducible! If you
+Give the checklist a try, and see if your software is reproducible! A cool detail
+is that if your score changes over time, you'll still be able to access previously
+generated badges in the git history of your repository. If you
 need any help, don't be afraid to reach out, especially if you are at Stanford - 
 <a href="https://stanford-rc.github.io/rse-services" target="_blank">I'm looking for you to do exactly that</a>.
 
