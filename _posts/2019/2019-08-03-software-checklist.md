@@ -114,6 +114,10 @@ the image, and while this worked, I don't think that downloading an image
 and having to add it to the repository's code is easy enough or something that I'd
 want to do. I then realized that I could use badges.io to generate
 just the image, and use the dynamic bits on the generator and inspection pages.
+The one thing I've learned about this perception of failure is that I've only
+failed when I've given up. There is always something to try, and in this case
+it meant being resourceful. Thank you badges.io, for existing, powering
+the embedded versions of my little badges!
 
 ## Inspecting the Score
 
