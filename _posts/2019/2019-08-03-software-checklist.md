@@ -82,7 +82,8 @@ This badge lives in the wild at <a href="https://github.com/singularityhub/sregi
 
 ### The SVG
 
-I don't have great graphics software, but I actually pulled off generated the base svg using Inkscape. 
+I don't have great graphics software, but I actually pulled off generating the base svg using Inkscape. 
+I first tried generating it in a text editor, but getting the paths just right was really hard.
 For others that try this, may the force be with you!
 
 ### SVG Parameters
