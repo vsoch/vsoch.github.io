@@ -80,6 +80,11 @@ And here is that actual markdown in action, rendered on this page!
 
 This badge lives in the wild at <a href="https://github.com/singularityhub/sregistry-cli#singularity-global-client" target="_blank">singularityhub/sregistry-cli</a>. Before we move on too quickly, let's walk through the components that you see.
 
+### The SVG
+
+I don't have great graphics software, but I actually pulled off generated the base svg using Inkscape. 
+For others that try this, may the force be with you!
+
 ### SVG Parameters
 
 If you inspect the source of the svg at the URL, you'll notice that there is a script
@@ -94,6 +99,8 @@ script.
 But now I am going to break your heart a little bit. This wouldn't work to embed on GitHub
 in a markdown, because GitHub has to <a href="https://github.community/t5/How-to-use-Git-and-GitHub/Embedding-a-SVG/td-p/2192" target="_blank">sanitize</a> parameters for svg. In fact, if you try to include the actual
 (working image) that you just clicked above as is, it's disappointingly empty:
+
+<br>
 
 ![https://stanford-rc.github.io/rse-services/docs/tools/software-checklist/badges/badge.svg?label=100%25&color=#59BF40](https://stanford-rc.github.io/rse-services/docs/tools/software-checklist/badges/badge.svg?label=100%25&color=#59BF40)
 
