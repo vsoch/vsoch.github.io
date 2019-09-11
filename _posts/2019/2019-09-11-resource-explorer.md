@@ -1,7 +1,7 @@
 ---
 title: "The Resource Explorer"
 date: 2019-09-10 5:22:00
-categories: resource
+categories: rse
 ---
 
 I was having a chat with the amazing, the diabolical <a target="_blank" href="https://github.com/griznog">griznog</a>, and he had an idea up his sleeve for some kind of online form where a user could make selections, and filter down to some set of resources. I loved the idea, and decided to give it a shot. 
