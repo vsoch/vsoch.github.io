@@ -186,5 +186,7 @@ users more properly categorized, and we have a really fun setup for some friendl
 When participation is a bit dry, it usually comes down to incentive. Incentive can be driven by prizes and
 fun, but it's hugely driven by a sense of community. If you feel like part of a community, you will
 want to participate, because it's important to you. It's as simple as that.
-I hope you enjoyed this post! I had a really fun time today learning some ruby, and writing
-this up.
+We haven't yet created this sense of community on our site, but I suspect it's something
+we will be working on in the near future. And on that note, I hope that you enjoyed this post! 
+I had a really fun time today learning some ruby, and writing this up. I realize that ruby plugs
+really well into web interfaces, so I might next try generating the plot directly from it.
