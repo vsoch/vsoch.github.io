@@ -175,10 +175,12 @@ and have those with non-instituion email addresses self assign themself to the r
 ### Contributions
 
 While we can't say which institution group is posting the most, we can look at the posts based on
-trust level and see some good news! The levels between 0 and 2 ("trust_level_0" to "trust_level_2"), 
-which are most definitely regular users (typically moderators get trust level 3, and staff admins above that) have a high
-number of posts relative to the time period (one month). This means that we need to simply get those
-users more properly categorized, and we have a really fun setup for some friendly competition!
+trust level and see some mixed news! It's unfortunately the case that admin and staff tend to be also
+included in lower trust levels (e.g., trust_level_0 through trust_level_0) so based on the fact
+that we see the largest number of contributions from moderators and admins, it's very likely
+the case that most site posting is done by these groups. This means that we really need to do a better
+job of encouraging participation on our site - not through artificial means, but genuine interest
+and incentive.
 
 
 ## Conclusion
