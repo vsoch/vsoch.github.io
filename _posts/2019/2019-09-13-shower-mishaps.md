@@ -11,7 +11,7 @@ Some omniscient Mom God is shaking her head at that. <br>
 I fall through the mist, about to crash hard, <br>
 But am saved by the support bar, miraculously unscarred.<br>
 
-How can it be, so close to thirty three, <br>
+How can it be, so close to third decade and three, <br>
 but still in the shower I cannot see? <br>
 Proud as a lark, as I wash under my toes <br>
 Between big and pinky, and up to my nose. <br>
