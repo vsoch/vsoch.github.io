@@ -1,6 +1,7 @@
 ---
 title: "Inspect Singularity SIF with Web Assembly"
 date: 2019-09-21 18:20:00
+categories: rse
 ---
 
 Today I woke up and decided that I wanted to load a container in the browser. I've
