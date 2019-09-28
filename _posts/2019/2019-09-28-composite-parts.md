@@ -6,7 +6,8 @@ categories: rse
 
 Welcome to the universe of parts! Here we have "Parts," or sequences of letters,
 and "Composite Parts," or combined Parts, each with an ordering and direction.
-If you think I'm talking about sequences, you are correct! Now 
+If you can't tell, these are sequences. I'm not a biologist, so I apologize in
+advance for all my misspeaks and ignorance to all the biologists reading this post. Now 
 here are the two parts - let's call them our base parts:
 
 ```python
@@ -25,7 +26,7 @@ ACTATGCGAACGAGTTATTGTTTAATATGTTAAATAATAATTTTAAGTTCAACAATAAACAGGACCTTTTAAAACTTGAG
 TTTTTTGACGTTTTACGAGAGCTCTTTGTTTGATGATGAAAAGGAGTGAAGAGCTTAGAGACC'
 ```
 
-If you can't tell, these are sequences. Let's now combine them into a new composite part,
+Let's now combine them into a new composite part,
 and create a fun name. Because we want to be tricky, we are going to reverse the second:
 
 ```python
