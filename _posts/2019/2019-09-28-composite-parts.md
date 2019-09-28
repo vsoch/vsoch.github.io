@@ -6,7 +6,8 @@ categories: rse
 
 Welcome to the universe of parts! Here we have "Parts," or sequences of letters,
 and "Composite Parts," or combined Parts, each with an ordering and direction.
-Here are the two parts - let's call them our base parts:
+If you think I'm talking about sequences, you are correct! Now 
+here are the two parts - let's call them our base parts:
 
 ```python
 
