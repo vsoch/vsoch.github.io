@@ -23,8 +23,8 @@ file to save, and the delimiter of the data.
 
 ## In a Nutshell
 
-I've created a <a href="https://vsoch.github.io/regression-wasm/" target="_blank">regression-wasm</a>
-<a href="https://webassembly.org/" target="_blank">web assembly</a> (wasm) + GoLang (static!) 
+I've created <a href="https://vsoch.github.io/regression-wasm/" target="_blank">regression-wasm</a>,
+a <a href="https://webassembly.org/" target="_blank">web assembly</a> (wasm) + GoLang (static!) 
 application that can be used to run and plot a linear regression. It can serve as a starting point 
 for some simple exploratory data analysis, or for a developer, a starting point to develop some 
 custom GoLang-based data science tool that generally interacts with tabular data. We are using
