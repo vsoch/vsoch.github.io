@@ -17,9 +17,8 @@ The minimum conditions for success meant:
  <li>updating a plot based on output from 3.</li>
 </ol>
 
-And of course we would also want to start with dummy data, and provide customization
-with respect to the column specified as the predictor variable, the name of an output
-file to save, and the delimiter of the data.
+And of course we would also want to start with dummy data, and provide input fields
+to customize inputs and outputs.
 
 ## In a Nutshell
 
