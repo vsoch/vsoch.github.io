@@ -208,7 +208,9 @@ are:
 
 
 If anyone has ideas about the above, please let me know! I'll probably try working
-on some of the above for some future fun project.
+on some of the above for some future fun project. I'm also looking for an excuse to 
+develop an API of web assembly functions, so if you are a researcher and need a thing,
+please reach out!
 
 
 ## Development and Questions!
