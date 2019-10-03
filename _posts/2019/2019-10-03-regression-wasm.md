@@ -158,8 +158,7 @@ And logically, I would guess if unemployment is correlated with number of murder
 ## Download Data
 
 This of course is a very superficial overview, you would want to download the full model data to get more detail:
-The "Download Results" will appear after you generate any kind of plot, and it downloads
-a text file with the model output. Here is an example:
+The "Download Result" button (shown in the images above) will appear after you generate any kind of plot, and it downloads a text file with the model output. Here is an example:
 
 ```text
 
