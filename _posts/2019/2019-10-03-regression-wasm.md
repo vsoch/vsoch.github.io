@@ -77,6 +77,8 @@ The formula for our regression model is shown below the plot, in human friendly 
 Predicted = -36.7649+ Inhabitants*0.0000 + Percent with incomes below $5000*1.1922 + Unemployed*4.7198
 ```
 
+This comes directly from the model library, which is provided by <a href="https://www.github.com/sajari" target="_blank">@Sajari</a>.
+
 ### Residuals
 
 Given that we have more than one regressor variable, we need to run a multiple regression,
