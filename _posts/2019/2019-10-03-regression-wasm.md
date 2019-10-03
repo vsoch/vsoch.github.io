@@ -50,7 +50,7 @@ Here is how it works. The data you input drives the graph produced.
 
 <ol class="custom-counter">
   <li>TLDR: Run a multiple or simple linear regression using Web Assembly</li>
-  <li>Two variables (one predictor, one regression) will generate a line plot showing X vs. Y and predictions</li>
+  <li>Two variables (one predictor, one regressor) will generate a line plot showing X vs. Y and predictions</li>
   <li>More than two variables performs multiple regression to generate a residual histogram</li>
   <li>Upload your own data file, change the delimiter, the file name to be saved, or the predictor column</li>
 </ol>
