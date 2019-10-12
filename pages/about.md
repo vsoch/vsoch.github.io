@@ -36,4 +36,3 @@ I hope that you might reach out to contribute!</p>
 
 [<a href="https://scholar.google.com/citations?user=RTF50S4AAAAJ&amp;hl=en" target="_blank" class='no-after'>google-scholar</a>] [<a class='no-after' href="http://orcid.org/0000-0002-4387-3819" target="_blank">orcid-id</a>] [<a class='no-after' href="http://loop.frontiersin.org/people/188284/overview" target="_blank">frontiers</a>] [<a href="/assets/vsochat-cv.pdf" class='no-after' target="_blank">resume</a>] [<a href="https://www.github.com/vsoch" class='no-after' target="_blank">github</a>][<a href="https://github.com/users/vsoch/sponsorship" target="_blank" class='no-after'>github sponsors</a>]
 
-<a href="https://www.patreon.com/bePatron?u=11921318" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
