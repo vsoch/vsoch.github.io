@@ -120,6 +120,22 @@ toward the right with lots of posts about containers. I would again be skeptical
 tags themselves are indicative of the number of likes or views - I think there are other variables
 not taken into account like how the topics were shared, and who posted.
 
+Another view to look at is with 10 components, and perhaps we might have gone higher given
+that this could be meaningful. Roughly, the idea is that if we use N ICA components, we can
+capture N clusters. What do we see here?
+
+<ol class="custom-counter">
+  <li>The left chunck is all parallel stuff.</li>
+  <li>A chunk in the middle doesn't have tags.</li>
+  <li>The bottom is heavily slurm</li>
+  <li>The bottom right has questions of the week.</li>
+  <li>To the right is network and file transfer</li>
+  <li>The top right is getting started.</li>
+  <li>There are some smaller, more specialized clusters, e.g., computational chemistry, environments)
+</ol>
+
+Cool!
+
 ## 3. Make Predictions
 
 This is the third idea that I didn't pursue, because this dinosaur has other things
