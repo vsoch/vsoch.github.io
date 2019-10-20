@@ -131,7 +131,7 @@ capture N clusters. What do we see here?
   <li>The bottom right has questions of the week.</li>
   <li>To the right is network and file transfer</li>
   <li>The top right is getting started.</li>
-  <li>There are some smaller, more specialized clusters, e.g., computational chemistry, environments)
+  <li>There are some smaller, more specialized clusters, e.g., computational chemistry, environments)</li>
 </ol>
 
 Cool!
