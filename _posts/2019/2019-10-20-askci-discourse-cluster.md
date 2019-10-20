@@ -16,7 +16,7 @@ started with analyzing your content. What kind of questions might you ask?
 
 This comes down to <a href="https://github.com/hpsee/discourse-cluster/blob/master/export_posts.py" target="_blank">exporting posts</a> using the discourse API, creating a container to run a Jupyter notebook for with dependencies
 that I need, and then exporting data to json to generate (much better) d3 plots. I wanted to answer these questions for <a href="https://ask.cyberinfrastructure.org/" target="_blank">AskCyberinfrastructure</a>,
-and I well knew that I didn't have much data, so it would be a first analysis that might
+and I knew that I didn't have much data, so it would be a first analysis that might
 be re-run as the community grows over time. 
 
 > If you have a community with a lot of data, I think you can generate some awesome plots, and should give it a try!
