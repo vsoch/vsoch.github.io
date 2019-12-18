@@ -56,7 +56,7 @@ And then the errors database can be used to derive insights about your software.
 
 ## An Example
 
-To drive this functionality, I've published version 0.0.39 of helpme that provides 
+To drive this functionality, I've published version 0.0.40 of helpme that provides 
 a headless submission workflow, and created an example repository <a href="https://github.com/rseng/github-support" target="_blank">rseng/github-support</a> that uses it. A side-note: this new organization
  <a href="https://github.com/rseng" target="_blank">rseng</a> is intended to be an open community of research
 software engineers that want to collaborate on fun projects (such as this one!) so if you'd like to join,
@@ -220,4 +220,14 @@ helper = get_helper('github', require_token=True, confirm=False)
 ## Questions?
 
 I hope that this small library can be helpful to Python maintainers that want a little more
-automated error reporting. Would you like help to write a custom workflow? Please [open an issue](https://github.com/rseng/github-support/issues) and I'd be happy to help. We are going to be writing an integration with datalad, and I'm excited! If you want more examples of arguments and usage of helpme, see [the GitHub headless docs](https://vsoch.github.io/helpme/helper-github#headless). And if you are a research software engineer that wants to join the rseng community to collaborate on projects, please also send me a note.
+automated error reporting. The only moduled required for this base GitHub interaction
+is [requests](https://requests.readthedocs.io/en/master/), and additional support for
+asciinema, uservoice, or discourse can be installed if desired, e.g.,:
+
+```bash
+pip install helpme[discourse]
+pip install helpme[asciinema]
+pip install helpme[uservoice]
+``` 
+
+Would you like help to write a custom workflow? Please [open an issue](https://github.com/rseng/github-support/issues) and I'd be happy to help. We are going to be writing an integration with datalad, and I'm excited! If you want more examples of arguments and usage of helpme, see [the GitHub headless docs](https://vsoch.github.io/helpme/helper-github#headless). And if you are a research software engineer that wants to join the rseng community to collaborate on projects, please also send me a note.
