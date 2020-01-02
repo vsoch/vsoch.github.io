@@ -9,6 +9,7 @@ profile: true
 
 <h3><strong>Projects</strong></h3>
 <ul>
+	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories</li>
 	<li><a href="https://vsoch.github.io/watchme/" target="_blank">WatchMe</a>: reproducible monitoring</li>
 	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
        <a href="https://github.com/vsoch/scif" target="_blank">[client]</a>
@@ -45,6 +46,7 @@ profile: true
 
 <h3><strong>Visualization and Media</strong></h3>
 <ul>
+	<li><a href="https://github.com/vsoch/juliart" target="_blank">JuliArt</a></li>
 	<li><a href="https://vsoch.github.io/brain-matrix/ca.html" target="_blank">Cognitive Atlas Matrix</a>: red or blue brain?</li>
 	<li><a href="https://vsoch.github.io/drain-log" target="_blank">DrainLog</a>: an interactive log for a JP Drain [medical]</li>
 	<li><a href="https://vsoch.github.io/salted-caramel/" target="_blank">Salted Caramel</a>: never too old for a bedtime story! :)</li>
