@@ -217,7 +217,7 @@ and too good these days to allow for uninentional blurry photos.
 I remember distinctly being in the Boston Commons swan boats
 and taking a picture of a small island to my right. I remember that my father scolded
 me because I didn't ask the girl sitting next to me to look at the camera.
-The unspoken social rules for taking pictures wasn't established yet. Are they
+The unspoken social rules for taking pictures weren't established yet. Are they
 established now? I think so - I typically know that I'm expected to smile for pictures,
 although you'll see me dead before you see me make a duck face or otherwise pose.
 
