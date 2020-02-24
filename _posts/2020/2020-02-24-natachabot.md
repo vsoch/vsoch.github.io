@@ -8,11 +8,11 @@ a small bot that would generate surprising, random text. The willing participant
 was one of my family members that has a lot of interesting political and
 art-related commentary on social media. I started with the 
 <a href="https://github.com/rtlee9/Trump-bot" target="_blank">Trump bot</a>,
-which is uses a <a href="https://github.com/larspars/word-rnn">word level rnn</a>
-trained on a large corpus (either Trump speeches or my social media posts).
+which is uses a <a href="https://github.com/larspars/word-rnn" target="_blank">word level RNN</a>
+(recurrent neural network) trained on a large corpus (either Trump speeches or my social media posts).
 You can read more about the original project 
 <a href="https://eightportions.com/2016-11-03-Trump-bot/" target="_blank">here</a>.
-I generally wanted to:
+I wanted to:
 
 <ol class="custom-counter">
 <li>Reproduce the training and sampling to write up for others</li>
@@ -33,7 +33,7 @@ which I'll review steps for in the rest of this post.
 
 I recommend reading the background section of <a href="https://eightportions.com/2016-11-03-Trump-bot/#background" target="_blank">
 this post</a> to understand the training. In a nutshell, we are using Long Short Term Memory (LSTM) recurrent
-neural network to generate the text. LSTMs can take a short input snippet and then predict the next item in the sequence,
+neural networks to generate the text. LSTMs can take a short input snippet and then predict the next item in the sequence,
 and if you keep doing this, you can get a sentence to a few paragraphs. The author of Trump Bot
 trained two of these models, one on the level of characters (e.g., predict the next character)
 and one on the level of words (predict the next word). The author was clever to combine the two
@@ -145,7 +145,7 @@ RUN cp $(find cv_char -name "lm_lstm_epoch30.00_1*.t7") cv/char-rnn-trained.t7 &
 ENTRYPOINT ["python", "/root/Trump-bot/sample.py"]
 ```
 
-Notice that:
+Yes, the top sections could be cleaned up so we aren't creating so many layers to copy single files. Also notice that:
 
 <ol class="custom-counter">
 <li>We copy the updated training scripts (that reference the natacha data) to the root.</li>
@@ -160,7 +160,12 @@ The above container I would build and run as follows:
 ```bash
 $ docker build -t vanessa/natacha-bot .
 $ docker run -it vanessa/natacha-bot "I want to"
-I want to be the post and control of the power syndicates that is the profit and start it to the many problem that we are so that is the since we are being a senile to see it as they want to be the place of the public and the money will be a start of us in the political things that is a bober profits who was. That is just my personal page when I made it a part of a look at a business map I made to make a private insurance at all. I am going to do it as a reference to my website. Not the brain as you are not
+I want to be the post and control of the power syndicates that is the profit and start it to the many 
+problem that we are so that is the since we are being a senile to see it as they want to be the 
+place of the public and the money will be a start of us in the political things that is a bober 
+profits who was. That is just my personal page when I made it a part of a look at a business 
+map I made to make a private insurance at all. I am going to do it as a reference to my 
+website. Not the brain as you are not
 ```
 
 ## Interactive Building
@@ -172,8 +177,8 @@ are from failed builds:
 
 ```bash
 $ docker images -a
-REPOSITORY                               TAG                      IMAGE ID            CREATED             SIZE
-<none>                                   <none>                   7aeb5415ab17        16 hours ago        1.94GB
+REPOSITORY               TAG              IMAGE ID            CREATED             SIZE
+<none>                   <none>           7aeb5415ab17        16 hours ago        1.94GB
 ```
 
 You can then run an interactive session into that container where you left off, and you don't need to run
@@ -188,8 +193,8 @@ based on the image identifier:
 
 ```bash
 $ docker ps
-CONTAINER ID        IMAGE                    COMMAND             CREATED             STATUS              PORTS               NAMES
-3b70685c51ff        7aeb5415ab17             "bash"              4 seconds ago       Up 3 seconds                            clever_kepler
+CONTAINER ID     IMAGE          COMMAND      CREATED        STATUS        NAMES
+3b70685c51ff     7aeb5415ab17   "bash"       4 seconds ago  Up 3 seconds  clever_kepler
 ...
 ```
 
@@ -209,9 +214,8 @@ When I had finished the above container (note we are using the "train" tag) I co
 forgot about the sample base, and built a <a href="https://github.com/vsoch/natacha-bot/blob/master/.github/workflows/main.yml" target="_blank">GitHub workflow</a> to run the container, generate wisdom, and open a pull request
 to add it to render at a static interface on GitHub pages (in the <a href="https://github.com/vsoch/natacha-bot/tree/master/docs" target="_blank">docs</a> folder. What happened on on early run? Well, it failed of course!
 I didn't save this run, but essentially the massive container (15GB!) ate up
-all the space available on the filesystem, and the action failed.
-
-This is how I quickly realized that the "sample" tag was intentionally created to
+all the space available on the filesystem, and the action failed. This is how 
+I quickly realized that the "sample" tag was intentionally created to
 move the final model into, and provide a much smaller base to deploy. Here you can
 see both tags on Docker Hub:
 
@@ -249,7 +253,7 @@ Because the final image is a much more reasonable size!
 
 ```bash
 $ docker images | grep natacha
-vanessa/natacha-bot                      latest                   69e11cd4c610        16 hours ago        1.94GB
+vanessa/natacha-bot       latest    69e11cd4c610    16 hours ago        1.94GB
 ```
 
 The difference in size is likely because the "train" tag contains the pre-trained GloVe 
@@ -273,6 +277,17 @@ which I designed to look like a simple feed of posts. If you search for a term (
 <div style="padding:20px">
 <img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/natacha-bot/search.png">
 </div>
+
+And once I was done and cleaned up, wow, that was a lot of space!
+
+```bash
+$ docker system prune --all
+...
+deleted: sha256:52370fd7ffaf83647ab073bcb7e3b790b364980b4ca9454d4e72719d7732d793
+deleted: sha256:9e63c5bce4585dd7038d830a1f1f4e44cb1a1515b00e620ac718e934b484c938
+
+Total reclaimed space: 21.11GB
+```
 
 I can't say that it's very good, or that I'll run it forever, but I had a lot of fun figuring out how to reproduce
 the Trump Bot, and weirdly capture the essence of this particular family member 
