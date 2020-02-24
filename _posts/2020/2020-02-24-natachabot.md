@@ -266,7 +266,15 @@ to add a new snippet of wisdom!
 <img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/natacha-bot/natacha-bot-speaks.png">
 </div>
 
-I can't say that I'll run it forever, but I had a lot of fun figuring out how to reproduce
+And you can see the tiny interace <a href="https://vsoch.github.io/natacha-bot/" target="_blank">here</a>,
+which I designed to look like a simple feed of posts. If you search for a term (upper right search icon),
+ you can also see where and how it shows up:
+
+<div style="padding:20px">
+<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/natacha-bot/search.png">
+</div>
+
+I can't say that it's very good, or that I'll run it forever, but I had a lot of fun figuring out how to reproduce
 the Trump Bot, and weirdly capture the essence of this particular family member 
 for all of time in an algorithm! The input data was a lot less comprehensive than
 the Trump speeches, so I think there is great room for improvement, but I'm happy with this
