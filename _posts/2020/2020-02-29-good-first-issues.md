@@ -10,7 +10,7 @@ that already needs some help, and might have other motivated folks to work with.
 
 ## Rseng on GitHub
 
-If you haven't seen, I've created the <a target="_blank" href="https://github.com/rseng">rseng</a> organization as a place for open source research software engineering projects. These can mean projects on the "meta level," such as tools for open source research software engineering and the community, or actual projects worked on by a geographically diverse group
+If you haven't seen, I've created the <a target="_blank" href="https://github.com/rseng">rseng</a> organization as a place for open source research software engineering projects. This can mean projects on the "meta level," such as tools for open source research software engineering and the community, or actual projects worked on by a geographically diverse group
 that need a home.
 
 <div style="padding:20px">
@@ -31,7 +31,7 @@ awesome lists are awesome for!
 <img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/good-first-issues/awesome.png">
 </div>
 
-If you visit <a target="_blank" href="https://github.com/rseng">rseng/awesome-rseng</a> on GitHub, you can browse organizations by category, or even contribute an organization or two.
+If you visit <a target="_blank" href="https://github.com/rseng/awesome-rseng">rseng/awesome-rseng</a> on GitHub, you can browse organizations by category, or even contribute an organization or two.
 
 ## Good First Issues
 
@@ -56,7 +56,7 @@ looks like this:
     - name: Generate First Issues
       uses: rseng/good-first-issues@v1.0.0
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
 ```
 
 And this assumes a file called `repos.txt` in the root of the repository.
@@ -83,7 +83,7 @@ that in the action:
     - name: Generate First Issues
       uses: rseng/good-first-issues@v1.0.0
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
         repos-file: '.github/repos.txt'
 ```
 
@@ -95,17 +95,19 @@ this!
 </div>
 
 
-Note that we also grab other labels that are associated with the repositories.
+It's intended to be simple so that an organization can customize the style
+to fit its branding. Note that we also grab other labels that are associated with the repositories.
 If this turns out to be too many, we could always limit to GitHub's
 pre-determined set. Also note that you might want to update the tag
-or commit of the action used.
+or commit of the action used. Version v1.0.0 was just released.
 
 ## Why Should I Care?
 
 If you are immersed in the world of being an RSE, or perhaps an RSE
 for a specific domain, it's easy to forget that
 there are folks out there that would love to learn, but don't know where to
-start. Hopefully this small set of tools, both the awesome list and
+start. If you aren't an RSE but are part of a GitHub community, the same
+case is true for your projects. Hopefully this small set of tools, both the awesome list and
 the action, can help you to find RSE related projects along with
 identify and share good first issues for your own set of repositories 
 if you deploy the action. Have fun, friends!
