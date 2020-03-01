@@ -112,7 +112,8 @@ maintain a data file was too hard. Or maybe it just wasn't easy enough for what 
 Either I needed to give up on the project because it wouldn't work or I needed
 to figure out how to extract the interface and combine with native GitHub tooling.
 I decided to do the latter, and removed all of the JavaScript that references anything
-with Alogia. 
+with Alogia. But I want to still give a shoutout to this company, because they are making
+something that is typically very hard for groups (search) much easier.
 
 ## How does it work?
 
@@ -120,7 +121,7 @@ with Alogia.
 
 Instead of using Alogia and the associated javascript, I figured out how to parse 
 GitHub pages public repositories metadata, and then generate into the "ais-Hits-item" div, 
-which you can see <a href="https://raw.githubusercontent.com/vsoch/search/master/pages/index.md" target="_blank">here</a>.
+the logic that you can see <a href="https://raw.githubusercontent.com/vsoch/search/master/pages/index.md" target="_blank">here</a>.
 
 ### Search
 
@@ -130,6 +131,7 @@ well to classes, so I simply added a class for each to each link.
 This means that, for example, whenever there is a change to a checkbox event
 (meaning a box is checked or unchecked) I can hide all the checkboxes,
 and then show any of those that have one or more of the selected classes.
+If the user has no boxes checked, this indicates that we should show everything.
 That looks like this:
 
 ```javascript
@@ -161,11 +163,12 @@ $('.ais-RefinementList-checkbox').change(function() {
 ```
 
 I don't use JavaScript a lot, so I tend to add a lot of comments to ensure
-that future me knows what's going on. Actually what am I saying, I do that for 
-all my code. For the search input, I took an approach of adding some of the
-metadata to data attributes of each link, and then I could use those
-attributes to search based on a query. If we use the "change" event then we'd
-only trigger when the box loses focus (after you type and move your cursor away)
+that future me knows what's going on. Actually (what am I saying!) I do this for 
+all my code, because I have the memory of a goldish. For the search input, 
+I took an approach of adding some of the metadata to data attributes of each link, 
+and then I could use those attributes to search based on a query. 
+If we use the "change" event then we'd only trigger when the box loses 
+focus (after you type and move your cursor away)
 however I wanted to change dynamically, so I did it on the "input" event.
 
 ```javascript
@@ -190,8 +193,9 @@ $(".ais-SearchBox-input").on("input", function(e) {
 ```
 
 I have an inordinate number of public repositories (over 500!) so I 
-view my user account as an extreme case for the search. It's a reasonable speed,
-so I'm happy with it.
+view my user account as an extreme case for the search. It's not as speedy as the smaller
+example that I derived it from, but given the size and my quick "make it work" JavaScript, I think
+it's a good first shot.
 
 ## Updates
 
@@ -215,4 +219,5 @@ Don't forget to update the <a href="https://vsoch.github.io/search/feed.xml" tar
 that also renders from the same source. The search (both sidebar and text) can be easily modified based on the classes
 (currently languages and licenses) and the description. Please ask if you'd like some 
 help with this - we can develop another template for others to use.
+
 Thanks for stopping by!
