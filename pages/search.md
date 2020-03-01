@@ -2,7 +2,7 @@
 title: Search
 description: "Search Apps"
 layout: default
-permalink: /search
+permalink: /dosearch
 tipue_search_active: true
 exclude_from_search: true
 ---
