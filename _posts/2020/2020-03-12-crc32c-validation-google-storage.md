@@ -99,7 +99,7 @@ The <a href="https://github.com/ICRAR/crc32c" target="_blank">crc32c module</a>
 was my choice to calculate the hash, and although there wasn't documentation I was able to see
 how it's used for binary data in <a href="https://github.com/ICRAR/crc32c/blob/master/test/test_crc32c.py" target="_blank">this test</a>.
 The maintainer then was able to give <a href="https://github.com/ICRAR/crc32c/issues/14" target="_blank">speedy and lovely feedback</a> about the library and usage. For example, when we use it we need to import `crc32` from `crc32c` which is confusing,
-because `crc32` is technically a different algorithm. But he clarified the reason for this:
+because `crc32` is technically a <a href="https://stackoverflow.com/questions/26429360/crc32-vs-crc32c" target="_blank">different algorithm</a>. But he clarified the reason for this:
 
 > The package in PyPI is called crc32c, and the module is called crc32c, but it exposes a function called crc32. To be honest this is probably historical baggage -- when this package was first implemented it tried to mimic binascii.crc32 to an extreme, including the function name... Maybe in a later release we could adjust the name
 
@@ -118,11 +118,11 @@ At the end of that process (when the file is finished reading, either from a rea
 or write) you'll have a digest. But there is still one more step! If we look
 at an actual digest from Google Storage vs. what we calculated, the formats are different:
 
-```
->>> blob.crc32c
-'nuFtcw=='
->>> digest
-2665573747
+```python
+blob.crc32c
+# 'nuFtcw=='
+digest
+# 2665573747
 ```
 
 Ah, crap! Well, it turns out, the last key to figuring this out was shared in
@@ -156,8 +156,6 @@ import os
 import base64
 import struct
 from crc32c import crc32
-import google.cloud
-from google.cloud import storage
 ```
 
 And here is our special calculator class to wrap the file object, and expose
@@ -198,27 +196,38 @@ Finally, notice that we expose a hexdigest() function so the class has similar f
 to one provided by hashlib. Now let's use this class with the blob.download_to_file
 to get a final solution. This is in some download function, you can
 look at the <a href="https://github.com/snakemake/snakemake/pull/273" target="_blank">Snakemake PR</a>
-to get a more real world context.
-
+to get a more real world context. We'd then write a download function to use the class above, downloading the file
+and ensuring that the crc32c checksums match.
 
 ```python
-    def download(blob, file_name):
-        """download a blob object to some file_name.
-           We assume the download directory and blob both exist for 
-           simplicity of this snippet
-        """
-        # Continue trying to download until hash matches
-        while not os.path.exists(file_name):
+def download(blob, file_name):
+    """download a blob object to some file_name.
+       We assume the download directory and blob both exist for 
+       simplicity of this snippet
+    """
+    # Continue trying to download until hash matches
+    while not os.path.exists(file_name):
 
-            with open(file_name, "wb") as blob_file:
-                parser = Crc32cCalculator(blob_file)
-                blob.download_to_file(parser)
+        with open(file_name, "wb") as blob_file:
+            parser = Crc32cCalculator(blob_file)
+            blob.download_to_file(parser)
            
-            # Compute local hash and verify correct
-            if parser.hexdigest() != blob.crc32c:
-                os.remove(file_name)
+        # Compute local hash and verify correct
+        if parser.hexdigest() != blob.crc32c:
+            os.remove(file_name)
 
-        return file_name
+    return file_name
+```
+
+Used as follows:
+
+```python
+from google.cloud import storage
+client = storage.Client()
+bucket = client.get_bucket('bucket_name')
+blob = bucket.blob('the_awesome_blob.txt')
+file_name = "the_downloaded_awesome.txt"
+downloaded_file = download(blob, file_name)
 ```
 
 Obviously the example above is overly simple - you would want to check that
