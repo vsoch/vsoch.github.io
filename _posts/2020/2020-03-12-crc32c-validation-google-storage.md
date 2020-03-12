@@ -149,7 +149,7 @@ base64.b64encode(struct.pack(">I", self.digest)).decode("utf-8")
 
 Okay, so we've figured out the library to use, and how to add it to the file object
 class to provide to Google Storage, let's put all the pieces together! Here
-are all the imports that we need:
+are the first set of imports that we need:
 
 ```python
 import os
@@ -194,10 +194,10 @@ class Crc32cCalculator(object):
 
 Finally, notice that we expose a hexdigest() function so the class has similar functionality
 to one provided by hashlib. Now let's use this class with the blob.download_to_file
-to get a final solution. This is in some download function, you can
+in a download function to get a final solution. You can
 look at the <a href="https://github.com/snakemake/snakemake/pull/273" target="_blank">Snakemake PR</a>
-to get a more real world context. We'd then write a download function to use the class above, downloading the file
-and ensuring that the crc32c checksums match.
+to get a more real world context. The function below uses the class above to download the file
+and ensure that the crc32c checksums match.
 
 ```python
 def download(blob, file_name):
