@@ -49,7 +49,7 @@ from google.cloud.storage import Client
 
 client = Client()
 bucket = client.get_bucket('bucket_name')
-blob = bucket.blob('the_awesome_blob.txt')'
+blob = bucket.blob('the_awesome_blob.txt')
 
 # Download to a file object
 blob.download_to_file(file_obj)
@@ -58,8 +58,11 @@ blob.download_to_file(file_obj)
 blob.download_to_filename("name_of_file.txt")
 ```
 
-So how do we stream to file? We can actually wrap the file object and expose
-the same needed functions (namely write).
+So how do we stream to file? Well, we could download it using one of the above
+methods, and then read it in again (streaming) to update a digest. But doesn't that mean
+we need to iterate through the chunks twice? That might work okay for tiny files,
+but some of these files are chonkers. What if we tried to wrap the file object and expose
+the same needed functions (namely write)...
 
 ```python
 class Crc32cCalculator(object):
@@ -83,7 +86,12 @@ class Crc32cCalculator(object):
         self.digest = self.digest.update(chunk)
 ```
 
-But we don't want to use md5, we want crc32c! Let's figure that out next.
+But then added our own little special parsing of the chunk after the standard
+write? This is what is shown in the example above - calling write()
+writes the chunk to the file object, but then uses the _update()
+function we've written with the class to update the digest created on init
+with the chunk. But the example above uses md5. We don't want to use md5. 
+We want crc32c! Let's figure that out next.
 
 ## Choosing a crc32c Library
 
