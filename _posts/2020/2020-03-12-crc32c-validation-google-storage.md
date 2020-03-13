@@ -65,7 +65,7 @@ but some of these files are chonkers. What if we tried to wrap the file object a
 the same needed functions (namely write)...
 
 ```python
-class Crc32cCalculator(object):
+class Crc32cCalculator:
     """The Google Python client doesn't provide a way to stream a file being
        written, so we can wrap the file object in an additional class to
        do custom handling. This is so we don't need to download the file
@@ -164,7 +164,7 @@ same chunk. Notice that when we initialize, we also set the digest to 0,
 as we saw in all the examples for using crc32c.
 
 ```python
-class Crc32cCalculator(object):
+class Crc32cCalculator:
     """The Google Python client doesn't provide a way to stream a file being
        written, so we can wrap the file object in an additional class to
        do custom handling. This is so we don't need to download the file
