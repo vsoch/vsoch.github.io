@@ -62,7 +62,7 @@ directly doing data science. It's not to say that these are not research softwar
 but as more of a generalist developer, I see this definition extremely limiting.
 I should be able to write software that goes against the grain (e.g., I'm unlikely to get
 grant money for a documentation server that is beat out by much sexier sounding projects,
-if I could even appl for grants) that I know to be useful for
+if I could even apply for grants) that I know to be useful for
 researchers, and be able to publish it. I'm hugely troubled that the "Journal of Open
 Source Software" is not really supporting open source developers that are developing
 software for research. It's supporting researchers and data scientists that open
