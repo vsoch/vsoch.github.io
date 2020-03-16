@@ -44,6 +44,13 @@ panel of experts:
 
 > I brought your response back to the editorial board for some more discussion, and then I was on break. Unfortunately, the consensus is still that this submission falls outside our scope of research software (using our definition). We don't question that it looks useful for researchers, but fundamentally it doesn't appear to be a tool that would be directly used for scholarly research and likely to be cited as part of the research process.
 
+The part that hit me was <strong>that would be directly used for scholarly research</strong>.
+That implicitly says to me that any kind of work that isn't directly answering some
+domain-specific research question ("scholarly") is not research software. But... containers?
+workflow managers? GNU utils? Git? And what about the inordinate numbers of tools
+that are out there that <strong>indirectly</strong> are a game changers for the
+same scholarly research?
+
 My strong inclination is that the majority of folks on this panel think about
 research software as data science tools. If I look across the JoSS, this is
 the kind of work that I intend to see - R, Python, and containers intended for
