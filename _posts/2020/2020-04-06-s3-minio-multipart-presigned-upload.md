@@ -525,7 +525,9 @@ and these can be viewed in the Minio browser, which was shown at the top of this
 
 ## Next Steps
 
-This integration is not complete! If you want to test the current pull request, you can find everything that you need
+I'm not sure if the pull request will be accepted, but I did <a href="https://github.com/minio/minio-py/pull/870" target="_blank">open one</a>
+to expose the variable to the presign_v4 function so if others run into my issue, they don't need to rewrite the function.
+And the integration is not complete! If you want to test the current pull request, you can find everything that you need
 <a href="https://github.com/singularityhub/sregistry/pull/298" target="_blank">here</a>.
 Note that we will need to test both setting up SSL (meaning generating certificates for Minio,
 something I'll need help with since I don't have a need to deploy a Registry myself)
