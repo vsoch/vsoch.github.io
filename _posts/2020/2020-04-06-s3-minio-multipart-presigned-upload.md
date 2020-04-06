@@ -8,7 +8,7 @@ Have you ever stumbled into working on something challenging, not in a "solve th
 sort of way, but "figure out the interaction of these systems in the context of this API
 and tool" and found it so intoxicatingly wonderful to work on that you can't stop?
 This happened to me this previous weekend, actually starting on Friday. I was working
-on <a href="https://github.com/singularityhub/sregistry/pull/297" target="_blank">Minio backend for storage</a>
+on adding a <a href="https://github.com/singularityhub/sregistry/pull/297" target="_blank">Minio backend for storage</a>
 for <a href="https://singularityhub.github.io/sregistry/" target="_blank">Singularity Registry Server</a>
 because many users were, despite efforts to use the <a href="https://vsoch.github.io/2018/django-nginx-upload/" target="_blank">nginx-upload</a> module, still running into issues with large uploads. I had recently noticed that the Singularity
 <a href="https://github.com/sylabs/scs-library-client/blob/30f9b6086f9764e0132935bcdb363cc872ac639d/client/push.go" target="_blank">scs-library-client</a> 
@@ -35,7 +35,7 @@ and other than having an elegant bird paper clip logo
    <img src="https://vsoch.github.io/assets/images/posts/minio/badass-bird.png">
 </div>
 
-Provided a really elegant, open source solution to host your own "S3-like" storage (this is my
+and it provided a really elegant, open source solution to host your own "S3-like" storage (this is my
 understanding at least). 
 
 ### 1. Adding the Minio Container
@@ -56,8 +56,10 @@ minio:
   command: ["server", "images"]
 ```
 
-Notice that it binds a .minio-env file that provides the key and secret, and
-these are also mapped to the main uwsgi container with the Django application.
+and notice that it binds a .minio-env file that provides the key and secret, and the
+images are bound to our host so if the minio container goes away we don't lose them.
+The minio environment secrets are also mapped to the main uwsgi container with the Django application
+since we will be instantiating clients from in there.
 
 ### 2. Installing mc for management
 
@@ -81,7 +83,7 @@ Added `myminio` successfully.
 Verify that it was added:
 
 ```bash
-/ # ./mc config host ls
+./mc config host ls
 ```
 And then leave this command hanging in a window to show output logs.
 
@@ -99,6 +101,7 @@ On the backend, in the configuration for Singularity Registry Server I give the
 SSL, and of course the internal and external servers.
 
 ```python
+
 MINIO_SERVER = "minio:9000"  # Internal to sregistry
 MINIO_EXTERNAL_SERVER = (
     "127.0.0.1:9000"  # minio server for Singularity to interact with
@@ -114,7 +117,7 @@ MINIO_REGION = "us-east-1"
 Yes! Remember that the Singularity client sees the minio container as `127.0.0.1:9000` 
 (on localhost) but from inside the uwsgi container, we see it as `minio:9000`. You *could*
 adopt a solution that adds minio as a hostname to "/etc/hosts" but my preference was not
-to require that. For creating the clients, this was actually really easy and quick to do!
+to require that. For creating the clients, this was actually really quick to do!
 
 ```python
 
@@ -149,13 +152,14 @@ if not minioClient.bucket_exists(MINIO_BUCKET):
     minioClient.make_bucket(MINIO_BUCKET)
 ```
 
-When the server starts, we create one for each of internal and external, and
+When the server starts, we create one for each of internal and external endpoints, and
 also create the bucket if it doesn't exist. This is done entirely with
 <a href="https://github.com/minio/minio-py/" target="_blank">minio-py</a>.
 And then we can use the external client to generate a presigned PUT url
 to return to Singularity:
 
 ```python
+
 storage = container.get_storage()
 url = minioExternalClient.presigned_put_object(
     MINIO_BUCKET,
@@ -167,6 +171,7 @@ url = minioExternalClient.presigned_put_object(
 and do the same thing to retrieve a pre-signed url to GET (or download) it:
 
 ```python
+
 storage = container.get_storage()
 url = minioExternalClient.presigned_get_object(
     MINIO_BUCKET,
@@ -177,8 +182,7 @@ return redirect(url)
 ```
 
 I'm not showing these calls in the context of their functions - you can look
-at the full code in the pull request to get this. The main thing to understand is that (a very
-basic flow) for the legacy upload endpoint is:
+at the full code in the <a href="https://github.com/singularityhub/sregistry/pull/297" target="blank"> pull request </a> to get this. The main thing to understand is that (a very basic flow) for the legacy upload endpoint is:
 
 <ol class="custom-counter">
    <li>Singularity looks for _multipart endpoint, 404 defaults to <a href="https://github.com/sylabs/scs-library-client/blob/master/client/push.go#L287" target="_blank">the legacy endpoint</a></li>
@@ -188,9 +192,11 @@ basic flow) for the legacy upload endpoint is:
 
 And now with Minio, we've greatly improved this workflow by adding an extra layer
 of having signed URLs, and having the uploads and GETs go directly to the minio container.
-What does this mean? The main uwsgi django server isn't taking the brunt of load
-to upload and download containers. A cluster could much more easily deploy some
-kind of (separate) and scaled Minio cluster and then still use Singularity Registry
+Before we were using the nginx upload module to upload directly via nginx, and then
+have a callback that then pings the uwsgi container to validate the upload and finish things up.
+We now have a huge improvement, I think, because the main uwsgi django server isn't taking the brunt of load
+to upload and download containers, and validation happens before any files are transferred. 
+A cluster could much more easily deploy some kind of (separate) and scaled Minio cluster and then still use Singularity Registry
 Server. I haven't done this yet, but I suspect that we are allowing for better scaling, hooray!
 
 ## FileSystem
@@ -210,8 +216,8 @@ minio-images/
 
 ## Multipart Upload
 
-The above was quick, but it didn't add multipart uploads. This is where it got fun and
-challenging, and took me most of Saturday, all of Sunday, and half of Monday.
+The above was quick, but it didn't add multipart uploads. Hey, it was only Friday afternoon!
+This is where it got fun and challenging, and took me most of Saturday, all of Sunday, and half of Monday.
 A multipart upload would look something like this:
 
 ### 1. Singularity Asks for Multipart
@@ -230,21 +236,20 @@ def post(self, request, upload_id):
     print("POST RequestMultiPartPushImageFileView")
 
     # 1. Handle authorization, if the request doesn't have a token, return 403
-    # 2. If the configuration setting MINIO_MULTIPART_UPLOAD is False, return 404 to default to legacy version
+    # 2. If the config setting MINIO_MULTIPART_UPLOAD is False, return 404 to default to legacy
     # 3. Get the container instance, return 404 if not found
     # 4. get the filesize from the body request, calculate the number of chunks and max upload size
     # 5. Create the multipart upload!
 ```
 
-For that last step, this is the first time we need to interact with another API
+For that last step (5), this is the first time we need to interact with another API
 for minio. However, minio-py doesn't support generating anything for pre-signed
-multipart, so in this case we need to interact with s3 via boto. Again, we need
-to create an internal (minio:9000) and external (127.0.0.1:9000) client:
+multipart, so in this case we need to interact with s3 via <a href="https://github.com/boto/boto3" target="_blank">boto3</a>. 
+Again, we need to create an internal (minio:9000) and external (127.0.0.1:9000) client:
 
 ```python
-from datetime import datetime
+
 from boto3 import Session
-import boto3
 from botocore.client import Config
 
 from shub.settings import (
@@ -289,7 +294,7 @@ s3_external = session.client(
 )
 ```
 
-That might look trivial or straight forward in practice, but it was very tricky
+That might look trivial or straight forward in practice, but it was tricky
 figuring out that I needed to provide a custom configuration to the clients,
 specify the signature version to match minio, and also use "path" (actually
 I think it might have worked without this, but I didn't remove it). I am sure,
@@ -328,10 +333,10 @@ part size, sha256sum, and upload id back to Singularity Registry Server. It's ac
 same endpoint as before (ending in _multipart) but this time with a PUT request.
 The reason is because Singularity is saying "Hey, here is information about the part, 
 can you give me a signed URL?" And this is where things got tricky.
-
 I first tried generating a signed URL with the same s3 client as I was supposed to do:
 
 ```python
+
 # Generate pre-signed URLS for external client (lookup by part number)
 signed_url = s3_external.generate_presigned_url(
     ClientMethod="upload_part",
@@ -416,7 +421,11 @@ For response headers, this is where I included "uploadID" and "partNumber"
 that are needed. You'll also notice that in the example above, I tried
 adding the "X-Amz-Content-Sha256" header that was provided by the client (it
 still didn't work). Actually, all of my derivations of this call (adding or removing
-headers, tweaking the signature) didn't work.
+headers, tweaking the signature) didn't work. I didn't save a record of absolutely
+everything that I tried, but I can guarantee you that it was most of Sunday
+and a good chunk of Monday. I spent a lot of time reading every post or GitHub
+issue on either minio, S3, or Multipart uploads, and posted on several
+slacks which turned out to be wonderful rubber duck equivalents!
 
 I decided to look more closely at the parse_v4 function. I noticed something interesting -
 that by default, it created an internal variable called <a href="https://github.com/minio/minio-py/blob/f4b20f90d408215dcd51eb102f069b8355c13dc4/minio/signer.py#L96" target="_blank">
@@ -425,7 +434,7 @@ This seemed off to me, and especially because Singularity was going out of it's 
 provide the sha256sum for each part. What if I added it there? I wrote almost an
 equivalent function, but this time exposed that sha256sum as an input variable:
 
-```python
+```pythonf
 signed_url = sregistry_presign_v4(
     "PUT",
     new_url,
@@ -447,7 +456,8 @@ return Response(data={"data": data}, status=200)
 ```
 
 And in a beautiful stream of data, all of a sudden all of the Multipart requests
-were going through!
+were going through! This image shows the uwsgi logs for my server (left) and the
+minio logs generated by the mc command line client (right).
 
 <div style="padding:20px">
    <img src="https://vsoch.github.io/assets/images/posts/minio/stream.png">
@@ -515,7 +525,7 @@ and these can be viewed in the Minio browser, which was shown at the top of this
 
 ## Next Steps
 
-If you want to test the current pull request, you can find everything that you need
+This integration is not complete! If you want to test the current pull request, you can find everything that you need
 <a href="https://github.com/singularityhub/sregistry/pull/298" target="_blank">here</a>.
 Note that we will need to test both setting up SSL (meaning generating certificates for Minio,
 something I'll need help with since I don't have a need to deploy a Registry myself)
