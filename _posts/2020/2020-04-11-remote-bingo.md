@@ -33,7 +33,9 @@ could play on their own, or in a more multiplayer sort of setting
 participate in conferences without wearing pants, or with our pets, what would
 stop someone that wants to have fun from playing Bingo? Exactly. I wanted to build
 a very general tool that would have many use cases, be easy to customize, and
-hopefully afford some fun in these strange times.
+hopefully afford some fun in these strange times. If you want to skip over
+the description and just play, hop over to 
+<a href="https://github.com/rseng/remote-bingo" target="_blank">rseng/remote-bingo</a>.
 
 ## Remote Bingo
 
