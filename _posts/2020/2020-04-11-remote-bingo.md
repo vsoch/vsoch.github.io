@@ -124,10 +124,10 @@ And then the user can change the board to another in the list at the bottom of t
 
 
 The above should give you a hint that I created additional boards for programming
-items, quarantine cookie, indoor activities, and (in spirit of the US-RSE virtual conference)
+items, quarantine cooking, indoor activities, and (in spirit of the US-RSE virtual conference)
 a virtual conference. If you are interested in the implementation, you can see my 
 terrible JavaScript skills at the repository, <a href="https://github.com/rseng/remote-bingo" target="_blank">rseng/remote-bingo</a>.
-The file with the Bingo instance is <a href="https://github.com/rseng/remote-bingo/blob/master/assets/js/remote-bingo.js" target="_blank">remote-bingo.js</a>. If you want to play bingo, then go straight to 
+The file with the Bingo instance is <a href="https://github.com/rseng/remote-bingo/blob/master/assets/js/remote-bingo.js" target="_blank">remote-bingo.js</a>. If you want to play bingo, then go to the statically deployed GitHub pages interface at
 <a href="https://rseng.github.io/remote-bingo/" target="_blank">https://rseng.github.io/remote-bingo/</a>.
 
 
@@ -146,48 +146,6 @@ increase the variety of boards generated, and to give good prizes to winners.
 If you want to play, go to <a href="https://rseng.github.io/remote-bingo/" target="_blank">https://rseng.github.io/remote-bingo/</a>
 and again, please contribute to the repository to improve the lists, or add a new list.
 
-
-## Contributing
-
-If you'd like to contribute, here are a few ideas:
-
-### 1. Create a custom list
-
-I've created a set of good starting lists (see [bingo lists](#bingo-lists) but of course
-there is great room for improvement, or even making new lists! 
-
-### 2. Add a color picker
-
-While not essential, it would be fun to allow a user to choose the color to highlight
-the squares. It would require adding a color picker (perhaps to the bottom right)
-and then storing the chosen color with the Bingo instance. To do this best,
-it would be nice to not add additional javascript dependencies.
-
-### 3. Support for Cache
-
-Currently, if the user closes the browser window, the current game and its state
-are lost. It would be nice to have an ability to cache a state, and then
-refreshing the browser would still keep the state.
-
-### 4. Tags
-
-Currently if you look in the bingo list csv files, there is a second column
-for tags that aren't used. I was thinking that it would be nice to be able
-to load a very large file of items, and then filter down to some subset of
-categories.
-
-### 5. Explosive Congratulations
-
-I think that when the user fills the entire board, there should be a more
-explosive congratulations (confetti or small animals dancing across the screen?)
-I think this could be done with some kind of simple css animation, again,
-with preference to not add additional dependencies.
-
-### 6. Saving Board
-
-For games that aren't done live, it would be good to allow for saving to file
-of the screen. I've done this many times, but typically with svg, so I'm open
-to ideas for how to best implement this for standard html/css.
 
 ## Bingo Lists
 
@@ -252,6 +210,89 @@ with items I'd be happy to add to the interface for you to use with your family 
 If you (remotely) watch a shared TV show or film, you could have a board specific to that.
 It could even be scoped to include themed items (e.g., scary movies, romantic comedies, TV series)
 and I'd imagine it should also include people's reactions to watching.
+
+#### Stuffed Animals in Windows
+
+I've seen that it's a "thing" to walk around your neighborhood with kids and look
+for stuffed animals in windows, or to find chalk messages on the driveway. It would
+be fun to have a list of items related to this search, which you could possibly
+print out from the interface and bring with you.
+
+
+#### Quarantine Goals
+
+Another quarantine related list (and similar to those already shared) would be
+a list of funny goals to achieve during the quarantine. E.g., "gain the quarantine 15"
+or "attend a meeting without pants." This would likely be a list that you do on your
+own.
+
+#### First World Problems
+
+This one speaks for itself, and I feel uncomfortable saying it during a time when
+those of us with "first world problems" can joke about this in context of all
+of the suffering that is happening. I didn't make this list for that reason,
+but it's still an idea, perhaps to poke fun at the celebrities staying at home
+and "roughing it out."
+
+#### Acts of Kindness
+
+There are a lot of lovely acts of kindess going on, this would be a very
+socially appropriate list, in contrast to the previous!
+
+#### Cookie Monster
+
+If you really love cookies (or some other niche item) you can join with a group
+of friends and have a battle to see who can make the most different kinds of a
+baked good to get a Bingo! For this board, I'd say that you would be required to
+take pictures of the result for proof. You could easily do this with any kind
+of baked good, pizza, bread, pasta, potato, or food category that has many derivations.
+
+## Contributing
+
+If you'd like to contribute, here are a few ideas:
+
+### 1. Create a custom list
+
+I've created a set of good starting lists (see [bingo lists](#bingo-lists) but of course
+there is great room for improvement, or even making new lists! 
+
+### 2. Add a color picker
+
+While not essential, it would be fun to allow a user to choose the color to highlight
+the squares. It would require adding a color picker (perhaps to the bottom right)
+and then storing the chosen color with the Bingo instance. To do this best,
+it would be nice to not add additional javascript dependencies.
+
+### 3. Support for Cache
+
+Currently, if the user closes the browser window, the current game and its state
+are lost. It would be nice to have an ability to cache a state, and then
+refreshing the browser would still keep the state.
+
+### 4. Tags
+
+Currently if you look in the bingo list csv files, there is a second column
+for tags that aren't used. I was thinking that it would be nice to be able
+to load a very large file of items, and then filter down to some subset of
+categories.
+
+### 5. Explosive Congratulations
+
+I think that when the user fills the entire board, there should be a more
+explosive congratulations (confetti or small animals dancing across the screen?)
+I think this could be done with some kind of simple css animation, again,
+with preference to not add additional dependencies.
+
+### 6. Saving Board
+
+For games that aren't done live, it would be good to allow for saving to file
+of the screen. I've done this many times, but typically with svg, so I'm open
+to ideas for how to best implement this for standard html/css.
+
+### 7. Support for Mobile
+
+Mobile development is usually an afterthought for me. Nuff' said!
+
 
 ## Thank you!
 
