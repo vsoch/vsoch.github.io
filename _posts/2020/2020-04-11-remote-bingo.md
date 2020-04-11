@@ -10,7 +10,7 @@ for Stanford, one of the activities I thought would be fun is some kind of Bingo
 If it were in person, it would have been easy enough to hand out paper sheets, and have
 participants either fill out items while listening to talks, or to take the boards
 "home" and complete with their lab over some specified amount of time.  When this was 
-no longer possible but the <a href="https://us-rse.org/2020-04-09-virtual-workshop/">US-RSE Virtual Workshop</a>
+no longer possible but the <a target="_blank" href="https://us-rse.org/2020-04-09-virtual-workshop/">US-RSE Virtual Workshop</a>
 was being discussed, I jumped at the idea of (still) injecting a little fun with playing Bingo.
 I quickly realized it would be much easier for participants to have a virtual (web-based)
 game, and I could imagine people playing along while checking off items like:
@@ -25,21 +25,17 @@ game, and I could imagine people playing along while checking off items like:
 
 It would be so fun! The issue of course, which came up in a conversation with one
 of the coordinators for the virtual conference, was that it would be distracting.
-And I have to agree, it definitely could be. I was disappointed that my Remote Bingo couldn't be officially done,
-but then I realized that it was still a great idea! I could create a simple remote bingo
-game that any remote person could play on their own, or in a more multiplayer sort of setting
-(conference calls? virtual happy hour? during a remote conference?). In that we can
+And I have to agree, it definitely could be. So while I was disappointed that my 
+Remote Bingo idea couldn't be officially done, I realized that it was still a 
+great idea! I could create a simple remote bingo game that any remote person 
+could play on their own, or in a more multiplayer sort of setting
+(conference calls? virtual happy hour? during a remote conference? watching a movie?). In that we can
 participate in conferences without wearing pants, or with our pets, what would
 stop someone that wants to have fun from playing Bingo? Exactly. I wanted to build
 a very general tool that would have many use cases, be easy to customize, and
 hopefully afford some fun in these strange times.
 
 ## Remote Bingo
-
-<div style="padding:20px">
-  <img src="https://raw.githubusercontent.com/rseng/remote-bingo/master/img/remote-bingo.png">
-</div>
-
 
 I had some fairly simple goals for this application. I wanted:
 
@@ -112,7 +108,14 @@ $(document).ready(function() {
 });
 ```
 
-And then the user can choose the board they want at the bottom of the page:
+Here is the active board!
+
+<div style="padding:20px">
+  <img src="https://raw.githubusercontent.com/rseng/remote-bingo/master/img/remote-bingo.png">
+</div>
+
+
+And then the user can change the board to another in the list at the bottom of the page:
 
 
 <div style="padding:20px">
@@ -255,4 +258,5 @@ and I'd imagine it should also include people's reactions to watching.
 I want to say a quick thank you to [A Game of Dabs](https://codepen.io/nbrombal/pen/JAedG) on Codepen
 that I was able to refactor into a Vue.js application to serve a custom board.
 I'm terrible at JavaScript and this example was exactly what I needed to get started.
-That's all folks!
+That's all folks! Have fun <a href="https://github.com/rseng/remote-bingo">playing!</a>,
+and if you are an #rseng please consider attending the <a target="_blank" href="https://us-rse.org/2020-04-09-virtual-workshop/">US-RSE Virtual Workshop</a>!
