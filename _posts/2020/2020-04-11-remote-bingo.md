@@ -190,6 +190,16 @@ of room for improvement here!
 </div>
 
 
+### Cookies
+
+This is a fun idea if you like to bake, and want to have a longer term competition with
+friends. Who can get bingo first baking cookies?
+
+<div style="padding:20px">
+  <img src="https://raw.githubusercontent.com/rseng/remote-bingo/master/img/cookies.png">
+</div>
+
+
 ### New Programmer
 
 This list is intended for someone learning to program. There could be a lot of 
@@ -218,7 +228,6 @@ for stuffed animals in windows, or to find chalk messages on the driveway. It wo
 be fun to have a list of items related to this search, which you could possibly
 print out from the interface and bring with you.
 
-
 #### Quarantine Goals
 
 Another quarantine related list (and similar to those already shared) would be
@@ -226,26 +235,21 @@ a list of funny goals to achieve during the quarantine. E.g., "gain the quaranti
 or "attend a meeting without pants." This would likely be a list that you do on your
 own.
 
-#### First World Problems
-
-This one speaks for itself, and I feel uncomfortable saying it during a time when
-those of us with "first world problems" can joke about this in context of all
-of the suffering that is happening. I didn't make this list for that reason,
-but it's still an idea, perhaps to poke fun at the celebrities staying at home
-and "roughing it out."
-
 #### Acts of Kindness
 
 There are a lot of lovely acts of kindess going on, this would be a very
-socially appropriate list, in contrast to the previous!
+socially appropriate list, in contrast to the previous! You could create a list
+of acts of kindness you've seen other people do, and then see if you
+can do them yourself.
 
-#### Cookie Monster
+#### Let's Make Cake!
 
-If you really love cookies (or some other niche item) you can join with a group
+If you really love cake (or some other niche item) you can join with a group
 of friends and have a battle to see who can make the most different kinds of a
 baked good to get a Bingo! For this board, I'd say that you would be required to
 take pictures of the result for proof. You could easily do this with any kind
 of baked good, pizza, bread, pasta, potato, or food category that has many derivations.
+See the cookies example provided already with the repository.
 
 ## Contributing
 
