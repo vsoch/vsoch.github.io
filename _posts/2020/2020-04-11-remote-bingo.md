@@ -35,7 +35,7 @@ stop someone that wants to have fun from playing Bingo? Exactly. I wanted to bui
 a very general tool that would have many use cases, be easy to customize, and
 hopefully afford some fun in these strange times. If you want to skip over
 the description and just play, hop over to 
-<a href="https://github.com/rseng/remote-bingo" target="_blank">rseng/remote-bingo</a>.
+<a href="https://rseng.github.io/remote-bingo/" target="_blank">rseng/remote-bingo</a>.
 
 ## Remote Bingo
 
@@ -305,5 +305,5 @@ Mobile development is usually an afterthought for me. Nuff' said!
 I want to say a quick thank you to [A Game of Dabs](https://codepen.io/nbrombal/pen/JAedG) on Codepen
 that I was able to refactor into a Vue.js application to serve a custom board.
 I'm terrible at JavaScript and this example was exactly what I needed to get started.
-That's all folks! Have fun <a href="https://github.com/rseng/remote-bingo">playing!</a>,
+That's all folks! Have fun <a href="https://rseng.github.io/remote-bingo/">playing!</a>,
 and if you are an #rseng please consider attending the <a target="_blank" href="https://us-rse.org/2020-04-09-virtual-workshop/">US-RSE Virtual Workshop</a>!
