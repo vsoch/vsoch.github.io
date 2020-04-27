@@ -54,9 +54,10 @@ on my local machine. Either way, the model checkpoints are downlaoded from [here
 The first thing you need to do is to generate videos to match to. Ideally these
 should be 256 by 256, and I'd suggest a good starting size is no longer than 40 seconds.
 On a CPU this size video will take anywhere between 10 to 20 minutes to be produced.
-The repository provides [a script]() to resize a video for you (or actually to generate
+The repository provides [a script](https://github.com/AliaksandrSiarohin/first-order-model/blob/master/crop-video.py) 
+to resize a video for you (or actually to generate
 an ffmpeg command that you can run) but it didn't work on my machine because I don't
-have GPU, which is a dependency for the [face alignment]() library. Instead, 
+have GPU, which is a dependency for the [face alignment](https://github.com/1adrianb/face-alignment) library. Instead, 
 I found a very easy and free [online converter](https://ezgif.com/crop-video) where
 you generally want to:
 
@@ -103,6 +104,7 @@ and try running a model. I wanted to make sure that if others used the container
 that it would work with Singularity.
 
 ```bash
+
 singularity pull docker://vanessa/first-order-model
 mkdir -p videos
 mkdir -p driving
@@ -112,6 +114,7 @@ We would then need a bunch of videos and images to use - in my case I had
 them on my local machine and used scp to get them onto my scratch space:
 
 ```bash
+
 scp -r driving/ vsochat@login.sherlock.stanford.edu:/scratch/users/vsochat/first-order-model/videos
 scp -r img/ vsochat@login.sherlock.stanford.edu:/scratch/users/vsochat/first-order-model/driving
 ```
@@ -121,6 +124,7 @@ so I don't need to worry about that. Since I'm running these interactively, I de
 to test via an interactive shell.
 
 ```bash
+
 singularity shell --nv first-order-model_latest.sif
 cd /app
 ```
@@ -144,6 +148,7 @@ just delete them. When you finish up, you can then copy the finished (no audio) 
 to your computer:
 
 ```bash
+
 mkdir -p gpu-videos
 scp -r vsochat@login.sherlock.stanford.edu:/scratch/users/vsochat/first-order-model/videos gpu-videos
 ```
