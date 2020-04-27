@@ -43,7 +43,7 @@ And then proceed to generate a video for your first shot! After I got this up an
 running for the first time, it was pure joy!
 
 <div style="padding:20px">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/first-order-model/model-run.png">
+<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/first-order-model/models-run.png">
 </div>
 
 I wound up building a container, and it was actually very unlike me to run something
@@ -92,7 +92,7 @@ It's quite a bit of work editing / cropping all those videos, but it's worth it!
 I used gimp, of course.
 
 <div style="padding:20px">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/first-order-model/model-gimp.png">
+<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/first-order-model/models-gimp.png">
 </div>
 
 
