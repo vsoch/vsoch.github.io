@@ -8,7 +8,7 @@ about falling asleep one particular night.
 
 ## Second Thoughts
 
-We know that the second thought comes after the first thought - it's when you receive new information and might change your mind. Think twice! What about if you have a third thought that supercedes the
+We know that the second thought comes after the first thought - it's when you receive new information and might change your mind. You are indeed thinking twice. What about if you have a third thought that supercedes the
 second thought? Does the second thought become a second thought once removed, or the thought previously known as second? Or is our second thought fully deserving of retaining his position as second, and simply points to the third if our brains
 are following the thought trail? I present an example:
 
