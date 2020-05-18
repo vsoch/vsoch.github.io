@@ -4,7 +4,7 @@ date: 2020-05-17 10:30:00
 ---
 
 Where are your thoughts, exactly? In the space where puns and creativity collide, this is what I thought
-about falling asleep one particular night. without further adieu, with brain.dump(thoughts, markdown)...
+about falling asleep one particular night.
 
 ## Second Thoughts
 
