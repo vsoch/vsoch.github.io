@@ -7,4 +7,4 @@ Rawwwr the Vanessasaurus!
 
 See releases for previous versions, and also deployed at:
 
- -[Version 1](https://vsoch.github.io/v1)
+ - [Version 1](https://vsoch.github.io/v1)
