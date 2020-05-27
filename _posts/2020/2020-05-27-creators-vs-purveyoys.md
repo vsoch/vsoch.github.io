@@ -1,5 +1,5 @@
 ---
-title: "Creators vs. Purveyoys"
+title: "Creators vs. Purveyors"
 date: 2020-05-27 10:30:00
 ---
 
