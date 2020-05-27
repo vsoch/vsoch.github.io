@@ -1,6 +1,6 @@
 ---
 title: "Creators vs. Purveyoys"
-date: 2020-05-27 11:30:00
+date: 2020-05-27 10:30:00
 ---
 
 I was eating dinner and browsing the little internet when I came across 
