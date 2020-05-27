@@ -79,7 +79,7 @@ We might start very simply and say that research software is a subset of softwar
 We need to step back again, and first consider research software in the space of all software. I want to venture to say “Yes” to this question - it would be hard to identify a piece of research software that isn’t also software. Disregarding the scale or relative sizes of the circles, we can fairly confidently say that research software exists as a subset of software (Figure 1).
 
 <div style="padding:20px">
-<a target="_blank" href="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/rseng/research-software.png"><img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/rseng/research-software.png"></a>
+<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/rseng/rse.png">
 </div>
 <italic>Figure 1: Research software is a subset of software.</italic>
 
