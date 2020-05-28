@@ -14,11 +14,14 @@ p {
     <img src="/assets/images/avatar-highres.png" width="100px" style="float:right; margin-bottom:30px"><br>
 </div>
 
-<p style="padding-top:40px;">I am a <a href="https://profiles.stanford.edu/vanessa-sochat" target="_blank">Research Software Engineer</a> for <a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing</a> and an active dinosaur in the open source community. I specialize in system engineering, infrastructure development, and data processing for computational analyses and workflows. I am the primary developer at Stanford for 
-<a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>, the open source <a href="https://expfactory.github.io/" target="_blank"> 
+<p style="padding-top:40px;">I am a <a href="https://profiles.stanford.edu/vanessa-sochat" target="_blank">Research Software Engineer</a> for <a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing</a> and an active dinosaur in the open source community. 
+I specialize in system engineering, infrastructure development, and data processing for computational analyses and workflows. I am the primary developer at Stanford for 
+<a href="https://singularity-hub.org" target="_blank">Singularity Hub</a>, the open source <a href="https://expfactory.github.io/" target="_blank"> 
 Experiment Factory</a>, <a href="https://vsoch.github.io/datasets" target="_blank"> Dinosaur Datasets</a>, 
 <a href="https://vsoch.github.io/lessons" target="_blank"> Research Computing Lessons</a>, and the <a href="https://researchapps.github.io/helpme" target="_blank"> HelpMe</a>  
-and <a href="https://vsoch.github.io/watchme" target="_blank">WatchMe</a> command line clients.</p>
+and <a href="https://vsoch.github.io/watchme" target="_blank">WatchMe</a> command line clients.
+I also founded and run <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">Research Software Engineering Services</a> 
+at Stanford University, along with creating and producing the <a href="https://us-rse.org/rse-stories" target="_blank">RSE Stories</a> podcast.</p>
 
 <p>Right now, I'm really excited about two open source projects that I'm leading centered around continuous integration, 
 and data organization and specifications. They are the <a href="https://openbases.github.io/" target="_blank">OpenBases</a>,
@@ -26,13 +29,14 @@ and data organization and specifications. They are the <a href="https://openbase
 to make generation of reproducible things fun, and easy, and for data to be organization and beautifully searchable.
 I hope that you might reach out to contribute!</p>
 
-<p>With my robot team, I am also lead developer of <a href="https://singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>, <a href="https://sci-f.github.io" target="_blank">the Scientific Filesystem</a>, and <a href="https://singularityhub.github.io/" target="_blank"> Container Tools</a>, all tooling optimized for deployment of container-based workflows and "science as a service" capabilities.</p>
+<p>With my robot team, I am also lead developer of <a href="https://singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>, <a href="https://sci-f.github.io" target="_blank">the Scientific Filesystem</a>, and <a href="https://singularityhub.github.io/" target="_blank"> Container Tools</a>, all tooling optimized for deployment of container-based workflows and "science as a service" capabilities. The list of software that I maintain has gotten too large for a biography, so I recommend that you reference my <a href="https://vsoch.github.io/work">work page</a> or just view my 
+<a href="https://github.com/vsoch" target="_blank">activity on GitHub</a></p>
 
 <p>As a graduate student my work spanned computer science, medicine, and imaging. I was a proud member of the <a href="http://poldracklab.stanford.edu" target="_blank">Poldrack Lab</a> at Stanford. Our work spanned neuro-informatics, cognitive neuroscience, and reproducibility. I was introduced to the domain of neuroimaging as an RA in the <a href="http://www.haririlab.com" target="_blank">Laboratory of Neurogenetics</a> at Duke University working under Ahmad Hariri.</p>
 
 <p style="line-height:26px">The qualities of experience that are most fulfilling to me are making things work, organizing and understanding new processes, and creating efficiency and beauty in design. I love learning, programming and debugging, and I have vision for how I want the future to be. I am adamant about pursuing the things that make me happy, today and now. A successful life means confidence in a future vision and happiness in the present.</p>
 
-<p>While this is primarily a personal site, most of my life can be found on <a href="http://www.github.com/vsoch" target="_blank">[github]</a>, and a general list of work under <a href="/work">[portfolio]</a>. If my open source work has been useful to you, or you want to better support the ecosystem, please consider <a href="https://github.com/users/vsoch/sponsorship" target="_blank">sponsoring</a> this dinosaur! Contact information and is available upon request.</p>
+<p>While this is primarily a personal site, most of my life can be found on <a href="https://www.github.com/vsoch" target="_blank">[github]</a>, and a general list of work under <a href="/work">[portfolio]</a>. If my open source work has been useful to you, or you want to better support the ecosystem, please consider <a href="https://github.com/users/vsoch/sponsorship" target="_blank">sponsoring</a> this dinosaur! Contact information and is available upon request.</p>
 
 [<a href="https://scholar.google.com/citations?user=RTF50S4AAAAJ&amp;hl=en" target="_blank" class='no-after'>google-scholar</a>] [<a class='no-after' href="http://orcid.org/0000-0002-4387-3819" target="_blank">orcid-id</a>] [<a class='no-after' href="http://loop.frontiersin.org/people/188284/overview" target="_blank">frontiers</a>] [<a href="/assets/vsochat-cv.pdf" class='no-after' target="_blank">resume</a>] [<a href="https://www.github.com/vsoch" class='no-after' target="_blank">github</a>][<a href="https://github.com/users/vsoch/sponsorship" target="_blank" class='no-after'>github sponsors</a>]
 

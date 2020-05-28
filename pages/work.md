@@ -16,6 +16,8 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories</li>
 	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
 	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
+	<li><a href="https://vsoch.github.io/helpme/" target="_blank">helpme</a>: command line program for helping you out</li>
+	<li><a href="https://vsoch.github.io/askci/" target="_blank">askci</a>: version controlled, programmatic, collaborative documentation server</li>
 	<li><a href="https://vsoch.github.io/freegenes/" target="_blank">freegenes</a>: lab management portal</li>
 	<li><a href="https://vsoch.github.io/watchme/" target="_blank">WatchMe</a>: reproducible monitoring</li>
 	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
