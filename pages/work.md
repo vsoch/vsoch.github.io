@@ -7,13 +7,20 @@ profile: true
 <p style="padding-top:40px">
 </p>
 
+The following are a subset of projects, recent and older, that I remember to add here. If you
+want to see recent work or a better representation of my open source contributions,
+please see <a href="https://github.com/vsoch" target="_blank">my profile on GitHub</a>.
+
 <h3><strong>Projects</strong></h3>
 <ul>
 	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories</li>
+	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
+	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
 	<li><a href="https://vsoch.github.io/watchme/" target="_blank">WatchMe</a>: reproducible monitoring</li>
 	<li><a href="https://sci-f.github.io" target="_blank">The Scientific Filesystem (scif)</a>: a filesystem organization for scientific software and metadata
        <a href="https://github.com/vsoch/scif" target="_blank">[client]</a>
        <a href="https://scicrunch.org/scicrunch/Resources/record/nlx_144509-1/SCR_016105/resolver?q=SCIF&l=" target="_blank">[RRID]</a></li>
+	<li><a href="https://snakemake.readthedocs.io/en/stable/executor_tutorial/google_lifesciences.html" target="_blank">Snakemake Google Life Sciences Executor</a></li>
 	<li><a href="https://vsoch.github.io/lessons/" target="_blank">Stanford Research Computing Lessons</a>: Lessons and tutorials for HPC</li>
 	<li><a href="https://vsoch.github.io/datasets/" target="_blank">Dinosaur Datasets</a>: Open Source Datasets</li>
 	<li><a href="https://openbases.github.io/" target="_blank">OpenBases</a>: templates that use Github+CircleCI for easy, reproducible research</li>
@@ -33,13 +40,13 @@ profile: true
 <h3><strong>Containers</strong></h3>
 <ul>
 	<li><a href="https://singularityhub.github.io/singularity-compose/#/" target="_blank">singularity-compose</a>: orchestration for Singularity containers.</li>
+	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank"> [software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
+	<li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">spython</a>: Singularity Python Client</li>
 	<li><a href="https://singularityhub.github.io/container-tree/" target="_blank">ContainerTree</a>: data structures and visualizations for understanding containers</li>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
 	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
 	<li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank"> [software]</a></li>
-	<li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">spython</a>: Singularity Python Client</li>
-	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank"> [software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
 	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank"> [software]</a></li>
 </ul>
 &nbsp;
