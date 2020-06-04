@@ -1,5 +1,5 @@
 ---
-title: "Developer Productivity means Developer Happiness"
+title: "Developer Productivity"
 date: 2020-06-04 12:30:00
 ---
 
@@ -29,6 +29,8 @@ that I had much more to say. So, without further adieu, here you go!
 <ul class="custom-counter">
   <li><a href="https://docdrop.org/pdf/developer-happiness-whitepaper-vsochat-xVrX0.pdf/" target="_blank">Developer productivity means developer happiness</a></li>
   <li><a href="https://docdrop.org/pdf/future-remote-rseng-whitepaper-vsochat-ciHj0.pdf/" target="_blank">Future wants for remote software engineering</a></li>
+
+<br>
 
 I am testing out <a href="https://docdrop.org" target="_blank">docdrop.org</a> as a suggestion
 from <a href="https://twitter.com/judell/status/1266744655153999872" target="_blank">Jon Udell</a>,
