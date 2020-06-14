@@ -31,7 +31,7 @@ operating system to support libraries, small data files, and ultimately running
 scientific software, 
 
 <div style="padding:20px">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/data-container/regular-container.png">
+<img src="https://vsoch.github.io/assets/images/posts/data-container/regular-container.png">
 </div>
 
 then we might define a data container as:
@@ -39,7 +39,7 @@ then we might define a data container as:
 > a container without an operating system optimized for understanding and interacting with data
 
 <div style="padding:20px">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/data-container/data-container.png">
+<img src="https://vsoch.github.io/assets/images/posts/data-container/data-container.png">
 </div>
 
 That's right, remove the operating system and all the other cruft, and just provide the data!
@@ -253,7 +253,11 @@ $ docker build -t data-container .
 ### Single Container Interaction
 
 We then can interact with it in the following ways (remember this can be customized if you
-use a different template):
+use a different template). You can watch me interact in the asciinema here:
+
+<script id="asciicast-339602" src="https://asciinema.org/a/339602.js" async></script>
+
+or continue reading.
 
 <br>
 
