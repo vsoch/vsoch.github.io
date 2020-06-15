@@ -9,7 +9,7 @@ more:
 
 <ul class="custom-counter">
   <li>The <a target="_blank" href="https://iximiuz.com/en/posts/not-every-container-has-an-operating-system-inside">knowledge</a> that  containers don't necessary need an operating system.</li>
-  <li>The ability to create a container from scratch supported by Singularity (pull request <a href="https://github.com/hpcng/singularity-userdocs/pull/328">here</a>.</li>
+  <li>The ability to create a container from scratch supported by Singularity (pull request <a href="https://github.com/hpcng/singularity-userdocs/pull/328">here</a>).</li>
 </ul>
 
 <br>
