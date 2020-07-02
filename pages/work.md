@@ -13,6 +13,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Projects</strong></h3>
 <ul>
+	<li><a href="https://con.github.io/tributors/" target="_blank">Tributors</a>: pay tribute to your contributors!</li>
 	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories</li>
 	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
 	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
