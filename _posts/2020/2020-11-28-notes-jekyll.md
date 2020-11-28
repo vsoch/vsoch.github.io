@@ -79,7 +79,7 @@ posts available, or how to get started. This led to the home page that you see b
 
 <br>
 <a target="_blank" href="https://vsoch.github.io/notes-jekyll/">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/notes-jekyll/home.png">
+<img src="https://raw.githubusercontent.com/vsoch/notes-jekyll/main/assets/img/home.png">
 </a>
 <br>
 
@@ -101,7 +101,7 @@ about what I'm discussing (e.g., <a href="https://vsoch.github.io/notes-jekyll/r
 
 <br>
 <a target="_blank" href="https://vsoch.github.io/notes-jekyll/registration">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/notes-jekyll/registration.png">
+<img src="https://raw.githubusercontent.com/vsoch/notes-jekyll/main/assets/img/registration.png">
 </a>
 <br>
 
@@ -165,7 +165,7 @@ All references link to a reference in the bibliography at the end:
 
 <br>
 <a target="_blank" href="https://vsoch.github.io/notes-jekyll/registration">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/notes-jekyll/references.png">
+<img src="https://raw.githubusercontent.com/vsoch/notes-jekyll/main/assets/img/references.png">
 </a>
 <br>
 
@@ -173,7 +173,7 @@ Each of which has a link to the PDF in my papers folder!
 
 <br>
 <a target="_blank" href="https://vsoch.github.io/notes-jekyll/papers/strand2017concept.pdf">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/notes-jekyll/pdf.png">
+<img src="https://raw.githubusercontent.com/vsoch/notes-jekyll/main/assets/img/pdf.png">
 </a>
 <br>
 
@@ -182,7 +182,7 @@ basic metadata and the original BibTex reference.
 
 <br>
 <a target="_blank" href="https://vsoch.github.io/paper-details/strand2017concept.html">
-<img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/notes-jekyll/details.png">
+<img src="https://raw.githubusercontent.com/vsoch/notes-jekyll/main/assets/img/details.png">
 </a>
 <br>
 
