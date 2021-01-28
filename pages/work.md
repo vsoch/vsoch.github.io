@@ -14,7 +14,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 <h3><strong>Projects</strong></h3>
 <ul>
 	<li><a href="https://con.github.io/tributors/" target="_blank">Tributors</a>: pay tribute to your contributors!</li>
-	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories</li>
+	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
 	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
 	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
 	<li><a href="https://vsoch.github.io/helpme/" target="_blank">helpme</a>: command line program for helping you out</li>
@@ -39,6 +39,21 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
        <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
 </ul>
 &nbsp;
+
+<h3><strong>Presentations</strong></h3>
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
+    <li><a href="https://www.youtube.com/watch?list=PLGudixcDaxY3RGLSlWoN_cEEXhIT1OPmj&v=RKEmAshcreE&feature=youtu.be" target="_blank">Adding an Executor to Airflow, a Contributor Overflow Exception</a>: July 24, 2020</li>
+    <li><a href="https://vsoch.github.io/containers-story/" target="_blank">Containers Story</a>: November 2020</li> 
+    <li><a href="https://www.youtube.com/watch?v=nv18Lwq7DFI&feature=youtu.be" target="_blank">Twas the Night Before SC Lightning Talk</a>: November 2020 (and <a href="https://www.youtube.com/watch?v=qoTLJ3X23oQ&feature=youtu.be" target="_blank">Science Slam</a>)</li>
+    <li><a href="https://cloudonair.withgoogle.com/events/singularity_containters_on_gcp_tutorial/watch?talk=talk1" target="_blank">Singularity Container on Google Cloud Platform Tutorial</a></li>
+    <li><a href="https://www.youtube.com/watch?t=2231&v=AfGeAd8Lgq4&feature=youtu.be" target="_blank">Stanford Campus IT Plan Research Summit 2020</a>: February 18, 2020</li>
+    <li><a href="https://www.youtube.com/watch?v=Rky9OWSzYb0&feature=youtu.be" target="_blank">SORSE: Research Software Directories, What, Why, and How:</a> September 17, 2020</li>
+    <li><a href="https://www.youtube.com/watch?v=DrsApxfUE6M" target="_blank">Extensions to Schema.org for structured, semantic, and executable research documents:</a> September 24, 2020</li>
+    <li><a href="https://www.youtube.com/watch?v=FIQ7D9rUZ40" target="_blank">Developer Productivity at the 2020 Collegeville Workshop</a> July 18, 2020</li>
+    <li><a href="https://www.youtube.com/watch?v=rBd_PA8Qnoo&feature=youtu.be" target="_blank">GitHub Lightning Talk, urlchecker</a>: May 6, 2020</li>
+    <li><a href="https://www.youtube.com/watch?v=AybUKlImUIs&feature=youtu.be#t=36m20s" target="_blank">Data Containers, Talk at DataVerse 2020 Encapsulation section</a>: August 5, 2020</li>
+</ul>
 
 
 <h3><strong>Containers</strong></h3>
