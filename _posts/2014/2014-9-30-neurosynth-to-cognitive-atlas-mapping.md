@@ -15,7 +15,7 @@ NeuroSynth is a database that maps functional activation coordinates to behavior
 
 However, when I had the .Rda all saved up, I thought it would be easy (and fun!) to throw this into a quick web interface, and unite the two websites.  An hour and a half later – done!
 
-[![nsynth2ca](http://vsoch.com/blog/wp-content/uploads/2014/09/nsynth2ca.png)](http://www.vbmis.com/bmi/nsynth2ca/) [http://www.vbmis.com/bmi/nsynth2ca/](http://www.vbmis.com/bmi/nsynth2ca/)
+[nsynth2ca](https://vsoch.github.io/nsynth2ca/) and the code at [https://github.com/vsoch/nsynth2ca/](https://github.com/vsoch/nsynth2ca/)
 
  
 

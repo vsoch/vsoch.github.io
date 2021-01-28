@@ -7,4 +7,4 @@ tags:
   r
 ---
 
-<iframe class="iframe-class" frameborder="0" height="19420" scrolling="yes" src="http://vbmis.com/bmi/share/wall/BlueBeetle.html" width="100%"></iframe>
+<iframe class="iframe-class" frameborder="0" height="19420" scrolling="yes" src="https://vsoch.github.io/vbmis.com/media/R/BlueBeetle.html" width="100%"></iframe>

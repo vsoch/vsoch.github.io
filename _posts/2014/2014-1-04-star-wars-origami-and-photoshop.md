@@ -10,6 +10,6 @@ tags:
 
 Pew, pew pew!
 
-[![millennium_falcon_reversed_backward2](http://www.vbmis.com/learn/wp-content/uploads/2013/12/millennium_falcon_reversed_backward21-785x371.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/12/millennium_falcon_reversed_backward21.png)
+[![millennium_falcon_reversed_backward2]({{ site.baseurl }}/assets/images/posts/vbmis/millennium_falcon_reversed_backward21.png)]({{ site.baseurl }}/assets/images/posts/vbmis/millennium_falcon_reversed_backward21.png)
 
 

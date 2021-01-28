@@ -19,18 +19,18 @@ This is exactly the conundrum that went through my mind late one evening last we
 ## 
 
 
-## [PubmedLib](http://www.vbmis.com/bmi/project/PUBMEDLib/)
+## [PubmedLib](https://github.com/vsoch/PUBMEDLib/)
 
 This little page queries Pubmed for an abstract based on a search term,
 
-![search1](http://www.vbmis.com/learn/wp-content/uploads/2013/11/search1.png)
+![search1](https://raw.githubusercontent.com/vsoch/PUBMEDLib/main/img/1.png)
 
 It then parses the abstract to determine parts of speech, and randomly selects words for you to fill in:
 
-![terms](http://www.vbmis.com/learn/wp-content/uploads/2013/11/terms.png)
+![terms](https://raw.githubusercontent.com/vsoch/PUBMEDLib/main/img/2.png)
 
 Then, you get to see your silly creation, with words in red.  That’s pretty much it :o)
 
-[![result](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result-785x442.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/11/result.png)
+[![result](https://raw.githubusercontent.com/vsoch/PUBMEDLib/main/img/3.png)](https://raw.githubusercontent.com/vsoch/PUBMEDLib/main/img/3.png)
 
 As you can see, completely useless, other than maybe some practice for me using Pubmed’s API.  I should probably do some *real *work now, hehe :)

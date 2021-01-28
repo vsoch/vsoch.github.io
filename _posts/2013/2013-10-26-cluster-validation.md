@@ -12,13 +12,11 @@ tags:
 ---
 
 
-Unsupervised clustering can be tough in situations when we just don't know "the right number" of clusters.  In toy examples we can sometimes use domain knowledge to push us toward the right answer, but what happens when you really haven't a clue?  Forget about the number of clusters, how about when I don't know the algorithm to use?  We've talked about using metrics like the [Gap Statistic](http://www.vbmis.com/learn/?p=574), and [sparse K-Means](http://www.vbmis.com/learn/?p=454) that looks at the within cluster sum of squares for optimization.  These are pretty good.  However, I wanted more.  That's when I found a package for R called [clValid](http://cran.r-project.org/web/packages/clValid/vignettes/clValid.pdf).
+Unsupervised clustering can be tough in situations when we just don't know "the right number" of clusters.  In toy examples we can sometimes use domain knowledge to push us toward the right answer, but what happens when you really haven't a clue?  Forget about the number of clusters, how about when I don't know the algorithm to use?  We've talked about using metrics like the [Gap Statistic](https://vsoch.github.io/2013/the-gap-statistic/), and [sparse K-Means](https://vsoch.github.io/2013/sparse-k-means-clustering-sparcl/) that looks at the within cluster sum of squares for optimization.  These are pretty good.  However, I wanted more.  That's when I found a package for R called [clValid](http://cran.r-project.org/web/packages/clValid/vignettes/clValid.pdf).
 
 Now that I'm post Quals, I can happily delve into work that is a little more applied than theoretical (thank figs!).  First let's talk generally about different kinds of evaluation metrics, and then let's try them with some data.  The kinds of evaluation metrics that we will use fall into three categories: internal, stability, and biological.  Actually, stability is a kind of internal, so I'll talk about it as a subset of internal.
 
  
-
-
 ## What is internal validation?
 
 Internal validation is the introverted validation method.  We figure out how good the clustering is based on intrinsic properties that don't go outside of our particular dataset, like compactness, distance between clusters, and how well connected they are.  For example:
@@ -62,13 +60,13 @@ To calculate the Biological Homogenity Index, the result of which will be a valu
 
 I've gone over unsupervised algorithms in other posts, so here I will just list what the clValid package offers:
 
-- UPGMA: This is agglomerative [hierarchical clustering](http://www.vbmis.com/learn/?p=98 "Hierarchical Clustering"), bread and butter.
-- [K-Means](http://www.vbmis.com/learn/?p=94 "K-Means Clustering")! Also bread and butter
+- UPGMA: This is agglomerative [hierarchical clustering](https://vsoch.github.io/2013/hierarchical-clustering/), bread and butter.
+- [K-Means](https://vsoch.github.io/2013/k-means-clustering/)! Also bread and butter
 - Diana and SOTA: also hierarchical clustering, but divisive (meaning instead of starting with points and merging, we start with a massive blob and split it)
 - PAM "Partitioning around medioids" is basically K-means with distance metrics other than Euclidean.  It's sister package Clara runs PAM in a bootstrappy sort of way on subsets of data.
 - Fanny: Fuzzy clustering!
-- SOM: [self organizing maps! ](http://www.vbmis.com/learn/?p=510 "Self Organizing Maps (SOM)")
-- Model Based: fit your data to some statistical distribution using the [EM (expectation maximization) algorithm](http://www.vbmis.com/learn/?p=345 "Expectation Maximization (EM) Algorithm").
+- SOM: [self organizing maps! ](https://vsoch.github.io/2013/self-organizing-maps-som/)
+- Model Based: fit your data to some statistical distribution using the [EM (expectation maximization) algorithm](https://vsoch.github.io/2013/expectation-maximization-em-algorithm/).
 - SOTA: self organizing trees.
 
  
@@ -165,9 +163,6 @@ And as you see above, we can use the optimalScores() method instead of summary()
 [![conn](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn5.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/10/conn5.png)
 
 Remember that, for each of these, the result is a value between 0 and 1, with 1 indicating more biologically homogenous (BHI) and more stable (BSI).  This says that, based on our labels, there isn't that much homogeneity, which we could have guessed from looking at the tree.  But it's not so terrible - I tried running this with a random shuffling of the labels, and got values pitifully close to zero.
-
- 
-
 
 ## Summary
 
