@@ -14,23 +14,13 @@ p {
     <img src="/assets/images/avatar-highres.png" width="100px" style="float:right; margin-bottom:30px"><br>
 </div>
 
-<p style="padding-top:40px;">I am a <a href="https://profiles.stanford.edu/vanessa-sochat" target="_blank">Research Software Engineer</a> for <a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing</a> and an active dinosaur in the open source community. 
-I specialize in system engineering, infrastructure development, and data processing for computational analyses and workflows. I am the primary developer at Stanford for 
-<a href="https://singularity-hub.org" target="_blank">Singularity Hub</a>, the open source <a href="https://expfactory.github.io/" target="_blank"> 
-Experiment Factory</a>, <a href="https://vsoch.github.io/datasets" target="_blank"> Dinosaur Datasets</a>, 
-<a href="https://vsoch.github.io/lessons" target="_blank"> Research Computing Lessons</a>, and the <a href="https://researchapps.github.io/helpme" target="_blank"> HelpMe</a>  
-and <a href="https://vsoch.github.io/watchme" target="_blank">WatchMe</a> command line clients.
-I also founded and run <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">Research Software Engineering Services</a> 
-at Stanford University, along with creating and producing the <a href="https://us-rse.org/rse-stories" target="_blank">RSE Stories</a> podcast.</p>
-
-<p>Right now, I'm really excited about two open source projects that I'm leading centered around continuous integration, 
-and data organization and specifications. They are the <a href="https://openbases.github.io/" target="_blank">OpenBases</a>,
- templates that use Github+CircleCI for easy, reproducible research, and <a href="https://openschemas.github.io/" target="_blank">OpenSchemas</a>, a set of tools to interact with and develop specifications for schema.org. I want
-to make generation of reproducible things fun, and easy, and for data to be organization and beautifully searchable.
-I hope that you might reach out to contribute!</p>
-
-<p>With my robot team, I am also lead developer of <a href="https://singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>, <a href="https://sci-f.github.io" target="_blank">the Scientific Filesystem</a>, and <a href="https://singularityhub.github.io/" target="_blank"> Container Tools</a>, all tooling optimized for deployment of container-based workflows and "science as a service" capabilities. The list of software that I maintain has gotten too large for a biography, so I recommend that you reference my <a href="https://vsoch.github.io/work">work page</a> or just view my 
-<a href="https://github.com/vsoch" target="_blank">activity on GitHub</a></p>
+<p style="padding-top:40px;">I am a <a href="https://www.linkedin.com/in/vsochat/" target="_blank">Computer Scientist</a> at <a href="https://www.llnl.gov/" target="_blank">Lawrence Livermore National Lab</a> and an active dinosaur in the open source community. 
+I specialize in system engineering, infrastructure development, and data processing for computational analyses and workflows, and am currently focused on a project to assess ABI compatibility for containers. Previously I was a research software engineer at Stanford University in the
+<a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing Center</a>, and was lead developer for
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511" target="_blank">Singularity Hub</a>, and <a href="{{ site.baseurl }}/work">more open source projects</a> than I can count.
+I also founded and ran <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">RSE Services</a> (Research Software Engineering Services), 
+created the first <a href="https://stanford-rc.github.io/stanford-software-survey/" target="_blank">Stanford Software Survey</a>, 
+and was responsible for submitting the first proposal to make Research Software Engineer an official role at Stanford. In 2019 I created the <a href="https://us-rse.org/rse-stories" target="_blank">RSE Stories</a> podcast, and continue to host and produce it to present day.</p>
 
 <p>As a graduate student my work spanned computer science, medicine, and imaging. I was a proud member of the <a href="http://poldracklab.stanford.edu" target="_blank">Poldrack Lab</a> at Stanford. Our work spanned neuro-informatics, cognitive neuroscience, and reproducibility. I was introduced to the domain of neuroimaging as an RA in the <a href="http://www.haririlab.com" target="_blank">Laboratory of Neurogenetics</a> at Duke University working under Ahmad Hariri.</p>
 

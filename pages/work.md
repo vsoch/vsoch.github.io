@@ -13,8 +13,8 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Projects</strong></h3>
 <ul>
+	<li><a href="https://vsoch.github.io/caliper/" target="_blank">caliper</a>: a tool for measuring and assessing change in packages</li>
 	<li><a href="https://con.github.io/tributors/" target="_blank">Tributors</a>: pay tribute to your contributors!</li>
-	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
 	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
 	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
 	<li><a href="https://vsoch.github.io/helpme/" target="_blank">helpme</a>: command line program for helping you out</li>
@@ -39,6 +39,20 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
        <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
 </ul>
 &nbsp;
+
+<h3><strong>Research Software Engineering Community</strong></h3>
+<ul>
+	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
+       <li><a href="https://rseng.github.io/rseng">Research Software Encylopedia</a>: taxonomy, criteria, and software showcase.</li>
+       <li><a href="https://rseng.github.io/software">Research Software Encylopedia</a>: database.</li>
+       <li><a href="https://github.com/rseng/opensource-heartbeat-action">Open Source Heartbeat action</a>: to showcase your contributions.</li>
+       <li><a href="https://us-rse.org/rse-roles">RSE-roles</a>: a small collection of research software engineer job descriptions</li>
+       <li><a href="https://rseng.github.io/rse-phenotype">RSE phenotype generator</a>: Create a graphic that shows the communities and skills that represent you as a research software engineer.</li>
+       <li><a href="https://github.com/rseng/remote-bingo">Remote Bingo</a>: to have fun with your virtual co-workers.</li>
+       <li><a href="https://rseng.github.io/starter-pack/#/">Starter Pack</a>: to creating a local RSE chapter or community.</li>
+       <li><a href="https://us-rse.org/rse-map">RSE Map</a>: Where can we find us-rse community members?</li>
+       <li><a href="https://us-rse.org/blog">RSE Blog</a>: A community syndicated blog.</li>
+</ul>
 
 <h3><strong>Presentations</strong></h3>
 <ul>
