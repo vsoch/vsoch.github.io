@@ -1,6 +1,7 @@
 ---
 title: "My First Logic Program"
 date: 2021-03-14 12:30:00
+category: rse
 ---
 
 Today I decided I wanted to write my first logic program. What the heck is a logic program, or (more appropriately)
