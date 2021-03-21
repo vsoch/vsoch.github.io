@@ -106,7 +106,7 @@ living(maria).
 % This tells use size of arms for each living thing
 armsize(vanessa, "small").
 armsize(fernando, "large").
-armsize(fernando, "small").
+armsize(maria, "small").
 
 % A boolean to say we can roar!
 canroar(vanessa).
