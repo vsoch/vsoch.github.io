@@ -494,7 +494,7 @@ experience.
 
 # Communication
 
-I would summarize communication how people are organized and thus able to talk to
+I would summarize communication as including how people are organized and thus able to talk to
 one another, how easy it is to ask for help, and then meetings and interactions
 with managers, who can really make or break your experience.
 
