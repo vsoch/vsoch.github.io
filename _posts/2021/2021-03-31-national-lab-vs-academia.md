@@ -422,7 +422,7 @@ trying something else, or taking a different direction. Secondly, you have a tea
 It's probably the case that everyone on your team is so smart you wonder how you
 are present in the same meeting with them. The point is that challenge and thus learning
 are the default state. Your job as an RSE at a national lab is to be a good learner,
-meaning that although you don't know everything, you have stratgies for learning.
+meaning that although you don't know everything, you have strategies for learning.
 You understand how you learn. I could go into an entirely different post on this idea,
 but learning how to learn is an effort in and of itself. It's (at least what I think)
 what the real goal of a college eduction is. All in all, my learning and growth feels important.
