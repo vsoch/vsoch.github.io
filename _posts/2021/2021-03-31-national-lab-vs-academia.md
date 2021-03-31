@@ -369,7 +369,7 @@ For these reasons, what happens at a national lab, at least in my specific role,
 experience, has what I'd call a software innovation mindset. I never experienced
 this mindset at an academic institution unless I was collaborating on an open source project
 unrelated to an academic group directly. When I made software for labs, the general
-goal was more to "make it work!" and the there wasn't a team of people thinking hard
+goal was more to "make it work!" and there wasn't a team of people thinking hard
 about innovation of the software itself. Mind you, there is indeeed a mindset of innovation
 for the scientific research at academic institutions, but less so the software. 
 And perhaps my experience would have been different if I were an RSE rooted in a
