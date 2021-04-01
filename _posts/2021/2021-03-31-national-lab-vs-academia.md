@@ -425,7 +425,7 @@ are the default state. Your job as an RSE at a national lab is to be a good lear
 meaning that although you don't know everything, you have strategies for learning.
 You understand how you learn. I could go into an entirely different post on this idea,
 but learning how to learn is an effort in and of itself. It's (at least what I think)
-what the real goal of a college eduction is. All in all, my learning and growth feels important.
+what the real goal of a college education is. All in all, my learning and growth feels important.
 It's not an extra bonus of some function I am performing as a service, but the main focus.
 And because of an overwheming support structure, I don't feel afraid to try new things.
 
@@ -735,7 +735,7 @@ It's absolutely wonderful. I look forward to these sessions because
 I feel like I'm going to grow. My managers are not just check-ins to ask what I'm
 doing and where money is coming from, but people that are my teachers.
 This comes back to the idea that the kind of manager that will be best for you
-depends on what you want to learn. A manger that doesn't have technical expertise 
+depends on what you want to learn. A manager that doesn't have technical expertise 
 can indeed teach you things about people, and help you discover things about yourself. 
 A manager that is hands off can give you a lot of room to grow, on your own.
 This has definitely been the case for me, and it's a different
