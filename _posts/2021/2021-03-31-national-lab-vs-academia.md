@@ -548,7 +548,7 @@ at a national lab to be flatter in the sense that I can freely communicate with
 and learn from others without worrying about my role, and more integrated because
 I don't really notice when different groups are interacting. The borders exist,
 (and there are way too many acronyms for teams and groups that I'll never know them all),
-but they feel fuzzy. This leads us to our next topic: asking for help.
+but they feel fuzzy.
 
 ### Why should I care about organization?
 
@@ -562,7 +562,8 @@ staying up and worrying about where my funding is coming from next.  I can look
 around me and see so many people working together, and so many projects to collaborate
 on, that I have no worries about my current project finishing up. We have a long
 way to go, but when that time comes, I'll be able to add value elsewhere.
-
+Communication, organization, and your well-being are intimately tied.
+This leads us to our next topic: asking for help.
 
 ## Asking for Help
 
