@@ -11,9 +11,18 @@ The following are a subset of projects, recent and older, that I remember to add
 want to see recent work or a better representation of my open source contributions,
 please see <a href="https://github.com/vsoch" target="_blank">my profile on GitHub</a>.
 
+<h3><strong>Recent Projects</strong></h3>
+<ul>
+	<li><a href="https://spack-monitor.readthedocs.io" target="_blank">spack-monitor</a>: A Spack monitoring service, including a database and interface for collecting metadata about builds.</li>
+	<li><a href="https://spack.github.io/spack-search" target="_blank">spack-search</a>: A static and dockerized search application for specific strings in spack search code.</li>
+</ul>
+
 <h3><strong>Projects</strong></h3>
 <ul>
+	<li><a href="https://vsoch.github.io/chonker-awards/" target="_blank">The Chonker Awards</a>: Automatically updating interface to show the largest files across my GitHub repositories.</li>
 	<li><a href="https://vsoch.github.io/caliper/" target="_blank">caliper</a>: a tool for measuring and assessing change in packages</li>
+	<li><a href="https://github.com/urlstechie" target="_blank">Url Checker</a>: A command line client and GitHub action to check URLs in static files</li>
+	<li><a href="https://github.com/snakemake/snakeface" target="_blank">Snakeface</a>: A prototype interface for running Snakemake</li>
 	<li><a href="https://con.github.io/tributors/" target="_blank">Tributors</a>: pay tribute to your contributors!</li>
 	<li><a href="https://vsoch.github.io/queueme/" target="_blank">QueueMe</a>: reproducible job submission dashboard</li>
 	<li><a href="https://vsoch.github.io/gridtest/" target="_blank">gridtest</a>: grid parameterization for testing and general use</li>
@@ -43,6 +52,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 <h3><strong>Research Software Engineering Community</strong></h3>
 <ul>
 	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
+       <li><a href="https://stanford-rc.github.io/stanford-software-survey/" target="_blank">The Stanford Software Survey</a>: to assess software and community needs for research software engineering.</li>
        <li><a href="https://rseng.github.io/rseng">Research Software Encylopedia</a>: taxonomy, criteria, and software showcase.</li>
        <li><a href="https://rseng.github.io/software">Research Software Encylopedia</a>: database.</li>
        <li><a href="https://github.com/rseng/opensource-heartbeat-action">Open Source Heartbeat action</a>: to showcase your contributions.</li>
@@ -72,15 +82,18 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Containers</strong></h3>
 <ul>
+	<li><a href="https://singularity-hpc.readthedocs.io" target="_blank">singularity-hpc (shpc)</a>: Singularity containers as modules for hpc, including a community <a href="https://singularityhub.github.io/singularity-hpc/" target="_blank">library</a> of community containers.</li>
 	<li><a href="https://singularityhub.github.io/singularity-compose/#/" target="_blank">singularity-compose</a>: orchestration for Singularity containers.</li>
 	<li><a href="https://www.singularityhub.github.io/sregistry" target="_blank">Singularity Registry</a>: serve your own registry of Singularity containers<a href="https://www.singularityhub.github.io/sregistry" target="_blank"> [software]</a><a href="http://joss.theoj.org/papers/050362b7e7691d2a5d0ebed8251bc01e" target="_blank">[paper]</a></li>
 	<li><a href="https://singularityhub.github.io/singularity-cli/" target="_blank">spython</a>: Singularity Python Client</li>
+	<li><a href="https://github.com/singularityhub/docker2singularity" target="_blank">docker2singularity</a>: convert Docker containers to Singularity using Docker</li>
+	<li><a href="https://github.com/singularityhub/singularity-docker" target="_blank">singularity-docker</a>: Singularity in Docker, served from quay.io</li>
 	<li><a href="https://singularityhub.github.io/container-tree/" target="_blank">ContainerTree</a>: data structures and visualizations for understanding containers</li>
 	<li><a href="https://singularityhub.github.io" target="_blank">ContainerTools</a>: suite of tools for containers</li>
 	<li><a href="https://vsoch.github.io/containershare/" target="_blank">Containershare</a>: containershare for Sherlock</li>
 	<li><a href="https://singularityhub.github.io/sregistry-cli/" target="_blank">Singularity Registry Global Client</a>: local client to manage Singularity containers.</li>
 	<li><a href="https://www.singularity-hub.org" target="_blank">Singularity Hub</a>: cloud builders for Singularity containers<a href="https://www.singularity-hub.org" target="_blank"> [software]</a></li>
-	<li><a href="https://singularityware.github.io" target="_blank">Singularity</a>: developing tools and applications for container based analyses <a href="https://www.github.com/singularityware" target="_blank"> [software]</a></li>
+	<li><a href="https://singularityware.github.io" target="_blank">Singularity (2016-2018)</a>: developing tools and applications for container based analyses <a href="https://github.com/hpcng/singularity" target="_blank"> [software]</a></li>
 </ul>
 &nbsp;
 
