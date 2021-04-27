@@ -303,6 +303,8 @@ ltalirz/singularity-recipe-zeopp: 512
 ```
 
 There is a much longer list that has just about as many lines as collections,
-but well leave it at that for now. Thank you to the community for your excitement
+but we'll leave it at that for now. Thank you to the community for your excitement
 about Singularity, and using Singularity Hub! I can't make any promises, but maybe
 keep on the lookout for other ideas and developments in the next few months.
+I certainly hope to contribute more to the world of research software than this
+small amount of early work.
