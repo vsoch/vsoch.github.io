@@ -75,7 +75,7 @@ and I can solidly state that the people who I worked with showed infinite kindne
 Google for supporting Singularity Hub for all these years -- without them it never would
 have happened. Thank you Google!!
 
-<div style="margin:20px">
+<div style="margin:20px; padding-top:20px">
 <img src="https://raw.githubusercontent.com/singularityhub/singularityhub-docs/master/assets/img/lastday/1Screenshot_2021-04-25%20singularity-hub(1).png">
 </div>
 
@@ -101,9 +101,11 @@ time, the chances that your original analysis will work in 5 years are pretty go
 we scale out beyond our lifetimes. Have you seen all those GitHub accounts that belong to people
 that have died because of old age? Probably not, because GitHub has only been around since 2011.
 But do you ever wonder what happens to your code, and your various services you use to support it,
-when you are no longer around? The answer is that you need people to continue supporting it. This is
-where I will say that sustainability is less about doing the right thing, and more about survival of the
-valued. Your code _will_ endure if it continues to be valued. Even if technologies change, if your
+when you are no longer around? The answer is that you need people to continue supporting it. 
+
+> This is where I will say that sustainability is less about doing the right thing, and more about survival of the valued. 
+
+Your code _will_ endure if it continues to be valued. Even if technologies change, if your
 analysis pipeline or service adds significant value to the community, people will find a way to keep it up
 to date and running. If you mysteriously go away and leave a hugely useful project unmaintained, someone
 will fork it and keep it alive. Yes, it's very likely the case that the awareness and branding that you create around your code will
