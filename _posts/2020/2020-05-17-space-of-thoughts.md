@@ -18,7 +18,7 @@ That should be some food for thought. So does it follow that thoughts are like a
 
 ## Forethoughts
 
-A forethought then, would actually come before the first thought, because it happens at index 0, before the first thought. But could one argue that makes it an empty thought? Surely not, because an index of 0 does not imply emptiness, but rather precendence. But what would a forethought to a first thought be, a reconsideration? Does a forethought to a first thought imply replacement - that you previously had a first thought, and swiped it for another one? And then where does that original first thought go, does he also become lost in thoughts? 
+A forethought then, would actually come before the first thought, because it happens at index 0, before the first thought. But could one argue that makes it an empty thought? Surely not, because an index of 0 does not imply emptiness, but rather precedence. But what would a forethought to a first thought be, a reconsideration? Does a forethought to a first thought imply replacement - that you previously had a first thought, and swiped it for another one? And then where does that original first thought go, does he also become lost in thoughts? 
 
 ## Negative Thoughts
 

@@ -270,7 +270,7 @@ to add a new snippet of wisdom!
 <img src="https://raw.githubusercontent.com/vsoch/vsoch.github.io/master/assets/images/posts/natacha-bot/natacha-bot-speaks.png">
 </div>
 
-And you can see the tiny interace <a href="https://vsoch.github.io/natacha-bot/" target="_blank">here</a>,
+And you can see the tiny interacted <a href="https://vsoch.github.io/natacha-bot/" target="_blank">here</a>,
 which I designed to look like a simple feed of posts. If you search for a term (upper right search icon),
  you can also see where and how it shows up:
 

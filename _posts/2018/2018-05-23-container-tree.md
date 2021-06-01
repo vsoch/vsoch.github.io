@@ -664,7 +664,7 @@ It's time for some dinosaur discussion. I did wind up generating a plot that I t
    <img src="/assets/images/posts/container-tree/heatmap.png" style="margin:auto; display:block"></a>
 </div>
 
-We can actually read the labels, and see groups of highly similar containers. It's not suprising that the lolcow and it's similar
+We can actually read the labels, and see groups of highly similar containers. It's not surprising that the lolcow and it's similar
 installer are almost the same, or that two different users that implemented jupyter containers got similar results. Beyond that, the plot isn't very 
 interesting. But here's the thing. In generating this picture, there is so much that you don't know. Did you realize that the number of containers went from 193 down to 26? This is because I explicitly decided to filter equivalent (but different versioned) containers, and then
 again filtered to not include containers that were (on average) not similar to any other containers. Could that be the most interesting thing

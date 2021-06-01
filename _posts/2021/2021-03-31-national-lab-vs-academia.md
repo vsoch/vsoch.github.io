@@ -105,7 +105,7 @@ you can get there. It all comes down to where your curiosity is, and how you bes
 
 ### Where is your curiosity?
 
-Curiosity is the driver for many things. Combined with stubborness, it's
+Curiosity is the driver for many things. Combined with stubbornness, it's
 the motivation that has you staying up late because you "just want to try one more thing"
 or asking questions that don't have answers. But notably, where your curiosity can
 reside can vary for different people. I ultimately realized that I was a terrible academic researcher because 
@@ -620,7 +620,7 @@ It's funny how this all came down to communication -- feeling like I'm heard, an
 
 For explicitly asking for help, the funny thing is that sometimes, I haven't needed to.
 If there is even a sense of having something to discuss, or perhaps we finished a meeting
-and I'm tasked to work with something and my colleage wants to help, it's very natural for
+and I'm tasked to work with something and my colleagues wants to help, it's very natural for
 to say "Let's jump on a call." This is scoped not just to technical things, but for
 help with navigating different administrative tasks. Even in my first week, I had a colleague that wanted to talk 
 on the phone to tell me all about a file format. It was pretty awesome and surprising.
@@ -756,7 +756,7 @@ the way (and frequency) that you want to learn, are totally dependent  on your
 personality and goals. I could easily imagine a version of myself that fell
 in love with the service mindset, and was more fulfilled by helping others
 directly. I would have been a perfect fit for an academic service-oriented role.
-I could also easily imagine a verison of myself in 30 years that doesn't
+I could also easily imagine a version of myself in 30 years that doesn't
 want so much to be smacked with figuring out things I don't know, but would rather
 be a technical lead for a group, and teach the bucket of knowledge that has accumulated
 in my head after decades of stumbling. Your best fit depends not only on your

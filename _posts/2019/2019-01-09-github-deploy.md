@@ -99,7 +99,7 @@ And seriously, then we push to Github master branch, and that's it.
 When you deploy to Github pages for the first time, you
 need to switch Github Pages back and forth to deploy from master and then back to the `gh-pages`
 branch. There is a bug with Permissions if you deploy
-to the branch without activating it (as an admin) from the respository first.
+to the branch without activating it (as an admin) from the repository first.
 
 ### 3. (Optionally) Add a Build
 

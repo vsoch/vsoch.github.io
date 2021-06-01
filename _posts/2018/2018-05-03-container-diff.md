@@ -38,7 +38,7 @@ easily able to do things like <a href="https://github.com/singularityhub/contain
 
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/container-diff/ubuntus.png" style="margin:auto; display:block">
-</div><small>Plot courtesey of <a href="https://seaborn.pydata.org/" target="_blank">seaborn!</a></small>
+</div><small>Plot courtesy of <a href="https://seaborn.pydata.org/" target="_blank">seaborn!</a></small>
 
 Want to use a different metric to compare files, or do something with packages? Or package versions? or files sizes? The <a href="https://github.com/singularityhub/container-diff/tree/master/examples/compare-ubuntus/data" target="_blank">data is all there to do it!</a> Or want to generate data for your own custom set of containers? Well you can do 
 <a href="https://github.com/singularityhub/container-diff/tree/master/examples/compare-containers" target="_blank">that too</a>, because I provided scripts and examples in that folder. But then I realized that it wasn't really good enough to give you just scripts and examples. I wanted
@@ -131,7 +131,7 @@ a tab separated file, with an information coefficient to compare some set of con
 
 <div style="padding-top:10px; padding-bottom:20px">
    <img src="/assets/images/posts/container-diff/matrix.png" style="margin:auto; display:block">
-</div><small>Plot courtesey of <a href="https://github.com/plotly/plotly.js/" target="_blank">PlotlyJS</a></small>
+</div><small>Plot courtesy of <a href="https://github.com/plotly/plotly.js/" target="_blank">PlotlyJS</a></small>
 
 and then you can click on a comparison in a list at the bottom to view the additions / subtractions between any particular two!
 

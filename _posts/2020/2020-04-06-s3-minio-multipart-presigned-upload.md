@@ -413,7 +413,7 @@ the path in storage, something like:
 http://127.0.0.1:9000/sregistry/test/chonker%3Asha256.92278b7c046c0acf0952b3...
 ```
 
-The credential I provided from the minioExternalClient to be absolutey sure it
+The credential I provided from the minioExternalClient to be absolutely sure it
 was the same; specifying the region is hugely important because in previous
 attempts leaving it out led to another error, and then of course the expires
 should be in seconds (and it appears that the function defaults to using a string).

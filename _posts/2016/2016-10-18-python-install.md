@@ -266,7 +266,7 @@ rice05:~/myproject> source venv/bin/activate.csh
 [venv] rice05:~/myproject> 
 ```
 
-Notice any changes? The name of the active virutal environment is added to the terminal prompt! Now if we look at the python and pip versions running, we see we are in our virtual environment:
+Notice any changes? The name of the active virtual environment is added to the terminal prompt! Now if we look at the python and pip versions running, we see we are in our virtual environment:
 
 ```
 [venv] rice05:~/myproject> which python

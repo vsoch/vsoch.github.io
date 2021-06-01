@@ -26,7 +26,7 @@ x1 and x2 being vectors implies that for each matching feature in x1 and x2 we a
 
 ### 2) Construct a distance matrix, where a coordinate (i,j) corresponds to the similarity/distance between observation i and observation j
 
-To prepare for training, we should calculate all of our distances in advance.  This means creating a matrix of size m x m, and looping through every combination of observations, calculating this Euclidian distance and putting it in the matrix in the correct coordinate, (i,J).  This means that the value at (i,j) will be equivalent to the value at (j,i), and if i = j, since we are calculating the distance of an observation to itself, the matrix should equal 0.
+To prepare for training, we should calculate all of our distances in advance.  This means creating a matrix of size m x m, and looping through every combination of observations, calculating this Euclidean distance and putting it in the matrix in the correct coordinate, (i,J).  This means that the value at (i,j) will be equivalent to the value at (j,i), and if i = j, since we are calculating the distance of an observation to itself, the matrix should equal 0.
 
 ### 3) Set a value of K
 
@@ -34,7 +34,7 @@ The value of K is the number of similar neighbors that we want to look at to det
 
 ### 4) How do we "train" the model?
 
-KNN is different from something like regression in that we don't have to determine some optimal set of parameters.  We can't determine some parameters and throw the data away - our model is the data itself!  This is called a **non-parametric **model.  With this in mind, when we are "training" a KNN model, we are basically interested in getting some metric of accuracy for a particular dataset with labels.  The simplest and most obvious solution is to calculate accuracy as the number that we got right over the total.  So we essentially want to iterate through each observation, find the K nearest neighbors based on Euclidian distance, look at their labels to determine a class for the current observation, save the class to a vector of predicted observations, and then compare the predicted to the actual observations to calculate accuracy.
+KNN is different from something like regression in that we don't have to determine some optimal set of parameters.  We can't determine some parameters and throw the data away - our model is the data itself!  This is called a **non-parametric **model.  With this in mind, when we are "training" a KNN model, we are basically interested in getting some metric of accuracy for a particular dataset with labels.  The simplest and most obvious solution is to calculate accuracy as the number that we got right over the total.  So we essentially want to iterate through each observation, find the K nearest neighbors based on Euclidean distance, look at their labels to determine a class for the current observation, save the class to a vector of predicted observations, and then compare the predicted to the actual observations to calculate accuracy.
 
 ### 4) How do we evaluate the model?
 

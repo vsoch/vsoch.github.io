@@ -328,7 +328,7 @@ INPUT=addrg_reads.bam
 
 So now we have another bam index file, with the same name but appended with "bai." Now, you would try the RealignerTargerCreator command from above once more, but with the addrg_reads.bam file.
 
-I'll admit to you that I've gone through this sequence of steps muliple times, and finally when I didn't get an error message on this step I wanted to dance! And guess what? It's tracking your every move too... sent to Amazon S3!
+I'll admit to you that I've gone through this sequence of steps multiple times, and finally when I didn't get an error message on this step I wanted to dance! And guess what? It's tracking your every move too... sent to Amazon S3!
 
 
 ```

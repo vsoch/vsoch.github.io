@@ -204,7 +204,7 @@ _What would need to change as is currently?_
 The format string for the activity, specifically the number of leading zeros should be taken into account, along with
 the fact that we generate random *interval* times. If decimal times were desired,
 both the format string would need to adjust to be for decimal, and the random selection
-to use `random.uniform` multipled by some scale.
+to use `random.uniform` multiplied by some scale.
 
 _Why did I do it like this?_ 
 
@@ -235,7 +235,7 @@ def interval_schedule(activities):
 
         Parameters
         ==========
-        activites: a list of tuples of (start,end) time for activites
+        activities: a list of tuples of (start,end) time for activities
 
     '''
     chosen = []
@@ -407,7 +407,7 @@ def main():
        this function, we:
  
        1. start with a random integer N
-       2. generate a list of N activites, each with start, end, and name
+       2. generate a list of N activities, each with start, end, and name
        3. greedily choose intervals that don't have overlap
 
        We keep the user updated as we progress, and print the final schedule.

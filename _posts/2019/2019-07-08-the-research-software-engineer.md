@@ -114,7 +114,7 @@ usually has expertise in software development, and is a leader not just for the
 work of the group, but the individuals in it. An institution would be very lucky
 to have one or more RSE Managers, and it reflects well on the institution
 itself. It suggests knowing the importance of software engineering practices for sustainable research,
-and having acted on this knowlege.
+and having acted on this knowledge.
 
 ### Domain Developer
 
@@ -230,7 +230,7 @@ Any vision starts with awareness. You can express the need to your colleagues,
 and others at your institution. If you are able, you can set aside funding in your
 grants to hire an RSE. When you do, you can share and exemplify the work done 
 to stress the importance to the larger community. The awareness must reach up
-to the highest level of an instutition to put policy in place that can
+to the highest level of an institution to put policy in place that can
 guarantee support for research software.
 
 > Can I start a community of RSEs at my institution?

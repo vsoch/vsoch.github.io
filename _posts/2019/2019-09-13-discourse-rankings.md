@@ -170,7 +170,7 @@ What this tells us is that
 > user groups are not well defined.
 
 We need to first do a good job to advertise groups to our community,
-and have those with non-instituion email addresses self assign themself to the right groups.
+and have those with non-institution email addresses self assign themself to the right groups.
 
 ### Contributions
 
