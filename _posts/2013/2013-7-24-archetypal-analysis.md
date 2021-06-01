@@ -28,7 +28,7 @@ and I (think) that B is akin to the inverse of W, in ICA we would call this the 
 
 [![eq1](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq134.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/07/eq134.png)
 
-The second equation simply comes from substituting in BX for H.  We are taking the L2 norm (the euclidian distance, meaning that we find the difference between each feature vector by subtraction, square this value so it's positive, and then take the square root of the entire thing.  We minimize this function in an alternating fashion, and while each separate minimization involves a convex optima, the overall problem is not convex, and so we usually converge to a local minimum.
+The second equation simply comes from substituting in BX for H.  We are taking the L2 norm (the euclidean distance, meaning that we find the difference between each feature vector by subtraction, square this value so it's positive, and then take the square root of the entire thing.  We minimize this function in an alternating fashion, and while each separate minimization involves a convex optima, the overall problem is not convex, and so we usually converge to a local minimum.
 
 ### Achetypal Analysis is sort of like K-Means
 

@@ -10,7 +10,7 @@ but emotional whim <br>
 An unexpected pain <br>
 A mistaken of kin <br>
 
-Empty and nauseos<br>
+Empty and nauseous<br>
 Restless in tears<br>
 Shaken, sickening<br>
 Unrelenting fears <br>

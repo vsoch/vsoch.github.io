@@ -15,9 +15,9 @@ docs on Github pages, see the <a href="https://github.com/researchapps/living-do
 or some of the examples linked at the end of the post.
 
 ## What is documentation?
-When someone references documentation, they are ususally referring to a texty thing that is intended to help
+When someone references documentation, they are usually referring to a texty thing that is intended to help
 someone understand ideas or resources. In the world of academia and enterprise software, this spans out to many
-things. The boundry between forums and issue boards, help desks and email support, 
+things. The boundary between forums and issue boards, help desks and email support, 
 and (more recently) chat support is one massive gray area. You are lost in the shades of gray, and no, I'm not 
 talking about <strong>that</strong> reference, I'm talking about the doldrums where the pencil on the white page has become wet, leaving
 nothing but blurry graphite nonsense. Let's zoom out a bit, and better understand the space. The core problem that these solutions

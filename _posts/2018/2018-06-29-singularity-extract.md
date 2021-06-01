@@ -5,7 +5,7 @@ toc: false
 ---
 
 Today one of my colleagues hit an infinite loop when a support technician
-required the extraction of (Linux) drivers from an `.exe` file. The convseration 
+required the extraction of (Linux) drivers from an `.exe` file. The conservation 
 went something like this, and I have a feeling many administrators have "been here."
 
 > But I don't have Windows...

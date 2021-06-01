@@ -25,7 +25,7 @@ the upload directly, and then forwards an amended request to the server. I imple
 # Django Nginx Upload
 
 Today we are going to discuss and show one way to upload <strong>really big</strong> files to a web server, specifically a <a href="https://www.djangoproject.com" target="_blank">Django web application</a>.
-Django is Python-based, and this makes it the perfect backend for webby tools that are intended for scientific or academic applications, where Python is used moreso than a language like GoLang, Ruby, etc. 
+Django is Python-based, and this makes it the perfect backend for webby tools that are intended for scientific or academic applications, where Python is used more than a language like GoLang, Ruby, etc. 
 
 Let's say you have a server, and you want to upload files to it. This task is usually pretty easy because Django <a href="https://docs.djangoproject.com/en/2.0/topics/http/file-uploads/" target="_blank">makes it easy</a>. For my particular needs, it was a bit more complicated, because I needed to post files from the command line. 
 This was possible using the <a href="https://toolbelt.readthedocs.io/en/latest/uploading-data.html" target="_blank">requests toolbelt</a> library because it can mimic multipart form data and stream a file.

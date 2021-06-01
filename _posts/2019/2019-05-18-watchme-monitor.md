@@ -86,7 +86,7 @@ Most of these pulls are between 4 and 10 seconds, so there isn't a ton of data r
 of what I found. First, let's look at cpu time in user space during the pull of alpine. 
 What is cpu time in user space, as opposed to system / kernel space? It's the amount of time 
 [[1](https://psutil.readthedocs.io/en/latest/#psutil.cpu_times)][[2](https://en.wikipedia.org/wiki/CPU_time)] that
-the processer spends pulling our container. A higher value for this metric means that
+the processor spends pulling our container. A higher value for this metric means that
 the process is taking more time. I would expect that asking for less memory for a job 
 corresponds with getting less user CPU time. And this (might be?) what we see - here is a pull
 for alpine. 

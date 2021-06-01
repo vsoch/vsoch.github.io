@@ -100,7 +100,7 @@ I decided that I wanted to generate an algorithm to do the following:
 
 Thanks to the magic of version control, you can see the first effort <a href="https://github.com/vsoch/algorithms/commit/b0d447b124647bf6b78c7535833c10b91f34f43b" target="_blank">here</a>. 
 
-## Async.io for Asyncronous Events
+## Async.io for Asynchronous Events
 I thought that I could build up intensity by adding more fireworks to be fired toward the
 "finale" of the show. Specifically, I had a Fireworks
 class that would let me generate multiple fireworks, each having a start time, end time, 
@@ -162,7 +162,7 @@ The cool thing about async.io is that with the expression `yield from asyncio.sl
 I am able to hand control to other processes in the loop, so one particular firework
 doesn't dominate control and not let others run. Although the above wasn't
 perfect (I might have used the loop's time instead of `time.time()` it achieved the
-asyncronous quality that I was looking for. My fireworks were nothing to call
+asynchronous quality that I was looking for. My fireworks were nothing to call
 home about (just a line of a randomly selected character and color) but 
 the result looked like this:
 
@@ -359,7 +359,7 @@ At this point I was going nuts, I was so excited. I was also unhappy with the "f
 was being used to model the fireworks. I had great excitement to figure out the right character to use to 
 <a href="https://github.com/vsoch/algorithms/commit/29f591b53650109419e3482356c2781f843d3c23#diff-ba47e3ecc231ea5708d2dae24a5550cfR114" target="_blank">clear the terminal</a>. Figuring this out
  meant that I could clear the terminal between single fireworks, and have more of an "increasing in size and exploding"
-effect. This was another change to the algorithm. I had orginally generated the design to be "hard coded" and stored
+effect. This was another change to the algorithm. I had originally generated the design to be "hard coded" and stored
 with the Fireworks object, but realized that I needed to generate it on the fly, given some pre-determined 
 variables like color and overall shape, and then vary the size. I also decided to use my "bubble" design as an center overlay on the more firework-y design:
 
@@ -373,7 +373,7 @@ merge, the length of the byte sequences were slightly different (depending on th
 up perfectly as actual characters. 
 
 I also realized that the result was beautiful without the more complicated overlay, and 
-by removing the asyncronous loop and just using a standard for loop, the fireworks 
+by removing the asynchronous loop and just using a standard for loop, the fireworks 
 looked **much** more like fireworks. And then I deleted a 
 <a href="https://github.com/vsoch/algorithms/commit/29f591b53650109419e3482356c2781f843d3c23#diff-ba47e3ecc231ea5708d2dae24a5550cfL396" target="_blank">LOT</a> of code! Here was another important lesson:
 
@@ -658,7 +658,7 @@ The sky is really the limit in terms of how you want to use this tiny script.
 
 
 # What I learned
-While this originally was a project where I wanted to focus on learning about asyncronous event loops in Python,
+While this originally was a project where I wanted to focus on learning about asynchronous event loops in Python,
 it turned out to not use the library at all. I'm okay with this, because I still learned about asyncio, and
 likely will use it for future projects. There were some subtle challenges and learnings 
 that I would like to again highlight.

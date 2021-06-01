@@ -7,8 +7,8 @@ categories: rse
 This is a quick post to share a highly useful trick for posting long
 error logs or similar on GitHub issues or any spot with markdown. The amazing
 discovery [comes by way](https://github.com/RunestoneInteractive/RunestoneServer/pull/1229#issuecomment-488315755) 
-of my colleage, [@yarikoptic](https://github.com/yarikoptic). Here is a 
-[GitHub example](https://github.com/RunestoneInteractive/RunestoneServer/issues/1204#issue-407541603) out in the wild, again from my colleage,
+of my colleagues, [@yarikoptic](https://github.com/yarikoptic). Here is a 
+[GitHub example](https://github.com/RunestoneInteractive/RunestoneServer/issues/1204#issue-407541603) out in the wild, again from my colleagues,
 and here is a live example of what it looks like in this blog post:
 
 <details>

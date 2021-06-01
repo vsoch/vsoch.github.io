@@ -275,7 +275,7 @@ a story that can be understood.
 
 And guess what, I showed you the more complicated version first! You can
 totally skip the GitHub API, and parsing data.json files entirely if you
-just want to add search to a single respository's site. For example, in the process of
+just want to add search to a single repository's site. For example, in the process of
 designing this, I added a [simple search page](https://us-rse.org/search/) to us-rse.org.
 And if you look at the [template](https://github.com/USRSE/usrse.github.io/blob/master/pages/search.html) 
 that renders it, you'll notice we are writing the data object directly into the page. 

@@ -39,7 +39,7 @@ I tried out a simple example of this in Matlab, and I just used the [linsolve](h
 
 code
 
-with a simply defined X and G, to produce a matrix I.  I then multipled G by I to affirm that I reproduced my X, and I did.  So, by doing this and solving for I, this matrix I represents the timecourses for an individual person relevant to the group spatial map.  In many implementations, we then normalize these timecourses to unit variance, so we can compare between them.  We can now use these individual timecourses to define the individual's spatial maps:
+with a simply defined X and G, to produce a matrix I.  I then multiplied G by I to affirm that I reproduced my X, and I did.  So, by doing this and solving for I, this matrix I represents the timecourses for an individual person relevant to the group spatial map.  In many implementations, we then normalize these timecourses to unit variance, so we can compare between them.  We can now use these individual timecourses to define the individual's spatial maps:
 
 [![fmri1](http://www.vbmis.com/learn/wp-content/uploads/2013/08/fmri12.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/fmri12.png)
 

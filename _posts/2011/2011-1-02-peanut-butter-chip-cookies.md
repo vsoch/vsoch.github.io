@@ -64,7 +64,7 @@ This was a recipe that I found based on the ingredients that I happened to buy a
 
 [![](http://www.vsoch.com/blog/wp-content/uploads/2011/01/9.-Form-Balls-300x225.jpg "9. Form Balls")](http://www.vsoch.com/blog/wp-content/uploads/2011/01/9.-Form-Balls.jpg)
 
-**10.** Press fork slighty into the cookies to make the signature crosshatched top. Squiisshhhh…
+**10.** Press fork slightly into the cookies to make the signature crosshatched top. Squiisshhhh…
 
 [![](http://www.vsoch.com/blog/wp-content/uploads/2011/01/10.-Squish-300x225.jpg "10. Squish")](http://www.vsoch.com/blog/wp-content/uploads/2011/01/10.-Squish.jpg)
 

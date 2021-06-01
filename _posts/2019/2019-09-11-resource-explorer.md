@@ -41,7 +41,7 @@ will be narrowed down based on the answers. Specifically:
 
 #### Questions
 
-Include multiple-choice, single-choice, boolean, and enumerate (maximum or minumum) choices.
+Include multiple-choice, single-choice, boolean, and enumerate (maximum or minimum) choices.
 
 <ol class="custom-counter">
  <li> <strong>multiple-choice</strong> means that the user can select zero through N choices. For example, I might want to select that a resource is for staff, faculty, and students.</li>

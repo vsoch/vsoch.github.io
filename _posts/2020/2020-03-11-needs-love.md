@@ -133,7 +133,7 @@ worked on.
 
 Asking for help can be hard! In some cases, asking for help can look like labeling
 an issue with "Good First Issue" or (more directly) "Help Wanted." For the interested folks that want to
-persue a list of open source, research software engineering efforts, the rseng organization also provides the 
+pursue a list of open source, research software engineering efforts, the rseng organization also provides the 
 <a href="https://github.com/rseng/awesome-rseng" target="_blank">awesome-rseng</a> awesome list.
 You can either contribute to these projects directly, or find one or more issues and write
 them up under needs-love to be discovered.

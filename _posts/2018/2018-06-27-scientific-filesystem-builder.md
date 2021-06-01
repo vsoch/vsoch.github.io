@@ -28,7 +28,7 @@ Let's go!
 # Background
 Earlier this year I created the <a href="https://academic.oup.com/gigascience/article/7/5/giy023/4931737" target="_blank">Scientific Filesystem</a> (SCIF) as a means to make it easy
 to build containers for scientific applications.  In a nutshell, SCIF let's you install
-a single recipe into a container (any container technology) and then expose **multiple** entrypoints. An entrypoint, which is assocaited with **app** has it's own context, including
+a single recipe into a container (any container technology) and then expose **multiple** entrypoints. An entrypoint, which is associated with **app** has it's own context, including
 environment, runscript, tests, labels, and install routine. Given that a container has a 
 scientific filesystem, the apps are always discoverable, inspectable, and usable for the user 
 <strong>without needing to know a thing.</strong>.

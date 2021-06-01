@@ -108,7 +108,7 @@ and the result would be the Maximum a Posteriori (MAP) estimate.  If you read a
 
 ### Defining f(r) with LSS Intensity Differences with a meaningful subset of voxels!
 
-For hundreds of thousands (or even millions) of parameters, finding an alignment function, L, to minimize the sum of squared error for intensity differences is REALLY HARD.  Could there be a way to drastically minimize the number of paramters that we need to estimate?  Yes!  Let's think back to the equation that calculates the probability of a class for a particular equation, r:
+For hundreds of thousands (or even millions) of parameters, finding an alignment function, L, to minimize the sum of squared error for intensity differences is REALLY HARD.  Could there be a way to drastically minimize the number of parameters that we need to estimate?  Yes!  Let's think back to the equation that calculates the probability of a class for a particular equation, r:
 
 [![fig1](http://www.vbmis.com/learn/wp-content/uploads/2013/08/fig13.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/08/fig13.png)
 

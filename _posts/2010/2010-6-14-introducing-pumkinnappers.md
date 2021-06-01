@@ -1,5 +1,5 @@
 ---
-title: "Introducing, PumkinNappers!"
+title: "Introducing, PumpkinNappers!"
 date: 2010-6-14 15:34:57
 tags:
   adventure
@@ -19,7 +19,7 @@ Attempt number two was somewhere around the Camel statue near the old Biology Bu
 
 We were originally worried that the title “Nash ‘Er Teeth” would imply that this geocache would be a hard find, but it wasn’t at all! It must have been in the 90s, so we started our excursion by heading into the wonderfully chilly Nasher museum. Anyone that stops by here to look for this cache should definitely bring an ID to gain access to the galleries at the Nasher, or minimally stop at the cafe inside for a cool drink.
 
-Once we were ready, we headed out the back door, past a triangular slab of stone, and down the path. We found a small cluster of woods within 100 feet of the museum, and then saw the aforementioned poison ivy, and then BOOM there it was! We had a few unsuccessful searches earlier in the day, and this was our first successful find as Team PumkinNappers, and what a great one it was!
+Once we were ready, we headed out the back door, past a triangular slab of stone, and down the path. We found a small cluster of woods within 100 feet of the museum, and then saw the aforementioned poison ivy, and then BOOM there it was! We had a few unsuccessful searches earlier in the day, and this was our first successful find as Team PumpkinNappers, and what a great one it was!
 
 [![](http://www.vsoch.com/blog/wp-content/uploads/2010/06/matt-00003-300x225.jpg "Matt finds the cache!")](http://www.vsoch.com/blog/wp-content/uploads/2010/06/matt-00003.jpg)
 
@@ -33,7 +33,7 @@ What a great first find! We then proceeded to head down Campus Drive and investi
 
 It sort of reminds me of the factory from Charlie and The Chocolate Factory!
 
-So this Geocaching thing is excellent! You feel like an adventurer, with the goal of finding the treasure, and exchanging something to leave your mark. Since we wound up taking a sheet of pumpkin and candy corn stickers, we have decided to call ourselves the PumkinNappers. It just makes sense :O)
+So this Geocaching thing is excellent! You feel like an adventurer, with the goal of finding the treasure, and exchanging something to leave your mark. Since we wound up taking a sheet of pumpkin and candy corn stickers, we have decided to call ourselves the PumpkinNappers. It just makes sense :O)
 
 [The official log can be found here.](http://www.geocaching.com/seek/log.aspx?LUID=e2016f4d-b492-45dc-817b-22d2643310ad)
 

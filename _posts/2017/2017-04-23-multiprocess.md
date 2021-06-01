@@ -179,7 +179,7 @@ I didn't have any good rationale for the number of workers, but I had seen 2 tim
 NUM_WORKERS = multiprocessing.cpu_count()*2
 ```
 
-In the link above, I saw that I could use `pool.map` or `pool.apply` or `pool.apply_async`. I chose to use `pool.map` because it would wait for execution to finish, and I would be guaranteed the order of my commands was maintained. Both apply the same function to multipe arguments, so I suppose this is the main difference. Toward that, I would need to put together a list of arguments, each just being a dictionary of key,value pairs. If you remember from above, images is just a list of the Docker image (sha256) identifiers that the `download_layer` function is expecting.
+In the link above, I saw that I could use `pool.map` or `pool.apply` or `pool.apply_async`. I chose to use `pool.map` because it would wait for execution to finish, and I would be guaranteed the order of my commands was maintained. Both apply the same function to multiple arguments, so I suppose this is the main difference. Toward that, I would need to put together a list of arguments, each just being a dictionary of key,value pairs. If you remember from above, images is just a list of the Docker image (sha256) identifiers that the `download_layer` function is expecting.
 
 ```python
 tasks = []

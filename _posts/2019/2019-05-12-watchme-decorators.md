@@ -282,7 +282,7 @@ export WATCHMEENV_LABEL
 ```
 
 You can see all of the exports in completion [here](https://github.com/vsoch/watchme-sklearn/tree/master/data) -
-I put them in a data folder in the respository. Here is a programmatic way that I have used to
+I put them in a data folder in the repository. Here is a programmatic way that I have used to
  export all results to a "data" folder in the repository:
 
 ```bash

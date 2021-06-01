@@ -47,7 +47,7 @@ running for the first time, it was pure joy!
 </div>
 
 I wound up building a container, and it was actually very unlike me to run something
-on my local machine. Either way, the model checkpoints are downlaoded from [here](https://drive.google.com/drive/folders/1PyQJmkdCsAkOYwUyaj_l-l0as-iLDgeH).
+on my local machine. Either way, the model checkpoints are downloaded from [here](https://drive.google.com/drive/folders/1PyQJmkdCsAkOYwUyaj_l-l0as-iLDgeH).
 
 ## Generating a Video
 
@@ -70,7 +70,7 @@ you generally want to:
 I saved these "template videos" to the "driving" folder. If you need to easily
 get them off of your phone, Google Photos uploads fairly quickly, and you can
 also send a file to yourself in Slack. I'm terrified to admit that I tried sending
-a rather embarassing video to myself, and I never found it. I suspect it's floating
+a rather embarrassing video to myself, and I never found it. I suspect it's floating
 out there somewhere in the internet universe. One additional note is that you shouldn't
 worry too much about how you look, but focus on keeping your head fairly stable
 (some movement seems okay but not too much) and thinking about the movement of

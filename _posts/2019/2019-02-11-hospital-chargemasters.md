@@ -58,7 +58,7 @@ If the goal is for machines to find the chargemasters, then the release of this 
 Although I originally planned to create a web interface to explore the data, I decided that my intended audience was not the consumer, but rather researchers that could make intelligent conclusions from
 the data. If you are interested in the download and parsing, see the 
 <a href="https://github.com/vsoch/hospital-chargemaster" target="_blank">README</a>
-in the respository. 
+in the repository. 
 
 
 ### How is the data organized?

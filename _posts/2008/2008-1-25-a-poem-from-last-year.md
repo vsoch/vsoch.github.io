@@ -12,7 +12,7 @@ English? Spanish? There are even some made up words in there… let’t be safe 
 **Aeropuerto**
 
 En el muchedumbre del aeropuerto  
- leaking con conversacion y cafe  
+ leaking con conversation y cafe  
  me siento abajo del muro  
  siempre pidiendo, porque?
 

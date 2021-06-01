@@ -12,7 +12,7 @@ I shouldn't try to solve the "best case" scenario first and then grab a ride on 
 I couldn't do it. Instead, I tried to derive a solution that was simple and logical to me, and then
 attempt improving on that. If this were the real world? I would have colleagues and others to share my
 thinking with, and you know what they say about counting heads. In my case, since it's only me, 
-I am mainly satisifed that I got **some** solution and it's not the **worst** one *wink). Here is our problem:
+I am mainly satisfied that I got **some** solution and it's not the **worst** one *wink). Here is our problem:
 
 >> Given a string, print the size of the longest possible substring that has exactly k unique characters.
 

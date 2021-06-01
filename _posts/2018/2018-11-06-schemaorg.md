@@ -38,7 +38,7 @@ to how [Google Datasets](https://developers.google.com/search/docs/guides/search
 ## 1. Container Definition in Schema.org
 
 [Schema.org](https://www.schema.org) is an ontology, or description of entities and relationships between
-them, that attemps to describe kinds of things in the world, literally from
+them, that attempts to describe kinds of things in the world, literally from
 type [Thing](https://schema.org/Thing) to type [Volcano](https://schema.org/Volcano). The value
 isn't necessarily being able to define a list of attributes for any one thing, but for
 being able to make inferences over the graph, and answer weird questions about how

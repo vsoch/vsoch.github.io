@@ -132,7 +132,7 @@ Arguably, the academic software engineer is the interface between this technolog
 </ol>
 
 
-Ideally, all of this could be replaced with a simple tutorial that says "Hi Friend! Let's walk through this together!" Unfortunately, the best of these out there are generally written by users. The <a href="https://docs.docker.com/registry/spec/api/#content-digests" target="_blank">Docker Hub resource</a>, for example, serves as a massive chunk of definitions and example responses. It's been very useful to show me parameters avalable, but very problematically, many times the calls that I issue don't seem to work, and there is no nice guide that shows my particular call in completion. I want a dummy example that I can copy paste and get an immediate validation that it works. This kind of thing I usually find on Stack Overflow. I don't see why this isn't put up front and center. And I don't mean to single out one documentation base - this is a chronic issue for most.
+Ideally, all of this could be replaced with a simple tutorial that says "Hi Friend! Let's walk through this together!" Unfortunately, the best of these out there are generally written by users. The <a href="https://docs.docker.com/registry/spec/api/#content-digests" target="_blank">Docker Hub resource</a>, for example, serves as a massive chunk of definitions and example responses. It's been very useful to show me parameters available, but very problematically, many times the calls that I issue don't seem to work, and there is no nice guide that shows my particular call in completion. I want a dummy example that I can copy paste and get an immediate validation that it works. This kind of thing I usually find on Stack Overflow. I don't see why this isn't put up front and center. And I don't mean to single out one documentation base - this is a chronic issue for most.
 
 
 ### Variability is Problematic
@@ -235,7 +235,7 @@ You can dig in all you want, you will discover the same deal, and the error hint
 The reason is because they will need to be updated and debugging quite frequently, and this pace may be faster than the core software can keep up. This means that users will be frustrated, and generally waiting on you. Instead, it makes sense to have supporting tools (sregistry is really just a wrapper that let's the user do a custom install and specification of his or her favorite endpoints) that can be very quickly updated. In the case of the error above, I had debugging and updated the package in under an hour. Now let's review the entire hack for building this deepvariant Singularity image!
 
 ## Pull
-We saw above that we can't used Singularity to pull, so here let's look at using sregistry to get our layers. First we will pull. Since there is no verison 1.0 of anything, we only get layers and no metadata. The client gives us this warning.
+We saw above that we can't used Singularity to pull, so here let's look at using sregistry to get our layers. First we will pull. Since there is no version 1.0 of anything, we only get layers and no metadata. The client gives us this warning.
 
 ```bash
 sregistry pull docker://gcr.io/deepvariant-docker/deepvariant:0.5.0
@@ -287,7 +287,7 @@ Let's now create a Singularity recipe with all these things. Now if only all thi
 
 The above is great, but it's problematic for reproducibility because we are using a local image file as a base, and not something from a web endpoint. This was my strategy for the time being, since this was such a messy operation to begin with and I wasn't even sure it would lead to a successful image build.
 
-## Building, Buliding, Building
+## Building, Building, Building
 To perform the build with the <a href="https://gist.github.com/vsoch/7103c9b51b67904d80291ac6c04764a0#file-singularity" target="_blank">recipe above</a>, a file called `Singularity` we can do:
 
 ```bash
@@ -423,8 +423,8 @@ In summary, here are the problems that I ran into.
 
 <ol class="custom-counter">
     <li>The documentation that was referenced with the resource with regard to how to request a particular "config" manifest was misleading. There was no version 1.0 or container.image manifest easily findable that I could figure out. I could only intuit that some versions were missing based on error reports.</li>
-    <li>On many occassions it was a "guess and hope for the best" sort of deal. With unclear documentation, my best option is to try all possible combinations of things, and try to put myself in the designers of the API shoes to guess what would be logical to have.</li>
-    <li>here was conflict between what header, and then value for the header, would give me what I wanted. Should I specifiy an `Accept` with a manifest version, or the `Docker-Content-Digest` or both? Or something else entirely?</li>
+    <li>On many occasions it was a "guess and hope for the best" sort of deal. With unclear documentation, my best option is to try all possible combinations of things, and try to put myself in the designers of the API shoes to guess what would be logical to have.</li>
+    <li>here was conflict between what header, and then value for the header, would give me what I wanted. Should I specify an `Accept` with a manifest version, or the `Docker-Content-Digest` or both? Or something else entirely?</li>
     <li>There was an additional variable in a returned response (config) that should have given me a `sha256` sum to specify a digest that I wanted, and return the config. It didn't.</li>
 </ol>
 
@@ -455,7 +455,7 @@ I haven't before thought about the person sitting on the other (industry) side o
 
 The industry *reproducibility engineer* approaches different tools offered from the viewpoint of "How would this subtype of user interact with this, and where does this interaction break?" It's not really the same as some kind of user interaction designer (or what the title may be) that seeks out clients and ask them questions about how they like things. This is likely a full stack engineer that can serve dually as a software engineer but is also a well seasoned potato in having first hand understanding of what the users are actually doing. This actually means minimal time (sometimes wasted) arranging meetings to ask clients questions that, although may be relevant, they can't really provide actionable answers to. 
 
-The reproducibility engineer is also not assigned to a paricular product team. He or she is given an (almost) "final" thing, pointed at the documentation, and then "Go." He or she is a expert at breaking things, and coming at things from many different prespectives. Some might argue that the task of assessing usage should come from the same team that generates the tooling. The problem with working on a particular product team, or even in a particular academic group, is that you get tunnel visoin to the working conditions and environment that you have. When you learn the skillset to be a software engineer at Google, or a member of an academic lab, your entire approach to solving problems is scoped to that. If you are lucky, you use technologies that are embraced by other groups that you might work with. In a closed or large company you are more likely to be using a proprietary internal infrastructure that, when you leave, you realize you can only take away with you general practices for software engineering to map to other things.
+The reproducibility engineer is also not assigned to a particular product team. He or she is given an (almost) "final" thing, pointed at the documentation, and then "Go." He or she is a expert at breaking things, and coming at things from many different perspectives. Some might argue that the task of assessing usage should come from the same team that generates the tooling. The problem with working on a particular product team, or even in a particular academic group, is that you get tunnel visoin to the working conditions and environment that you have. When you learn the skillset to be a software engineer at Google, or a member of an academic lab, your entire approach to solving problems is scoped to that. If you are lucky, you use technologies that are embraced by other groups that you might work with. In a closed or large company you are more likely to be using a proprietary internal infrastructure that, when you leave, you realize you can only take away with you general practices for software engineering to map to other things.
 
 Why might it be that we don't have this? Because the pace needed to develop technologies to keep up with the Silicon Valley gerbil treadmill is too fast to put in the extra time and resources to debug these edge use cases. The technology changes so quickly that it arguably wouldn't be a good use of time. But it ironically hurts many users in this "long tail" of science that do face those edge cases. In the defense of industry, the documentation that is provided is generally up to date, and even beautiful. The problem is the scope of the user it is intended for is not clearly defined. The goals of the company may not be to directly support these edge cases, but everyone wins if there is an interface between the two worlds: even a small set of people that purely work to support the interaction.
 

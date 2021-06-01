@@ -10,7 +10,7 @@ es lo que tenía<br>
 cuando la tierra había ganado<br>
 mis pies le mostráron<br>
 
-Titanim alma <br>
+Titanium alma <br>
 es la que emita<br>
 cuando su querido ha caído<br>
 su corazón me muestra<br>

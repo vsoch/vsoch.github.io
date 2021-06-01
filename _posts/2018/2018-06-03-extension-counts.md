@@ -169,7 +169,7 @@ Why? Because we are starting to package software with entire operating systems i
 
 When I was a graduate student I tried parsing Pubmed Central for Github repo addresses, and then
 making a graph of related content. It was a massive failure that mostly frustrated my lab later in
-taking up a bunch of unecessary space on <a href="https://www.sherlock.stanford.edu/docs/" target="_blank">Sherlock</a> (sorry guys!). I also had a second (mostly failed) effort by extracting
+taking up a bunch of unnecessary space on <a href="https://www.sherlock.stanford.edu/docs/" target="_blank">Sherlock</a> (sorry guys!). I also had a second (mostly failed) effort by extracting
 counts of extensions for containers on Singularity Hub, which I'm pretty sure nobody cared or knew existed.
 For this third go around, I wanted a better source of data. I wanted to have confident pairings of code, 
 intended for science, with rich metadata. The answer, of course, was a service that I really like called <a href="https://zenodo.org" target="_blank">Zenodo</a>. If you aren't familiar, it's a place to get a digital object identiifer (DOI) for your digital resource (code! Github!) that others can then cite. 
@@ -382,7 +382,7 @@ broken into N=4 80x80 images), if we count the images in this manner, this gives
 represent a higher prevalence of Python for the repository.  To make better comparisons between Python
 and R, for example, we would need to compare samples of code for each language that "are optimized"
 to do the same thing. This is something I'd like to do, but for a different project. 
-For now, it is my choice for counts to reflect general proporition of code in a repository, not just counts of the files themselves. If you do an analysis with the data, you could choose to do this differently. 
+For now, it is my choice for counts to reflect general proposition of code in a repository, not just counts of the files themselves. If you do an analysis with the data, you could choose to do this differently. 
 
 Now let's answer some really simple questions.
 
@@ -505,8 +505,8 @@ When we do this, we are left with 57 extensions! This is a scale I was hoping fo
 > Why are there so many rare extensions?
 
 The fact that there are SO many files with "niche extensions" tells me two 
-things. For the niche extensions as a result of "niche langauges," we 
-probably can say this is meaningful and reflects less popular langauges or 
+things. For the niche extensions as a result of "niche languages," we 
+probably can say this is meaningful and reflects less popular languages or 
 data format files. For the niche extensions that people
 just make up, well this teaches us that people don't understand 
 the purpose of file extensions :) I suppose they are meaningful to them? To each
@@ -580,7 +580,7 @@ webby things with <a href="https://shiny.rstudio.com/" target="_blank">Shiny</a>
 That said, both languages are heavily used and valuable, and (I think) will continue to grow
 in popularity. Is there a way we could possible untangle these two
 things, to look at Python for data science vs. Python for web applications?
-Likely yes, if we look at co-occurence of extensions within a repository. Note that I
+Likely yes, if we look at co-occurrence of extensions within a repository. Note that I
 didn't do this for this post, but it's on my <a href="https://github.com/vsoch/zenodo-ml/blob/master/preprocess/README.md" target="_blank">todo list</a>!  
 
 > Counting might be a reasonable way to reflect language popularity

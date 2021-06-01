@@ -24,7 +24,7 @@ some funds invested in Amazon S3 or Google Storage. So, given that:
 </ol>
 
 Why is a <strong>static container registry</strong> not a thing? Specifically, GitHub pages can serve
-a web interface *and* a static API. The builds can happen using continous integration. The 
+a web interface *and* a static API. The builds can happen using continuous integration. The 
 containers go to object storage. <strong>Static container registries need to be a thing!</strong>
 
 <br><br>

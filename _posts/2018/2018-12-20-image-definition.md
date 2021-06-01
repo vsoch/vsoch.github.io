@@ -81,7 +81,7 @@ communities (Schemaorg and OCI) for a few months to take interest (imagine if Go
 define and index these data structures! That alone would be huge incentive for others to add the
 metadata to their Github repos and other webby places). 
 
-To make it easy for you to extract ImageDefinitions and Datasets for your software and respositories,
+To make it easy for you to extract ImageDefinitions and Datasets for your software and repositories,
 I've created a repository of [extractors](https://github.com/openschemas/extractors). 
 Each subfolder there will extract a schema.org entity of a particular type, and create a static
 html file (or a json structure) to describe your dataset or Dockerfile. [Here is a random example](https://openschemas.github.io/dockerfiles/data/b/b1015223/creating-a-simple-web-app/ImageDefinition.html) from the GIthub pages for that repository for a container Dockerfile

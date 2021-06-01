@@ -59,7 +59,7 @@ And by the way, these web pages are generated automatically when you push to Git
 
 ## Contributing a Container
 
-Let's say that I have a containershare of psychology experiment paradigms, and I want to contribute my container to some containershare. What does this mean? It means writing a text file, and issuing a pull request to the respository. That's is! The textfile looks like this:
+Let's say that I have a containershare of psychology experiment paradigms, and I want to contribute my container to some containershare. What does this mean? It means writing a text file, and issuing a pull request to the repository. That's is! The textfile looks like this:
 
 ```yaml
 ---

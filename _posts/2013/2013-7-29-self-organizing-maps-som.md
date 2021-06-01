@@ -24,11 +24,11 @@ In the case of SOM, these "centroids" are called nodes or neurons, and with each
 
 For each point {
 
-1. Calculate the euclidian distance of the point to all nodes in the network.  The closest one is called the "Best Matching Unit" (BMU)
+1. Calculate the euclidean distance of the point to all nodes in the network.  The closest one is called the "Best Matching Unit" (BMU)
 2. Adjust the weights of the BMU toward the input vector, as well as other points close in the SOM lattice ("close" as determined by some neighborhood function, a Gaussian function is a common choice)  This neighborhood function should shrink with time so the weights converge to local estimates.
 
 }
 
-You would need to do this for many points, of course.  At the end of your training, each node should be associated with some pattern in the data.  To classify a new point, simply calculate its Euclidian distance to all nodes in the space, and the closest one wins.   SOMs are cool because they are sort of like a non-linear form of PCA.  Another way of achieving this goal is by way of multidimensional scaling, which aims to represent observation vectors in a lower space, but preserve the distances between them.
+You would need to do this for many points, of course.  At the end of your training, each node should be associated with some pattern in the data.  To classify a new point, simply calculate its Euclidean distance to all nodes in the space, and the closest one wins.   SOMs are cool because they are sort of like a non-linear form of PCA.  Another way of achieving this goal is by way of multidimensional scaling, which aims to represent observation vectors in a lower space, but preserve the distances between them.
 
 

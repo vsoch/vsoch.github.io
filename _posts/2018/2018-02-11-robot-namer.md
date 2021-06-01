@@ -42,7 +42,7 @@ anxious-lamp-8583
 
 ```
 
-And for Singularity of course! The container is availble via both Singularity Hub and Docker Hub.
+And for Singularity of course! The container is available via both Singularity Hub and Docker Hub.
 
 ```bash
 

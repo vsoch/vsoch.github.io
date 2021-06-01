@@ -7,7 +7,7 @@ category: rse
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/753517999%3Fsecret_token%3Ds-Ei8RS&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-It's really easy to get excited about technology. How could we not? There are immense and seemingly unbelievable developments that might happen in the near to distant future, including but not limited to medical advances to cure disease, environmental policy paired with infrastructure, or more generally initaitives to make our world a better place. It's interesting how many of
+It's really easy to get excited about technology. How could we not? There are immense and seemingly unbelievable developments that might happen in the near to distant future, including but not limited to medical advances to cure disease, environmental policy paired with infrastructure, or more generally initiatives to make our world a better place. It's interesting how many of
 these developments are intimately tied to advances in technology, and because of this,
 many of us subconsciously tie new technology to indicating a state of betterment. For example,
 innovation often comes by way of faster computers, more impressive scaling of services, and new or optimized algorithms. In fact, we are so blindly optimistic about technology that we often forget that technological change or "development" isn't always necessarily a good thing.
@@ -75,7 +75,7 @@ other people's phone numbers? Yes, this was the reality of the 1990s.
 
 The first question that is easy to answer is with respect to the devices themselves.
 There is a big huzzah every year or so about upgraded versions of iphones, and it begs
-the question, does upgrading your iphone to some newer verison that also comes with an 
+the question, does upgrading your iphone to some newer version that also comes with an 
 upgraded price tag really improve your quality of life? I'm going to venture to say no.
 Without context of other phones, you likely wouldn't realize that your phone is slightly 
 slower.
@@ -181,11 +181,11 @@ was a cord that we used to connect the two computers, and we'd play Duke Nukem
 Now let's think about music. Before the days of your cell phone offering
 every entry point to any music provider you could imagine, you had to
 also buy a separate device to listen to music. When I was small,
-I remember having a portable radio that I could play and record casette tapes.
+I remember having a portable radio that I could play and record cassette tapes.
 It had a little microphone and I could sing, talk to myself, or otherwise
 act as a little kid would.
 
-When technology had progressed beyond casette tapes, there were CDs.
+When technology had progressed beyond cassette tapes, there were CDs.
 I remember having a huge discman (later in high school, a beautiful white device that was made by Sony that was stolen at the high school track) and after that having
 a ipod, an ipod shuffle, and several derivations of that. I remember
 how my world felt hugely improved when I didn't need to choose a single disc

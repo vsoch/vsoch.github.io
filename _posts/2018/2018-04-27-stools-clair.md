@@ -57,7 +57,7 @@ builds a container that uses the `clair-local-scan` as a base, installs producti
    <img src="/assets/images/posts/stools-clair/links.png" style="margin:auto; display:block">
 </div>
 
-Which means his hard work to rebuild the `clair-local-scan` with updated vulnerabilities will also build an updated `vanessa/stools-clair`, which is then pulled via the docker-compose when your continuous integration runs. Again, very cool! This is like, Matrix level continous integration!
+Which means his hard work to rebuild the `clair-local-scan` with updated vulnerabilities will also build an updated `vanessa/stools-clair`, which is then pulled via the docker-compose when your continuous integration runs. Again, very cool! This is like, Matrix level continuous integration!
 
 ## Instructions
 
@@ -101,7 +101,7 @@ There are many ways you can customize this simple file for your continuous vulne
 
 <a href="https://en.wikipedia.org/wiki/Cron" target="_blank">Cron</a> is a linux based scheduler that let's you tell your computer "perform this task at this particular interval." On Travis, they added a 
 <a href="https://docs.travis-ci.com/user/cron-jobs/" target="_blank">cron scheduler</a> some time
-ago that I was excited to use, but didn't have a strong use case at the time. What it means is that we can have our continous integration (the instructions defined in the `travis.yml`) to run at some frequency. How to do that?
+ago that I was excited to use, but didn't have a strong use case at the time. What it means is that we can have our continuous integration (the instructions defined in the `travis.yml`) to run at some frequency. How to do that?
 
 <ol class="custom-counter">
 <li>Navigate to the project settings page, usually at **https://travis-ci.org/[organization]/[repo]/settings**</li>

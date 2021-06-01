@@ -48,7 +48,7 @@ It's called "stroop" because it deploys a <a href="https://en.wikipedia.org/wiki
 
 We should also think about the places that the various software are going
 to write us messages that could be hints to uncovering the issue. In my case, I had developed
-the container to have multiple logs stream to a common location. I don't think this is great practice because it mixes things up, but it's really moreso a lazy dinosaur practice. Thus, I could open my browser to see my server running, and also see the logs in my terminal.
+the container to have multiple logs stream to a common location. I don't think this is great practice because it mixes things up, but it's really more a lazy dinosaur practice. Thus, I could open my browser to see my server running, and also see the logs in my terminal.
 
 ```bash
 $ docker logs -f stroop
