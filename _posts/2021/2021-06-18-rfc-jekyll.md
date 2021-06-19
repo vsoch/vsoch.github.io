@@ -79,7 +79,7 @@ Primarily I'm interested in feedback from the community for the following questi
 
 <ol class="custom-counter">
 <li>Would it be useful to still render content from local files?</li>
-<li>What kind of supplementary pages would be useful to go alongside specs (e.g., working groups, ideas, loose images?)</li>
+<li>What kind of supplementary pages would be useful to go alongside specs (working groups, ideas, images?)</li>
 <li>What other features would be useful to have?</li>
 </ol>
 
