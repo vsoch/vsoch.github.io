@@ -39,7 +39,7 @@ the idea and it wasn't rejected, so I got to work! This is thus the creation of 
 When you arrive at the root, you can choose to view a specification:
 
 <div style="margin:20px">
- <img src="https://raw.githubusercontent.com/vsoch/rfc-jekyll/main/assets/img/rfc-jekyll.png">
+ <a href="https://vsoch.github.io/rfc-jekyll/" target="_blank"><img src="https://raw.githubusercontent.com/vsoch/rfc-jekyll/main/assets/img/rfc-jekyll.png"></a>
 </div>
 
 And then browsing to the specification shows content in the center, a left side navigation with
@@ -47,7 +47,7 @@ other files that are defined for the spec, and the right side is a dynamically g
 navigation.
 
 <div style="margin:20px">
- <img src="https://raw.githubusercontent.com/vsoch/rfc-jekyll/main/assets/img/runtime-spec.png">
+ <a href="https://vsoch.github.io/rfc-jekyll/runtime-spec/" target="_blank"><img src="https://raw.githubusercontent.com/vsoch/rfc-jekyll/main/assets/img/runtime-spec.png"></a>
 </div>
 
 The content from the many different specs and files are retrieved across files and GitHub repositories
