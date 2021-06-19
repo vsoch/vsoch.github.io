@@ -88,6 +88,9 @@ I made this is evenings over a few days, and I consider it early in development.
 
 ### Summary
 
-And that's all I got! I hope that you take a look and can give feedback to make it better.
+TLDR: This template might be useful to you if you find yourself in similar circumstances of
+having scattered markdown files across repositories that you want to make more cohesive.
+It might be useful if you want RFC style documentation for Jekyll, which I didn't see
+anyone has created yet. And that's all I got! I hope that you take a look and can give feedback to make it better.
 I've made <a href="https://github.com/supercontainers/containers-wg/discussions/34" target="_blank">a GitHub discussion</a>
 if you want a more formal discussion board other than issues.
