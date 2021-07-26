@@ -38,7 +38,7 @@ And finally, time. There is a lot of structure and milestone to childhood and yo
 
 <ul class="custom-counter">
 <li>Owning a house</li>
-<li>Getting in married</li>
+<li>Getting married</li>
 <li>Having Disney movie-level romantic love</li>
 <li>Having children</li>
 <li>"Going out" or otherwise enjoying socializing</li>
