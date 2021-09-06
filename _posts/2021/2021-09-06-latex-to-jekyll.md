@@ -26,7 +26,7 @@ You'll want to start with a Jekyll template, and follow the basic steps
 for <a target="_blank" href="https://github.com/inukshuk/jekyll-scholar">jekyll-scholar</a> so that you
 have a collection for paper details, "paper-details" and an entire section in
 your "_config.yaml" that describes your citation files. A good example of me
-doing this is in an old project, <a href="github.com/vsoch/notes-jekyll/" target="blank">notes jekyll</a>.
+doing this is in an old project, <a href="https://github.com/vsoch/notes-jekyll/" target="blank">notes jekyll</a>.
 If you have any questions, please don't hesitate to open an issue.
 
 
@@ -34,11 +34,12 @@ If you have any questions, please don't hesitate to open an issue.
 
 Step one is of course obvious - you should first write your paper! However,
 the trick to making this easy to convert to modular parts of a website will be
-how you design the LaTeX. You actually want to "input" sections instead
-of just putting all the content in some main.txt. So, for example, a snippet
+how you design the LaTeX. Let's say you normally have some "main.tex." Instead of this one
+file, you actually want to "input" sections so it's modular. So, for example, a snippet
 of my main.tex might look like this:
 
 ```latex
+
 \section{Abstract}
 \input{abstract}
 
@@ -53,8 +54,9 @@ of my main.tex might look like this:
 
 In the above, you'll see that instead of just writing sections in the introduction
 and the abstract, they are each contained in their own files, "abstract.tex," "introduction.tex,"
-"what-is-rseops.tex," and "what-is-devops.tex." These files alongside one another
-will be found and still generated into the same PDF. So the first step is download
+"what-is-rseops.tex," and "what-is-devops.tex." These files will be plopped in a "src"
+folder of our repository, and will be easy to render into a standard pdf, but _also_
+will be easy to run a few steps to generate html with citations for the site. So the first step is download
 those files (get them out of Overleaf or whatever!) and put them in a "src" folder
 alongside your jekyll site. Mine looks like this:
 
@@ -92,6 +94,7 @@ and then wrote a simple text file list of the names of those I wanted to include
 an example shown below:
 
 ```bash
+
 abstract
 accessibility
 comparison
@@ -105,6 +108,7 @@ follow-devops
 introduction
 ```
 
+These are just prefixes for what will eventually go from LaTeX (tex) to html.
 E.g., "abstract" will render an include for "abstract.tex."
 
 ## Step 2: Prepare a container
@@ -131,6 +135,10 @@ WORKDIR /code
 ENTRYPOINT ["/bin/sh", "/code/entrypoint.sh"]
 ```
 
+You'll notice the commands to build and run are on the top lines after the FROM.
+This is something I usually do because Vanessa of the future never remembers what
+is going on :)
+
 ### Makefile
 
 The build and run commands are shown above, but I also created a Makefile to "make"
@@ -153,7 +161,7 @@ run:
 
 This meant that "make build" would build my container, "make" would render LaTeX
 into the includes, and then "make run" would run my server to preview. Easy peezy!
-But I haven't shown you what's in entrypoint.sh, which is arguably the logic of the
+But I haven't shown you what's in `entrypoint.sh`, which is arguably the logic of the
 operation! Let's do that.
 
 ### Entrypoint
@@ -191,7 +199,7 @@ I chose Python because it was quick, but  you can obviously use another language
 For this final step, our include files are almost perfect, but we have to replace
 the (sort of useless) citation span elements with something that 
 <a target="_blank" href="https://github.com/inukshuk/jekyll-scholar">jekyll-scholar</a>
-can understand. This means adding the bibliograph to the bottom, which looks like this:
+can understand. This means adding the bibliography to the bottom, which looks like this:
 
 ```
 {% raw %}{% bibliography --cited %}{% endraw %}
@@ -212,11 +220,17 @@ Where "github" might be the name of a reference in our bibliography file.
 Once you have all that, you can build the container, generate the includes,
 and then start working on your site! Basically, if you generate "_includes/paper/containers.html"
 you can insert this (which includes pretty linked references) anywhere in your markdown
-and it will magically just work. There are a few more details like customizing
+and it will magically just work. E.g.,
+
+```
+{% raw %}{% include paper/containers.html %}{% endraw %}
+```
+
+There are a few more details like customizing
 a "_layout/bibitem-template.html," "_layouts/details.html" and "_bibliography/my-ieee.cls"
 to get the references looking to your preference, and you can see an example in
 another of my old notes sites, <a href="https://github.com/buildsi/build-notes" target="_blank">here</a>
-for that. The resulting site will render beautiful pages that have content from the paper and references,
+for that. The resulting site will render pages (styling is up to you!) that have content from the paper and references,
 directly in the site:
 
 <div style="padding:20px">
