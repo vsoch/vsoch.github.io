@@ -66,6 +66,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+    <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a></li>
     <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
     <li><a href="https://www.youtube.com/watch?list=PLGudixcDaxY3RGLSlWoN_cEEXhIT1OPmj&v=RKEmAshcreE&feature=youtu.be" target="_blank">Adding an Executor to Airflow, a Contributor Overflow Exception</a>: July 24, 2020</li>
     <li><a href="https://vsoch.github.io/containers-story/" target="_blank">Containers Story</a>: November 2020</li> 
