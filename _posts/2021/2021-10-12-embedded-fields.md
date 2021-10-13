@@ -105,4 +105,5 @@ avocado := Avocado{Fruit: Fruit{Name: "Harry the avocado", Color: "green"}, IsRi
 Is this kind of funky? Yeah, and <a href="https://github.com/golang/go/issues/9859" target="_blank">others think so too</a>.
 But I'm really grateful for the functionality because I can create a bunch of different struct types that have most in
 common, but maybe don't share a few things. Could there be other issues that arise? Maybe. I haven't hit them yet. :)
+There's a nice article <a href="https://go101.org/article/type-embedding.html" target="_blank">here</a> that I'm perusing to learn more.
 <a href="https://gist.github.com/vsoch/dd34ac96dc463c0a2f18c53aea67cf37" target="_blank">Here is the entire set of files</a> in a gist if you want to play around.
