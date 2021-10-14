@@ -97,7 +97,7 @@ Let's take common needs of researchers and represent the work that might be done
 Do you see how the levels might work together? Level 1 (alongside the researchers) needs to communicate with Level 2 (the generalist builders) that there is a new need that isn't satisfied by current software. Level 2 might then report to Level 3 (the researchers of research software) that the tool isn't good enough, or is not supported in a way it could be. These levels work intimately together, and in fact within one person,
 I can imagine we jump between them depending on the day! For example, early in my career as a researcher I was exclusvely in
 Level 1. I wrote code to solve problems in science. When I joined a graduate school lab that also provided databases and software, I easily jumped into Level 2. For many of us, Level 2 is the first taste at open source, or what it means to be a maintainer. I would say I operated in Level 2 as a generalist developer for the start of my RSEng career at Stanford. In my new role I'm now fairly new to Level 3, and to be frank I'm sometimes
-terrible at it because I never loved research. But the trick I've found is to take abstract problems and forumlate them into concrete goals for
+terrible at it because I never loved research. But the trick I've found is to take abstract problems and formulate them into concrete goals for
 myself, and then I learn a lot along the way, and those small exercises and discoveries are fulfilling. 
 Would I want to operate in Level 3 all of the time? Definitely not, because my
 joy is derived from the pleasure of just building things and programming (Level 2) and feeling like those things
