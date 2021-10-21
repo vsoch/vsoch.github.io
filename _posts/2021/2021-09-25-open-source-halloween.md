@@ -1,6 +1,7 @@
 ---
 title: "Open Source Halloween"
 date: 2021-09-25 08:30:00
+category: rse
 ---
 
 Now that we've officially entered Fall, I think it's fair to be thinking about pumpkins,

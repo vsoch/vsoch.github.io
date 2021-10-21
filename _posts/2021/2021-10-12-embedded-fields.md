@@ -1,6 +1,7 @@
 ---
 title: "TIL: Embedded Fields in Structs for Go"
 date: 2021-10-12 21:30:00
+category: rse
 ---
 
 Here is a quick "Today I learned" about how to mimic inheritance in Go. For example, in 

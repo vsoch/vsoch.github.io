@@ -1,6 +1,7 @@
 ---
 title: "Levels of a Research Software Engineering Group"
 date: 2021-10-14 21:30:00
+category: rse
 ---
 
 Today we celebrate the first <a href="https://society-rse.org/international-rse-day-14th-october-2021/" target="_blank">International RSE Day</a>,
