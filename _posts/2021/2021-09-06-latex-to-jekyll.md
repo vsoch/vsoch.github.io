@@ -1,7 +1,6 @@
 ---
 title: "LaTex To Jekyll"
 date: 2021-09-06 19:30:00
-category: rse
 ---
 
 I recently wrote a massive paper. It might be some rare disease that I have, but
