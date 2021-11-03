@@ -13,12 +13,17 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Recent Projects</strong></h3>
 <ul>
-	<li><a href="https://spack-monitor.readthedocs.io" target="_blank">spack-monitor</a>: A Spack monitoring service, including a database and interface for collecting metadata about builds.</li>
+       <li><a href="https://rse-ops.github.io" target="_blank">Research Software Engineering Operations</a>: Community, resources, and knowledge</li>
+	<li><a href="https://spack-monitor.readthedocs.io" target="_blank">spack-monitor</a>: A Spack monitoring service, including a database and 
+interface for collecting metadata about builds.</li>
 	<li><a href="https://spack.github.io/spack-search" target="_blank">spack-search</a>: A static and dockerized search application for specific strings in spack search code.</li>
+	<li><a href="https://github.com/vsoch/uptodate" target="_blank">uptodate</a>: for automated GitHub container builds</li>
+	<li><a href="https://github.com/vsoch/gosmeagle" target="_blank">gosmeagle</a>: ABI corpora extraction in Go</li>
 </ul>
 
 <h3><strong>Projects</strong></h3>
 <ul>
+       <li><a href="https://vsoch.github.io/candy-generator" target="_blank">The Candy Generator<a>: for open source Halloween fun!</a></li>
 	<li><a href="https://vsoch.github.io/chonker-awards/" target="_blank">The Chonker Awards</a>: Automatically updating interface to show the largest files across my GitHub repositories.</li>
 	<li><a href="https://vsoch.github.io/caliper/" target="_blank">caliper</a>: a tool for measuring and assessing change in packages</li>
 	<li><a href="https://github.com/urlstechie" target="_blank">Url Checker</a>: A command line client and GitHub action to check URLs in static files</li>
@@ -68,7 +73,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 <ul>
     <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a></li>
     <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
-    <li><a href="https://youtu.be/xvi-Om8jj2E" target="_blank">Singularity Registry HPC (shpc)</a>: and at <a href="https://youtu.be/01606kjdDrI" target=_blank">ISC 2021</a> and at the <a href="https://youtu.be/P32RYY_2V7w" target="_blank">US-RSE Virtual Conference</a>May, 2021</li>
+    <li><a href="https://youtu.be/xvi-Om8jj2E" target="_blank">Singularity Registry HPC (shpc)</a>: and at the <a href="https://youtu.be/P32RYY_2V7w" target="_blank">US-RSE Virtual Conference</a> May, 2021</li>
     <li><a href="https://www.youtube.com/watch?list=PLGudixcDaxY3RGLSlWoN_cEEXhIT1OPmj&v=RKEmAshcreE&feature=youtu.be" target="_blank">Adding an Executor to Airflow, a Contributor Overflow Exception</a>: July 24, 2020</li>
     <li><a href="https://vsoch.github.io/containers-story/" target="_blank">Containers Story</a>: November 2020</li> 
     <li><a href="https://www.youtube.com/watch?v=nv18Lwq7DFI&feature=youtu.be" target="_blank">Twas the Night Before SC Lightning Talk</a>: November 2020 (and <a href="https://www.youtube.com/watch?v=qoTLJ3X23oQ&feature=youtu.be" target="_blank">Science Slam</a>)</li>
