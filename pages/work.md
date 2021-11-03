@@ -50,9 +50,7 @@ interface for collecting metadata about builds.</li>
 	<li><a href="http://vsoch.github.io/2016/pokemon-ascii/" target="_blank">Pokemon Ascii</a>: avatar generator [<a href="https://github.com/vsoch/pokemon-ascii" target="_blank">Github</a>]</li>
 	<li><a href="http://vsoch.github.io/2016/service-worker-resource-saver/" target="_blank">Service Worker Resource Saved</a> [<a href="https://vsoch.github.io/resource-saver/" target="_blank">demo</a>]</li>
 	<li><a href="https://github.com/vsoch/banner-maker" target="_blank">Banner</a>: Custom banner creation (created for a virtual machine for a publication)</li>
-       <li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
-</ul>
-&nbsp;
+	<li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
 
 <h3><strong>Research Software Engineering Community</strong></h3>
 <ul>
