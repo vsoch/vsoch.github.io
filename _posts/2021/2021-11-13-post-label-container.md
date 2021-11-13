@@ -13,9 +13,7 @@ With this strategy I could <a href="https://twitter.com/vsoch/status/14588503141
 ## Too long didn't read
 
 See the repository <a href="https://github.com/vsoch/post-label-container" target="_blank">vsoch/post-build-container</a> for
-how I went about doing this. While I used buildx and a strategy to re-build and label only on push to main, you
-might try something else better suited to your needs. You also can derive build args (that might feed into environment variables too).
-I just happened to want labels!
+how I went about doing this. There are two example workflows - one is a "simple" approach that is intended for one architecture (and seems to work reliably and quickly) and the second attempts to build multiple for different arches, and the speed of that I've seen vary. For this approach I used buildx and a strategy to re-build and label only on push to main, and might try something else better suited to your needs. You also can derive build args (that might feed into environment variables too). I just happened to want labels!
 
 ## How does it work?
 
