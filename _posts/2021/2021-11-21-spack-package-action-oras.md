@@ -110,8 +110,8 @@ jobs:
         uses: vsoch/spack-package-action/package@main
         with:
           package: zlib
-          token: ${{ secrets.GITHUB_TOKEN }}
-          deploy: ${{ github.event_name != 'pull_request' }}
+          token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
+          deploy: {% raw %}${{ github.event_name != 'pull_request' }}{% endraw %}
           
   # This builds a spack container given a spack.yaml
   build-container-spack-yaml:
@@ -126,8 +126,8 @@ jobs:
         uses: vsoch/spack-package-action/container@main
         with:
           spack_yaml: spack/spack.yaml
-          token: ${{ secrets.GITHUB_TOKEN }}
-          deploy: true
+          token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
+          deploy: {% raw %}${{ github.event_name != 'pull_request' }}{% endraw %}
 
   # This builds a spack container for a package of choice
   build-container:
@@ -142,8 +142,8 @@ jobs:
         uses: vsoch/spack-package-action/container@main
         with:
           package: zlib
-          token: ${{ secrets.GITHUB_TOKEN }}
-          deploy: true
+          token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
+          deploy: {% raw %}${{ github.event_name != 'pull_request' }}{% endraw %}
 ```
 
 Here are some notes for the different actions:
@@ -161,8 +161,8 @@ and then specify to use install. For example, this is within the package action.
 ...
     - name: Set Root Directory
       env:
-        ACTION_PATH: ${{ github.action_path }}
-      run: ${{ github.action_path }}/scripts/set_root.sh
+        ACTION_PATH: {% raw %}${{ github.action_path }}{% endraw %}
+      run: {% raw %}${{ github.action_path }}/scripts/set_root.sh{% endraw %}
       shell: bash
 ```
 
@@ -182,11 +182,11 @@ And then in the next step, we run the install script from that context, and with
 ...
     - name: Install Spack and Dependencies
       env:
-        INPUT_BRANCH: ${{ inputs.branch }}
-        INPUT_RELEASE: ${{ inputs.release }}
-        INPUT_REPOS: ${{ inputs.repos }}
+        INPUT_BRANCH: {% raw %}${{ inputs.branch }}{% endraw %}
+        INPUT_RELEASE: {% raw %}${{ inputs.release }}{% endraw %}
+        INPUT_REPOS: {% raw %}${{ inputs.repos }}{% endraw %}
         INPUT_ROOT: /opt/spack
-      run: ${{ env.ACTION_ROOT }}/install/scripts/install.sh
+      run: {% raw %}${{ env.ACTION_ROOT }}/install/scripts/install.sh{% endraw %}
       shell: bash
 ```
 
