@@ -4,7 +4,7 @@ date: 2021-12-02 10:30:00
 category: rse
 ---
 
-I love any opportunity to create a project in Go, so when I saw the <a href="https://github.com/bloodorangeio/oci-stats" target="_blank">bloodorangeio/oci-stats</a> tool, I was inspired! This project uses bash scripts and a Makefile to generate basic health stats for a repository, or basically a record of health files like a Contributing markdown or particular continuous integration recipe. If you have a lot of repos you want to quickly check for common community files presence or absense, it can be a useful tool. I liked the idea and wanted to do something similar,
+I love any opportunity to create a project in Go, so when I saw the <a href="https://github.com/bloodorangeio/oci-stats" target="_blank">bloodorangeio/oci-stats</a> tool, I was inspired! This project uses bash scripts and a Makefile to generate basic health stats for a repository, or basically a record of health files like a Contributing markdown or particular continuous integration recipe. If you have a lot of repos you want to quickly check for common community files presence or absence, it can be a useful tool. I liked the idea and wanted to do something similar,
 but provide a library in Go that is generalizable to different repository metrics, and that could easily be piped into an interactive interface.
 Note that this isn't a hugely innovative idea, because many people have made these kinds of tools before. This is just a bit of dinosaur fun!
 
