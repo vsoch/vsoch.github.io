@@ -4,7 +4,7 @@ date: 2021-12-26 10:30:00
 category: rse
 ---
 
-I read <a href="https://github.com/readme/guides/time-management-software-engineers" target="_blank">this article</a> recently and it inspired me to reflect. The article itself isn't hugely insightful - it describes the struggle between managing time if you are a software engineer, and being successful despite the "communication tax." In describing taking on responsibility for incidents or services it does assume a particular kind of engineer that is more akin to an SRSE (Site Reliability Engineer) but the points about time management are still fair. I agree with several of them, and without intended to, reading the article made me reflect on my own ability to manage time and communicate. And because I'm an introspective person, that led me to reflect further on myself, time, and this year. This is what this post is going to be about.
+I read <a href="https://github.com/readme/guides/time-management-software-engineers" target="_blank">this article</a> recently and it inspired me to reflect. The article itself isn't hugely insightful - it describes the struggle between managing time if you are a software engineer, and being successful despite the "communication tax." In describing taking on responsibility for incidents or services it does assume a particular kind of engineer that is more akin to an SRE (Site Reliability Engineer) but the points about time management are still fair. I agree with several of them, and without intended to, reading the article made me reflect on my own ability to manage time and communicate. And because I'm an introspective person, that led me to reflect further on myself, time, and this year. This is what this post is going to be about.
 
 ## Time Management
 
