@@ -4,7 +4,8 @@ date: 2022-01-14 20:30:00
 category: rse
 ---
 
-<blockquote>Warning, this is a satire! It is based on <a href="https://en.wikipedia.org/wiki/Green_Eggs_and_Ham" target="_blank">Green Eggs and Ham</a> and was written entirely for fun. Most phrases were chosen based on rhyming and not any kind of truth.</blockquote>
+<blockquote>Warning, this is a satire, and it's rated PG-13! It is based on <a href="https://en.wikipedia.org/wiki/Green_Eggs_and_Ham" target="_blank">Green Eggs and Ham</a> and was written entirely for fun. Most phrases were chosen based on rhyming and not any kind of truth. 😉️ - <i>Vanessasaurus</i>
+</blockquote>
 
 I am Van. I am Van. Van-I-Am! <br>
 
@@ -33,7 +34,7 @@ no matter how snazzy or how loud. <br>
 I am not monetarily endowed, <br>
 nor do I want to render my finances plowed. <br>
 No matter how you if'd and'd, or how'd, <br>
-Your permissoins error says I'm not allowed. <br>
+Your permissions error says I'm not allowed. <br>
 
 Would you like them with AI? <br>
 
@@ -45,7 +46,7 @@ I do not want them to push to main. <br>
 It is too much of a drain, <br>
 and a bit more of a pain. <br>
 
-...machine learning? <br>
+What about machine learning? <br>
 
 I do not want my machines to learn <br>
 or the buzzword bullshit to twist and turn <br>
@@ -104,7 +105,7 @@ I do not like them on a Mac. <br>
 I do not like them with a snack. <br>
 I do not like them on an app. <br>
 I do not like them on a map. <br>
-A do not like them with a bro. <br>
+I do not like them with a bro. <br>
 I do not like them in the snow. <br>
 I do not want them here and now, <br>
 I do not want them with a cow. <br>
@@ -170,8 +171,10 @@ I do not! I do not like them, Van-I-Am! <br>
 It is so bad, so bad, you see! <br>
 I'd rather go off and live in a tree. <br>
 A box sounds nice to avoid this screen. <br>
-Or even simply drifting off into a dream.  <br>
+Or a void of endless screams.  <br>
 
 Say! I will despise them anywhere! <br>
 I do so despise clusters and Pam! <br>
 Thank you! Thank you, Van-I-Am. <br>
+
+<a href="https://twitter.com/vsoch/status/1482223533237288965" target="_blank">Tweet</a>
