@@ -69,6 +69,7 @@ interface for collecting metadata about builds.</li>
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+    <li><a href="https://youtu.be/FB2yV8TNnSw" target="_blank">The Research Software Engineer Movement</a>: talk at the 2022 EasyBuild users meeting.</li>
     <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a></li>
     <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
     <li><a href="https://youtu.be/xvi-Om8jj2E" target="_blank">Singularity Registry HPC (shpc)</a>: and at the <a href="https://youtu.be/P32RYY_2V7w" target="_blank">US-RSE Virtual Conference</a> May, 2021</li>
