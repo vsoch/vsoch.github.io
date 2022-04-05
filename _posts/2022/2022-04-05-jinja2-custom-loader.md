@@ -26,6 +26,7 @@ Let's say we have "fruits.html" for the above, and then a list of fruits in Pyth
 We might do:
 
 ```bash
+
 from jinja2 import Template
 
 fruits = ["apple", "orange", "banana"]
@@ -45,6 +46,8 @@ something like:
 or rendered as html:
 
 <ul><li>apple</li><li>orange</li><li>banana</li></ul>
+
+<br>
 
 So now let's pretend you have a bit of a more complex template. Instead of hard coding the list
 into your file, you instead have a second template, list.html, that expects a listing of things.
@@ -78,7 +81,9 @@ So the solution is to provide it that context. Let's say we have a directory cal
 same directory as the file that uses it. We would instead do:
 
 ```python
+
 from jinja2 import Environment, FileSystemLoader
+import os
 
 here = os.path.dirname(os.path.abspath(__file__))
 
