@@ -23,7 +23,7 @@ interface for collecting metadata about builds.</li>
 
 <h3><strong>Projects</strong></h3>
 <ul>
-       <li><a href="https://vsoch.github.io/candy-generator" target="_blank">The Candy Generator<a>: for open source Halloween fun!</a></li>
+       <li><a href="https://vsoch.github.io/candy-generator" target="_blank">The Candy Generator</a>: for open source Halloween fun!</li>
 	<li><a href="https://vsoch.github.io/chonker-awards/" target="_blank">The Chonker Awards</a>: Automatically updating interface to show the largest files across my GitHub repositories.</li>
 	<li><a href="https://vsoch.github.io/caliper/" target="_blank">caliper</a>: a tool for measuring and assessing change in packages</li>
 	<li><a href="https://github.com/urlstechie" target="_blank">Url Checker</a>: A command line client and GitHub action to check URLs in static files</li>
