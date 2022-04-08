@@ -278,7 +278,7 @@ will be excited about your idea. But the key to this tip is:
 
 > You can find insights when you try to take the perspective of others
 
-### Make Choices to do things you like
+### Choose a Job Role that Matches you
 
 This is a very long term one! The role that you pursue obviously has implications for time management. 
 If you decide to be a manager, you are making a life choice about more meetings. You will have to meet with some number
