@@ -1,6 +1,6 @@
 ---
 title: "Jinja2: Have your string and filesystem loader too?"
-date: 2022-03-28 12:30:00
+date: 2022-04-05 12:30:00
 ---
 
 The other day I wanted to have my cake and eat it too! If you aren't familiar with 
