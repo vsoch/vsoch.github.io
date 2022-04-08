@@ -254,6 +254,11 @@ Have you ever been in a flow state of work? It helps to have a lot of time, and 
 and my editor is open, time flies by, and productivity seems to happen. I also like being surrounded by colored lights and having a music video playing in front of me along with the music for a bit of treadmill dancing. However, the environment for your flow state may not look like mine.
 It could be you can achieve flow in a coffee shop, or even in complete quiet.
 
+### Lounge Time
+
+I think it's interesting that some of us work so much that we don't leave any time for thinking! Why do you think "shower thoughts" is a thing? It's because some people really don't relax and think until they are in the shower and then "aha!" the solution to that hard problem comes to light. This also happens to me during a good sleep or even a nap. So what I want to suggest here is to make sure to fit some "lounge time," whether that's laying on the bed staring at the ceiling, on a rug out an open window, or in a comfy chair with your eyes closed - make sure you get some time like this every day. It's just for you, to relax and let your mind wander. I can't tell you how many insights have come to me when I'm not working.
+
+
 ### Routine saves time
 
 This might be my preference, but I find that (for other aspects of my day) when I follow a routine it's less to think about. For example, I don't need to plan outfits or know where to find clothing, I always keep them in the same place in the closet and grab the same ones. I have the same routine in the morning, and routine for dinner, and nightly routine. This kind of consistency gives me some stability if there is a lot of change in my work. Of course if your state catches on fire and the world starts to fall apart, even the best routine won't help you! But generally, routine is good to give you some comfort. But in a larger sense, if you have parts of your day that feel taxing, see if you can turn any of the pieces into a routine (that perhaps you can optimize?) so it is less so.
@@ -304,6 +309,7 @@ So I suspect there is some combination of focus, handling lots of tasks at once,
 <li>Prioritize sleep! If you are well rested you will be more efficient.</li>
 <li>Have days where you take it easy, especially after long or overly productive days</li>
 <li>Question everything on your list. Don't do everything.</li>
+<li>Take time to be a lounge lizard.</li>
 <li>Find your flow state.</li>
 <li>Turn taxing parts of your day into routines.</li>
 <li>Leave fun things to start on the next day.</li>
