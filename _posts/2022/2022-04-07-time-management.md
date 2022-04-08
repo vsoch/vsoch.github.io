@@ -78,7 +78,8 @@ other party does not - the data preprocessing, setting up some pipeline, and aut
 
 ### Open Source Online ML
 
-I've been working on a River pull request to refactor the nearest neighbors library, and the last state from a few
+I've been working on a <a href="https://github.com/online-ml/river" target="_blank">River</a> pull request to 
+refactor the nearest neighbors library, and the last state from a few
 days ago had some nasty "un-pickleable result" error that I was too tired to deal with then. I decided to look at it,
 and it was fairly easy to work on. I first created a testing example of pickling something to generate the same
 error, and then learned there were two issues with my code. The first was defining a class within a class - it needed
@@ -90,14 +91,14 @@ first data analysis project, I have a custom solution for one of our models I'm 
 
 I haven't been able to attend the Open Containers Reference Types working group meetings, but I've been aware of what
 is going on and looked at the current proposals. I had a vague idea for a proposal and wrote it up, and sent it to someone
-for feedback. I have brought an idea to OCI before and ultimately felt very stupid and embarrassed so I might not submit this
-one. I figured I'd get feedback first.
+for feedback. I have brought an idea to <a href="https://opencontainers.org/" target="_blank">OCI</a> before and 
+ultimately felt very stupid and embarrassed so I might not submit this one. I figured I'd get feedback first.
 
 ### Singularity HPC Version Parsing
 
 We are refactoring the version parsing of shpc to be custom for container tags, which in and of itself I can write an entire post on!
 For today's work, we noticed that sometimes people have tags that are essentially git hashes, and we will want to avoid
-these tags in our automated updates as they have no meaning in the context of numberical release tags. So i wrote a custom set of
+these tags in our automated updates as they have no meaning in the context of numberical release tags. So I wrote a custom set of
 filters for the shpc parser to look for strings of lowercase characters and numbers, and given no other types, to remove
 the tag. In a testing set of ~290 containers it looked to do fairly well (all the commit hashes that were there previously
 are no longer selected).
@@ -113,22 +114,19 @@ I got up into writing the markdown but then got lazy and distracted and worked o
 
 I created two automated workflows for libabigail - one to build and release a container on push, pull request, or scheduled job,
 and the other to run libabigail checks *on* the library libabigail. It was pretty cool because the developer I was working with
-got interesting in containerization and took a shot at making a Fedora container, and he did a good job1 I was slightly unnerved when
-he pushed a recipe to master all willy nilly and broke all my pipelines, but I just let it go, because I don't think he realized
-about the whole pull request and discuss thing. We will talk about this I am sure! Sometimes three steps forward means one forward,
-two back, and then... four forward! Progress and learning cannot always be linear and that's okay.
+got interesting in containerization and took a shot at making a Fedora container, and he did a good job!
 
 ### CiteLang Parsing
 
 I'm working on a software credit attribution system, and part of that is checking the quality of my dependency file parsing. Since this is hard
-to do, I have a set o ~1500 repos running continuously, and catching an error at various points and then waiting in an interactive session.
+to do, I have a set of ~1500 repos running continuously, and catching an error at various points and then waiting in an interactive session.
 This means if I find myself with free time or taking a break I can debug an issue and then let it keep running. I'm about 350 in so that's pretty good!
 This project is actually two things - the library to do the analysis, and using the Research Software Encyclopedia as a database.
 I'm pretty excited for what I could say about software. It's just a fun side project though!
 
 ### Talk Practicing
 
-I was giving a talk this week, a 45 minute talk mind you, and that is a lot of preparation and angst. Today I didn't practice a ton,
+I gave a talk today, a 45 minute talk mind you, and that is a lot of preparation and angst. Yesterday I didn't practice a ton,
 but I did lie on my bed for a few minutes and walk myself through the parts of it, and focus on parts that I wasn't super strong on
 for my practice earlier in the week. My visual and auditory memory is very good so I can usually just lie there and even talk to myself
 and practice a bunch of it without seeing the slides.
@@ -140,7 +138,7 @@ I can share the projects that I'm dreaming about, which will come next in the qu
 and my current error parsing library. I want to extend my version parsing idea into it's own proper library, and make it easy for someone
 to create their own processing / sorting / ordering pipeline for versions. Versions are hard, yo! I also want to check out what
 the folks at Dagger.io are up to, because "DevOps operating system" and implemented in Go makes me feel giddy it's like my two favorite things!
-We also have a ton of features in the queue to work on for SHPC. After the automated updates we are thinking about symlinks and views,
+We also have a ton of features in the queue to work on for shpc. After the automated updates we are thinking about symlinks and views,
 and how to represent gpu metadata.
 
 ## Is that a lot?
@@ -230,7 +228,9 @@ I've seen a lot of people close to me freeze under uncertainty. Perhaps they are
 until they have absolute certainty about details. Or they are doing some data science work and feel that they need to understand every possible derivation
 of an algorithm before choosing one. My advise here is not freeze. Of course there is a minimal amount of information you need to start something, but it's okay to start with maybe 60% certainty about something and change your mind as you go. I've actually found that I learn while exploring an idea, even if I wind up changing my mind. Is this maybe a form of learning by doing? If so, the only difference between learning by doing and passive learning is that in the second case you have nothing to show for it.
 
-> Don't be afraid to jump in without certainty.
+Another point here is that there is something to say about failing quickly. If you can quickly try something and determine that it's not a good option, this gets you one step closer to the desired outcome. Had you sat there in decision paralysis, you wouldn't have even gotten this far.
+
+> Don't be afraid to jump in without certainty. Failure can be a good thing for progress.
 
 ### Have Self Compassion
 
@@ -273,7 +273,7 @@ to overcome the interia of say, a very comfortable bed. I'm not saying that you 
 This might not be a problem that other people have, but I often run out of things to do. Now, I might want more than anything to dive into a fun
 personal project, but I'm certainly not being paid by my employer to do that. This is where I sometimes step outside of myself (metaphorically) and look
 at the situation around me. What are other people working on? What is important for the project? I might look into something, start a small project, or
-engage with people in slack with a new idea that I think might be cool or useful. If it's a good day, you'll get a response and maybe some people
+engage with people in Slack with a new idea that I think might be cool or useful. If it's a good day, you'll get a response and maybe some people
 will be excited about your idea. But the key to this tip is:
 
 > You can find insights when you try to take the perspective of others
@@ -301,7 +301,7 @@ So I suspect there is some combination of focus, handling lots of tasks at once,
 <ol class="custom-counter">
 <li>Turn off all notifications (minus on-call ones) and respond on your own time.</li>
 <li>Break big things into smaller things, and do smaller things for mental boosts</li>
-<li>Work when you feel like it, and not one second more.</li>
+<li>Move towards work that you like to do.</li>
 <li>Recognize patterns in your work, create templates, and re-use!</li>
 <li>Minimize meetings. Make the ones you have to go to better</li>
 <li>Watch out for zoom (or other tech) fatigue and manage it</li>
