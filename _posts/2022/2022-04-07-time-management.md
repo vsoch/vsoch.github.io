@@ -113,10 +113,10 @@ I got up into writing the markdown but then got lazy and distracted and worked o
 
 I created two automated workflows for libabigail - one to build and release a container on push, pull request, or scheduled job,
 and the other to run libabigail checks *on* the library libabigail. It was pretty cool because the developer I was working with
-got interesting in containerization and took a shot at making a Fedora container, and he did a good job1 I was slighty unnerved when
+got interesting in containerization and took a shot at making a Fedora container, and he did a good job1 I was slightly unnerved when
 he pushed a recipe to master all willy nilly and broke all my pipelines, but I just let it go, because I don't think he realized
 about the whole pull request and discuss thing. We will talk about this I am sure! Sometimes three steps forward means one forward,
-two back, and then... four foward! Progress and learning cannot always be linear and that's okay.
+two back, and then... four forward! Progress and learning cannot always be linear and that's okay.
 
 ### CiteLang Parsing
 
@@ -215,7 +215,7 @@ of time in a week instead of scattered "all the time."
 
 ### Don't Get Zoom Fatigue
 
-One of the downsides of virtual or remote work is Zoom fatigue. It's a <a href="https://news.stanford.edu/2021/02/23/four-causes-zoom-fatigue-solutions/" target="_blank">real thing</a> and it impacts women more than men. The reason this is related to time management is because if you are exhausted it doens't matter how much time you have - it deprecates to zero. Although the push to be on camera is embedded in the culture of an organization, if you are at an org that wants to "see all your happy faces" because "we value the face to face interaction" this is a time for you to step up and set clear limits for your ability to do that. Maybe you decide to go on camera for meetings later in the day, or some percentage of meetings. What you shouldn't do is nothing, and then force yourself into a Zoom fatigue. Also if you do nothing, how can an organization ever have change? Someone has to set the example. This isn't necessarily an issue for everyone, but it is for me.
+One of the downsides of virtual or remote work is Zoom fatigue. It's a <a href="https://news.stanford.edu/2021/02/23/four-causes-zoom-fatigue-solutions/" target="_blank">real thing</a> and it impacts women more than men. The reason this is related to time management is because if you are exhausted it doesn't matter how much time you have - it deprecates to zero. Although the push to be on camera is embedded in the culture of an organization, if you are at an org that wants to "see all your happy faces" because "we value the face to face interaction" this is a time for you to step up and set clear limits for your ability to do that. Maybe you decide to go on camera for meetings later in the day, or some percentage of meetings. What you shouldn't do is nothing, and then force yourself into a Zoom fatigue. Also if you do nothing, how can an organization ever have change? Someone has to set the example. This isn't necessarily an issue for everyone, but it is for me.
 
 > Identify what level of "on camera" virtual meetings tires you out and set limits for yourself.
 
