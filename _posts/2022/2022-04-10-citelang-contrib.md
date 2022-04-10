@@ -155,10 +155,13 @@ authors:
    Dave Trudgian: David Trudgian
    Gregory: Gregory M. Kurtzer
  ignore_bots: true
- ignore:
+ ignore_users:
    - root
 ```
 
+**Update** citelang also now has support for ``ignore_basename`` and ``ignore_files`` to not parse
+specific files, such as go.mod and go.sum that are automatically derived and should not count toward credit!
+With this change we also tweaked the parsing to not count empty lines, since no code is actually written there!
 Note that you could also use this alias functionality to assign people to groups (companies,
 organizations, labs, etc.) as a different way to summarize. And special shoutout to the main group 
 of guys at the top (yes it is all men, I can say guys) before my GitHub username that have been the 
