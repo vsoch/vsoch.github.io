@@ -1,6 +1,7 @@
 ---
 title: "Time Management"
 date: 2022-04-07 12:30:00
+category: rse
 ---
 
 I'm continually fascinated by how people are always so busy. 

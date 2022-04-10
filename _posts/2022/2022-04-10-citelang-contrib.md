@@ -1,6 +1,7 @@
 ---
 title: "Open Source Contributions with CiteLang"
 date: 2022-04-10 12:30:00
+category: rse
 ---
 
 I recently contributed to a project, and a maintainer pinged me apologizing that it didn't
