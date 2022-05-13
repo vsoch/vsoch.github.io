@@ -74,7 +74,7 @@ author:
   facebook : http://facebook.com/vsochat
 
 # social settings
-og_locale: "pt_BR"
+og_locale: "en_US"
 twitter_card: "summary"
 twitter_site: "@vsoch"
 twitter_image: https://vsoch.github.io/assets/images/avatar.png
