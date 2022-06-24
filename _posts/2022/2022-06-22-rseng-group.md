@@ -1,5 +1,5 @@
 ---
-title: "So You Want to Start an Research Software Engineering Group?"
+title: "So You Want to Start a Research Software Engineering Group?"
 date: 2022-06-22 21:30:00
 category: rse
 ---
