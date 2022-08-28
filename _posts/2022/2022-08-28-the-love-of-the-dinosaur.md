@@ -59,13 +59,16 @@ with the first two. I realized at some point in college that
 to allow me to release that energy. It started with running, which I've done since I was 13 or 14 years old. At the time
 I didn't realize it, but when I discovered running it felt like a way to release some of my intensity. It felt great,
 and my liking of routine meant I could go to a tiny track above a basketball court (I think 23 or 24 laps was a mile)
-and just run in many circles and enjoy it. I'd bring a Sony Discman with strapped to my hand and listen to CDs I burned myself
+and just run in many circles and enjoy it. I'd bring a Sony Discman strapped to my hand and listen to CDs I burned myself
 and 90s music, and it was fun. When I introspected 15 years later, I realized that music and movement combined made me feel good. 
 I could hear a song that was heavy with emotion (positive or negative) and it would reflect
 either a deep joy or sadness that I had, and allow me to quietly express it. This is still true for me today. This is where 
-the positive side of my intensity finally revealed itself. When I combined music and movement with my first job where I was tasked
-to figure out the command line, high performance computing, and basic programming, I hit a flow state. This was (finally)
-my intensity harnessed in a way that wouldn't hinder, but rather would help me.
+the positive side of my intensity finally revealed itself. When I combined music and movement with computers (in my first job I was tasked
+to figure out the command line, high performance computing, and basic programming), I hit a flow state. This
+is where "color" comes in - the entire experience of the music, the colorful syntax highlighting, and focus
+was this beautiful symphony of experience I had never had before. I found I could solve hard problems in this state,
+and hours would pass like nothing. I'd finish a programming session and feel proud of myself, and
+at peace with any previous stressors in the day. This was (finally) my intensity harnessed in a way that wouldn't hinder, but rather would help me.
 
 
 ## Mindset
