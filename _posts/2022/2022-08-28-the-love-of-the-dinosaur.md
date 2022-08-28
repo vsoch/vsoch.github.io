@@ -47,9 +47,9 @@ or just self-monitoring to try and be someone that others would like, it could s
 on the onset of shutting down. I might be okay for half a day, but then "all of the things" in the current situation were too much.
 This didn't happen to me in high school because of the safety of routine - I walked to school in the morning, went to classes,
 went to cross country / track practice after, and then home for homework and quiet in the evening. Interactions and activities 
-were largely predictible. College caught me off guard, because along with losing that structure, I kept being hit with adversity
+were largely predictable. College caught me off guard, because along with losing that structure, I kept being hit with adversity
 after adversity. I didn't often feel safe, either in understanding who I was and what my place was in the world, or in having
-security in a predictible routine and interactions with other people. I'd often need to retreat to privacy to recover. 
+security in a predictable routine and interactions with other people. I'd often need to retreat to privacy to recover. 
 I think this is a fairly typical trait for someone that is introverted. You only have so much quota for particular kind of 
 interactions that are draining, during which maybe you exert extreme control over yourself to behave in a certain way, and eventually you run out.
 
@@ -163,7 +163,7 @@ to, it's because it's fun. It's how I express myself, my creativity and ideas, a
 ## TLDR
 
 To again respond to the Tweet, I don't think anyone needs to try and be like someone else, but rather
-to introspect into themselves and find the path that is going to make themselves feel fullfilled.
+to introspect into themselves and find the path that is going to make themselves feel fulfilled.
 I took a lot of bad experiences and things that I didn't like about myself (or were simply just different)
 and harnessed them for my own success and happiness. And despite this successful outcome, I don't wish the 
 experiences that I had on anyone, because it would have been so easy to not have a good outcome. 
