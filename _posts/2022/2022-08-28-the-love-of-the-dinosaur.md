@@ -21,8 +21,8 @@ And that's what brought me here to introspect. So first,
 here is why, based on what our society values, you should not want to share qualities with me:
 
 <ol class="custom-counter">
-   <li>My personality is intense. The way that I work, and even how I speak, <a href="https://vsoch.github.io/2022/by-myself/">overwhelms other people.</a></li>
-   <li>My interests are not hobbies or brief activities, they are enduring <a href="https://vsoch.github.io/2022/wild-one/">obsessions.</a></li>
+   <li>My personality is intense. The way that I work, and even how I speak, <a href="https://vsoch.github.io/2022/by-myself/" target="_blank">overwhelms other people.</a></li>
+   <li>My interests are not hobbies or brief activities, they are enduring <a href="https://vsoch.github.io/2022/wild-one/" target="_blank">obsessions.</a></li>
    <li>After I faced relentless adversity, I became selfish and pursued a life path to <a href="https://vsoch.github.io/2021/reflections/" target="_blank">maximize my freedom and happiness.</a></li>
    <li>Humans are very social, and many family oriented. <a href="https://vsoch.github.io/2020/wfh/">I am not.</a></li>
 </ol>
