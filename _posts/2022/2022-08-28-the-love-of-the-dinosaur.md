@@ -94,7 +94,12 @@ ability to do things.  Part of this is tied to the way that I learn. Because I l
 don't really enjoy reading about doing them or watching someone else doing them) I've done that more over time, and I've gotten
 pretty good at this "hands on" method of learning. Having successful outcomes (maybe at anything you try, I think?) gives you
 confidence in your ability to do it again. This means that I can start working on a task with absolutely no direction or idea of where I'm going, but I figure it out
-as I go. I don't have certainty of the direction or outcome but I have confidence that I'll figure that out as I go. The larger
+as I go. I mention this because I realize not everyone is like this - I know many talented engineers that need almost complete certainty of a path
+before pursuing it. They think through all the details before writing a line of code, and it might even be hard for me to work with them
+because "I don't know yet" is not a satisfactory answer. As a side note, it's really useful to identify if you have a conflicting work style with
+another engineer, because you can talk about it and identify strategies for both of you to be effective and happy. 
+I think of needing certainty as an invisible barrier. While I don't have certainty of the direction or outcome, I have confidence that I'll figure
+that out as I go. I don't even have issue trying out multiple things, and learning from experience the pros and cons of each. The larger
 barrier for me is really wanting to do things. I've never been someone you can tell to do something - ironically that sometimes makes me
 *not* want to do it. I'm just not extrinsically motivated.  🤷‍♀️️
 
