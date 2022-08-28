@@ -161,9 +161,16 @@ Now we get to ideas. The reason I told the stories above is because I needed to 
 excited by an idea, and have a very low barrier to entry to working on it. The "secret" (if you will) is that
 I derive meaning from my work (again, not for everyone), joy from the actual practice of doing it, and
 my life experiences have accumulated to make me a person that wants to have fun (my own definition of fun, mind you).
-The creative side of me enjoys making thse same projects beautiful (branding and documentation) and never at a shortage
+The creative side of me enjoys making these same projects beautiful (branding and documentation) and never at a shortage
 of ideas. Are s̶o̶m̶e̶ most of them terrible ideas? Indeed! I just don't care. I'm not writing software because I have
 to, it's because it's fun. It's how I express myself, my creativity and ideas, and experience a sense of meaning.
+When I tire out of working on one idea, I can quickly jump to another one and the positive flow continues. 
+It's a bit like an addiction really, but (for the work that is part of my employment) I get paid for it.
+I think that's a win-win? Thus, a strategy that I'm working on is maximizing the overlap between the things I'm excited about
+and want to learn with the things I have to do. As I did after college, that is about taking tiny steps toward the future
+version of you that you want to be, and the work that you want to be doing. No job is going to be perfect for you
+out of the gate, but given a generally supportive and kind group of people around you and problems
+needing to be solved, you can slowly move toward something that is.
 
 ## TLDR
 
