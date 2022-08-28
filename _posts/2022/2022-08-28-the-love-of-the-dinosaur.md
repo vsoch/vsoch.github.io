@@ -183,7 +183,7 @@ I took a lot of bad experiences and things that I didn't like about myself (or w
 and harnessed them for my own success and happiness. And despite this successful outcome, I don't wish the 
 experiences that I had on anyone, because it would have been so easy to not have a good outcome. 
 It would have been so easy to place the burden of "fixing things" on someone else, but I owned it.
-Thus, if you do identify that you want to change someone about yourself,
+Thus, if you do identify that you want to change something about yourself,
 it really does come down to your choices. Some gentle reminders that have helped me over the years:
 
 <ol class="custom-counter">
