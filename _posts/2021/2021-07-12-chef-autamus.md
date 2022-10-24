@@ -31,7 +31,7 @@ a <a href="https://github.com/autamus/builder" target="_blank">few</a> <a href="
 to build a new container along with containers for all dependencies. This functionality could easily be added to spack one day, but it comes at the cost of many more pull requests for maintainers to review, so it wouldn't be a good decision at this point in time. However, all of the updated package files live in the registry, and could
 be extended to spack some day.
 
-Autamus serves a different use case than spack as it provides container bases (and tools around that related to containers) and shoud not be considered a competitor. Likely
+Autamus serves a different use case than spack as it provides container bases (and tools around that related to containers) and should not be considered a competitor. Likely
 you would use one or the other based on your use case.
 
 ## How does it work?

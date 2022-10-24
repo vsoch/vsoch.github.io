@@ -29,7 +29,7 @@ So do you see it? Those are pictures of vision. This is the post where I want to
 
 ### What is vision?
 
-Vision often comes at you as a surprise, like you are walking along and ruminating and all of a sudden the pieces come together in your mind and you stop and metaphorically fall to your knees. It can happen suddently and unexpectedly, or be a slow growing ache. I suspect that most vision starts with something we notice in the world that we aren't happy with. And then by way of rumination, turning around ideas a thousand times in our heads (and even subconsciously), we accidentally stumble on an idea that we think could be actionable. But maybe it's not actionable for us in that very moment, because we have to overcome challenges to get there. So what do I think vision is? I think it is very personal. 
+Vision often comes at you as a surprise, like you are walking along and ruminating and all of a sudden the pieces come together in your mind and you stop and metaphorically fall to your knees. It can happen suddenly and unexpectedly, or be a slow growing ache. I suspect that most vision starts with something we notice in the world that we aren't happy with. And then by way of rumination, turning around ideas a thousand times in our heads (and even subconsciously), we accidentally stumble on an idea that we think could be actionable. But maybe it's not actionable for us in that very moment, because we have to overcome challenges to get there. So what do I think vision is? I think it is very personal. 
 
 > Vision is a hypothesis about a future reality that we think could be possible given our own personal growth. 
 

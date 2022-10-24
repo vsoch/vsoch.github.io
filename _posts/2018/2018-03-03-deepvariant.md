@@ -413,7 +413,7 @@ And now we can address the interaction between the two parties above. I've been 
 
 
 ## Software Engineer
-Now let's talk about my boat, the software engineer. I am terrible as an HPC admin, and mediocre as a software engineer, but I span the two spices nicely enough to understand the challenges and needs of both. I want to be able to use the miniumum amount of "modern" resources to build something that is reproducible and runs on HPC. This was the first driver for the early conversion script of Docker to Singularity, and now the core of Singularity that makes it possible, period, for a researcher to run any Docker image, as we might have done above:
+Now let's talk about my boat, the software engineer. I am terrible as an HPC admin, and mediocre as a software engineer, but I span the two spices nicely enough to understand the challenges and needs of both. I want to be able to use the minimum amount of "modern" resources to build something that is reproducible and runs on HPC. This was the first driver for the early conversion script of Docker to Singularity, and now the core of Singularity that makes it possible, period, for a researcher to run any Docker image, as we might have done above:
 
 ```bash
 singularity shell docker://ubuntu:14.04

@@ -9,7 +9,7 @@ an orchestration tool for it. I knew it would be a long time coming, because
 not only did we need to be able to stop and start containers, we also needed
 to be able to (akin to Docker) create a 
 <a href="https://en.wikipedia.org/wiki/Bridging_(networking)">bridge network</a>
-(conceptually similar to a router) on the host, and then programatically query for their process ids.
+(conceptually similar to a router) on the host, and then programmatically query for their process ids.
 
 In the last week or so, I decided that it was time! Today I want to share you an
 <a target="_blank" href="https://singularityhub.github.io/singularity-compose">Alpha release</a> 

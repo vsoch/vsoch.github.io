@@ -27,7 +27,7 @@ might be able to provide such an easy service, checking urls in static files.
 I also had my eye on the lookout for a tool that would best serve the scientific
 community, likely meaning something in Python. It's not to say that other languages aren't
 equally good, but rather if something breaks or needs a look in terms of the code,
-if the language is something familar, it's easier for the community to adopt (e.g.,
+if the language is something familiar, it's easier for the community to adopt (e.g.,
 html-proofer is in ruby, which isn't common amongst scientific programmers).
 It was after a few months that I stumbled on the <a href="https://github.com/urlstechie" target="_blank">urlstechie</a> organization, 
 which was created by <a href="https://github.com/SuperKogito" target="_blank">SuperKogito</a> for this exact purpose.

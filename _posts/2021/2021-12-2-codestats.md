@@ -111,7 +111,7 @@ $ ./codestats repo buildsi/build-abi-containers --config examples/health-stats.y
 ```
 
 The result of these commands is always a json file, and in a consistent format to include
-a list of repositories. Now the next step would be to make this data easy to serach!
+a list of repositories. Now the next step would be to make this data easy to search!
 
 
 ### Web Interface

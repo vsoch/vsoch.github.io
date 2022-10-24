@@ -37,7 +37,7 @@ issue board around this exact idea.
 ## What do We Need?
 
 We need a <strong>version controlled</strong> and <strong>automated</strong> issue reporting system that can either
-create the entire issue on behalf of the user (given a GitHub token), or a more interative version
+create the entire issue on behalf of the user (given a GitHub token), or a more interactive version
 that opens up a pre-populated issue report and allows the user to provide additional context.
 Specifically, I would want the following:
 

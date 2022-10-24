@@ -42,7 +42,7 @@ updated view of the embeddings. And I couldn't just use a standard cloud server,
 
 ## Online Machine Learning
 
-This led to a search for "streaming" and "machine learning" and I stumbled on the concept of <a href="https://en.wikipedia.org/wiki/Online_machine_learning" target="_blank">online machine learing</a> (online ML):
+This led to a search for "streaming" and "machine learning" and I stumbled on the concept of <a href="https://en.wikipedia.org/wiki/Online_machine_learning" target="_blank">online machine learning</a> (online ML):
 
 > In computer science, online machine learning is a method of machine learning in which data becomes available in a sequential order and is used to update the best predictor for future data at each step, as opposed to batch learning techniques which generate the best predictor by learning on the entire training data set at once. Online learning is a common technique used in areas of machine learning where it is computationally infeasible to train over the entire dataset, requiring the need of out-of-core algorithms. It is also used in situations where it is necessary for the algorithm to dynamically adapt to new patterns in the data, or when the data itself is generated as a function of time, e.g., stock price prediction. Online learning algorithms may be prone to catastrophic interference, a problem that can be addressed by incremental learning approaches.  - Wikipedia Authors
 

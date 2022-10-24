@@ -34,7 +34,7 @@ a reproducible product.
 # How could I help?
 
 As an early user, I noticed that many aspects of the checklist I could potentially
-check programatically. For example (but not limited to):
+check programmatically. For example (but not limited to):
 
 <ol class="custom-counter">
 <li>Checking for an acceptable word count</li>
@@ -106,7 +106,7 @@ and reproducible for science. For example, this tool is a combination of:
 <li>extracting metadata from a markdown file</li>
 <li>validating the markdown based on some criteria</li>
 <li>generating a random (or in this case, regular expression matched) icon from a static API</li>
-<li>buiding a PDF</li>
+<li>building a PDF</li>
 </ol>
 
 And with the continuous integration recipes we can plug all of the above into a template. For you,

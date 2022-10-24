@@ -10,7 +10,7 @@ This is an incredibly exciting day for me, because I have finished my first “r
 
 **Overview**
 
-This application is used for creating syntax (.sps) files to score behavioral data for the Duke NeuroGenetics Study. The user can select a data file (.sav), an output folder, and whether or not results should also be merged into one file. This application simply writes the script to produce the desired output, and does NOT run the script. After using this application, the user should go to the output folder and run the .sps script in PASW Statistics to produce the scored data.
+This application is used for creating syntax (.sps) files to score behavioral data for the Duke NeuroGenetics Study. The user can select a data file (.save), an output folder, and whether or not results should also be merged into one file. This application simply writes the script to produce the desired output, and does NOT run the script. After using this application, the user should go to the output folder and run the .sps script in PASW Statistics to produce the scored data.
 
 **Tips for Use**
 

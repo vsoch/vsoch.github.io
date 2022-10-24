@@ -167,7 +167,7 @@ And here is a flattened taxonomy to emphasize the examples within. Note that a p
 ### Software to support research -> Used for research, but not explicitly for it
 - Databases
 - Application programming interfaces
-- Frameworks (to generate documentation, content mangement systems, etc.)
+- Frameworks (to generate documentation, content management systems, etc.)
 
 ### Software to support research -> Incidentally used for research
 - Operating Systems
@@ -208,7 +208,7 @@ From our criteria discussion in the first section, we can derive the following q
 </ul>
 
 
-At the end of this procedure, for each piece of software we have a score based on the criteria (ranging from 0 to N, where N is the maximum number of criteria), and a grouping in the taxonomy. An individual or group should then singly or holistically consider the two points mentioned above, namely applying a point threhold for criteria, and possible filtering down to a subset of categories. The resulting pieces of software, namely those that are at or above the criteria needed and within the scope of interest, are then classified as research software. Importantly, they are classified as research software in the context of the use case. This simple method of defining criteria and a taxonomy, and then collaboratively creating data and tools around that, empowers us to make decisions about whether or not the software is research software for our particular use case.
+At the end of this procedure, for each piece of software we have a score based on the criteria (ranging from 0 to N, where N is the maximum number of criteria), and a grouping in the taxonomy. An individual or group should then singly or holistically consider the two points mentioned above, namely applying a point threshold for criteria, and possible filtering down to a subset of categories. The resulting pieces of software, namely those that are at or above the criteria needed and within the scope of interest, are then classified as research software. Importantly, they are classified as research software in the context of the use case. This simple method of defining criteria and a taxonomy, and then collaboratively creating data and tools around that, empowers us to make decisions about whether or not the software is research software for our particular use case.
 
 <br><br>
 

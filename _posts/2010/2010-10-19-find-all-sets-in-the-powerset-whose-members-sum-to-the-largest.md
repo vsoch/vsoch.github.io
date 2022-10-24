@@ -32,19 +32,19 @@ for i = ( 0:(2^numel(theSet))-1 )
 </code>
 </pre>
 
-3) We then want to find the indicies for each possible set. This means that, for each value of i, we will generate an array of 0’s and 1’s, with a one at each spot where a member is located.
+3) We then want to find the indices for each possible set. This means that, for each value of i, we will generate an array of 0’s and 1’s, with a one at each spot where a member is located.
 
 <pre>
 <code>
-indicies = logical(bitget( i,(1:numel(theSet)) ));
+indices = logical(bitget( i,(1:numel(theSet)) ));
 </code>
 </pre>
 
-4) We can then use these indicies to get the actual numbers from the set, and put the set into a variable.
+4) We can then use these indices to get the actual numbers from the set, and put the set into a variable.
 
 <pre>
 <code>
-set_holder = {theSet(indicies)};
+set_holder = {theSet(indices)};
 </code>
 </pre>
 
@@ -57,12 +57,12 @@ set_holder = {theSet(indicies)};
 if length(set_holder{1}) > 1
 % Find the index of the largest number, get the number
 % (Assuming set organized least --> greatest)
-largest_member = find(indicies,1,'last');
+largest_member = find(indices,1,'last');
 largest_member = theSet{largest_member};
 
 total_sum=0;
 % Get the sum of the remaining numbers
-set_sum = find(indicies(1:length(indicies)),'1');
+set_sum = find(indices(1:length(indices)),'1');
 for z = 1:length(set_sum)-1
 total_sum = total_sum + theSet{set_sum(z)};
 end
@@ -71,7 +71,7 @@ end
 % add it to our output set:
 
 if (total_sum == largest_member)
-p{candidate_count+1} = {theSet{indicies}};
+p{candidate_count+1} = {theSet{indices}};
 candidate_count = candidate_count +1;
 end
 end
@@ -104,7 +104,7 @@ function powerset(Set)
 % First we want to cycle through all the subsets of the input set, and save the
 % ones that have the largest number be the sum of all other numbers.  Since,
 % according to wikipedia, the largest number of subsets for any set is 2 to
-% the n, we can go through a loop of that size and create indicies for every
+% the n, we can go through a loop of that size and create indices for every
 % combination of subsets, and then add subsets to an array that are
 % candidates.  We will use the function powerset_review to do this!
 
@@ -173,25 +173,25 @@ for i = ( 0:(2^numel(theSet))-1 )
 
 % Convert i into binary, convert each digit in binary to a boolean
 % and store that array of booleans
-indicies = logical(bitget( i,(1:numel(theSet)) ));
+indices = logical(bitget( i,(1:numel(theSet)) ));
 
 % Use the array of booleans to extract the members of the original
 % set, and check the set to see if the largest number is equal to
 % the sum of the additional numbers.  If yes, store the set
 % containing these members in the powerset.  This algorithm
 % assumes that the set is sorted from least --&amp;amp;amp;amp;amp;amp;gt; greatest.
-set_holder = {theSet(indicies)};
+set_holder = {theSet(indices)};
 
 % If the set is greater than one element
 if length(set_holder{1}) > 1
 % Find the index of the largest number, get the number
 % (Assuming set organized least --> greatest)
-largest_member = find(indicies,1,'last');
+largest_member = find(indices,1,'last');
 largest_member = theSet{largest_member};
 
 total_sum=0;
 % Get the sum of the remaining numbers
-set_sum = find(indicies(1:length(indicies)),'1');
+set_sum = find(indices(1:length(indices)),'1');
 for z = 1:length(set_sum)-1
 total_sum = total_sum + theSet{set_sum(z)};
 end
@@ -200,7 +200,7 @@ end
 % add it to our output set:
 
 if (total_sum == largest_member)
-p{candidate_count+1} = {theSet{indicies}};
+p{candidate_count+1} = {theSet{indices}};
 candidate_count = candidate_count +1;
 end
 end

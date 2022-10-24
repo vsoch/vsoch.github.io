@@ -214,7 +214,7 @@ So the above says that if we have an input that looks like this:
 
 The <a href="https://www.nginx.com/resources/wiki/modules/upload/#upload-set-form-field">upload_aggregate_form_field</a> is similar, but it's more of function that **drumroll** aggregates!:
 
-> Specifies a form field(s) containing aggregate attributes to generate for each uploaded file in request body passed to backend. Both name and value could contain standard NGINX variables, variables from upload_set_form_field directive and following additional special variables: * $upload_file_md5 – MD5 checksum of the file * $upload_file_md5_uc – MD5 checksum of the file in uppercase letters * $upload_file_sha1 – SHA1 checksum of the file * $upload_file_sha1_uc – SHA1 checksum of the file in uppercase letters * $upload_file_crc32 – hexdecimal value of CRC32 of the file * $upload_file_size – size of the file in bytes * $upload_file_number – ordinal number of file in request body
+> Specifies a form field(s) containing aggregate attributes to generate for each uploaded file in request body passed to backend. Both name and value could contain standard NGINX variables, variables from upload_set_form_field directive and following additional special variables: * $upload_file_md5 – MD5 checksum of the file * $upload_file_md5_uc – MD5 checksum of the file in uppercase letters * $upload_file_sha1 – SHA1 checksum of the file * $upload_file_sha1_uc – SHA1 checksum of the file in uppercase letters * $upload_file_crc32 – hexadecimal value of CRC32 of the file * $upload_file_size – size of the file in bytes * $upload_file_number – ordinal number of file in request body
 
 ```bash
 

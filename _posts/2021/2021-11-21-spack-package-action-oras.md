@@ -262,7 +262,7 @@ to. So this thought occurred to me earlier today:
 
 > Why not GitHub packages?
 
-And yes, why not! As we've seen from the above, we are able to generate a programatically accessible build cache (artifacts) for a spack package,
+And yes, why not! As we've seen from the above, we are able to generate a programmatically accessible build cache (artifacts) for a spack package,
 and store in GitHub packages. If this is an interesting or desired direction, the next step would be for us to put our heads together and
 decide how we might want this to work. Should we have different automated caches with different families of packages? Should we store some more
 permanent key alongside the repository instead of generating to sign on the fly? There are lots of cool questions to ask, so if you are interested
@@ -271,7 +271,7 @@ in discussion please <a href="https://github.com/vsoch/spack-package-action/issu
 ### Spack Containers
 
 I've shared many times before that I really like <a href="https://autamus.io" target="_blank">autamus</a>. How cool would it be to
-empower people to build spack packages, via their own repos, to produce containers for others to use? The idea that one repository == one spack package is relly neat, especially if the repository wants to have tighter control over releasing some kind of artifact with spack. One thing I wish we could
+empower people to build spack packages, via their own repos, to produce containers for others to use? The idea that one repository == one spack package is really neat, especially if the repository wants to have tighter control over releasing some kind of artifact with spack. One thing I wish we could
 do better is always testing new versions of packages, and for packages provided alongside GitHub repos, and alongside the code they provide,
 we could always have this testing.
 

@@ -49,7 +49,7 @@ If you self identify as an RSE, we want to understand the work that you do! We n
 </ol>
 
 Once you have finished your image, export it and a link will open up where you can upload the newly downloaded
-image direcly into a pull request! When the pull request is merged, you'll see some nice text that you can share
+image directly into a pull request! When the pull request is merged, you'll see some nice text that you can share
 on Twitter
 
 <div style="margin:20px">

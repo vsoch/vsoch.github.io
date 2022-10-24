@@ -24,7 +24,7 @@ community must be empowered by the software engineers that create tools that hel
 
 ## Container Diff, No it's not "C-Diff"
 
-> Tool to produce programatically accessible introspection of containers
+> Tool to produce programmatically accessible introspection of containers
 
 Our story starts around the same time as the Singularity Hub paper. Google came out 
 with a tool called <a href="https://github.com/GoogleContainerTools/container-diff" target="_blank">Container Diff</a>, and
@@ -70,7 +70,7 @@ We need a community data resource to serve enough metadata about our containers 
 
 **Programmatic Accessibility**
 
-I want this resource to be available, in different formats, to every researcher large and small. It goes without saying, then, that the resource must be programatically accessible, and not just "follow this cryptic set of instructions to get it in this one way" but rather "we've thought about the ways you already use to get information, and you can do that here too." What does this look like, for a lot of you? You are going to be doing your analysis in likely one of a handful of popular "scientific software" suites, such as Python, R, Julia, Matlab, or perhaps using old school curl or wget on the command line to retrieve the resource.
+I want this resource to be available, in different formats, to every researcher large and small. It goes without saying, then, that the resource must be programmatically accessible, and not just "follow this cryptic set of instructions to get it in this one way" but rather "we've thought about the ways you already use to get information, and you can do that here too." What does this look like, for a lot of you? You are going to be doing your analysis in likely one of a handful of popular "scientific software" suites, such as Python, R, Julia, Matlab, or perhaps using old school curl or wget on the command line to retrieve the resource.
 
 **Github for Accessibility and Version Control**
 
@@ -97,7 +97,7 @@ How do containers relate to one another? Do you see common bases, or does everyo
 How do we curate containers? What is it based on?
 
 
-There are truly endless interesting questions that we might ask, and they all start with data. They are incredibly challenging because the data we are working with is living and constantly changing, and we never stop to ask how to computer we're on today is comparable to the "same" flavor of operating system 15 years ago. I've been particularly interested in how operating systems change over time, and how code is generally used in research, and encourage you to poke me if you want to work on a fun project. I also want feedback from you about this API! Do you want a client to interact with it? I am trying to develop "infrastructure" that mirrors practices that researchers are familar with. Please <a href="https://github.com/singularityhub/api" target="_blank">post an issue</a> with your thoughts!
+There are truly endless interesting questions that we might ask, and they all start with data. They are incredibly challenging because the data we are working with is living and constantly changing, and we never stop to ask how to computer we're on today is comparable to the "same" flavor of operating system 15 years ago. I've been particularly interested in how operating systems change over time, and how code is generally used in research, and encourage you to poke me if you want to work on a fun project. I also want feedback from you about this API! Do you want a client to interact with it? I am trying to develop "infrastructure" that mirrors practices that researchers are familiar with. Please <a href="https://github.com/singularityhub/api" target="_blank">post an issue</a> with your thoughts!
 
 
 ## Getting Started Examples

@@ -146,7 +146,7 @@ but usually with exposure over time, and lots of ruminating runs and good naps
 things eventually click. You may not need to take a course
 or read a book until you've reached a point where you have a specific thing to look up.
 Someone else might need the course or book first before trying anything.
-If you don't need to learn things befor doing, you'll find it easy to be in environments where learning
+If you don't need to learn things before doing, you'll find it easy to be in environments where learning
 or finding direction is your responsibility. You can do well without a lot of structure
 because you create it for yourself. You can find yourself presented with an abstract
 problem and break it into concrete things to try. Personally speaking, for these reasons I did very
@@ -511,7 +511,7 @@ comes down to how groups are organized, and by what means they
 use to talk. For example, at an academic institution your units come by way of labs and
 service groups. Within the silo of a lab, or a service group, there is a lot of 
 communication. But spanning those two silos is a challenge in and of itself.
-Although these two entites might talk by way of support channels (e.g., a forum, slack, or
+Although these two entities might talk by way of support channels (e.g., a forum, slack, or
 email) and then the occasional event where both parties are present, the degree to which
 the researchers truly communicate their needs to the engineers that might help is limited. 
 It could be that the best signal is a survey at the end of the year, or a meeting between

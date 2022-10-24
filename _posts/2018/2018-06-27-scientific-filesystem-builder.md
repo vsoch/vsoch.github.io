@@ -111,7 +111,7 @@ $ scif inspect avocado
 
 ```
 
-There are a suite of commmands for development, but I'll skip over them for now.
+There are a suite of commands for development, but I'll skip over them for now.
 Let's dive more into the rationale for the template we are going to describe today.
 
 
@@ -213,7 +213,7 @@ There is another run section that will print the entire metadata dump for the co
 **Environment**
 
 Guess what, there is an entire <a href="https://sci-f.github.io///spec-v1#environment-namespace" target="_blank">namespace of environment</a> variables available to use in the recipe, available during build and runtime of your application. This would be helpful
-to, for example, programmatically parse through metadata, identify the active app, or to generat
+to, for example, programmatically parse through metadata, identify the active app, or to generate
 a general application or function in the container that can use the environment variables to
 interact with the active (or sleeping) applications.
 
@@ -221,7 +221,7 @@ interact with the active (or sleeping) applications.
 
 The **Dockerfile** drives the build step that happens first, meaning that the `recipe.scif`
 is built into the container, and the layers cached. Advanced users can add files, or change
-the base image, or any other customizations (that aren't associated with installing applications). The guts of Dockerfile looks like this (I've removed unncessary notes):
+the base image, or any other customizations (that aren't associated with installing applications). The guts of Dockerfile looks like this (I've removed unnecessary notes):
 
 ```bash
 
@@ -304,7 +304,7 @@ actions:
     version             show software version
     pyshell             Interactive python shell to scientific filesystem
     shell               shell to interact with scientific filesystem
-    preview             preview changes to a filesytem
+    preview             preview changes to a filesystem
     help                look at help for an app, if it exists.
     install             install a recipe on the filesystem
     inspect             inspect an attribute for a scif installation

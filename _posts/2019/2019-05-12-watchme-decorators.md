@@ -73,7 +73,7 @@ You can add this decorator on the fly, and get results written to a watcher
 in your $HOME even if it doesn't exist. For example, I could add
 this decorator to a long running job on my cluster, set a reasonable number of
 seconds to measure metrics as it runs (the default is 3), and then get my
-version controlled, programatically parseable data ready to go! A [dummy example](https://github.com/vsoch/watchme/blob/master/watchme/tests/test_psutils_decorator.py) is provided here to get you started, and meaty example, discussed next,
+version controlled, programmatically parseable data ready to go! A [dummy example](https://github.com/vsoch/watchme/blob/master/watchme/tests/test_psutils_decorator.py) is provided here to get you started, and meaty example, discussed next,
 [is also provided](https://github.com/vsoch/watchme-sklearn).
 
 ## Watchme Sklearn

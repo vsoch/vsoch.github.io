@@ -90,7 +90,7 @@ Let's take common needs of researchers and represent the work that might be done
 | Research Need | Level 1  | Level 2 | Level 3 | 
 |---------------|----------|---------|---------|
 | Running a service | Setting up an application on Kubernetes on behalf of the researchers | Developing the application itself | Developing Kubernetes and internals |
-| Install software | Teach and help researchers to use a package manager | Contributing to packages or the package manager software | Devloping a new model for a package manager solver |
+| Install software | Teach and help researchers to use a package manager | Contributing to packages or the package manager software | Developing a new model for a package manager solver |
 | Reproducibiity | Teach and help to containerize a workflow | Develop a container technology | Design a new metadata format for container registries with an emphasis on security |
 | Run a workflow | Teach and help researchers to extend their code into pipelines | Develop a workflow manager technology | Design a new algorithm for parsing a DAG |
 | Process data | Help researchers with data processing scripts | Write and maintain a library of general processing pipelines for a domain | Invent a new data format |

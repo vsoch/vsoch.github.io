@@ -7,7 +7,7 @@ toc: true
 This post comes after some initial fun to work on 
 [interval scheduling](https://vsoch.github.io/2018/interval-scheduling/), and it's
 a good example of how you can start working on some initial problem, and creativity
-and curiousity takes you in an entirely different, fun direction! My
+and curiosity takes you in an entirely different, fun direction! My
 idea was that, given that I could generate an interval randomly within some start 
 and end time, what if I did that but updated the times to be within the range of
 the last generated set? It would mean generating a set of nested intervals. This
@@ -632,7 +632,7 @@ change that too:
 ```python
 
     def ready(self):
-        '''prepare the show! This is an interator to reveal slowly increasing
+        '''prepare the show! This is an iterator to reveal slowly increasing
            in size fireworks. boum!
         '''
         number = self.count_designs()

@@ -185,7 +185,7 @@ The searching and parsing over results was fairly simple and easy, and there was
 
 ### Image digests
 
-I was worried about someone forking a repository with a candy image, and then the image being added twice. The best way to prevent this, I thought, would be to calculate the digests of the images, and skip over those that we've already seen. Yes, this could mean that if for some reason a fork of your repository with the same image is indexed before your repository, you'd see their image and not yours, but ultimatly if it's a fork it will lead to your repository, so I'm not hugely worried. In Python it's pretty simple to calculate a digest for an image (or any file really):
+I was worried about someone forking a repository with a candy image, and then the image being added twice. The best way to prevent this, I thought, would be to calculate the digests of the images, and skip over those that we've already seen. Yes, this could mean that if for some reason a fork of your repository with the same image is indexed before your repository, you'd see their image and not yours, but ultimately if it's a fork it will lead to your repository, so I'm not hugely worried. In Python it's pretty simple to calculate a digest for an image (or any file really):
 
 ```python
 def get_digest(filename):

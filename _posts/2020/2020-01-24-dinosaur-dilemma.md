@@ -116,7 +116,7 @@ than 20 minutes here and there, and I'd need a really good (likely work related)
 But to be comprehensive in discussion of stages, this third "live" stage would be different
 from the stateful approach described in stages 1 and 2. What we would essentially want is
 a bunch of entities that are co-existing in an environment, and then reacting to one another.
-To achieve this I would have an implementation that has entities as indepedently running
+To achieve this I would have an implementation that has entities as independently running
 things (either with containers or processes) and each would be able to emit and subscribe
 to one another's events. Likely there would be a shared environment that can be the
 common fabric for entities to discover one another, and after that, it would be a

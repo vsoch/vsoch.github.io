@@ -117,7 +117,7 @@ data/natacha/
 
 My raw data is represented in the "export" folder (not shared publicly) and the cleaned 
 data is exported to input.txt. The script "generate_input.py" handles parsing the files
-in export, and cleaning them up. Note that even after I cleaned them up programatically,
+in export, and cleaning them up. Note that even after I cleaned them up programmatically,
 I still went through to remove family last names, locations, and anything that I missed.
 My text editor uses regular expressions, so it wasn't too much extra work, however
 it's not represented in the python script. If you clean your own data, your process

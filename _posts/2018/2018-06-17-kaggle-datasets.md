@@ -74,7 +74,7 @@ While a larger, institutional level effort would be ideal, in the meantime we ca
 <a href="https://www.kaggle.com" target="_blank">like Kaggle</a>. I think that Kaggle has potential to do what Github did for early scientific reproducibility.
 If it's easy and fun to share datasets, and if there is potential reward, Kaggle can have an impact on scaled discovery and collaboration. But we have
 to start somewhere! I decided to start with showing that I can use the <a href="https://github.com/Kaggle/kaggle-api" target="_blank">Kaggle API</a> 
-to upload a dataset.  It's fairly easy to do in the web interface, and it's also easy to do from the commnd line. In a nutshell, 
+to upload a dataset.  It's fairly easy to do in the web interface, and it's also easy to do from the command line. In a nutshell, 
 all we need is a directory with data files and a metadata (json file) that 
 we can point the API client to. For example, here is one of my datasets that I uploaded:
 

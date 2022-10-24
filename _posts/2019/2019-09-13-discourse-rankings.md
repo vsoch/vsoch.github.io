@@ -48,7 +48,7 @@ It probably took me 10 times as long, but I came up with a simple script! <a hre
   <li>Get credentials from the environment</li>
   <li>Get a listing of groups</li>
   <li>Get a listing of users per group</li>
-  <li>Calcuate contributions (posts and replies) for each user, and each group</li>
+  <li>Calculate contributions (posts and replies) for each user, and each group</li>
   <li>(Contributions are limited to the previous month)</li>
   <li>Save results to file (yaml)</li>
 </ol>

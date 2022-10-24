@@ -28,7 +28,7 @@ We will discuss this further.
 
 ## 1. Create Boot Sector
 The file in the <a href="https://github.com/vsoch/os/blob/master/boot/boot_sect_simple.asm" target="_blank">
-boot</a> folder is an assembly language flie (extension *.asm), meaning that it
+boot</a> folder is an assembly language file (extension *.asm), meaning that it
 can be converted to machine language using an assembler like <a href="https://www.nasm.us/doc/nasmdoc7.html" target="_blank">nasm</a>. 
 This is how we are going to write the script that gets executed on boot.
 

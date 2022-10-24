@@ -73,4 +73,4 @@ I didn't try for long enough or hard enough, and I ultimately chose my own job s
 over everything else. I hope you forgive me for this, but at the end of the day I really did try my best, and was able to do
 quite a bit from nothing, but it wasn't enough to have a long term impact. I am also optimistic that I've directly and indirectly
 helped pave the way for a lot of research software engineering initiative, and if you are to take a similar journey today you
-will more likely have success. Good luck, and most importantly, hava fun!
+will more likely have success. Good luck, and most importantly, have fun!

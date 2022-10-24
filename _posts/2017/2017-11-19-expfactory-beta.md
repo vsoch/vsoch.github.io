@@ -15,7 +15,7 @@ I'm excited to share more progress on the now beta version of The Experiment Fac
  <li>a <a href="https://expfactory.github.io/experiments/" target="_blank">browsable, tested library and API</a></li>
  <li>the library includes 95 experiments (jspsych paradigms, phaser games, and traditional surveys)</li>
  <li>an <a href="https://expfactory.github.io/generate#quick-start" target="_blank">experiment container builder</a></li>
- <li>a <a href="https://expfactory.github.io/contribute#contribute-a-survey" target="_blank">survey generator</a> container to turn a single tab separted file into a web-ready survey.</li>
+ <li>a <a href="https://expfactory.github.io/contribute#contribute-a-survey" target="_blank">survey generator</a> container to turn a single tab separated file into a web-ready survey.</li>
 </ol>
 
 This means that it is easy for a researcher to contribute in many ways, or just use the tool! If you want to jump in and try some experiments for yourself, here is the "quick start"

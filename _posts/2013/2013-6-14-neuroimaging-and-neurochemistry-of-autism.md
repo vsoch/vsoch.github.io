@@ -37,7 +37,7 @@ Together these studies suggest altered dopaminergic function in frontal cortical
 
 - Schain and Freedman, increased blood serotonin in 1/3 autistic patients (1961)
 - Chugani et al found two serotonin abnormalities: 1) difference in whole brain serotonin synthesis, greater, suggested that humans undego period of high brain serotonin synthesis during childhood and this process is disrupted in autistic children
-- Assymetries of AMT uptake in frontal cortex, thalamus, and cerebellum, suggesting a role of the dentatothalamocortical pathway in autism.
+- Asymmetries of AMT uptake in frontal cortex, thalamus, and cerebellum, suggesting a role of the dentatothalamocortical pathway in autism.
 - Decreased serotonin transporter binding has been reported in both children and adults with autism.
 - Reduction in binding in anterior and posterior cingulate cortices was correlated with impairment in social cognition, whereas the reduction in serotonin transporter binding in the thalamus was correlated with repetitive or obsessive behavior.
 - Measured 5HT2A receptors in 8 men with Asperger syndrome, had significantly reduced serotonin receptor binding in total, anterior, and posterior cingulate cortex, bilateral in frontal and superior temporal lobes and in the left parietal lobe. significant correlations with qualitative abnormalities in social interaction with binding reductions in anterior and posterior cortices, as well as right frontal cortex.

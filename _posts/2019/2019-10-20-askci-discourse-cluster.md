@@ -125,7 +125,7 @@ that this could be meaningful. Roughly, the idea is that if we use N ICA compone
 capture N clusters. What do we see here?
 
 <ol class="custom-counter">
-  <li>The left chunck is all parallel stuff.</li>
+  <li>The left chunk is all parallel stuff.</li>
   <li>A chunk in the middle doesn't have tags.</li>
   <li>The bottom is heavily slurm</li>
   <li>The bottom right has questions of the week.</li>

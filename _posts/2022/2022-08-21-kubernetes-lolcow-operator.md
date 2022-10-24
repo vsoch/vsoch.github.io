@@ -278,7 +278,7 @@ at the top of the controllers file:
 //+kubebuilder:rbac:groups=my.domain,resources=services,verbs=get;list;watch;create;update;patch;delete
 ```
 
-I honestly didn't even notice they were there at first. The template only had the first three (for lolcows) and I needed to add the last three, giving my contoller permission (RBAC refers
+I honestly didn't even notice they were there at first. The template only had the first three (for lolcows) and I needed to add the last three, giving my controller permission (RBAC refers
 to a set of rules that represent a set of permissions) to interact with services and deployments. I think what was happening
 before is that my controller couldn't see them, period, so of course the Get always failed. I found <a href="https://cluster-api.sigs.k8s.io/developer/providers/implementers-guide/controllers_and_reconciliation.html" target="_blank">this page</a> 
 and <a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#role-and-clusterrole" target="_blank">this page</a> useful for learning about this.

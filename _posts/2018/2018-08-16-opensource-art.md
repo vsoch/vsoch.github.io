@@ -20,7 +20,7 @@ Today I want to talk about Open Source Art.
 ## What is OpenSource Art?
 
 While traditionally used for programming, this project combines **open source development** with **community artistic 
-contributions** to create the first automated, **programatically generated gallery**. It is a fun exercise 
+contributions** to create the first automated, **programmatically generated gallery**. It is a fun exercise 
 in using these technologies, but also a bit personal.
 
 Let's talk about my Mom and I. Since I've been maybe twelve years old, we are like pasta water and olive oil. 
@@ -80,7 +80,7 @@ deployed at <a target="_blank" href="https://vsoch.github.io/opensource-art">vso
 It combines software engineering, automation, machine learning, and visual art so that many small 
 contributions in both spaces can create unexpected beauty. I got started early with the open
 source aspect by <a href="https://github.com/tholman/tholman.com/issues/2" target="_blank">reaching out</a> 
-to a digital artist that I really like who is behind this beautiful (programatically generated!) image:
+to a digital artist that I really like who is behind this beautiful (programmatically generated!) image:
 
 <div style="padding-top:20px; padding-bottom:20px">
    <img src="https://vsoch.github.io/opensource-art/assets/images/2018/tim-holman-circle-packing.jpg">

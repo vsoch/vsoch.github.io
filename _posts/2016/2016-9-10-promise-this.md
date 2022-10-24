@@ -69,7 +69,7 @@ function someObject() {
 }
 ```
 
-But when I ran the more complicated version of this toy example, I didn't see the value update. In fact, since I hadn't defined an intitial value, my Object variable was still undefined. For this example, we would see that the Object value isn't updated at all:
+But when I ran the more complicated version of this toy example, I didn't see the value update. In fact, since I hadn't defined an initial value, my Object variable was still undefined. For this example, we would see that the Object value isn't updated at all:
 
 ```
 var filename = "data.txt"

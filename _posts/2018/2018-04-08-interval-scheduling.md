@@ -122,7 +122,7 @@ that does exactly that.
 ```python
 
     def choose(self):
-        '''run the activitiy! This will basically print the start,
+        '''run the activity! This will basically print the start,
            activity name, and end time to the console
         '''
         self._action("Chosen")

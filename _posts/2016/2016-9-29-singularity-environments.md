@@ -150,7 +150,7 @@ Ideally, I want all my group members to have access to it. My pokemon module ver
 
 ## Singularity for contained software environments
 ### A little about Singularity
-We will be using <a href="https://singularityware.github.io">Singularity</a> containers that don't require root priviledges to run on the cluster for our environments. Further, we are going to "bootstrap" Docker images so we don't have to start from nothing! You can think of this like packaging an entire software suite (for example, python) into a container that you can then run as an executable:
+We will be using <a href="https://singularityware.github.io">Singularity</a> containers that don't require root privileges to run on the cluster for our environments. Further, we are going to "bootstrap" Docker images so we don't have to start from nothing! You can think of this like packaging an entire software suite (for example, python) into a container that you can then run as an executable:
 
       $ ./python3 
       Python 3.5.2 (default, Aug 31 2016, 03:01:41) 
@@ -356,7 +356,7 @@ If you would like any additional docs on how to do things, please <a href="https
 
 ## I want to customize my environments! (after build)
 
-Let's say you have an environment (node6, for example), and you want to install a package with npm (which is localed at /usr/local/bin/npm), but then when you run the image:
+Let's say you have an environment (node6, for example), and you want to install a package with npm (which is located at /usr/local/bin/npm), but then when you run the image:
 
 ```
       ./node6

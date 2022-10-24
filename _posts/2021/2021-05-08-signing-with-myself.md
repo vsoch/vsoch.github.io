@@ -24,7 +24,7 @@ support to unravel, and it's based on GitHub's history with this no-reply
 email address. After some back and forth to get to the bottom of it, I have 
 their blessing to share with you today (because it's kind of neat).
 
-## How to sign wth yourself
+## How to sign with yourself
 
 #### The GitHub no-reply address
 

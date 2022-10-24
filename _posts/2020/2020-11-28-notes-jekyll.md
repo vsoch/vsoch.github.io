@@ -84,7 +84,7 @@ posts available, or how to get started. This led to the home page that you see b
 <br>
 
 Above, we see that references are front and center, and each links directly to a PDF. Our
-rendered notes are top and center, albeit we don't have too many pages becaues this is a dummy
+rendered notes are top and center, albeit we don't have too many pages because this is a dummy
 "Lorem Ipsum" site.
 
 #### Collaboration

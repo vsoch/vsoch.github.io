@@ -104,7 +104,7 @@ because `crc32` is technically a <a href="https://stackoverflow.com/questions/26
 > The package in PyPI is called crc32c, and the module is called crc32c, but it exposes a function called crc32. To be honest this is probably historical baggage -- when this package was first implemented it tried to mimic binascii.crc32 to an extreme, including the function name... Maybe in a later release we could adjust the name
 
 I love learning about history behind some of these choices! Anyway, it turns out
-that you can create an equvalent digest, and then update it (providing the previous digest too)
+that you can create an equivalent digest, and then update it (providing the previous digest too)
 when you are reading some chunk.
 
 ```python

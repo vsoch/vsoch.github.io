@@ -4,8 +4,8 @@ date: 2017-12-19 1:25:00
 ---
 
 I recently have been on a mission to eradicate all dust
-(and associated mites) from my dinosaur cave, and procured a robot vaccuum. Very quickly
-Pusheena-Vaccuum (this is his name) was decorated with Christmas ribbons, a daily schedule, and 
+(and associated mites) from my dinosaur cave, and procured a robot vacuum. Very quickly
+Pusheena-Vacuum (this is his name) was decorated with Christmas ribbons, a daily schedule, and 
 a small Christmas Pusheen to ride on top and manage the entire thing. Pusheenavacuum was highly
 useful for unexpected use cases like annihilation of dust mites from my mattress:
 
@@ -18,7 +18,7 @@ I thought I could at least pretend. Here is my contribution to the robot world, 
 ## The Experiment Factory Robots
 If you go back to the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844768/" target="_blank">original paper</a>, I had implemented a robot to run during Continuous Integration (testing)
 that did a simple job of sniffing the browser, and based on a well known data structure provided by the experiment
-software, would issue commands (think key presses and responses) to move to the next trial. It worked well for a small number of experiments, and many times caught simple javascript and runtime bugs that otherwise weren't being tested by a human. But after a year or two, and after I had (sadly) departed from my lab, the old structure of the experiment factory that had <a href="https://www.github.com/expfactory/expfactory-experiments" target="_blank">many experiments in one repository</a> meant that testing took hours (a few of the experiments range from 20-30 minutes!). This was obviously not ideal, and likely frustrating if a researcher just wanted to get it merged for use. The robot was disabled because of that. Of course, this made me a bit sad, but (with the <a href="https://vsoch.github.io/2017/expfactory-beta/" target="_blank">same spirit</a> of bringing back the Experiment Factory in an improved version), and after befriending my Pusheena-vaccuum, I decided that I would give the robots another go! Here they are in action:
+software, would issue commands (think key presses and responses) to move to the next trial. It worked well for a small number of experiments, and many times caught simple javascript and runtime bugs that otherwise weren't being tested by a human. But after a year or two, and after I had (sadly) departed from my lab, the old structure of the experiment factory that had <a href="https://www.github.com/expfactory/expfactory-experiments" target="_blank">many experiments in one repository</a> meant that testing took hours (a few of the experiments range from 20-30 minutes!). This was obviously not ideal, and likely frustrating if a researcher just wanted to get it merged for use. The robot was disabled because of that. Of course, this made me a bit sad, but (with the <a href="https://vsoch.github.io/2017/expfactory-beta/" target="_blank">same spirit</a> of bringing back the Experiment Factory in an improved version), and after befriending my Pusheena-vacuum, I decided that I would give the robots another go! Here they are in action:
 
 {% include asciicast.html source='expfactory-robots-12-19-2017.json' title='The Experiment Factory Robots' author='vsochat@stanford.edu' %}
 

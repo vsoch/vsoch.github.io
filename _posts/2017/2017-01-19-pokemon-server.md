@@ -27,7 +27,7 @@ cd pokemon-server
 pip install pokemon
 ```
 
-The `nginx` server by default stores the `index.html` in `/var/www/html`, so you can programatically generate that file on the fly with `dig`:
+The `nginx` server by default stores the `index.html` in `/var/www/html`, so you can programmatically generate that file on the fly with `dig`:
 
 ```bash
 myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"

@@ -59,7 +59,7 @@ conn = odbcConnect(dsn)
 query = sqlFetch('candyDatabase.TABLE')
 ```
 
-If you have trouble with the case (eg, the sqlFetch tells you it cannot find "candyDatabase.table," then in your initial connection you need to specify the case varible:
+If you have trouble with the case (eg, the sqlFetch tells you it cannot find "candyDatabase.table," then in your initial connection you need to specify the case variable:
 
 ```
 ch = odbcConnect('candyDatabase',case="nochange") # other options include toupper and tolower
