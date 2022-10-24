@@ -13,17 +13,26 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Recent Projects</strong></h3>
 <ul>
+       <li><a href="https://github.com/vsoch/action-updater" target="_blank">The Action Updater</a>: for GitHub action syntax and versions</li>
+       <li><a href="https://github.com/flux-framework/flux-operator" target="_blank">Flux Operator</a>: Kubernetes operator for Flux</li>
+       <li><a href="https://github.com/sciworks/spack-updater" target="_blank">Spack Updater</a>: Helper to maintain and update Spack packages</li>
+       <li><a href="https://github.com/tunel-apps" target="_blank">tunel</a>: apps and launchers for HPC</li>
+       <li><a href="https://github.com/vsoch/pipelib" target="_blank">pipelib</a>: easily parse, sort, fitler Docker tags or software releases</li>
+       <li><a href="https://github.com/oras-project/oras-py" target="_blank">oras-py</a>: ORAS Python client</li>
        <li><a href="https://rse-ops.github.io" target="_blank">Research Software Engineering Operations</a>: Community, resources, and knowledge</li>
-	<li><a href="https://spack-monitor.readthedocs.io" target="_blank">spack-monitor</a>: A Spack monitoring service, including a database and 
-interface for collecting metadata about builds.</li>
-	<li><a href="https://spack.github.io/spack-search" target="_blank">spack-search</a>: A static and dockerized search application for specific strings in spack search code.</li>
-	<li><a href="https://github.com/vsoch/uptodate" target="_blank">uptodate</a>: for automated GitHub container builds</li>
-	<li><a href="https://github.com/vsoch/gosmeagle" target="_blank">gosmeagle</a>: ABI corpora extraction in Go</li>
 </ul>
 
 <h3><strong>Projects</strong></h3>
 <ul>
        <li><a href="https://vsoch.github.io/candy-generator" target="_blank">The Candy Generator</a>: for open source Halloween fun!</li>
+	<li><a href="https://spack-monitor.readthedocs.io" target="_blank">spack-monitor</a>: A Spack monitoring service, including a database and 
+interface for collecting metadata about builds.</li>
+	<li><a href="https://spack.github.io/spack-search" target="_blank">spack-search</a>: A static and dockerized search application for specific strings in spack search code.</li>
+	<li><a href="https://github.com/pydicom/deid" target="_blank">deid</a>: best effort anonymization for dicom</li>
+	<li><a href="https://github.com/vsoch/uptodate" target="_blank">uptodate</a>: for automated GitHub container builds</li>
+	<li><a href="https://github.com/buildsi/spliced" target="_blank">spliced</a>: Run experiments to make predictions for ABI</li>
+	<li><a href="https://github.com/buildsi/smeagle-py" target="_blank">gosmeagle</a>: ABI corpora extraction in Python</li>
+	<li><a href="https://github.com/vsoch/gosmeagle" target="_blank">gosmeagle</a>: ABI corpora extraction in Go</li>
 	<li><a href="https://vsoch.github.io/chonker-awards/" target="_blank">The Chonker Awards</a>: Automatically updating interface to show the largest files across my GitHub repositories.</li>
 	<li><a href="https://vsoch.github.io/caliper/" target="_blank">caliper</a>: a tool for measuring and assessing change in packages</li>
 	<li><a href="https://github.com/urlstechie" target="_blank">Url Checker</a>: A command line client and GitHub action to check URLs in static files</li>
@@ -51,13 +60,15 @@ interface for collecting metadata about builds.</li>
 	<li><a href="http://vsoch.github.io/2016/service-worker-resource-saver/" target="_blank">Service Worker Resource Saved</a> [<a href="https://vsoch.github.io/resource-saver/" target="_blank">demo</a>]</li>
 	<li><a href="https://github.com/vsoch/banner-maker" target="_blank">Banner</a>: Custom banner creation (created for a virtual machine for a publication)</li>
 	<li><a href="https://www.github.com/word-fish" target="_blank">Wordfish</a>: tools for finding relationships in corpus from terminologies <a href="http://vsoch.github.io/2016/2016-wordfish/" target="_blank"> [details]</a></li>
+</ul>
 
-<h3><strong>Research Software Engineering Community</strong></h3>
+<h3><strong>Developer Community</strong></h3>
 <ul>
-	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
+	<li><a href="https://rseng.github.io/devstories/" target="_blank">Developer Stories</a>: (rebranded RSE Stories)</li>
+	<li><a href="https://us-rse.org/rse-stories/" target="_blank">RSE Stories</a>: (renamed) Research Software Engineer Stories (<a href="https://bssw.io/blog_posts/research-software-engineer-stories" target="_blank">article on bssw</a>)</li>
        <li><a href="https://stanford-rc.github.io/stanford-software-survey/" target="_blank">The Stanford Software Survey</a>: to assess software and community needs for research software engineering.</li>
-       <li><a href="https://rseng.github.io/rseng">Research Software Encylopedia</a>: taxonomy, criteria, and software showcase.</li>
-       <li><a href="https://rseng.github.io/software">Research Software Encylopedia</a>: database.</li>
+       <li><a href="https://rseng.github.io/rseng">Research Software Encyclopedia</a>: taxonomy, criteria, and software showcase.</li>
+       <li><a href="https://rseng.github.io/software">Research Software Encylclopedia</a>: database.</li>
        <li><a href="https://github.com/rseng/opensource-heartbeat-action">Open Source Heartbeat action</a>: to showcase your contributions.</li>
        <li><a href="https://us-rse.org/rse-roles">RSE-roles</a>: a small collection of research software engineer job descriptions</li>
        <li><a href="https://rseng.github.io/rse-phenotype">RSE phenotype generator</a>: Create a graphic that shows the communities and skills that represent you as a research software engineer.</li>
@@ -69,6 +80,7 @@ interface for collecting metadata about builds.</li>
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+    <li><a href="https://youtu.be/2Oet0hGOy7U" target="_blank">The Software Complexity Puzzle</a>: talk at CU Boulder, 2022.</li>
     <li><a href="https://youtu.be/FB2yV8TNnSw" target="_blank">The Research Software Engineer Movement</a>: talk at the 2022 EasyBuild users meeting.</li>
     <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a></li>
     <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
