@@ -12,7 +12,7 @@ these developments are intimately tied to advances in technology, and because of
 many of us subconsciously tie new technology to indicating a state of betterment. For example,
 innovation often comes by way of faster computers, more impressive scaling of services, and new or optimized algorithms. In fact, we are so blindly optimistic about technology that we often forget that technological change or "development" isn't always necessarily a good thing.
 
-To be fair, this is not a new idea, and I'm also not justified in saying "we" because in this thought experiment I'm largely thinking of myself. I get hugely excited about new technology, to the point of completely glazing over the social or other implications and just wanting to play with it. Over time I've realized that this excitement for testing is mis-attributed to thinking something larger about the technology itself.
+To be fair, this is not a new idea, and I'm also not justified in saying "we" because in this thought experiment I'm largely thinking of myself. I get hugely excited about new technology, to the point of completely glazing over the social or other implications and just wanting to play with it. Over time I've realized that this excitement for testing is miss-attributed to thinking something larger about the technology itself.
 
 This also explains the skepticism of some of my colleagues. For example, let's say there is a new
 container technology that might be used on our cluster. I usually get fairly excited. I want to 
@@ -86,7 +86,7 @@ going to say that this attribute is hugely positive. I used to need to read chap
 in the Encyclopedia Britannica to learn something, and I didn't realize that
 it was information produced from a small and likely biased groups of individuals.
 I used to regularly get lost on runs, or while driving, and largely that 
-never happens anymore. I also have infinte access to music and podcasts to keep my brain entertained. But is this really always better?
+never happens anymore. I also have infinite access to music and podcasts to keep my brain entertained. But is this really always better?
 
 What we've lost is an ability to be alone with ourselves, It's so easy to grab
 a little internet and mindlessly consume content. We've lost an ability
@@ -95,7 +95,7 @@ it's lovely to go for a run and hear quiet and nature instead of blasting music 
 a podcast into our ears. We've forgotten that when traveling or otherwise in public
 areas, it's sometimes a good experience to have brief conversation with strangers.
 We don't need to even try anymore, because we can put on our headphones, or otherwise
-immerse ourselves in the little internet to send a cleaer signal to others of "I'm busy!"
+immerse ourselves in the little internet to send a clearer signal to others of "I'm busy!"
 
 
 ### Social Networks

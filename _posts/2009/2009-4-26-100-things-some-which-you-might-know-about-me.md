@@ -268,7 +268,7 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  Dark brown
 
 87. SHOE SIZE?  
- 10, Womens
+ 10, Women
 
 88. FAVORITE FAST FOOD PLACE?  
  Hmm… Panera… technically it’s pretty fast

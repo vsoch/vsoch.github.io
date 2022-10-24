@@ -56,7 +56,7 @@ Using the <a href="http://pokemondb.net/pokedex/national" target="_blank">Pokemo
     <img src="https://github.com/vsoch/pokemon-ascii/raw/master/img/generation.gif" style="width:1000px"/>
 </div><br>
 
-The Pokemon Database has a unique ID for each pokemon, and so those IDs are the keys for the dictionary (the json linked above). I also store the raw images, in case they are needed and not available, or (in the future) if we want to generate the ascii's programatically (for example, to change the size or characters) we need these images. I chose this "pre-generate" strategy over creating the ascii from the images on the fly because it's slightly faster, but there are definitely good arguments for doing the latter.
+The Pokemon Database has a unique ID for each pokemon, and so those IDs are the keys for the dictionary (the json linked above). I also store the raw images, in case they are needed and not available, or (in the future) if we want to generate the ascii's programmatically (for example, to change the size or characters) we need these images. I chose this "pre-generate" strategy over creating the ascii from the images on the fly because it's slightly faster, but there are definitely good arguments for doing the latter.
 
 <div>
     <img src="/assets/images/posts/pokemon-ascii/pokemon.png" style="width:1000px"/>

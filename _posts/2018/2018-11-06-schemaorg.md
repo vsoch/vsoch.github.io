@@ -77,7 +77,7 @@ in this industry / academic world seem to talk about these "use cases" a lot.
 
 The high level goal is to make it easy to tag datasets, containers, and other software to
 be accessible via Google Search as a [dataset](https://developers.google.com/search/docs/data-types/dataset)
-(or similar as Google develops these search types) or programatically via an API. This means that:
+(or similar as Google develops these search types) or programmatically via an API. This means that:
 
 <br>
 

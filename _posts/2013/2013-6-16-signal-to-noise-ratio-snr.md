@@ -19,7 +19,7 @@ Sometimes, things are exactly what they seem.  This is one of those cases  The
 
 ### How do we measure SNR?
 
-I've never done this, but I've just read about it.  You would want to record signal from a homogenous region with high signal intensity, and record the standard deviation for the image background (outside of your region).  Then calculate:
+I've never done this, but I've just read about it.  You would want to record signal from a homogeneous region with high signal intensity, and record the standard deviation for the image background (outside of your region).  Then calculate:
 
 > SNR = Mean Signal/Standard Deviation of Background Noise
 

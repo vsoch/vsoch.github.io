@@ -202,7 +202,7 @@ simple bash scripts and ssh configurations that can easily launch sbatch jobs an
   <li>Interact with the software from your local machine, without needing to ssh in, request a node, load things, and otherwise do steps that are hard to reproduce.</li>
 </ol>
 
-The container and it's metadata are available programatically, and on Github means we have version control and easy collaboration and reporting of issues. Instead of relying on remembering Docker Hub, Github, and/or local file paths, the containershare always makes the containers guts and discoverability transparent and easy.
+The container and it's metadata are available programmatically, and on Github means we have version control and easy collaboration and reporting of issues. Instead of relying on remembering Docker Hub, Github, and/or local file paths, the containershare always makes the containers guts and discoverability transparent and easy.
 
 ## Future Development
 As I mentioned above, I'm working on command line clients for (more easily) getting access to metadata and searching for containers of interest. I'm also working on tutorials and examples for our users at Stanford for software on the Sherlock and Farmshare clusters. Stay tuned! I've been traveling heavily with no room for lovely programming and life should settle down in the coming weeks.

@@ -58,7 +58,7 @@ and then create an interface to show what's going on?
 This led me to creating the <a href="https://github.com/rseng/opensource-heartbeat-action" target="_blank">opensource-heartbeat-action</a>
 repository. The idea is simple - you can start with a list of GitHub usernames (and/or organization names)
 and then have a nightly job that parses events, and deploys an interface to show the most recent.
-If you want the user set to update programatically based on a Query to the GitHub User Search API,
+If you want the user set to update programmatically based on a Query to the GitHub User Search API,
 it also includes a script for programmatically finding users based on a query of interest. For example,
 if I search for Stanford in the location I can be fairly sure to get a Stanford affiliate.
 It's fairly easy to set up - you can add a simple yaml file in your GitHub Workflows folder, and have it

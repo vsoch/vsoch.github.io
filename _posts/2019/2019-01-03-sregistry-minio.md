@@ -136,7 +136,7 @@ you're there, please admire the Minio bird:
 <img src="https://singularityhub.github.io/sregistry-cli/img/aws-minio2.png">
 </div>
 
-So elegant and adorable, at the same time! If you have any questions, issues, dilemas,
+So elegant and adorable, at the same time! If you have any questions, issues, dilemmas,
 doubts, problems, stories, or riddles, please 
 <a href="https://github.com/singularityhub/sregistry-cli" target="_blank"> post an issue</a>
 and I'll do my best to help.

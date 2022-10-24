@@ -74,7 +74,7 @@ track proper.
 
 # What is an RSE?
 
-RSE stands for "Resarch Software Engineer," and it broadly refers to
+RSE stands for "Research Software Engineer," and it broadly refers to
 a software engineer that specializes in research software. This spans a wide
 gamut. Some RSEs are more researchers that do programming, and others are 
 trained software engineers that work on research problems. If you identify

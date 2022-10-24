@@ -29,7 +29,7 @@ Right now it just displays header data alongside an embarrassingly hideous histo
 
  >> [NIDM Export](http://nidm.nidash.org/): meaning that you can upload some contrast image, select your contrast from the Cognitive Atlas, and export a data object that captures those things.
 
- >> Visualization: Beyond a basic viewer, I am excited about being able to integrate different visuaization functions into an interface like this, so you can essentially drop a map, click a button, get a plot, and download it.
+ >> Visualization: Beyond a basic viewer, I am excited about being able to integrate different visualization functions into an interface like this, so you can essentially drop a map, click a button, get a plot, and download it.
 
  >> [NeuroVault](http://www.neurovault.org): is near and dear to my heart, and this is the proper place to store statistical brain maps for longevity, sharing, publication, etc. An interface with some kind of nifti-drop functionality could clearly integrate with something like NeuroVault or [NeuroSynth](http://www.neurosynth.org)
 

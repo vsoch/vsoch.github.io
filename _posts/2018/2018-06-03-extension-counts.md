@@ -378,7 +378,7 @@ nobody looked at this? Also from matrix and following images above, can you gues
 **What about breaking an image into samples?** 
 
 When we look at a particular script broken into a set of images (for example, one file might be
-broken into N=4 80x80 images), if we count the images in this manner, this gives greater weight to files that are longer. It might not be fair to do this kind of count given the case that some languges are more verbose (require more lines). However, I made this decision to count the number of samples because I'm interested in the overall amount/prevalence. One python file that is much longer than a second python file should
+broken into N=4 80x80 images), if we count the images in this manner, this gives greater weight to files that are longer. It might not be fair to do this kind of count given the case that some languages are more verbose (require more lines). However, I made this decision to count the number of samples because I'm interested in the overall amount/prevalence. One python file that is much longer than a second python file should
 represent a higher prevalence of Python for the repository.  To make better comparisons between Python
 and R, for example, we would need to compare samples of code for each language that "are optimized"
 to do the same thing. This is something I'd like to do, but for a different project. 
@@ -569,7 +569,7 @@ observations just looking at this plot, and here I will share some early thinkin
 These are definitely somewhat scientific code repositories, because we see csv and json in the top
 results. Sure, they could be csv/json for some generic data too, but my sense is that
 if you find a data file under version control, there is some component of a data analysis involved.
-I'd want to ask what kind of person that isn't doing data anlysis would have incentive to put files
+I'd want to ask what kind of person that isn't doing data analysis would have incentive to put files
 of this type under version control??
 
 The second hint is that the fourth top language is Python. We don't see R 

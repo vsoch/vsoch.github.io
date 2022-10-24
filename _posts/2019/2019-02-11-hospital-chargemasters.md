@@ -116,7 +116,7 @@ repository with good intention and faith that transparency is important. I make 
 
 ## How to Release a Good Chargemaster
 
-After programatically downloading and then parsing over one hundred of these
+After programmatically downloading and then parsing over one hundred of these
 chargemasters, I am in a unique position to give feedback about some suggested
 "How to Release a Good Chargemaster" practices, at least from a "is it machine readable"
 standpoint. I'll give a quick bulleted list, and provide details for those interested:
@@ -127,7 +127,7 @@ standpoint. I'll give a quick bulleted list, and provide details for those inter
 <li>Be cautious of exporting formats and encodings that aren't easily readable.</li>
 <li>Name columns consistently, don't use abbreviations, or newlines.</li>
 <li>Don't add empty lines, or unexpected metadata lines. The first line should be columns headers.</li>
-<li>When in doubt, ask a programmer to test programatically downloading and parsing.</li>
+<li>When in doubt, ask a programmer to test programmatically downloading and parsing.</li>
 </ol>
 
 <br>
@@ -139,7 +139,7 @@ consistency between the various documents. Machine readable really means a comma
 
 ### 2. Provide Direct Links to Download Files
 
-The easiest way for a file, regardless of format, to be easy to programatically download
+The easiest way for a file, regardless of format, to be easy to programmatically download
 is to provide a direct link to it from a main page. When I say main page, I mean a page that is the fewest number of clicks away from some primary "this is the hospital charge information page." The more forms that I need to fill out, or boxes that I need to check, the harder this task becomes because I have to use a robot scraper (e.g., [selenium](https://www.seleniumhq.org/)) instead of just parsing the static HTML. Many of the interfaces seem to be designed for the user experience with
 multiple selections, drop downs, and buttons to push before seeing some filtered view of the data. This does not conform to being machine readable - this is <italic>human</italic> readable. If my machine can't retrieve the file after I've tried all the tricks I know, it's not easy enough.
 

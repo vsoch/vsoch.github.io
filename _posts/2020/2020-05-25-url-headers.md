@@ -137,7 +137,7 @@ interface. These steps are discussed in the last section.
 
 My final goal was to generate completely static files for all views of the app.
 Why do we want to do this? To share on GitHub pages, of course! I wrote
-a rather ugly, spagetti-esche script, <a href="https://github.com/researchapps/url-headers/blob/master/data/parse.py" target="_blank">parse.py</a> that (given a running server) will extract pages for the cookies, headers,
+a rather ugly, spaghetti-esche script, <a href="https://github.com/researchapps/url-headers/blob/master/data/parse.py" target="_blank">parse.py</a> that (given a running server) will extract pages for the cookies, headers,
 and base sites, and then save them to a static folder "docs" along with a <a href="https://github.com/researchapps/url-headers/blob/master/docs/README.md" target="_blank">README.md</a>. Once you view the index
 on GitHub pages, however, you can navigate to pages as you normally would, and this is possible
 because we added the prefix of the repository (url-headers) to the application.

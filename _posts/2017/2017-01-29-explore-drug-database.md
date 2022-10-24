@@ -155,7 +155,7 @@ But we can do better than that. The above will produce some outputs inside the c
 
 - If I am producing something with python, a <a href="http://jupyter.org/" target="_blank">jupyter notebook</a> server would do the trick.
 - If I have markdown, I could go all out and plop the content into some <a href="https://jekyllrb.com/" target="_blank">jekyll site</a> that renders it when it changes.
-- For more robust webby things, you would be best to run another container as a web server, and then serve your appliction with something like <a href="https://uwsgi-docs.readthedocs.io/en/latest/" target="_blank">uwsgi</a> or <a href="http://gunicorn.org/" target="_blank">gunicorn</a>. And of course for a server, you can install apache or <a href="https://www.nginx.com/solutions/web-server/" target="_blank">nginx</a>. 
+- For more robust webby things, you would be best to run another container as a web server, and then serve your application with something like <a href="https://uwsgi-docs.readthedocs.io/en/latest/" target="_blank">uwsgi</a> or <a href="http://gunicorn.org/" target="_blank">gunicorn</a>. And of course for a server, you can install apache or <a href="https://www.nginx.com/solutions/web-server/" target="_blank">nginx</a>. 
 - You could also use <a href="flask.pocoo.org" target="_blank">flask</a> (python) similar to the above.
 
 My go-to tends to be nginx with uwsgi, and here is an <a href="https://github.com/radinformatics/whatisit/blob/master/docker-compose.yml" target="_blank">example docker-compose</a> file.
