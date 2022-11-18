@@ -321,3 +321,5 @@ day I've been able <a href="https://twitter.com/vsoch/status/1530663863632265217
 > they are going to have to keep up. :) <br>
 
 And know that I'll be OK.
+
+> Update: The Code of Conduct response group issued a formal apology via email to me late November, and although it's over 6 months after the fact it really means a lot. Thank you. ❤️
