@@ -2,7 +2,7 @@
 title: "Code of Conduct"
 date: 2022-09-08 12:30:00
 category: rse
-frontpage: false
+hidden: true
 ---
 
 This post was actually started in May. I did so at the time because I wanted the emotions and recollection to be rather fresh.

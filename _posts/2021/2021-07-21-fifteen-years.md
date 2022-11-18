@@ -1,7 +1,7 @@
 ---
 title: "Fifteen Years"
 date: 2021-07-18 19:30:00
-frontpage: false
+hidden: true
 ---
 
 Fifteen years you would would think <br>
