@@ -22,7 +22,7 @@ I have recently joined the Flux Framework project, where I am lead developer for
 <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511" target="_blank">Singularity Hub</a>, and <a href="{{ site.baseurl }}/work">more open source projects</a> than I can count.
 I also founded and ran <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">RSE Services</a> (Research Software Engineering Services), 
 created the first <a href="https://stanford-rc.github.io/stanford-software-survey/" target="_blank">Stanford Software Survey</a>, 
-and was responsible for submitting the first proposal to make Research Software Engineer an official role at Stanford. In 2019 I created the (now) <a href="https://us-rse.org/rse-stories" target="_blank">Developer Stories</a> podcast, and continue to host and produce it to present day.</p>
+and was responsible for submitting the first proposal to make Research Software Engineer an official role at Stanford. In 2019 I created the (now) <a href="https://rseng.github.io/devstories" target="_blank">Developer Stories</a> podcast, and continue to host and produce it to present day.</p>
 
 <p>As a graduate student my work spanned computer science, medicine, and imaging. I was a proud member of the <a href="https://poldracklab.stanford.edu" target="_blank">Poldrack Lab</a> at Stanford. Our work spanned neuro-informatics, cognitive neuroscience, and reproducibility. I was introduced to the domain of neuroimaging as an RA in the <a href="http://www.haririlab.com" target="_blank">Laboratory of Neurogenetics</a> at Duke University working under Ahmad Hariri.</p>
 
