@@ -1,7 +1,7 @@
 ---
 title: "Remote First Conferences"
 date: 2019-07-28 13:20:00
-categories: rse
+categories: [rse, hpc]
 ---
 
 Let's talk about conferences. When you are new as a graduate student or software engineer

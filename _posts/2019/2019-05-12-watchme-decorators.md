@@ -1,7 +1,7 @@
 ---
 title: "Watchme Process Monitoring"
 date: 2019-05-12 5:30:00
-categories: rse
+categories: [rse, hpc]
 ---
 
 It's always been kind of hard to measure resource usage when you are running

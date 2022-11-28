@@ -1,6 +1,7 @@
 ---
 title: "Exploring MongoDB on HPC"
 date: 2019-06-22 10:34:00
+category: hpc
 ---
 
 This last weekend <a href="https://techcrunch.com/2019/06/16/millions-venmo-transactions-scraped/" target="_blank">it was reported</a> that over 7 million Venmo transactions

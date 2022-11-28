@@ -1,7 +1,7 @@
 ---
 title: "Research Software Registries"
 date: 2022-06-19 12:15:00
-category: rse
+categories: [rse, hpc]
 ---
 
 This post spurred from some original thinking about <a target="_blank" href="https://rse-ops.github.io/proposals/proposals/drafts/research-software-registry/">research software registries</a>, and my recent discovery of the <a href="https://scicodes.net/" target="_blank">SciCodes Consortium</a>, which I'm excited to find (and a bit surprised I didn't earlier given my experience with research software and registries)! Since I've developed registries and been involved extensively in communities that develop standards and tooling for them, I've naturally been ruminating over ideas for several months, and hoping to find others that are motivated to think about similar things. This is the motivation of this post - to ruminate, share my thinking, and think together about ideas. You can read the content, or listen to the ideas below.

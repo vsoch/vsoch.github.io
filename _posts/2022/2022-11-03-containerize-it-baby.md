@@ -1,7 +1,7 @@
 ---
 title: "Containerize It, Baby!"
 date: 2022-11-03 08:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 I've just submit my <a href="https://twitter.com/vsoch/status/1588215058009464832" target="_blank">entry</a> to the HPC Guru Elevator Pitch Contest for the Supercomputing 2022 conference!

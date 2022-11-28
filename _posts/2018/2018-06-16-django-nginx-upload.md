@@ -2,6 +2,7 @@
 title: "Large Uploads with Django+Nginx Upload Module"
 date: 2018-06-16 4:24:00
 toc: false
+category: hpc
 ---
 
 Do you ever struggle with something, akin to a blueberry muffin that is slowly being squished

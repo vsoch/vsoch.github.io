@@ -1,7 +1,7 @@
 ---
 title: "Singularity Hub Archive"
 date: 2021-03-31 17:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 As of 5:00pm today, April 26th 2021, the Singularity Hub cloud space, including

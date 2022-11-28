@@ -1,7 +1,7 @@
 ---
 title: "Chef Autamus"
 date: 2021-07-12 19:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 > Chef Autamus, at your service!

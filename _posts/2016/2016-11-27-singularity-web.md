@@ -1,6 +1,7 @@
 ---
 title: "Containers for Academic Products"
 date: 2016-11-27 3:05:00
+category: hpc
 ---
 
 Why do we do research? Arguably, the products of academia are discoveries and ideas that further the human condition. We want to learn things about the world to satisfy human curiosity and need for innovation, but we also want to learn how to be happier, healthier, and generally maximize the goodness of life experience. For this reason, we give a parcel of our world's resources to people with the sole purpose of producing research in a particular domain. We might call this work the academic product. 

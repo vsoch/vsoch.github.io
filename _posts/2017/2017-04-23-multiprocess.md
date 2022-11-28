@@ -5,6 +5,7 @@ description: "Testing different ways to download streaming layers in Python."
 date: 2017-04-23
 comments: true
 keywords: ""
+category: hpc
 ---
 
 Has this ever happened to you? Today I woke up and wanted to know if I could download a file faster. Specifically, this would be for the <a href="https://singularityware.github.io" target="_blank">Singularity</a> back end Python API that does the simple streaming of Docker layers to the user's cache. As a cautionary note, my expertise in "parallel processing" is typically running jobs at scale in a high performance compute (HPC) cluster environment. I'm only aware of Python's <a href="">multiprocessing</a> library

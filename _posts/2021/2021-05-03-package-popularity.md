@@ -1,7 +1,7 @@
 ---
 title: "Package Popularity"
 date: 2021-05-03 17:30:00
-category: rse
+categories: [hpc, rse]
 ---
 
 I got my second vaccine today and arrived home after the end of the work day, so I decided to treat myself to a little fun and finish up a small project I started over the weekend. 

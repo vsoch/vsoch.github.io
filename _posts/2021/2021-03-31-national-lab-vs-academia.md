@@ -1,7 +1,7 @@
 ---
 title: "Working in a National Lab vs. Academia"
 date: 2021-03-31 11:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 Whether you are a graduate student thinking of your first job, or a veteran wondering

@@ -1,6 +1,7 @@
 ---
 title: Things that are Hard
 date: 2022-01-07 12:30:00
+category: hpc
 ---
 
 I saw a funny tweet on Twitter the other night - it was someone from a large consumer company sharing

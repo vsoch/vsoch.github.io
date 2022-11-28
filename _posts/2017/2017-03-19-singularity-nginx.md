@@ -5,6 +5,7 @@ description: "This post details a simple application that plugs a folder of Sing
 date: 2017-03-19
 comments: true
 keywords: ""
+category: hpc
 ---
 
 I wanted to make a web application that understood containers. As a researcher, or a developer, I want to be able to drop my containers into a folder, and then have the application serve them without any additional work. So I made a proof of concept, <a href="http://www.github.com/vsoch/singularity-nginx" target="_blank">Singularity Nginx</a>:

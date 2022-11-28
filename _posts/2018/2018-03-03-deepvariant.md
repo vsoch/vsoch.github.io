@@ -1,6 +1,7 @@
 ---
 title: "Google Container Registry Metadata 404"
 date: 2018-03-03 9:55:00
+category: hpc
 ---
 
 If Shrek says that happiness is just a tear drop away, I say that insight is just a 404 away. This was the content of a slack message from one of my colleagues that sent my investigatory dinosaur heart into an adventure:

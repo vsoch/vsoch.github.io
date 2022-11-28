@@ -1,7 +1,7 @@
 ---
 title: "Converged Computing"
 date: 2022-11-18 08:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 For many years, there has been a battle between cloud and HPC. The cloud side of the equation says "micro services, cloud native!"

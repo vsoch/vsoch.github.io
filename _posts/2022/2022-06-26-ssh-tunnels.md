@@ -1,7 +1,7 @@
 ---
 title: SSH Tunnels
 date: 2022-06-26 12:30:00
-category: rse
+categories: [rse, hpc]
 ---
 
 Today I want to talk about ssh tunnels. Very abstractly, we would want to use an ssh

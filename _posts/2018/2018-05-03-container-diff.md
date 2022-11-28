@@ -2,6 +2,7 @@
 title: "Container Differences"
 date: 2018-05-03 1:32:00
 toc: false
+category: hpc
 ---
 
 An important aspect of using containers in science is reproducibility, but it's possibly not enough.

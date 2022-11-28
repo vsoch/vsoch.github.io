@@ -2,6 +2,7 @@
 title: "The Ultimate Dockerfile Extraction"
 date: 2018-12-20 7:39:00
 toc: false
+category: hpc
 ---
 
 Before we go into details, here is what I am going to talk about in this post:

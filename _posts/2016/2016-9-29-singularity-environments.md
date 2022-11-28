@@ -1,6 +1,7 @@
 ---
 title: "Contained Environments for Software for HPC"
 date: 2016-9-29 6:41:00
+category: hpc
 ---
 
 I was recently interested in doing what most research groups do, setting up a computational environment that would contain version controlled software, and easy ways for users in a group to load it. There are several strategies you can take. Let's first talk about those.
