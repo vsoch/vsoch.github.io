@@ -5,7 +5,7 @@ date: 2022-12-24 12:30:00
 
 This is my annual "Reflections" post, and I have a lot to reflect on this year! In no particular order, 
 this year I have started to have more awareness about career progression, and how the barriers to success, and even interactions with people,
-can have quite a bit of variance depending on who you are. As I <a target="_blank" href="https://twitter.com/vsoch/status/1480008229811732480">recognized</a> these subtle
+can have quite a bit of variance depending on whom you are. As I <a target="_blank" href="https://twitter.com/vsoch/status/1480008229811732480">recognized</a> these subtle
 inequalities, I also realized there is a tendency to forget to acknowledge people that go against this grain, and are supportive. 
 
 So dear reader, let's reflect! This is a reflection post for 2022 where I want to talk about what I've learned about myself, the challenges around me, and also give whole-hearted
@@ -90,9 +90,9 @@ when I need help.
 
 ### To Flux Framework
 
-Given my main project was winding down, the second half of my plan was figuring out how to repalce that time.
+Given my main project was winding down, the second half of my plan was figuring out how to replace that time.
 I wanted to explore projects that I cared about, because importantly that's when things are fun and it doesn't feel like work.  
-I had a peaked interest in <a href="https://flux-framework.org/" target="_blank">Flux Framework</a> as possibly one of the 
+I had a piqued interest in <a href="https://flux-framework.org/" target="_blank">Flux Framework</a> as possibly one of the 
 coolest projects going on, but I was disconnected from it. So what does a proactive dinosaur do? 
 In late summer I started showing up to various meetings along with associated
 projects, and was seeking out ways to help. Even though I'm not a C++ developer, there were many opportunities for
@@ -107,7 +107,7 @@ My heart was ultimately strongly captured by a vision for (what we are now calli
 or combining the best of both worlds between high performance computing and cloud. I jumped on the opportunity to implement the 
 <a target="_blank" href="https://github.com/flux-framework/flux-operator">Flux Operator</a>, or in simpler terms a controller for
 Kubernetes that creates Flux Framework "mini clusters" to run jobs. It embodies this exact vision of converged computing,
-allows me to program in Go and learn enormously, and have regular projects meetings with a really fun, diverse
+allows me to program in Go and learn enormously, and have regular project meetings with a really fun, diverse
 set of collaborators that I have come to care about. I made a Thanksgiving ice cream turkey and shared pictures with them
 in chat, and that was OK to do. And I feel like the group is fun. I never thought I'd say this, but I really enjoy
 having many hour long coding or "hackathon" meetings to work on complex workflows or debug. We had two hackathon meetings
@@ -132,7 +132,7 @@ In the beginning of 2021 I started a personal project called Singularity Registr
 It was an idea I had for a while, but I hadn't pursued it because nobody was asking for it.
 But then, my (now colleague) from Australia reached out to me, and it was exactly what he needed.
 I got to work, and what has unfolded over the last two years has been magical. It has been the
-quintesstial fun, open source experience that I often crave. We get excited about ideas, both
+quintessential fun, open source experience that I often crave. We get excited about ideas, both
 myself and my collaborators jump to work on them, and then we built something cool! At the end
 of this year after a round of updates we stepped back and looked
 at some work we did and said <a href="https://arxiv.org/abs/2212.07376" target="_blank">Hey, let's
@@ -146,7 +146,7 @@ when you are excited about something and you have to make time outside the work 
 
 ### My Best Friend
 
-I was a loner for most my end of college and graduate school. I was a transfer student (and this was possibly a mistake)
+I was a loner for most of my end of college and graduate school. I was a transfer student (and this was possibly a mistake)
 and was plopped down into a fairly cold and challenging (to say the least) college culture that was at best lonely.
 I was a "tag along" person with random established groups of friends, and probably just invited out of pity.
 Things started looking up after I entered the work world and was living independently and finding my love of programming,
@@ -161,7 +161,7 @@ acceptance and comfort from another person. My mental health and continuing to t
 
 ## What am I grateful for?
  
-Now that I've said some thank you's, let's talk about what I'm grateful for! Indeed there are many things.
+Now that I've said some thank you's, let's talk about what I'm grateful for! Indeed, there are many things.
 I am grateful for my work, and ability to conduct it with general temporal freedom. You can't pay for that. I am grateful
 that I'm able to isolate and avoid getting COVID, and live with someone that shares my level of risk tolerance. I'm grateful
 that despite a few decades of not-so-lucky health events, I've been healthy and happy living by the mountains.
@@ -190,7 +190,7 @@ I never felt quite comfortable enough in my environment to even explore my authe
 In traditional social situations I was the one out because the noise of the venue was too much, or to be frank,
 I got really bored really quickly with whatever it is people talk about when they socialize. I've felt like
 I didn't belong in most places for a lot of my life, and I think this took a turning point when I met my best friend
-and realized he didn't judge me for being silly, messy, or imperfect, and then this awareness was able to trickle
+and realized he didn't judge me for being silly or imperfect, and then this awareness was able to trickle
 out into my regular life where (every so often) I share little bits of my happiness - dancing, creative endeavors, 
 or just acting silly. I started to realize that my authentic, honest self was not a negative, but a huge positive.
 It brings life to people and ideas. It makes the world a little more interesting and fun. This by far has been the best 
@@ -216,7 +216,7 @@ shoes, I healed almost immediately (and felt very dumb for waiting that long). I
 to feel fast and strong again, and then disaster struck again -- I tripped on an apple on the road in the dark. My ankle
 not only took all of my body weight, but it had force because I was moving, and it twisted in ways I didn't think were possible. 
 I'm a very bendy person, so normally I could twist my ankle and it would just be fine, but this time I was in such immense
-pain that I cried out, was a bit in a shock and didn't move from where I fell, and cars were stopping to ask if I was OK. I was more afraid of COVID exposure from other
+pain that I cried out, was a bit in a shock and didn't move from where I fell, and cars were stopping to ask if I was OK. I was more afraid of COVID exposure from
 unmasked people than an injury so I would thank them and assure them I would be OK. Ultimately I needed my apartment
 mate to carry me home, and I remember just sitting on the kitchen floor with ice and crying,
 this time because of the sadness realizing the injury was fairly bad. But I knew I didn't shatter anything or possibly
@@ -252,7 +252,7 @@ they had to be twice as excellent or work twice as hard (or more!) to get there.
 
 Just because you _can_ do something doesn't mean that you have to. E.g., imagine that you
 get assigned a project at work, and while you can go through the motions, your heart isn't in it.
-You feel unfilfilled. The lesson is that because we can do things does not mean we should.
+You feel unfulfilled. The lesson is that because we can do things does not mean we should.
 We are allowed to have a voice (and I believe we should) to express what we want to do, and take
 tiny steps toward that vision. If you don't speak up, your career trajectory is essentially like a plastic
 bag blowing in the wind. The challenge here, of course, is related to matching. Project groups,
@@ -260,7 +260,7 @@ or more generally, communities, vary in communication style and preferences, and
 like a weirdo in one community, and completely accepted by another. This is why not just matching your
 interests but also preferences for communication and communication style is important. It shouldn't
 be the case that you feel out of place, ignored, or like when you say something it's annoying to others.
-When you find a community of people that is a match, you tend to just know. My advise is to inch closer
+When you find a community of people that is a match, you tend to just know. My advice is to inch closer
 to the people and communities that make you feel accepted and excited about the shared goals, 
 and away from those that don't.
 
@@ -306,7 +306,7 @@ be hugely unlikely for a third party to not include you if you explicitly say yo
 someone else, speak up. 
 
 For all of the above, if you are the person that has been placed responsible for someone else's comfort,
-my only advise is to speak up for yourself, and make conscious decisions to step away from people and/or 
+my only advice is to speak up for yourself, and make conscious decisions to step away from people and/or 
 communities that are toxic in this way. Take one step away, and one step closer to other people and communities
 that will not treat you this way. 
 
@@ -346,7 +346,7 @@ nor can you be advancing your learning and career without rubbing someone's feat
 And I'll close with a <a href="https://vsoch.github.io/2022/wild-one/" target="_blank">post</a> that gave me strength
 earlier this year.
 
-    When someone tries to makes you feel very small,
+    When someone tries to make you feel very small,
     Just remember that you run mountains
     If they really want to touch you,
     they are going to have to keep up. :)
