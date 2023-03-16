@@ -8,6 +8,6 @@ tags:
 ---
 
 
-[The Ghost Rider](http://www.youtube.com/watch?v=Fhf1TMOp7Rk) is pretty spectacular, if not embarrassing :O)
+[The Ghost Rider](https://youtu.be/j_NIdx2JGM4) is pretty spectacular, if not embarrassing :O)
 
 
