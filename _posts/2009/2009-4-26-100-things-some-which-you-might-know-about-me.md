@@ -1,6 +1,7 @@
 ---
 title: "100 Things, some which you might know about me :)"
 date: 2009-4-26 14:29:31
+hidden: true
 tags:
   lists
   me
@@ -46,16 +47,20 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  I prefer falling asleep in complete darkness. I used to be afraid of a toe biting monster when I was a kid, but the solution to that fear isn’t light… rather a securely tucked blanket.
 
 12. THE LAST PERSON TO MAKE YOU CRY?  
- Well, my friend made me cry, because I was laughing so hard ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+ Well, my friend made me cry, because I was laughing so hard!
 
 13. WHAT’S YOUR WORST FEAR?  
  Drowning under ice in a lake… *shudder*
 
 14. WHAT KIND OF HAIR/EYE COLOR DO YOU LIKE ON THE OPPOSITE SEX?  
  Oh that’s so easy. Dark dark dark dark. Not even dark brown, closer to black, or so dark brown it looks black.
+ 
+    Update from 2023: I've since been attracted to the gamut of hair and eye colors. The person I've secretly fallen for has blue eyes, and if I ever met him I would melt into a little puddle. I probably never will, I'm pathetic.
 
 15. WHERE CAN YOU SEE YOURSELF PROPOSING?  
  Hopefully I won’t have to figure this out 😛
+ 
+    Update from 2023: I'm in my mid 30s and am still different and weird and I don't see this ever happening for me.
 
 16. COFFEE OR ENERGY DRINK?  
  Coffee of course!
@@ -101,6 +106,8 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 
 31. BLONDES OR BRUNETTES?  
  Neither, black hair please.
+ 
+ update from 2023: This also largely doesnt matter.
 
 32. FAVORITE QUOTE?  
  Something I posted recently… You are either good, trying to get good, or you’ve given up. I guess it’s not really a quote, more an idea.
@@ -109,7 +116,7 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  The forest
 
 34. HAVE YOU BEEN OUT OF THE USA?  
- Yes, I’ve traveled to the Dominican Republic
+ Yes, once.
 
 35. YOUR WEAKNESSES?  
  I set expectations that can be both too high for my own good, and for others as well. My perfectionism and sense of time urgency is probably sometimes a strength, and sometimes a pretty bad quality to have.
@@ -118,7 +125,7 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  I saw Q from Star Trek in a book store when I was in high school. He looked really old.
 
 37. FIRST JOB?  
- Ice cream scooper! So much fun ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
+ Food service, front and back of thr house for different venues.
 
 38. EVER DONE A PRANK CALL?  
  Actually, I have… in the 3rd grade my friend and I called a completely random number, said something silly, and hung up.
@@ -166,7 +173,7 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  Yeah, I always give myself hang nails. And it seems to be in an effort to get rid of them. Silly girl.
 
 53. ARE YOU A JEALOUS PERSON?  
- I think if I were in a relationship and there were other girls hanging around, I could be jealous, but it wouldn’t last long because I would act on it. In terms of other girls? No, I’ve never been aware of another girl having a quality or looking in a way that I’d want to have/look.
+ Not particularly. If I want to be better or different I work towards that. If someone that loved me before loves someone else instead, that's outside of my control. :/
 
 54. IF YOU WERE ANOTHER PERSON, WOULD YOU BE FRIENDS WITH YOU?  
  No, probably not. I’ve answered this question as well… I’m way too introverted.
@@ -180,8 +187,8 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 57. HOW DO YOU RELEASE ANGER?  
  I feel anxiety mostly as my negative emotion, and I deal with that by running. I wish I could sleep it off, but it tends to make me sleep less.
 
-58.WOULD YOU RATHER GAIN 58 POUNDS OR LOSE 58 POUNDS.  
- Oh god, I don’t think I’d be alive if I lost 58 pounds, but I don’t want to gain that much either, that wouldn’t be healthy.
+58. WOULD YOU RATHER GAIN 58 POUNDS OR LOSE 58 POUNDS.  
+    Oh god, I don’t think I’d be alive if I lost 58 pounds, but I don’t want to gain that much either, that wouldn’t be healthy.
 
 59. WHAT’S YOUR MAIN GOAL IN LIFE?  
  To get through it in a way that feels good?
@@ -192,8 +199,8 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 61. HOW MANY NUMBERS ARE IN YOUR CELL PHONE?  
  Maybe…. 50?
 
-62.WERE YOU A FAN OF BARNEY AS A LITTLE KID?  
- No, wrong generation.
+62. WERE YOU A FAN OF BARNEY AS A LITTLE KID?  
+   No, wrong generation.
 
 63. Do you use sarcasm?  
  Yes… sometimes I go over the line too
@@ -204,6 +211,8 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 65. WHAT DO YOU LOOK FOR IN A GUY/GIRL?  
  humility, a sense of humor, quiet intellect, a little spurt of passion pertaining to something, dark features
 
+    Update from 2023: this is largely still true, but dark features not needed. 
+
 66. WHAT ARE YOUR NICKNAMES?  
  V, Nessa
 
@@ -213,11 +222,11 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 68. WHAT ARE YOUR FAVORITE TV SHOWS?  
  Ooooh my goodness, here goes… House, Scrubs, LOST, 30 Rock, The Office, Hell’s Kitchen, Bleach, Ace of Cakes, Kitchen Nightmares, Dollhouse, Castle, The Simpsons, Family Guy, Weeds, The Chopping Block, Chuck, Cupid, I DID watch the Bachelor (hehe), Daily Show, and Colbert Report
 
-69.WHAT’S THE BEST WAY TO DEAL WITH YOUR ENEMIES?  
+69. WHAT’S THE BEST WAY TO DEAL WITH YOUR ENEMIES?  
  Just minimize time you are around them, I think. There’s no way I want to be friends with someone I don’t like.
 
 70. WHAT’S YOUR FAVORITE ICE CREAM FLAVOR?  
- Pumpkin Pie Ripple from Bruster’s
+ Anything from Bruster’s
 
 71. DO YOU HAVE ALL YOUR FINGERS AND TOES?  
  Yes
@@ -245,6 +254,8 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
 
 79. THE FIRST THING YOU NOTICE IN THE OPPOSITE SEX?  
  Face, demeanor, then hair, then clothing style
+ 
+ Update from 2023: their voice is always first.
 
 80. WHAT DO YOU LIKE TO DO IN YOUR SPARE TIME?  
  Exercise and watch TV
@@ -262,13 +273,13 @@ I just finished not one, not two, but THREE philosophy papers, and before delvin
  Yes ![:)](http://vsoch.com/blog/wp-includes/images/smilies/simple-smile.png)
 
 85. WHAT IS YOUR HAIR COLOR?  
- Dark brown
+ 👩🏻‍🦱
 
 86. EYE COLOR?  
- Dark brown
+ 👀
 
 87. SHOE SIZE?  
- 10, Women
+ My feet are thin and long.
 
 88. FAVORITE FAST FOOD PLACE?  
  Hmm… Panera… technically it’s pretty fast
