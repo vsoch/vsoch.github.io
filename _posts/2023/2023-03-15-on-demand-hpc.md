@@ -3,8 +3,6 @@ title: On-Demand, Flexible HPC
 date: 2023-03-15 22:30:00
 ---
 
-<a href="" target="_blank">
-
 I've been thinking a lot lately about workflows as I've been developing
 the <a href="https://github.com/flux-framework/flux-operator" target="_blank">Flux Operator</a>.
 For some background, the Flux Operator is a <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/" target="_blank">Kubernetes operator</a> 
