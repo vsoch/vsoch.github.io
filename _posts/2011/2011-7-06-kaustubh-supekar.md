@@ -7,7 +7,9 @@ tags:
   kaustubh
 ---
 
-
 …or as I thought of today, “Supe-Kau!” ;O)
 
-![Supe... ah, say no more!  I know exactly of the man you seek.](http://www.vsoch.com/blog/wp-content/uploads/2011/07/supe-kau-300x300.png "supe-kau")](http://www.vsoch.com/blog/wp-content/uploads/2011/07/supe-kau.png)Supe... ah, say no more! I know exactly of the man you seek.
+![Supe... ah, say no more!  I know exactly of the man you seek.]({{ site.baseurl }}/assets/images/posts/vbmis/supe-kau.png)
+
+Supe... ah, say no more! I know exactly of the man you seek.
+

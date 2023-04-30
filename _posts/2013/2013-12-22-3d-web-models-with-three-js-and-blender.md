@@ -17,7 +17,7 @@ If we think for a minute about the broad range of expertise that would be requir
 
 Back from my days of doing models in Maya, I remember this website [TurboSquid](http://www.turbosquid.com/) where you can download lots of free models.  That isn't so helpful though, because I would want models of my own images and data.  So for this learning tutorial, it's important to make our own models from scratch.  First, let's choose an image and turn it into a vector graphic using Inkscape on linux.  For this purpose, I am calling on my Mr. Catsup:
 
-[![ketchup](http://www.vbmis.com/learn/wp-content/uploads/2013/12/ketchup-225x300.png)](http://www.vbmis.com/learn/wp-content/uploads/2013/12/ketchup.png)
+![ketchup]({{ site.baseurl }}/assets/images/posts/vbmis/ketchup.png)
 
 Now, download [Inkscape](http://www.inkscape.org), which is the Linux (free!) version of Adobe Illustrator.  Adobe has recently done away with all single licenses, and users are required to pay ridiculous monthly fees for its "Creative Cloud."  It's amazing what companies will do to make money, and ironically it means that they are likely going to lose a huge customer base.  Here is how to turn the graphic into a vector graphic:
 
@@ -29,7 +29,7 @@ Now, download [Inkscape](http://www.inkscape.org), which is the Linux (free!) ve
 
 Here is our vectorized Mr. Catsup:
 
-![](http://www.vbmis.com/bmi/project/ketchup/catsup.svg)
+![ketchup]({{ site.baseurl }}/assets/images/posts/vbmis/catsup.svg)
 
  
 

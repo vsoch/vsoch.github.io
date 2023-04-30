@@ -43,6 +43,5 @@ Tentative and cautious, proceed in your course
  A passion so wired, twisty, and deep  
  in his heart forever, you he will keep.
 
-[![horsie](http://vsoch.com/blog/wp-content/uploads/2015/01/horsie.png)](http://vsoch.com/blog/wp-content/uploads/2015/01/horsie.png)
-
+![horsie]({{ site.baseurl }}/assets/images/posts/vbmis/horsie.png)
 
