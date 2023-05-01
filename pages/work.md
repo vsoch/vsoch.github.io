@@ -60,6 +60,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+    <li><a href="https://www.youtube.com/watch?v=gDd3PgcgseQ" target="_blank">The hpc.social project</a>: at the annual EasyBuild user's meeting.</li>
     <li><a href="https://sched.co/1HyaG" target="_blank">(upcoming) talk on the Flux Operator</a>: Kubecon in Amsterdam, 2023.</li>
     <li><a href="https://youtu.be/2Oet0hGOy7U" target="_blank">The Software Complexity Puzzle</a>: talk at CU Boulder, 2022.</li>
     <li><a href="https://youtu.be/FB2yV8TNnSw" target="_blank">The Research Software Engineer Movement</a>: talk at the 2022 EasyBuild users meeting.</li>
