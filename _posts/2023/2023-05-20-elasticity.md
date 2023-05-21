@@ -408,6 +408,9 @@ It also is really nice because if an autoscaler isn’t installed to the cluster
 
 ## Summary: what are next steps?
 
+Before I talk about next steps, I want to step back and express immense gratitude for the people that are a consistent source of support and knowledge. I've been in many situations where this is lacking, and it's hugely obvious to me (and appreciated) when it's not. This includes the Flux Framework and 
+ Converged Computing teams (and those two overlap quite a bit), along with my scattered collaborators and friends on the various Kubernetes or other cloud or container slacks or social media. My style of long threads and brain dumping my learning or questions is probably really annoying at times. I don't know why I'm verbose like that and sometimes I really am down on myself about it, but I'll just say it means that world to find people that can tolerate that and work with and support me, and it's absolutely everything. 💗️
+
 The next steps (if you haven't guessed) are to integrate this with an actual scaling of a Kubernetes cluster, meaning adding actual nodes.
 My main concern here is how quickly a cloud provider could do that, but that adventure is for another day!
 
