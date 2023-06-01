@@ -466,7 +466,7 @@ flux-sample-3-pvg6l   1/1     Running   0          2m3s
 
 ## Conclusions
 
-This was a lot of fun learning over the last few days! It is just a prototype and would need more work (enabling SSL again and getting more feedback on the design) but I'm fairly happy to get the result above. Likely I'll more custom metrics to our little Python library, and maybe look into
+This was a lot of fun learning over the last few days! To see the entire tutorial for using this with the Flux Operator, [see here](https://github.com/flux-framework/flux-operator/tree/main/examples/elasticity/horizontal-autoscaler/v2-custom-metric). It is just a prototype and would need more work (enabling SSL again and getting more feedback on the design) but I'm fairly happy to get the result above. Likely I'll more custom metrics to our little Python library, and maybe look into
 this other strategy for using [External](https://github.com/GoogleCloudPlatform/bank-of-anthos/blob/a32d4cf14a6a030705f00fc9d0dbf2d547ef1231/extras/postgres-hpa/hpa/frontend.yaml#L16) endpoints for autoscaling.  The TLDR:
 
 <ol class="custom-counter">
@@ -474,6 +474,5 @@ this other strategy for using [External](https://github.com/GoogleCloudPlatform/
 <li>If someone is interested in Prometheus + Flux in the future, we have stuff for that too now.</li>
 <li>Thank you to the Flux team, namely Garlick (Jim) and Grondo (Mark) that engaged with me</li>
 </ol>
-
 
 Some lessons? As always, we can see from this small journey that learning and development is not linear. When you don't know what you are doing, starting with some step one, and ensuring you have a good developer environment, is a good strategy. And often we need to do things wrong a few times before we decide on a way that we want to pursue, and even then there is no guarantee of correctness. I hope someone finds this useful eventually, I guess I can just keep building and learning in the meantime. And I hope someone else is excited about these ideas too - sometimes it feels a little lonely to be going on these development adventures alone, but maybe this is a me-problem.
