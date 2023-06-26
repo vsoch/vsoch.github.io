@@ -60,6 +60,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+    <li><a href="https://hpckp.org/talks/cloud-and-hpc-convergence-flux-for-job-management-on-kubernetes/" target="_blank">Cloud and HPC Convergence: Flux for Job Management on Kubernetes, HPC Knowledge Meeting 2023</a></li>
     <li><a href="https://www.youtube.com/watch?v=gDd3PgcgseQ" target="_blank">The hpc.social project</a>: at the annual EasyBuild user's meeting.</li>
     <li><a href="https://sched.co/1HyaG" target="_blank">Talk on the Flux Operator</a>: <a href="https://www.youtube.com/watch?v=C2T8bIlkeD4" target="_blank">(recorded video</a>|<a href="https://youtu.be/rGOT-1SiZtU" target="_blank">conference video</a>) Kubecon in Amsterdam, 2023.</li>
     <li><a href="https://youtu.be/2Oet0hGOy7U" target="_blank">The Software Complexity Puzzle</a>: talk at CU Boulder, 2022.</li>
