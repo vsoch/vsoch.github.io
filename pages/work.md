@@ -65,7 +65,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
     <li><a href="https://sched.co/1HyaG" target="_blank">Talk on the Flux Operator</a>: <a href="https://www.youtube.com/watch?v=C2T8bIlkeD4" target="_blank">(recorded video</a>|<a href="https://youtu.be/rGOT-1SiZtU" target="_blank">conference video</a>) Kubecon in Amsterdam, 2023.</li>
     <li><a href="https://youtu.be/2Oet0hGOy7U" target="_blank">The Software Complexity Puzzle</a>: talk at CU Boulder, 2022.</li>
     <li><a href="https://youtu.be/FB2yV8TNnSw" target="_blank">The Research Software Engineer Movement</a>: talk at the 2022 EasyBuild users meeting.</li>
-    <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a></li>
+    <li><a href="https://www.youtube.com/watch?t=1301&v=YRsak7sIJ1w&feature=youtu.be" target="_blank">SeptembRSE Keynote</a>: The Stories We Tell Ourselves</li>
     <li><a href="https://www.youtube.com/watch?v=ka9IB6dMxAY&feature=emb_title" target="_blank">Research Software Engineers: A New Career</a>: January 6, 2020 at the UIT Unconference</li>
     <li><a href="https://youtu.be/xvi-Om8jj2E" target="_blank">Singularity Registry HPC (shpc)</a>: and at the <a href="https://youtu.be/P32RYY_2V7w" target="_blank">US-RSE Virtual Conference</a> May, 2021</li>
     <li><a href="https://www.youtube.com/watch?list=PLGudixcDaxY3RGLSlWoN_cEEXhIT1OPmj&v=RKEmAshcreE&feature=youtu.be" target="_blank">Adding an Executor to Airflow, a Contributor Overflow Exception</a>: July 24, 2020</li>
