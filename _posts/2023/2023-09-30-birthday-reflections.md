@@ -1,6 +1,7 @@
 ---
 title: "Birthday Reflections"
 date: 2023-09-30 10:00:00
+hidden: true
 ---
 
 In the last 6 weeks I had a birthday. For birthdays I usually write and reflect, and this year I was especially thoughtful. While I won't share all the intimate details of my thoughts, I felt compelled to write, because this birthday is a bit of a milestone. So here we are. 🤓️
