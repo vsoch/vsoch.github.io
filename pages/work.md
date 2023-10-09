@@ -14,8 +14,10 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Recent Projects</strong></h3>
 <ul>
-       <li><a href="https://github.com/vsoch/action-updater" target="_blank">The Action Updater</a>: for GitHub action syntax and versions</li>
+       <li><a href="https://github.com/converged-computing/metrics-operator" target="_blank">Metrics Operator</a>: Kubernetes operator for deploying HPC apps and metrics in K8s</li>
        <li><a href="https://github.com/flux-framework/flux-operator" target="_blank">Flux Operator</a>: Kubernetes operator for Flux</li>
+       <li><a href="https://github.com/converged-computing/kubescaler" target="_blank">kubescaler</a>: Tool for autoscaling studies in Kubernetes</li>
+       <li><a href="https://github.com/vsoch/action-updater" target="_blank">The Action Updater</a>: for GitHub action syntax and versions</li>
        <li><a href="https://github.com/sciworks/spack-updater" target="_blank">Spack Updater</a>: Helper to maintain and update Spack packages</li>
        <li><a href="https://github.com/tunel-apps" target="_blank">tunel</a>: apps and launchers for HPC</li>
        <li><a href="https://github.com/vsoch/pipelib" target="_blank">pipelib</a>: easily parse, sort, fitler Docker tags or software releases</li>
@@ -60,6 +62,9 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Presentations</strong></h3>
 <ul>
+
+    <li><a href="https://kccncna2023.sched.com/event/1R2oD" target="_blank">Application Building in Kubernetes: Upcoming Kubecon Chicago 2023</a> and <a href="https://www.cncf.io/announcements/2023/08/30/cloud-native-computing-foundation-unveils-schedule-for-kubecon-cloudnativecon-north-america-2023/" target="_blank">CNCF Announcement</a></li>
+    <li><a href="https://youtu.be/BLrp66Jn4jE" target="_blank">Open Source Introspection: 2023 UC Open Source Symposium Keynote</a></li>
     <li><a href="https://hpckp.org/talks/cloud-and-hpc-convergence-flux-for-job-management-on-kubernetes/" target="_blank">Cloud and HPC Convergence: Flux for Job Management on Kubernetes, HPC Knowledge Meeting 2023</a></li>
     <li><a href="https://www.youtube.com/watch?v=gDd3PgcgseQ" target="_blank">The hpc.social project</a>: at the annual EasyBuild user's meeting.</li>
     <li><a href="https://sched.co/1HyaG" target="_blank">Talk on the Flux Operator</a>: <a href="https://www.youtube.com/watch?v=C2T8bIlkeD4" target="_blank">(recorded video</a>|<a href="https://youtu.be/rGOT-1SiZtU" target="_blank">conference video</a>) Kubecon in Amsterdam, 2023.</li>
