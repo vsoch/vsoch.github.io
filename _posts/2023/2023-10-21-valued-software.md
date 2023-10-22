@@ -125,18 +125,11 @@ The plots above give us a gist of (an estimated) publication date vs the last co
 </div>
 
 
-In the above, we are looking at the total count of projects that are still being updated at different frequencies (months) after their initial publication. Note that the age of the project is taken into account here, meaning that the smallest value on the right also reflects that fewer projects have been around that long.  For those interested, I also created this plot that calculates the same but as a percentage of the projects that are contenders (and have existed for that long). 
+In the above, we are looking at the total count of projects that are still being updated at different frequencies (months) after their initial publication. Note that the age of the project is taken into account here, meaning that the smallest value on the right also reflects that fewer projects have been around that long. I think this is really (and to see the change in slope) because because it creates a new hypothesis:
 
+> If a project survives a certain amount of time and is still active, it is more likely to be valued. 
 
-<div style="padding:20px; margin:auto">
-    <img src="{{ site.baseurl }}/assets/images/posts/rseng-activity/updated-repos-over-time-percent.png">
-</div>
-
-For this plot we see that 60% of projects are worked on right after publication, and this drops to below 25% after 15 months. However, remember that this set includes projects that have minimally been around at least three months. We then jump up again to between 40% and 45% up until about 30 months, and then it drops again. Interestingly, there is a spike at about 38 or 39 months. What is happening? There are a much smaller number of projects that have been around that long (if I remember, for the last timepoint on the order of 110) and a fairly large number of them (I think on the order of 68?) have been updated 40 months after their initial creation. I think this is really interesting because it creates a new hypothesis:
-
-> If a project survives a certain amount of time and is still active, it is more likely to be valued.
-
-In other words, those that survive the first few years of being published and existing, and then that are still worked on, are more robust. The higher percentage of the total that were created that long ago says something, and it will take more work to further tell this story (if anyone is interested! This is a fun Saturday project for me).
+In other words, those that survive the first few years of being published and existing, and then that are still worked on, are more robust. There are fewer of them as time passes, but the fewer are more likely to survive. This says something, and it will take more work to further tell this story (if anyone is interested! This is a fun Saturday project for me).
 
 #### High Value Projects
 
