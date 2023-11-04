@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Artifact Cache"
-date: 2023-11-1 10:00:00
+date: 2023-11-4 10:00:00
 ---
 
 I've been working on an idea recently that I'm very excited about, and want to pause to share. In this post I'll summarize [the problem](#the-problem), a potential [design](#the-design), and then a simple [example](#a-simple-example) that demonstrates the proposed solution.
