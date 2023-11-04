@@ -181,7 +181,8 @@ spec:
        command: mpirun --hostfile ./hostlist.txt -np 4 -ppn 2 lmp ... 2>&1 | tee -a lammps.out
 ```
 
-Note that when I was developing this example I ran into a few interesting problems, namely [this one](https://github.com/kubernetes-sigs/jobset/tree/main/docs/faq#2-jobset-is-created-but-child-jobs-andor-pods-are-not-being-created) and [this one](https://github.com/kubernetes/website/pull/43773/files). Thanks to Kevin Hannon (now at RedHat) for the tips. My fix was  to change the mutating webhook to only be on CREATE but it looks like I could have also updated Kubernetes. Then they terminated! Cue terminator voice... 
+Note that when I was developing this example I ran into a few interesting problems, namely [this one](https://github.com/kubernetes-sigs/jobset/tree/main/docs/faq#2-jobset-is-created-but-child-jobs-andor-pods-are-not-being-created) and [this one](https://github.com/kubernetes/website/pull/43773/files). Thanks to Kevin Hannon (now at RedHat) for the tips. My fix was  to change the mutating webhook to only be on CREATE but it looks like I could have also updated Kubernetes. Then they terminated! Cue terminator voice... 🤖️
+
 So for a high level, we basically are running the Metrics Operator with LAMMPS (and it creates JobSet that have pods underneath it all) that are being given annotations that say "please save your metrics experimental results to our registry!"
 I could create the experiments, actually for each of LAMMPS and for running HWLOC:
 
@@ -206,7 +207,7 @@ oras-0                 1/1     Running   0          83s
 The others (e.g., the LAMMPS workers) have the network and other pod customization, but will not have the sidecar added.
 You can now wait until they are finished:
 
-```
+```bash
 kubectl  get pods
 NAME                   READY   STATUS      RESTARTS   AGE
 hwloc-0-m-0-0-528kq    0/2     Completed   0          109s
@@ -215,7 +216,7 @@ oras-0                 1/1     Running     0          16m
 ```
 
 And just to be clear - "finished" means that the sidecar container with ORAS was setup, the applications ran (LAMMPS or HWLOC) and then their artifacts were moved and pushed to the registry. The containers then both exit, allowing the Job to complete. Nice!
-Now let's inspect some logs to see what the output looks like, starting with lAMMPS.
+Now let's inspect some logs to see what the output looks like, starting with LAMMPS.
 
 #### LAMMPS
 
@@ -417,7 +418,7 @@ lammps
 ```
 
 There they are! Now let's try listing tags under each. For this simple experiment, we had the tag correspond to the iteration, and we only had one (index 0) for each.
-You can imnagine running more complex setups than that.
+You can imagine running more complex setups than that.
 
 ```
 $ oras repo tags localhost:5000/metric/lammps
@@ -427,8 +428,8 @@ iter-0
 ```
 
 And now the moment of truth! let's download the data. Note that if you are extracting multiple tags (with files of the same name) you likely want to do this programmatically and
-into organized directories. If you don't use the Go-based oras client (which is good imho) you can use the [Oras Python](https://github.com/oras-project/oras-py) SDK instead (I @vsoch maintain it).
-Let's just dump these into our [data](data) directory:
+into organized directories. If you don't use the Go-based oras client (which is good imho) you can use the [Oras Python](https://github.com/oras-project/oras-py) SDK instead (I maintain it).
+Let's just dump these into a data directory:
 
 ```bash
 cd data
