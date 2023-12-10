@@ -27,7 +27,7 @@ And here is the problem with that. If you were to run multiple pods on the same 
 
 ## The Adventure Begins
 
-After our Hackathon we were going into Supercomputing, Kubecon, and another venue I was giving a talk for, so I only tried out reproducing the case twice. Each time, I tried bringing up a cluster akin to what I saw Antonio do, but I never reproduced it. No matter what limits and requests I put, Flux inside the pod using "flux resource list." I started to think maybe I had hallucinated, or there was some major detail (e.g., Kubernetes version) that I was missing. I really just needed to take a concerted afternoon and think about it and try several things to figure it out. Let's go!
+After our Hackathon we were going into Supercomputing, Kubecon, and another venue I was giving a talk for, so I only tried out reproducing the case twice. Each time, I tried bringing up a cluster akin to what I saw Antonio do, but I never reproduced it. No matter what limits and requests I put, the Flux container inside the pod using "flux resource list" saw everything. I started to think maybe I had hallucinated, or there was some major detail (e.g., Kubernetes version) that I was missing. I really just needed to take a concerted afternoon and think about it and try several things to figure it out. That afternoon was today. So (in the words of Mario)... let's go!
 
 ### A Saturday Afternoon
 
