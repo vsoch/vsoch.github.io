@@ -23,7 +23,7 @@ or a [nice dump of XML](https://github.com/converged-computing/metrics-operator-
 
 > Hey, how many nodes and cores are in the audience today?
 
-And here is the problem with that. If you were to run multiple pods on the same node, without controlling resources via cgroups, each Flux broker would think (and tell Flux) that it had that many resources available. More specifically, if we deployed 4 flux brokers on one physical node with 80 cores, instead of each broker knowing that it should only schedule to 20 cores, it would tell Flux there is a total of 80 x 4 (320) cores. Things would break very quickly! For this reason of using hwloc, in order to actually schedule multiple Flux brokers (containers) on one physical node, we have to set actual limits with cgroups. Get it? OK, let's now start our adventure!
+And here is the problem with that. If you were to run multiple pods on the same node, without controlling resources via cgroups, each Flux broker would think (and tell Flux) that it had that many resources available. More specifically, if we deployed 4 flux brokers on one physical node with 80 cores, instead of each broker knowing that it should only schedule to 20 cores, it would tell Flux there is a total of 80 x 4 (320) cores. Things would break very quickly! For this reason of using hwloc, in order to actually schedule multiple Flux brokers (containers) on one physical node, we have to set actual limits with cgroups. We have traditionally gotten around this by simply ensuring that one pod is scheduled per node, so Flux seeing all the resources of the node isn't an issue. Get it? OK, let's now start our adventure!
 
 ## The Adventure Begins
 
