@@ -19,7 +19,7 @@ Before we jump into our adventure, I want to tell you why this is even a thing. 
    <a href="https://github.com/converged-computing/metrics-operator-experiments/blob/main/aws/performance/run0/results/metric/hwloc/iter-0/analysis/architecture.png?raw=true" target="_blank"><img src="https://github.com/converged-computing/metrics-operator-experiments/blob/main/aws/performance/run0/results/metric/hwloc/iter-0/analysis/architecture.png?raw=true"/></a>
 </div>
 
-or a [nice dump of XML](https://github.com/converged-computing/metrics-operator-experiments/blob/main/aws/performance/run0/results/metric/hwloc/iter-0/analysis/machine.xml). This means that Flux uses hwloc when you boot up a broker to say
+or a [nice dump of XML](https://github.com/converged-computing/metrics-operator-experiments/blob/main/aws/performance/run0/results/metric/hwloc/iter-0/analysis/machine.xml). This means that (at a high level) Flux uses hwloc when you boot up brokers to say:
 
 > Hey, how many nodes and cores are in the audience today?
 
