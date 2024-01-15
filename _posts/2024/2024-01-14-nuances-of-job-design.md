@@ -1,6 +1,6 @@
 ---
 title: "Nuances of Job Design: Testing with Kueue"
-date: 2024-01-06 10:00:00
+date: 2024-01-14 10:00:00
 ---
 
 This weekend I delved into (what I thought might be) a very simple project. For some context, the week earlier (this last week) was completely lovely - I was doing my first [exploration into understanding](https://docs.google.com/document/d/18FwTJdOgWu7ksGAoSApW08BReg8TvWr7viNiwgJGRfU/edit?usp=sharing) of a queueing system for Kubernetes, "Kueue," and was spending many hours working on our custom scheduler, Fluence, and in my happiest of states - thrown into something complex that I totally didn't understand and mostly not getting things to work as I wanted. Actually, there was an insightful thought I had falling asleep the other night:
