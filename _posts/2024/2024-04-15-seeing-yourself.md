@@ -27,7 +27,7 @@ The store was glorious - I remember walking in, and seeing little tightly knit c
 
 It was a small, rectangular drawing of a girl with flowers on her head, with dangling earrings like I wore, and looking off to the side. She had a uni-brow, and a small upturned nose that mirrored the tip of mine. And the eyes? They were mine. The picture, in its entirety, is what I thought I might be if I were fully healthy. It might have been a variant of Frida Kahlo, but it had the strange elegance that I've always carried. What captured me most, however, wasn't her features, but the look of subtle sadness to her gaze, which was completely disconnected from the viewer. I stopped in that shop and I just stared at her. In a world where I was losing sight of myself, the world was placing me directly in it. I had to travel many miles and randomly stumble into a yarn shop in a small town, but there I was.
 
-I bought that picture, because I couldn't leave her. It was both haunting and meaningful at the same time. This was the last of a handful of larger surgeries I had during graduate school, most of which I tried to hide from the world and try to survive, and during those times I often found it hard to imagine a future where I was fully a part of the world. I either lived in a bubble, or had such severe limitations to what I could do, I wondered why should I bother. Strangely enough, those limitations have given me superpowers, beaause I find that I can not just survive, but thrive with very little. You'd think you'd wake up from a major surgery and be ornery and in pain but me? I was more happy that I could pretend to be ET for a few days.
+I bought that picture, because I couldn't leave her. It was both haunting and meaningful at the same time. This was the last of a handful of larger surgeries I had during graduate school, most of which I tried to hide from the world and try to survive, and during those times I often found it hard to imagine a future where I was fully a part of the world. I either lived in a bubble, or had such severe limitations to what I could do, I wondered why should I bother. Strangely enough, those limitations have given me superpowers, because I find that I can not just survive, but thrive with very little. You'd think you'd wake up from a major surgery and be ornery and in pain but me? I was more happy that I could pretend to be ET for a few days.
 
 <div style="padding:20px">
 <img src="{{ site.baseurl }}/assets/images/posts/myself/et.jpg"/>
@@ -46,19 +46,4 @@ In medical terms they really do call it a difficult airway. You can read the sig
 <img src="{{ site.baseurl }}/assets/images/posts/myself/mom-and-dad.jpg"/>
 </div>
 
-I always hoped that someone would love me that much, but not everyone is so lucky. I have loved someone this deeply, but I keep it to myself. We have to be grateful for the people we have in our lives, and the rest is out of our control. 
-And the scars that we carry with us make us stronger, whether they are once, twice, or three times the charm.
-
-<details>
-
-<summary> Open with caution - there is a scar here </summary>
-
-<div style="padding:20px">
-<img src="{{ site.baseurl }}/assets/images/posts/myself/scar.jpg"/>
-</div>
-
-</details>
-
-<br>
-
-I always had excellent surgeons - the scars they left behind are beautiful. It's been just over six years since these days, and more than half a life time ago since it all started. I can sometimes lose perspective about things, as we all do, but remembering how grateful I am for my life, health, and ability to find joy, is what brings balance.
+I had always hoped that someone would love me that much, but not everyone is so lucky. But now that I'm older, I have a different perspective. Love is not wanting something or someone for yourself - it is completely unselfish. The entirely of it manifests in our head, and that means that you can love someone without having them, in the traditional or expected sense that we are shown in movies. It is finding a person in the world that, maybe for the first time, you always place them before yourself. It is seeing how beautiful or handsome they are, not because they match a model of beauty, but because they are them. It means seeing them in sickness or without gussying up, and not caring. You will do just about anything for their happiness, whether that be longer term, hard work, or a fleeting moment of laughter. You want to see them strong and successful, and you when they smile? You live for that. It is getting peeks at their vulnerability and loving them more, supporting them when they can, and wishing you could when you cannot. It is being willing, at the drop of a hat, to climb mountains or do the impossible if that's what they need. This is how I experience love. It's the most beautiful thing, and I'll cherish it for however many years it endures. We cannot control the people that love us back, nor can we control the choices that they make, but we can take the love that we have, like an intensity burning inside of us, and let it thrive and come out as joy. And the scars that we carry with us make us stronger, whether they are once, twice, or three times the charm. It's been just over six years since this story, and more than half a life time ago since it all started. I can sometimes lose perspective about things, as we all do, but remembering how grateful I am for my life, health, and ability to find joy, is what brings balance.
