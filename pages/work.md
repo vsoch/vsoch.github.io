@@ -62,7 +62,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 
 <h3><strong>Presentations</strong></h3>
 <ul>
-
+    <li><a href="https://hpckp.org/talks/compatibility-for-hpc-a-story-of-rainbows-and-schedulers/" target="_blank">Compatibility for HPC: A Story of Rainbows and Schedulers</a>. HPCNow Knowledge Meeting 2024</li>
     <li><a href="https://kccncna2023.sched.com/event/1R2oD" target="_blank">Application Building in Kubernetes: Kubecon Chicago 2023</a> and <a href="https://www.cncf.io/announcements/2023/08/30/cloud-native-computing-foundation-unveils-schedule-for-kubecon-cloudnativecon-north-america-2023/" target="_blank">CNCF Announcement</a> and <a href="https://www.youtube.com/watch?v=cwiAW5TZsfo" target="_blank">the talk</a></li>
     <li><a href="https://youtu.be/BLrp66Jn4jE" target="_blank">Open Source Introspection: 2023 UC Open Source Symposium Keynote</a></li>
     <li><a href="https://hpckp.org/talks/cloud-and-hpc-convergence-flux-for-job-management-on-kubernetes/" target="_blank">Cloud and HPC Convergence: Flux for Job Management on Kubernetes, HPC Knowledge Meeting 2023</a></li>
