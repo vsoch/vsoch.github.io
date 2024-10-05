@@ -102,11 +102,10 @@ I've been told a few times that moving the containers to be "closer" to the clou
 The filesystem has a huge impact in pulling. After all, you are writing and extracting, so having good IOPS must be a variable. And indeed it was! There is a quota for the quantity of SSD per instance family, so I could only go up to a size 64 cluster, but I did see pull times go down a bit.
 
 <div style="padding:20px">
-<img src="https://github.com/converged-computing/container-chonks/blob/main/experiments/pulling/analysis/data/run1/img/pull_times_duration_by_size_run1_125_layers.png?raw=true">
+<img src="https://github.com/converged-computing/container-chonks/blob/main/experiments/pulling/analysis/data/run3/img/pull_times_duration_by_size_run3_9_layers.png?raw=true">
 </div>
 
-
-We can see that adding a local SSD improves pull times by 1.25x. If you want a simple solution, this storage is pretty cheap so probably worth it. You will need to ask for more quota for larger clusters, however.
+We can see that adding a local SSD improves pull times by 1.25x. This particular image is a log of the times, and you can see the full set of images in the [repository](https://github.com/converged-computing/container-chonks/tree/main/experiments/pulling). If you want a simple solution, this storage is pretty cheap so probably worth it. You will need to ask for more quota for larger clusters, however.
 
 
 ### Big daddy SOCI snapshotter!
