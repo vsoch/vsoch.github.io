@@ -13,7 +13,7 @@ How does one pull containers in Kubernetes, you ask? Well, if you don't think mu
 
 My biggest surprise was the SOCI snapshotter, which I expected to work well but not THAT well. 
 
-> Note that the huge variation likely has to do with the index of the archive, and the extent of what the entrypoint needs, which is retrieved on demand. The containers that had a 120x improvement in pull time weren't real application containers - they were generated programatically. The containers that saw a 15x improvement were spack images, and for a machine learning container I saw a 10x improvement. I still need to do more work to understand the details.
+> Note that the huge variation likely has to do with the index of the archive, and the extent of what the entrypoint needs, which is retrieved on demand. The containers that had a 120x improvement in pull time weren't real application containers - they were generated programmatically. The containers that saw a 15x improvement were spack images, and for a machine learning container I saw a 10x improvement. I still need to do more work to understand the details.
 
 Finally, I didn't see that AWS had provided a means to install with a daemonset, which (imho) is a more flexible strategy than having to install to the AMI or node. I [created a daemonset installer](https://github.com/converged-computing/soci-installer) this morning before going on a bike ride. 🚲 The rest of this post will detail my brief exploration (and fun) of this space, starting with observations from a recent performance study, and finishing with the creation of a daemonset for SOCI.
 
