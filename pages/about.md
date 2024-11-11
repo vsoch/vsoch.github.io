@@ -14,15 +14,15 @@ p {
     <img src="/assets/images/avatar-highres.png" width="100px" style="float:right; margin-bottom:30px"><br>
 </div>
 
-<p style="padding-top:40px;">I am a <a href="https://www.linkedin.com/in/vsochat/" target="_blank">Computer Scientist</a> at <a href="https://www.llnl.gov/" target="_blank">Lawrence Livermore National Lab</a> and an active dinosaur in the open source community. 
-I specialize in system engineering, infrastructure development, and automation for computational analyses and workflows.
-I have recently joined the Flux Framework project, where I am lead developer for the Flux Operator (for Kubernetes) and working on extending various language bindings. I have vision for extending the lab's coolest open source projects into more broad cloud-native communities,
- and for improving the developer experience. Previously I was a research software engineer at Stanford University in the
-<a href="https://srcc.stanford.edu/" target="_blank">Stanford Research Computing Center</a>, and was lead developer for
-<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511" target="_blank">Singularity Hub</a>, and <a href="{{ site.baseurl }}/work">more open source projects</a> than I can count.
-I also founded and ran <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">RSE Services</a> (Research Software Engineering Services), 
+<p style="padding-top:40px;">I am a <a href="https://www.linkedin.com/in/vsochat/" target="_blank">Principal Computer Scientist</a> at <a href="https://www.llnl.gov/" target="_blank">Lawrence Livermore National Laboratory</a> and active in the open source community. 
+
+I specialize in container technologies and High Performance Computing (HPC), infrastructure development, and cloud convergence. I actively maintain <a href="https://github.com/vsoch" target="_blank">more projects than I can count</a> in this space, and am oriented to lead work and initiatives that will better bridge the cloud and HPC communities. I received my Ph.D and M.S. in Biomedical Informatics from Stanford University, and my  B.A. from Duke University.
+
+Previously I worked in Research Computing at Stanford University at the
+<a href="https://srcc.stanford.edu/" target="_blank">SRCC</a>, and was lead developer for
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0188511" target="_blank">Singularity Hub</a>, and one of the initial developers for the Singularity container technology. I also founded and ran <a href="https://uit.stanford.edu/research-software-engineering-services" target="_blank">RSE Services</a> (Research Software Engineering Services), 
 created the first <a href="https://stanford-rc.github.io/stanford-software-survey/" target="_blank">Stanford Software Survey</a>, 
-and was responsible for submitting the first proposal to make Research Software Engineer an official role at Stanford. In 2019 I created the (now) <a href="https://rseng.github.io/devstories" target="_blank">Developer Stories</a> podcast, and continue to host and produce it to present day.</p>
+and supported laboratories in the School of Medicine. In 2019 I created the (now) <a href="https://rseng.github.io/devstories" target="_blank">Developer Stories</a> podcast, and continue to host and produce it to present day.</p>
 
 <p>As a graduate student my work spanned computer science, medicine, and imaging. I was a proud member of the <a href="https://poldracklab.stanford.edu" target="_blank">Poldrack Lab</a> at Stanford. Our work spanned neuro-informatics, cognitive neuroscience, and reproducibility. I was introduced to the domain of neuroimaging as an RA in the <a href="http://www.haririlab.com" target="_blank">Laboratory of Neurogenetics</a> at Duke University working under Ahmad Hariri.</p>
 
