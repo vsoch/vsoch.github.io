@@ -10,14 +10,14 @@ While my self-esteem is leaping, <br>
 You show up forceful, inward creeping. <br>
 Because the joy, that was dancing in my brain. <br>
 You try to claim <br>
-I'll give you hell, defiance! <br>
+You give me hell, defiance! <br>
 
-In restless angst, I've run alone <br>
+In restless angst, I've been alone <br>
 Through the wildness I'll roam <br>
-'Neath the halo of a desk lamp <br>
-My spinning mind is one big cramp. <br>
-I stab myself with another angry bite <br>
-Filled with spite <br>
+In the darkness of a tunnel <br>
+My spinning mind an endless puzzle. <br>
+I'm blinded another passing light <br>
+Filled with night <br>
 I need a hug, and guidance <br>
 
 And in my mind's eye I did see <br>
@@ -39,9 +39,9 @@ Choose not love but violence. <br>
 And my folks they are dismayed. <br>
 At this monster that they made. <br>
 But tomorrow is a new morning. <br>
-When new hopes might be forming. <br>
-And the heart says "The beauty of the world is written in your falls" <br>
-On tunnel walls. <br>
+When new hopes they might be forming. <br>
+And the beauty of the world is written in our falls" <br>
+Our tunnel walls. <br>
 And I found peace in silence. <br>
 
 <br>
