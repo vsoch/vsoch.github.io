@@ -179,3 +179,5 @@ I also need to address the elephant in the room, that there are larger reasons b
 ## Summary
 
 We've identified interesting patterns in the above. My hat goes off to the projects that have been around a long time and are still being worked on. Perhaps there are lessons to be learned there. And I hope that others (that care about this ecosystem) take note and try out new ways to develop high quality, enduring software. I am more likely (at least for the time being) to be working on Kubernetes and Go projects and schedulers, because that's where my heart is at the moment. And if I've learned anything, good software comes from there. <3
+
+- This post is referenced in the [Research Computing Teams Newsletter](https://www.researchcomputingteams.org/newsletter_issues/0172#research-software-development)
