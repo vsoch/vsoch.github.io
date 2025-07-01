@@ -63,7 +63,7 @@ please see <a href="https://github.com/vsoch" target="_blank">my profile on GitH
 <h3><strong>Presentations</strong></h3>
 <ul>
     <li><a href="https://hpckp.org/talks/orchestrating-the-future-ensemble-workloads-in-the-age-of-converged-computing/" target="_blank">Orchestrating the Future: Ensemble Workloads in the Age of Converged Computing</a>. HPCNow Knowledge Meeting 2025</li>
-    <li><a href="https://hpckp.org/talks/flux-next-generation-workload-management-for-high-performance-computing-and-cloud/" target="_blank">Flux: Next=Generation Workload Management for High Performance Computing and Cloud</a>. HPCNow Knowledge Workshop 2025</li>
+    <li><a href="https://hpckp.org/talks/flux-next-generation-workload-management-for-high-performance-computing-and-cloud/" target="_blank">Flux: Next-Generation Workload Management for HPC and Cloud</a>. HPCNow Knowledge Workshop 2025</li>
     <li><a href="https://hpckp.org/talks/compatibility-for-hpc-a-story-of-rainbows-and-schedulers/" target="_blank">Compatibility for HPC: A Story of Rainbows and Schedulers</a>. HPCNow Knowledge Meeting 2024</li>
    <li><a href="https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2590-kubernetes-and-hpc-bare-metal-bros/" target="_blank">Kubernetes and HPC: the Bare-metal Bros</a> FOSDEM 2024</li>
    <li><a href="https://kccncna2023.sched.com/event/1R2oD" target="_blank">Application Building in Kubernetes: Kubecon Chicago 2023</a> and <a href="https://www.cncf.io/announcements/2023/08/30/cloud-native-computing-foundation-unveils-schedule-for-kubecon-cloudnativecon-north-america-2023/" target="_blank">CNCF Announcement</a> and <a href="https://www.youtube.com/watch?v=cwiAW5TZsfo" target="_blank">the talk</a></li>
