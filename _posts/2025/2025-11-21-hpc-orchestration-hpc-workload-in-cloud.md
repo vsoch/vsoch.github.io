@@ -5,7 +5,9 @@ date: 2025-11-21 09:00:00
 
 One of the most satisfying and learning-rich pieces of work from this year is represented in this white paper, "Agentic Orchestration of HPC Applications: A study using Google Gemini in Cloud."
 
-<embed src="{{ site.baseurl }}/assets/posts/agentic-orchestration-hpc-workloads-cloud-sochat-milroy.pdf" type="application/pdf" width="100%" height="600px" />
+<br>
+<embed src="{{ site.baseurl }}/assets/posts/agentic-orchestration-hpc-workloads-cloud-sochat-milroy.pdf" type="application/pdf" width="100%" height="600px"/>
+<br>
 
 First, I'll provide a little bit of back-story. We were using simple models to convert JSON job specifications or batch jobs between formats. 
 I had a sense that the agents (specifically, Gemini) could do much more, and dove in. At first I was not sure the agent could successfully build a Docker container. It did. 
