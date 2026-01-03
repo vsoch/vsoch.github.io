@@ -18,7 +18,7 @@ This year I promise:
 <li>To prioritize self-care and rest.</li>
 </ol>
 
-To little funny looking, goblin me: you finally grew above 4 feet. You'll feel out of place for a long time, and life is going to be hard when you enter adulthood. You'll grow from it, and you'll be OK.
+To little funny looking, goblin me: you finally grew above 4 feet. You'll feel out of place for a long time, and life is going to be hard when you enter adulthood. You'll grow from it, and you'll be OK. You will learn that beauty and value are within you, and Sovereign. They do not require validation or being chosen. They exist because you are a person who notices the world.
 
 <div style="width:100%; padding:20px">
   <div style="width:400px">
