@@ -33,7 +33,7 @@ Only existing because you took a chance. <br>
 It smiles warmly, and you both know. <br>
 That to the floor it eventually must go. <br>
 
-Strong enough to hold a system together,  <br>
+Strong enough to hold systems together,  <br>
 Resilient to emotional and physical weather <br>
 He keeps his distance, hands at his side,  <br>
 You cradle the strength that he could not provide.  <br>
