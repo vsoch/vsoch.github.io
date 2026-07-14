@@ -1,5 +1,5 @@
 # SEO settings
-title: VanessaSaurus
+title: Vsoch
 description: "dinosaurs, programming, and parsnips"
 keywords: "dinosaurs, programming, parsnips"
 url: https://vsoch.github.io
@@ -66,7 +66,7 @@ destination: _site
 author:
   name     : Vanessa
   job      : Principal Computer Scientist
-  bio      : "Building tools, containers, and cloudy things, with a love for learning and exploring the world."
+  bio      : "Building schedulers, containers, and cloudy things, with a love for learning and new experiences."
   thumb    : /images/author.jpg
   url      : https://vsoch.github.io
   github   : http://github.com/vsoch
