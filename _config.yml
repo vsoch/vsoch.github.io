@@ -64,9 +64,9 @@ destination: _site
 
 # Author settings
 author:
-  name     : VanessaSaurus
-  job      : Software Engineer
-  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  name     : Vanessa
+  job      : Principal Computer Scientist
+  bio      : "Building tools, containers, and cloudy things, with a love for learning and exploring the world."
   thumb    : /images/author.jpg
   url      : https://vsoch.github.io
   github   : http://github.com/vsoch
